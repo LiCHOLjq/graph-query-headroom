@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "date": "2026-11-23",
+  "source_archive_sha256": "78662ecbef433163511447d2e7ca33e158e96650fb86328612717153a6355247",
+  "public_disclosure_authorized_by_project_owner": true,
+  "open_source_or_data_license_assigned": false,
+  "third_party_code_included": false,
+  "source_graphs_vectors_models_indexes_included": false,
+  "node_id_lists_or_structured_graph_requests_included": false,
+  "source_field_projections_documented": true,
+  "candidate_archive_modified": false,
+  "manuscripts_or_archives_modified": false,
+  "text_files_scanned_including_decompressed_raw": 346,
+  "scan_categories": [
+    "private_key",
+    "provider_token",
+    "credential_assignment",
+    "host_path",
+    "email"
+  ],
+  "scan_findings": [],
+  "scope_limit": "Pattern and file/schema review reduces disclosure risk; it is not a universal proof of absence. Quality flags are retained audit observations, not recomputed from excluded graph data.",
+  "reproduction": "All six analyses and raw checks passed; 40 generated reference CSV tables matched within documented tolerance; leakage models were refitted.",
+  "native_experiments_reexecuted": false,
+  "frozen_engineering_criterion": "NOT_MET",
+  "extensions": {
+    "": 1,
+    ".md": 3,
+    ".json": 138,
+    ".py": 8,
+    ".txt": 1,
+    ".csv": 139,
+    ".jsonl": 48,
+    ".gz": 5
+  },
+  "final_byte_preservation_rule": ".gitattributes: * -text"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "queries": 192,
+  "repeats": 10,
+  "measurements": 9600,
+  "raw_sha256": "58c2baee1b9a2446a47bdabfd1958801573a1c42aa91379f1f1531772c8f5f97",
+  "costs_sha256": "cc3eef0deb3f11fc8a8286733d5ddf7dab47cb8618f14bbd84f995a41a424a6f",
+  "quality_sha256": "57442639a6a1c0713ec24ab18d28e296e661584006dcd10330c5a3ac62c602a5",
+  "hash_scope": "Hashes bind the public scalar projections; source hashes are recorded separately."
+}

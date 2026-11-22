@@ -1,0 +1,6402 @@
+[
+  {
+    "query_id": "openalex_db:new100:000:independent",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:000:clustered",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:001:independent",
+    "seed": 100,
+    "exact_answer_size": 3,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:001:clustered",
+    "seed": 100,
+    "exact_answer_size": 3,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:002:independent",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:002:clustered",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:003:independent",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:003:clustered",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:004:independent",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:004:clustered",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:005:independent",
+    "seed": 100,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:005:clustered",
+    "seed": 100,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:006:independent",
+    "seed": 100,
+    "exact_answer_size": 3,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:006:clustered",
+    "seed": 100,
+    "exact_answer_size": 3,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:007:independent",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:007:clustered",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:008:independent",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:008:clustered",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:009:independent",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:009:clustered",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:010:independent",
+    "seed": 100,
+    "exact_answer_size": 3,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:010:clustered",
+    "seed": 100,
+    "exact_answer_size": 3,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:011:independent",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:011:clustered",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:012:independent",
+    "seed": 100,
+    "exact_answer_size": 5,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:012:clustered",
+    "seed": 100,
+    "exact_answer_size": 5,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:013:independent",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:013:clustered",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:014:independent",
+    "seed": 100,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:014:clustered",
+    "seed": 100,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:015:independent",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:015:clustered",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:016:independent",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:016:clustered",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:017:independent",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:017:clustered",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:018:independent",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:018:clustered",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:019:independent",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:019:clustered",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:020:independent",
+    "seed": 100,
+    "exact_answer_size": 2,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:020:clustered",
+    "seed": 100,
+    "exact_answer_size": 2,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:021:independent",
+    "seed": 100,
+    "exact_answer_size": 5,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:021:clustered",
+    "seed": 100,
+    "exact_answer_size": 5,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:022:independent",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:022:clustered",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:023:independent",
+    "seed": 100,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:023:clustered",
+    "seed": 100,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:024:independent",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:024:clustered",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:025:independent",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:025:clustered",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:026:independent",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:026:clustered",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:027:independent",
+    "seed": 100,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:027:clustered",
+    "seed": 100,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:028:independent",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:028:clustered",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:029:independent",
+    "seed": 100,
+    "exact_answer_size": 4,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:029:clustered",
+    "seed": 100,
+    "exact_answer_size": 4,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:030:independent",
+    "seed": 100,
+    "exact_answer_size": 2,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:030:clustered",
+    "seed": 100,
+    "exact_answer_size": 2,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:031:independent",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new100:031:clustered",
+    "seed": 100,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:000:independent",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:000:clustered",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:001:independent",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:001:clustered",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:002:independent",
+    "seed": 101,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:002:clustered",
+    "seed": 101,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:003:independent",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:003:clustered",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:004:independent",
+    "seed": 101,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:004:clustered",
+    "seed": 101,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:005:independent",
+    "seed": 101,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:005:clustered",
+    "seed": 101,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:006:independent",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:006:clustered",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:007:independent",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:007:clustered",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:008:independent",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:008:clustered",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:009:independent",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:009:clustered",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:010:independent",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:010:clustered",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:011:independent",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:011:clustered",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:012:independent",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:012:clustered",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:013:independent",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:013:clustered",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:014:independent",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:014:clustered",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:015:independent",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:015:clustered",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:016:independent",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:016:clustered",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:017:independent",
+    "seed": 101,
+    "exact_answer_size": 2,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:017:clustered",
+    "seed": 101,
+    "exact_answer_size": 2,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:018:independent",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:018:clustered",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:019:independent",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:019:clustered",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:020:independent",
+    "seed": 101,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:020:clustered",
+    "seed": 101,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:021:independent",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:021:clustered",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:022:independent",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:022:clustered",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:023:independent",
+    "seed": 101,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:023:clustered",
+    "seed": 101,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:024:independent",
+    "seed": 101,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:024:clustered",
+    "seed": 101,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:025:independent",
+    "seed": 101,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:025:clustered",
+    "seed": 101,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:026:independent",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:026:clustered",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:027:independent",
+    "seed": 101,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:027:clustered",
+    "seed": 101,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:028:independent",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:028:clustered",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:029:independent",
+    "seed": 101,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:029:clustered",
+    "seed": 101,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:030:independent",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:030:clustered",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:031:independent",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new101:031:clustered",
+    "seed": 101,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:000:independent",
+    "seed": 102,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:000:clustered",
+    "seed": 102,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:001:independent",
+    "seed": 102,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:001:clustered",
+    "seed": 102,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:002:independent",
+    "seed": 102,
+    "exact_answer_size": 3,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:002:clustered",
+    "seed": 102,
+    "exact_answer_size": 3,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:003:independent",
+    "seed": 102,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:003:clustered",
+    "seed": 102,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:004:independent",
+    "seed": 102,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:004:clustered",
+    "seed": 102,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:005:independent",
+    "seed": 102,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:005:clustered",
+    "seed": 102,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:006:independent",
+    "seed": 102,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:006:clustered",
+    "seed": 102,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:007:independent",
+    "seed": 102,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:007:clustered",
+    "seed": 102,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:008:independent",
+    "seed": 102,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:008:clustered",
+    "seed": 102,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:009:independent",
+    "seed": 102,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:009:clustered",
+    "seed": 102,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:010:independent",
+    "seed": 102,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:010:clustered",
+    "seed": 102,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:011:independent",
+    "seed": 102,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:011:clustered",
+    "seed": 102,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:012:independent",
+    "seed": 102,
+    "exact_answer_size": 6,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:012:clustered",
+    "seed": 102,
+    "exact_answer_size": 6,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:013:independent",
+    "seed": 102,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:013:clustered",
+    "seed": 102,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:014:independent",
+    "seed": 102,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:014:clustered",
+    "seed": 102,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:015:independent",
+    "seed": 102,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:015:clustered",
+    "seed": 102,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:016:independent",
+    "seed": 102,
+    "exact_answer_size": 6,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:016:clustered",
+    "seed": 102,
+    "exact_answer_size": 6,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:017:independent",
+    "seed": 102,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:017:clustered",
+    "seed": 102,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:018:independent",
+    "seed": 102,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:018:clustered",
+    "seed": 102,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:019:independent",
+    "seed": 102,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:019:clustered",
+    "seed": 102,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:020:independent",
+    "seed": 102,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:020:clustered",
+    "seed": 102,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:021:independent",
+    "seed": 102,
+    "exact_answer_size": 5,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:021:clustered",
+    "seed": 102,
+    "exact_answer_size": 5,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:022:independent",
+    "seed": 102,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:022:clustered",
+    "seed": 102,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:023:independent",
+    "seed": 102,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:023:clustered",
+    "seed": 102,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:024:independent",
+    "seed": 102,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:024:clustered",
+    "seed": 102,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:025:independent",
+    "seed": 102,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:025:clustered",
+    "seed": 102,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:026:independent",
+    "seed": 102,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:026:clustered",
+    "seed": 102,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:027:independent",
+    "seed": 102,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:027:clustered",
+    "seed": 102,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:028:independent",
+    "seed": 102,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:028:clustered",
+    "seed": 102,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:029:independent",
+    "seed": 102,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:029:clustered",
+    "seed": 102,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:030:independent",
+    "seed": 102,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:030:clustered",
+    "seed": 102,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:031:independent",
+    "seed": 102,
+    "exact_answer_size": 2,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new102:031:clustered",
+    "seed": 102,
+    "exact_answer_size": 2,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:000:independent",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:000:clustered",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:001:independent",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:001:clustered",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:002:independent",
+    "seed": 103,
+    "exact_answer_size": 2,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:002:clustered",
+    "seed": 103,
+    "exact_answer_size": 2,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:003:independent",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:003:clustered",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:004:independent",
+    "seed": 103,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:004:clustered",
+    "seed": 103,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:005:independent",
+    "seed": 103,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:005:clustered",
+    "seed": 103,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:006:independent",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:006:clustered",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:007:independent",
+    "seed": 103,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:007:clustered",
+    "seed": 103,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:008:independent",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:008:clustered",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:009:independent",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:009:clustered",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:010:independent",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:010:clustered",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:011:independent",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:011:clustered",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:012:independent",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:012:clustered",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:013:independent",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:013:clustered",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:014:independent",
+    "seed": 103,
+    "exact_answer_size": 4,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:014:clustered",
+    "seed": 103,
+    "exact_answer_size": 4,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:015:independent",
+    "seed": 103,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:015:clustered",
+    "seed": 103,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:016:independent",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:016:clustered",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:017:independent",
+    "seed": 103,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:017:clustered",
+    "seed": 103,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:018:independent",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:018:clustered",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:019:independent",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:019:clustered",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:020:independent",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:020:clustered",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:021:independent",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:021:clustered",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:022:independent",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:022:clustered",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:023:independent",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:023:clustered",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:024:independent",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:024:clustered",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:025:independent",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:025:clustered",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:026:independent",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:026:clustered",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:027:independent",
+    "seed": 103,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:027:clustered",
+    "seed": 103,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:028:independent",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:028:clustered",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:029:independent",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:029:clustered",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:030:independent",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:030:clustered",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:031:independent",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new103:031:clustered",
+    "seed": 103,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:000:independent",
+    "seed": 104,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:000:clustered",
+    "seed": 104,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:001:independent",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:001:clustered",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:002:independent",
+    "seed": 104,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:002:clustered",
+    "seed": 104,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:003:independent",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:003:clustered",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:004:independent",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:004:clustered",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:005:independent",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:005:clustered",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:006:independent",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:006:clustered",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:007:independent",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:007:clustered",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:008:independent",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:008:clustered",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:009:independent",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:009:clustered",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:010:independent",
+    "seed": 104,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:010:clustered",
+    "seed": 104,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:011:independent",
+    "seed": 104,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:011:clustered",
+    "seed": 104,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:012:independent",
+    "seed": 104,
+    "exact_answer_size": 2,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:012:clustered",
+    "seed": 104,
+    "exact_answer_size": 2,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:013:independent",
+    "seed": 104,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:013:clustered",
+    "seed": 104,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:014:independent",
+    "seed": 104,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:014:clustered",
+    "seed": 104,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:015:independent",
+    "seed": 104,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:015:clustered",
+    "seed": 104,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:016:independent",
+    "seed": 104,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:016:clustered",
+    "seed": 104,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:017:independent",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:017:clustered",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:018:independent",
+    "seed": 104,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:018:clustered",
+    "seed": 104,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:019:independent",
+    "seed": 104,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:019:clustered",
+    "seed": 104,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:020:independent",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:020:clustered",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:021:independent",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:021:clustered",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:022:independent",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:022:clustered",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:023:independent",
+    "seed": 104,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:023:clustered",
+    "seed": 104,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:024:independent",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:024:clustered",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:025:independent",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:025:clustered",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:026:independent",
+    "seed": 104,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:026:clustered",
+    "seed": 104,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:027:independent",
+    "seed": 104,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:027:clustered",
+    "seed": 104,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:028:independent",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:028:clustered",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:029:independent",
+    "seed": 104,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:029:clustered",
+    "seed": 104,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:030:independent",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:030:clustered",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:031:independent",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new104:031:clustered",
+    "seed": 104,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:000:independent",
+    "seed": 105,
+    "exact_answer_size": 5,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:000:clustered",
+    "seed": 105,
+    "exact_answer_size": 5,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:001:independent",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:001:clustered",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:002:independent",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:002:clustered",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:003:independent",
+    "seed": 105,
+    "exact_answer_size": 3,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:003:clustered",
+    "seed": 105,
+    "exact_answer_size": 3,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:004:independent",
+    "seed": 105,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:004:clustered",
+    "seed": 105,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:005:independent",
+    "seed": 105,
+    "exact_answer_size": 5,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:005:clustered",
+    "seed": 105,
+    "exact_answer_size": 5,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:006:independent",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:006:clustered",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:007:independent",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:007:clustered",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:008:independent",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:008:clustered",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:009:independent",
+    "seed": 105,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:009:clustered",
+    "seed": 105,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:010:independent",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:010:clustered",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:011:independent",
+    "seed": 105,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:011:clustered",
+    "seed": 105,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:012:independent",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:012:clustered",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:013:independent",
+    "seed": 105,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:013:clustered",
+    "seed": 105,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:014:independent",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:014:clustered",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:015:independent",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:015:clustered",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:016:independent",
+    "seed": 105,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:016:clustered",
+    "seed": 105,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:017:independent",
+    "seed": 105,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:017:clustered",
+    "seed": 105,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:018:independent",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:018:clustered",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:019:independent",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:019:clustered",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:020:independent",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:020:clustered",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:021:independent",
+    "seed": 105,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:021:clustered",
+    "seed": 105,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:022:independent",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:022:clustered",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:023:independent",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:023:clustered",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:024:independent",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:024:clustered",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:025:independent",
+    "seed": 105,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:025:clustered",
+    "seed": 105,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:026:independent",
+    "seed": 105,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:026:clustered",
+    "seed": 105,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:027:independent",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:027:clustered",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:028:independent",
+    "seed": 105,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:028:clustered",
+    "seed": 105,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:029:independent",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:029:clustered",
+    "seed": 105,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:030:independent",
+    "seed": 105,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:030:clustered",
+    "seed": 105,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:031:independent",
+    "seed": 105,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new105:031:clustered",
+    "seed": 105,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:000:independent",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:000:clustered",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:001:independent",
+    "seed": 106,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:001:clustered",
+    "seed": 106,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:002:independent",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:002:clustered",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:003:independent",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:003:clustered",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:004:independent",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:004:clustered",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:005:independent",
+    "seed": 106,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:005:clustered",
+    "seed": 106,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:006:independent",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:006:clustered",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:007:independent",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:007:clustered",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:008:independent",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:008:clustered",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:009:independent",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:009:clustered",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:010:independent",
+    "seed": 106,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:010:clustered",
+    "seed": 106,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:011:independent",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:011:clustered",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:012:independent",
+    "seed": 106,
+    "exact_answer_size": 3,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:012:clustered",
+    "seed": 106,
+    "exact_answer_size": 3,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:013:independent",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:013:clustered",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:014:independent",
+    "seed": 106,
+    "exact_answer_size": 3,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:014:clustered",
+    "seed": 106,
+    "exact_answer_size": 3,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:015:independent",
+    "seed": 106,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:015:clustered",
+    "seed": 106,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:016:independent",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:016:clustered",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:017:independent",
+    "seed": 106,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:017:clustered",
+    "seed": 106,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:018:independent",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:018:clustered",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:019:independent",
+    "seed": 106,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:019:clustered",
+    "seed": 106,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:020:independent",
+    "seed": 106,
+    "exact_answer_size": 2,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:020:clustered",
+    "seed": 106,
+    "exact_answer_size": 2,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:021:independent",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:021:clustered",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:022:independent",
+    "seed": 106,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:022:clustered",
+    "seed": 106,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:023:independent",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:023:clustered",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:024:independent",
+    "seed": 106,
+    "exact_answer_size": 4,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:024:clustered",
+    "seed": 106,
+    "exact_answer_size": 4,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:025:independent",
+    "seed": 106,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:025:clustered",
+    "seed": 106,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:026:independent",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:026:clustered",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:027:independent",
+    "seed": 106,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:027:clustered",
+    "seed": 106,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:028:independent",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:028:clustered",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:029:independent",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:029:clustered",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:030:independent",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:030:clustered",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:031:independent",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new106:031:clustered",
+    "seed": 106,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:000:independent",
+    "seed": 107,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:000:clustered",
+    "seed": 107,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:001:independent",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:001:clustered",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:002:independent",
+    "seed": 107,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:002:clustered",
+    "seed": 107,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:003:independent",
+    "seed": 107,
+    "exact_answer_size": 6,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:003:clustered",
+    "seed": 107,
+    "exact_answer_size": 6,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:004:independent",
+    "seed": 107,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:004:clustered",
+    "seed": 107,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:005:independent",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:005:clustered",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:006:independent",
+    "seed": 107,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:006:clustered",
+    "seed": 107,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:007:independent",
+    "seed": 107,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:007:clustered",
+    "seed": 107,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:008:independent",
+    "seed": 107,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:008:clustered",
+    "seed": 107,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:009:independent",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:009:clustered",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:010:independent",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:010:clustered",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:011:independent",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:011:clustered",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:012:independent",
+    "seed": 107,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:012:clustered",
+    "seed": 107,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:013:independent",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:013:clustered",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:014:independent",
+    "seed": 107,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:014:clustered",
+    "seed": 107,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:015:independent",
+    "seed": 107,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:015:clustered",
+    "seed": 107,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:016:independent",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:016:clustered",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:017:independent",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:017:clustered",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:018:independent",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:018:clustered",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:019:independent",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:019:clustered",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:020:independent",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:020:clustered",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:021:independent",
+    "seed": 107,
+    "exact_answer_size": 6,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:021:clustered",
+    "seed": 107,
+    "exact_answer_size": 6,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:022:independent",
+    "seed": 107,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:022:clustered",
+    "seed": 107,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:023:independent",
+    "seed": 107,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:023:clustered",
+    "seed": 107,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:024:independent",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:024:clustered",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:025:independent",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:025:clustered",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:026:independent",
+    "seed": 107,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:026:clustered",
+    "seed": 107,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:027:independent",
+    "seed": 107,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:027:clustered",
+    "seed": 107,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:028:independent",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:028:clustered",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:029:independent",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:029:clustered",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:030:independent",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:030:clustered",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:031:independent",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new107:031:clustered",
+    "seed": 107,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:000:independent",
+    "seed": 108,
+    "exact_answer_size": 2,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:000:clustered",
+    "seed": 108,
+    "exact_answer_size": 2,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:001:independent",
+    "seed": 108,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:001:clustered",
+    "seed": 108,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:002:independent",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:002:clustered",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:003:independent",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:003:clustered",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:004:independent",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:004:clustered",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:005:independent",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:005:clustered",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:006:independent",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:006:clustered",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:007:independent",
+    "seed": 108,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:007:clustered",
+    "seed": 108,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:008:independent",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:008:clustered",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:009:independent",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:009:clustered",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:010:independent",
+    "seed": 108,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:010:clustered",
+    "seed": 108,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:011:independent",
+    "seed": 108,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:011:clustered",
+    "seed": 108,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:012:independent",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:012:clustered",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:013:independent",
+    "seed": 108,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:013:clustered",
+    "seed": 108,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:014:independent",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:014:clustered",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:015:independent",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:015:clustered",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:016:independent",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:016:clustered",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:017:independent",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:017:clustered",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:018:independent",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:018:clustered",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:019:independent",
+    "seed": 108,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:019:clustered",
+    "seed": 108,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:020:independent",
+    "seed": 108,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:020:clustered",
+    "seed": 108,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:021:independent",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:021:clustered",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:022:independent",
+    "seed": 108,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:022:clustered",
+    "seed": 108,
+    "exact_answer_size": 8,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:023:independent",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:023:clustered",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:024:independent",
+    "seed": 108,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:024:clustered",
+    "seed": 108,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:025:independent",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:025:clustered",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:026:independent",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:026:clustered",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:027:independent",
+    "seed": 108,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:027:clustered",
+    "seed": 108,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:028:independent",
+    "seed": 108,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:028:clustered",
+    "seed": 108,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:029:independent",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:029:clustered",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:030:independent",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:030:clustered",
+    "seed": 108,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:031:independent",
+    "seed": 108,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new108:031:clustered",
+    "seed": 108,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:000:independent",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:000:clustered",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:001:independent",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:001:clustered",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:002:independent",
+    "seed": 109,
+    "exact_answer_size": 6,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:002:clustered",
+    "seed": 109,
+    "exact_answer_size": 6,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:003:independent",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:003:clustered",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:004:independent",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:004:clustered",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:005:independent",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:005:clustered",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:006:independent",
+    "seed": 109,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:006:clustered",
+    "seed": 109,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:007:independent",
+    "seed": 109,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:007:clustered",
+    "seed": 109,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:008:independent",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:008:clustered",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:009:independent",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:009:clustered",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:010:independent",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:010:clustered",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:011:independent",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:011:clustered",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:012:independent",
+    "seed": 109,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:012:clustered",
+    "seed": 109,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:013:independent",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:013:clustered",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:014:independent",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:014:clustered",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:015:independent",
+    "seed": 109,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:015:clustered",
+    "seed": 109,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:016:independent",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:016:clustered",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:017:independent",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:017:clustered",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:018:independent",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:018:clustered",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:019:independent",
+    "seed": 109,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:019:clustered",
+    "seed": 109,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:020:independent",
+    "seed": 109,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:020:clustered",
+    "seed": 109,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:021:independent",
+    "seed": 109,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:021:clustered",
+    "seed": 109,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:022:independent",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:022:clustered",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:023:independent",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:023:clustered",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:024:independent",
+    "seed": 109,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:024:clustered",
+    "seed": 109,
+    "exact_answer_size": 0,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": true,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:025:independent",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:025:clustered",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:026:independent",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:026:clustered",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:027:independent",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:027:clustered",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:028:independent",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:028:clustered",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:029:independent",
+    "seed": 109,
+    "exact_answer_size": 6,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:029:clustered",
+    "seed": 109,
+    "exact_answer_size": 6,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:030:independent",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:030:clustered",
+    "seed": 109,
+    "exact_answer_size": 10,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:031:independent",
+    "seed": 109,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  },
+  {
+    "query_id": "openalex_db:new109:031:clustered",
+    "seed": 109,
+    "exact_answer_size": 1,
+    "recall": 1.0,
+    "exact_match": true,
+    "empty_exact": false,
+    "all_outputs_equal": true,
+    "all_outputs_legal": true
+  }
+]

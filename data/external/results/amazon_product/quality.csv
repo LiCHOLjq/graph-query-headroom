@@ -1,0 +1,961 @@
+corpus,query_id,seed,policy,eligible_count,reference_count,returned_size,raw_returned_size,recall,raw_recall,exact_ordered_match,exact_set_match,raw_exact_ordered_match,raw_exact_set_match,returned_precision,raw_returned_precision,raw_duplicate_count,raw_invalid_count,guarded_invalid_count,underfilled,eligible_ge_k_underfilled
+amazon_product,amazon_product:0:000:independent,0,Eager,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:000:independent,0,RACE,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:000:independent,0,ACORN-1 + selector + guard ef=128,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:000:independent,0,ACORN-1 + selector + guard ef=512,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:000:independent,0,ACORN-1 + selector + guard ef=1024,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:000:clustered,0,Eager,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:000:clustered,0,RACE,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:000:clustered,0,ACORN-1 + selector + guard ef=128,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:000:clustered,0,ACORN-1 + selector + guard ef=512,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:000:clustered,0,ACORN-1 + selector + guard ef=1024,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:001:independent,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:001:independent,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:001:independent,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:001:independent,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:001:independent,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:001:clustered,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:001:clustered,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:001:clustered,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:001:clustered,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:001:clustered,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:002:independent,0,Eager,4782,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:002:independent,0,RACE,4782,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:002:independent,0,ACORN-1 + selector + guard ef=128,4782,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:0:002:independent,0,ACORN-1 + selector + guard ef=512,4782,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:002:independent,0,ACORN-1 + selector + guard ef=1024,4782,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:002:clustered,0,Eager,4782,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:002:clustered,0,RACE,4782,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:002:clustered,0,ACORN-1 + selector + guard ef=128,4782,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:002:clustered,0,ACORN-1 + selector + guard ef=512,4782,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:002:clustered,0,ACORN-1 + selector + guard ef=1024,4782,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:003:independent,0,Eager,3,3,3,3,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:003:independent,0,RACE,3,3,3,3,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:003:independent,0,ACORN-1 + selector + guard ef=128,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:003:independent,0,ACORN-1 + selector + guard ef=512,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:003:independent,0,ACORN-1 + selector + guard ef=1024,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:003:clustered,0,Eager,3,3,3,3,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:003:clustered,0,RACE,3,3,3,3,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:003:clustered,0,ACORN-1 + selector + guard ef=128,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:003:clustered,0,ACORN-1 + selector + guard ef=512,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:003:clustered,0,ACORN-1 + selector + guard ef=1024,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:004:independent,0,Eager,310,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:004:independent,0,RACE,310,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:004:independent,0,ACORN-1 + selector + guard ef=128,310,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:0:004:independent,0,ACORN-1 + selector + guard ef=512,310,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:0:004:independent,0,ACORN-1 + selector + guard ef=1024,310,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:0:004:clustered,0,Eager,310,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:004:clustered,0,RACE,310,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:004:clustered,0,ACORN-1 + selector + guard ef=128,310,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:0:004:clustered,0,ACORN-1 + selector + guard ef=512,310,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:004:clustered,0,ACORN-1 + selector + guard ef=1024,310,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:005:independent,0,Eager,586,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:005:independent,0,RACE,586,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:005:independent,0,ACORN-1 + selector + guard ef=128,586,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:005:independent,0,ACORN-1 + selector + guard ef=512,586,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:005:independent,0,ACORN-1 + selector + guard ef=1024,586,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:005:clustered,0,Eager,586,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:005:clustered,0,RACE,586,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:005:clustered,0,ACORN-1 + selector + guard ef=128,586,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:0:005:clustered,0,ACORN-1 + selector + guard ef=512,586,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:005:clustered,0,ACORN-1 + selector + guard ef=1024,586,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:006:independent,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:006:independent,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:006:independent,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:006:independent,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:006:independent,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:006:clustered,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:006:clustered,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:006:clustered,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:006:clustered,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:006:clustered,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:007:independent,0,Eager,5,5,5,5,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:007:independent,0,RACE,5,5,5,5,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:007:independent,0,ACORN-1 + selector + guard ef=128,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:007:independent,0,ACORN-1 + selector + guard ef=512,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:007:independent,0,ACORN-1 + selector + guard ef=1024,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:007:clustered,0,Eager,5,5,5,5,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:007:clustered,0,RACE,5,5,5,5,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:007:clustered,0,ACORN-1 + selector + guard ef=128,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:007:clustered,0,ACORN-1 + selector + guard ef=512,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:007:clustered,0,ACORN-1 + selector + guard ef=1024,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:008:independent,0,Eager,103,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:008:independent,0,RACE,103,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:008:independent,0,ACORN-1 + selector + guard ef=128,103,10,10,10,0.6,0.6,False,False,False,False,0.6,0.6,0,0,0,False,False
+amazon_product,amazon_product:0:008:independent,0,ACORN-1 + selector + guard ef=512,103,10,10,10,0.6,0.6,False,False,False,False,0.6,0.6,0,0,0,False,False
+amazon_product,amazon_product:0:008:independent,0,ACORN-1 + selector + guard ef=1024,103,10,10,10,0.6,0.6,False,False,False,False,0.6,0.6,0,0,0,False,False
+amazon_product,amazon_product:0:008:clustered,0,Eager,103,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:008:clustered,0,RACE,103,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:008:clustered,0,ACORN-1 + selector + guard ef=128,103,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:008:clustered,0,ACORN-1 + selector + guard ef=512,103,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:008:clustered,0,ACORN-1 + selector + guard ef=1024,103,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:009:independent,0,Eager,206,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:009:independent,0,RACE,206,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:009:independent,0,ACORN-1 + selector + guard ef=128,206,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:009:independent,0,ACORN-1 + selector + guard ef=512,206,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:009:independent,0,ACORN-1 + selector + guard ef=1024,206,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:009:clustered,0,Eager,206,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:009:clustered,0,RACE,206,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:009:clustered,0,ACORN-1 + selector + guard ef=128,206,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:009:clustered,0,ACORN-1 + selector + guard ef=512,206,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:009:clustered,0,ACORN-1 + selector + guard ef=1024,206,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:010:independent,0,Eager,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:010:independent,0,RACE,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:010:independent,0,ACORN-1 + selector + guard ef=128,200,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+amazon_product,amazon_product:0:010:independent,0,ACORN-1 + selector + guard ef=512,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:010:independent,0,ACORN-1 + selector + guard ef=1024,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:010:clustered,0,Eager,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:010:clustered,0,RACE,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:010:clustered,0,ACORN-1 + selector + guard ef=128,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:010:clustered,0,ACORN-1 + selector + guard ef=512,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:010:clustered,0,ACORN-1 + selector + guard ef=1024,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:011:independent,0,Eager,57,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:011:independent,0,RACE,57,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:011:independent,0,ACORN-1 + selector + guard ef=128,57,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+amazon_product,amazon_product:0:011:independent,0,ACORN-1 + selector + guard ef=512,57,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+amazon_product,amazon_product:0:011:independent,0,ACORN-1 + selector + guard ef=1024,57,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+amazon_product,amazon_product:0:011:clustered,0,Eager,57,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:011:clustered,0,RACE,57,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:011:clustered,0,ACORN-1 + selector + guard ef=128,57,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:011:clustered,0,ACORN-1 + selector + guard ef=512,57,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:011:clustered,0,ACORN-1 + selector + guard ef=1024,57,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:012:independent,0,Eager,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:012:independent,0,RACE,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:012:independent,0,ACORN-1 + selector + guard ef=128,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:012:independent,0,ACORN-1 + selector + guard ef=512,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:012:independent,0,ACORN-1 + selector + guard ef=1024,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:012:clustered,0,Eager,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:012:clustered,0,RACE,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:012:clustered,0,ACORN-1 + selector + guard ef=128,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:012:clustered,0,ACORN-1 + selector + guard ef=512,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:012:clustered,0,ACORN-1 + selector + guard ef=1024,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:013:independent,0,Eager,33403,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:013:independent,0,RACE,33403,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:013:independent,0,ACORN-1 + selector + guard ef=128,33403,10,10,10,0.5,0.5,False,False,False,False,0.5,0.5,0,0,0,False,False
+amazon_product,amazon_product:0:013:independent,0,ACORN-1 + selector + guard ef=512,33403,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:013:independent,0,ACORN-1 + selector + guard ef=1024,33403,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:013:clustered,0,Eager,33403,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:013:clustered,0,RACE,33403,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:013:clustered,0,ACORN-1 + selector + guard ef=128,33403,10,10,10,0.3,0.3,False,False,False,False,0.3,0.3,0,0,0,False,False
+amazon_product,amazon_product:0:013:clustered,0,ACORN-1 + selector + guard ef=512,33403,10,10,10,0.7,0.7,False,False,False,False,0.7,0.7,0,0,0,False,False
+amazon_product,amazon_product:0:013:clustered,0,ACORN-1 + selector + guard ef=1024,33403,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:014:independent,0,Eager,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:014:independent,0,RACE,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:014:independent,0,ACORN-1 + selector + guard ef=128,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:014:independent,0,ACORN-1 + selector + guard ef=512,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:014:independent,0,ACORN-1 + selector + guard ef=1024,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:014:clustered,0,Eager,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:014:clustered,0,RACE,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:014:clustered,0,ACORN-1 + selector + guard ef=128,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:014:clustered,0,ACORN-1 + selector + guard ef=512,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:014:clustered,0,ACORN-1 + selector + guard ef=1024,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:015:independent,0,Eager,988,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:015:independent,0,RACE,988,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:015:independent,0,ACORN-1 + selector + guard ef=128,988,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:0:015:independent,0,ACORN-1 + selector + guard ef=512,988,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:0:015:independent,0,ACORN-1 + selector + guard ef=1024,988,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:015:clustered,0,Eager,988,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:015:clustered,0,RACE,988,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:015:clustered,0,ACORN-1 + selector + guard ef=128,988,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:015:clustered,0,ACORN-1 + selector + guard ef=512,988,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:015:clustered,0,ACORN-1 + selector + guard ef=1024,988,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:016:independent,0,Eager,3357,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:016:independent,0,RACE,3357,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:016:independent,0,ACORN-1 + selector + guard ef=128,3357,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:016:independent,0,ACORN-1 + selector + guard ef=512,3357,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:016:independent,0,ACORN-1 + selector + guard ef=1024,3357,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:016:clustered,0,Eager,3357,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:016:clustered,0,RACE,3357,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:016:clustered,0,ACORN-1 + selector + guard ef=128,3357,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:016:clustered,0,ACORN-1 + selector + guard ef=512,3357,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:016:clustered,0,ACORN-1 + selector + guard ef=1024,3357,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:017:independent,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:017:independent,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:017:independent,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:017:independent,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:017:independent,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:017:clustered,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:017:clustered,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:017:clustered,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:017:clustered,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:017:clustered,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:018:independent,0,Eager,10,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:018:independent,0,RACE,10,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:018:independent,0,ACORN-1 + selector + guard ef=128,10,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:0:018:independent,0,ACORN-1 + selector + guard ef=512,10,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:0:018:independent,0,ACORN-1 + selector + guard ef=1024,10,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:0:018:clustered,0,Eager,10,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:018:clustered,0,RACE,10,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:018:clustered,0,ACORN-1 + selector + guard ef=128,10,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:0:018:clustered,0,ACORN-1 + selector + guard ef=512,10,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:0:018:clustered,0,ACORN-1 + selector + guard ef=1024,10,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:0:019:independent,0,Eager,1291,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:019:independent,0,RACE,1291,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:019:independent,0,ACORN-1 + selector + guard ef=128,1291,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:019:independent,0,ACORN-1 + selector + guard ef=512,1291,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:019:independent,0,ACORN-1 + selector + guard ef=1024,1291,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:019:clustered,0,Eager,1291,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:019:clustered,0,RACE,1291,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:019:clustered,0,ACORN-1 + selector + guard ef=128,1291,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:0:019:clustered,0,ACORN-1 + selector + guard ef=512,1291,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:019:clustered,0,ACORN-1 + selector + guard ef=1024,1291,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:020:independent,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:020:independent,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:020:independent,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:020:independent,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:020:independent,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:020:clustered,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:020:clustered,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:020:clustered,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:020:clustered,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:020:clustered,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:021:independent,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:021:independent,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:021:independent,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:021:independent,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:021:independent,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:021:clustered,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:021:clustered,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:021:clustered,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:021:clustered,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:021:clustered,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:022:independent,0,Eager,400,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:022:independent,0,RACE,400,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:022:independent,0,ACORN-1 + selector + guard ef=128,400,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:022:independent,0,ACORN-1 + selector + guard ef=512,400,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:022:independent,0,ACORN-1 + selector + guard ef=1024,400,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:022:clustered,0,Eager,400,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:022:clustered,0,RACE,400,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:022:clustered,0,ACORN-1 + selector + guard ef=128,400,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:022:clustered,0,ACORN-1 + selector + guard ef=512,400,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:022:clustered,0,ACORN-1 + selector + guard ef=1024,400,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:023:independent,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:023:independent,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:023:independent,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:023:independent,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:023:independent,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:023:clustered,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:023:clustered,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:023:clustered,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:023:clustered,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:023:clustered,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:024:independent,0,Eager,506,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:024:independent,0,RACE,506,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:024:independent,0,ACORN-1 + selector + guard ef=128,506,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+amazon_product,amazon_product:0:024:independent,0,ACORN-1 + selector + guard ef=512,506,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:024:independent,0,ACORN-1 + selector + guard ef=1024,506,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:024:clustered,0,Eager,506,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:024:clustered,0,RACE,506,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:024:clustered,0,ACORN-1 + selector + guard ef=128,506,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:0:024:clustered,0,ACORN-1 + selector + guard ef=512,506,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:024:clustered,0,ACORN-1 + selector + guard ef=1024,506,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:025:independent,0,Eager,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:025:independent,0,RACE,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:025:independent,0,ACORN-1 + selector + guard ef=128,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:025:independent,0,ACORN-1 + selector + guard ef=512,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:025:independent,0,ACORN-1 + selector + guard ef=1024,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:025:clustered,0,Eager,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:025:clustered,0,RACE,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:025:clustered,0,ACORN-1 + selector + guard ef=128,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:025:clustered,0,ACORN-1 + selector + guard ef=512,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:025:clustered,0,ACORN-1 + selector + guard ef=1024,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:026:independent,0,Eager,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:026:independent,0,RACE,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:026:independent,0,ACORN-1 + selector + guard ef=128,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:026:independent,0,ACORN-1 + selector + guard ef=512,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:026:independent,0,ACORN-1 + selector + guard ef=1024,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:026:clustered,0,Eager,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:026:clustered,0,RACE,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:026:clustered,0,ACORN-1 + selector + guard ef=128,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:026:clustered,0,ACORN-1 + selector + guard ef=512,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:026:clustered,0,ACORN-1 + selector + guard ef=1024,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:0:027:independent,0,Eager,481,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:027:independent,0,RACE,481,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:027:independent,0,ACORN-1 + selector + guard ef=128,481,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+amazon_product,amazon_product:0:027:independent,0,ACORN-1 + selector + guard ef=512,481,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:0:027:independent,0,ACORN-1 + selector + guard ef=1024,481,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:0:027:clustered,0,Eager,481,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:027:clustered,0,RACE,481,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:027:clustered,0,ACORN-1 + selector + guard ef=128,481,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:027:clustered,0,ACORN-1 + selector + guard ef=512,481,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:027:clustered,0,ACORN-1 + selector + guard ef=1024,481,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:028:independent,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:028:independent,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:028:independent,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:028:independent,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:028:independent,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:028:clustered,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:028:clustered,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:028:clustered,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:028:clustered,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:028:clustered,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:029:independent,0,Eager,173,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:029:independent,0,RACE,173,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:029:independent,0,ACORN-1 + selector + guard ef=128,173,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:0:029:independent,0,ACORN-1 + selector + guard ef=512,173,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:029:independent,0,ACORN-1 + selector + guard ef=1024,173,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:029:clustered,0,Eager,173,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:029:clustered,0,RACE,173,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:029:clustered,0,ACORN-1 + selector + guard ef=128,173,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:029:clustered,0,ACORN-1 + selector + guard ef=512,173,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:029:clustered,0,ACORN-1 + selector + guard ef=1024,173,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:030:independent,0,Eager,234,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:030:independent,0,RACE,234,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:030:independent,0,ACORN-1 + selector + guard ef=128,234,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:030:independent,0,ACORN-1 + selector + guard ef=512,234,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:030:independent,0,ACORN-1 + selector + guard ef=1024,234,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:030:clustered,0,Eager,234,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:030:clustered,0,RACE,234,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:030:clustered,0,ACORN-1 + selector + guard ef=128,234,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:030:clustered,0,ACORN-1 + selector + guard ef=512,234,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:030:clustered,0,ACORN-1 + selector + guard ef=1024,234,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:031:independent,0,Eager,194,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:031:independent,0,RACE,194,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:031:independent,0,ACORN-1 + selector + guard ef=128,194,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:0:031:independent,0,ACORN-1 + selector + guard ef=512,194,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:0:031:independent,0,ACORN-1 + selector + guard ef=1024,194,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:0:031:clustered,0,Eager,194,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:031:clustered,0,RACE,194,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:031:clustered,0,ACORN-1 + selector + guard ef=128,194,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:0:031:clustered,0,ACORN-1 + selector + guard ef=512,194,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:0:031:clustered,0,ACORN-1 + selector + guard ef=1024,194,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:000:independent,1,Eager,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:000:independent,1,RACE,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:000:independent,1,ACORN-1 + selector + guard ef=128,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:000:independent,1,ACORN-1 + selector + guard ef=512,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:000:independent,1,ACORN-1 + selector + guard ef=1024,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:000:clustered,1,Eager,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:000:clustered,1,RACE,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:000:clustered,1,ACORN-1 + selector + guard ef=128,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:000:clustered,1,ACORN-1 + selector + guard ef=512,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:000:clustered,1,ACORN-1 + selector + guard ef=1024,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:001:independent,1,Eager,209,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:001:independent,1,RACE,209,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:001:independent,1,ACORN-1 + selector + guard ef=128,209,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:1:001:independent,1,ACORN-1 + selector + guard ef=512,209,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:1:001:independent,1,ACORN-1 + selector + guard ef=1024,209,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:1:001:clustered,1,Eager,209,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:001:clustered,1,RACE,209,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:001:clustered,1,ACORN-1 + selector + guard ef=128,209,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:001:clustered,1,ACORN-1 + selector + guard ef=512,209,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:001:clustered,1,ACORN-1 + selector + guard ef=1024,209,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:002:independent,1,Eager,3939,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:002:independent,1,RACE,3939,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:002:independent,1,ACORN-1 + selector + guard ef=128,3939,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:1:002:independent,1,ACORN-1 + selector + guard ef=512,3939,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:002:independent,1,ACORN-1 + selector + guard ef=1024,3939,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:002:clustered,1,Eager,3939,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:002:clustered,1,RACE,3939,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:002:clustered,1,ACORN-1 + selector + guard ef=128,3939,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:1:002:clustered,1,ACORN-1 + selector + guard ef=512,3939,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:002:clustered,1,ACORN-1 + selector + guard ef=1024,3939,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:003:independent,1,Eager,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:003:independent,1,RACE,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:003:independent,1,ACORN-1 + selector + guard ef=128,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:003:independent,1,ACORN-1 + selector + guard ef=512,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:003:independent,1,ACORN-1 + selector + guard ef=1024,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:003:clustered,1,Eager,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:003:clustered,1,RACE,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:003:clustered,1,ACORN-1 + selector + guard ef=128,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:003:clustered,1,ACORN-1 + selector + guard ef=512,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:003:clustered,1,ACORN-1 + selector + guard ef=1024,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:004:independent,1,Eager,12,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:004:independent,1,RACE,12,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:004:independent,1,ACORN-1 + selector + guard ef=128,12,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:1:004:independent,1,ACORN-1 + selector + guard ef=512,12,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:1:004:independent,1,ACORN-1 + selector + guard ef=1024,12,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:1:004:clustered,1,Eager,12,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:004:clustered,1,RACE,12,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:004:clustered,1,ACORN-1 + selector + guard ef=128,12,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:1:004:clustered,1,ACORN-1 + selector + guard ef=512,12,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:1:004:clustered,1,ACORN-1 + selector + guard ef=1024,12,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:1:005:independent,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:005:independent,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:005:independent,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:005:independent,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:005:independent,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:005:clustered,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:005:clustered,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:005:clustered,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:005:clustered,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:005:clustered,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:006:independent,1,Eager,293,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:006:independent,1,RACE,293,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:006:independent,1,ACORN-1 + selector + guard ef=128,293,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:006:independent,1,ACORN-1 + selector + guard ef=512,293,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:006:independent,1,ACORN-1 + selector + guard ef=1024,293,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:006:clustered,1,Eager,293,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:006:clustered,1,RACE,293,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:006:clustered,1,ACORN-1 + selector + guard ef=128,293,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:006:clustered,1,ACORN-1 + selector + guard ef=512,293,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:006:clustered,1,ACORN-1 + selector + guard ef=1024,293,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:007:independent,1,Eager,28,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:007:independent,1,RACE,28,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:007:independent,1,ACORN-1 + selector + guard ef=128,28,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:1:007:independent,1,ACORN-1 + selector + guard ef=512,28,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:1:007:independent,1,ACORN-1 + selector + guard ef=1024,28,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:1:007:clustered,1,Eager,28,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:007:clustered,1,RACE,28,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:007:clustered,1,ACORN-1 + selector + guard ef=128,28,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:1:007:clustered,1,ACORN-1 + selector + guard ef=512,28,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:1:007:clustered,1,ACORN-1 + selector + guard ef=1024,28,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:1:008:independent,1,Eager,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:008:independent,1,RACE,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:008:independent,1,ACORN-1 + selector + guard ef=128,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:1:008:independent,1,ACORN-1 + selector + guard ef=512,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:1:008:independent,1,ACORN-1 + selector + guard ef=1024,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:1:008:clustered,1,Eager,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:008:clustered,1,RACE,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:008:clustered,1,ACORN-1 + selector + guard ef=128,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:1:008:clustered,1,ACORN-1 + selector + guard ef=512,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:1:008:clustered,1,ACORN-1 + selector + guard ef=1024,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:1:009:independent,1,Eager,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:009:independent,1,RACE,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:009:independent,1,ACORN-1 + selector + guard ef=128,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:1:009:independent,1,ACORN-1 + selector + guard ef=512,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:1:009:independent,1,ACORN-1 + selector + guard ef=1024,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:1:009:clustered,1,Eager,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:009:clustered,1,RACE,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:009:clustered,1,ACORN-1 + selector + guard ef=128,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:1:009:clustered,1,ACORN-1 + selector + guard ef=512,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:1:009:clustered,1,ACORN-1 + selector + guard ef=1024,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:1:010:independent,1,Eager,16,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:010:independent,1,RACE,16,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:010:independent,1,ACORN-1 + selector + guard ef=128,16,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:1:010:independent,1,ACORN-1 + selector + guard ef=512,16,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:1:010:independent,1,ACORN-1 + selector + guard ef=1024,16,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:1:010:clustered,1,Eager,16,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:010:clustered,1,RACE,16,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:010:clustered,1,ACORN-1 + selector + guard ef=128,16,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:1:010:clustered,1,ACORN-1 + selector + guard ef=512,16,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:1:010:clustered,1,ACORN-1 + selector + guard ef=1024,16,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:1:011:independent,1,Eager,2104,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:011:independent,1,RACE,2104,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:011:independent,1,ACORN-1 + selector + guard ef=128,2104,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:1:011:independent,1,ACORN-1 + selector + guard ef=512,2104,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:011:independent,1,ACORN-1 + selector + guard ef=1024,2104,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:011:clustered,1,Eager,2104,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:011:clustered,1,RACE,2104,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:011:clustered,1,ACORN-1 + selector + guard ef=128,2104,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+amazon_product,amazon_product:1:011:clustered,1,ACORN-1 + selector + guard ef=512,2104,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:011:clustered,1,ACORN-1 + selector + guard ef=1024,2104,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:012:independent,1,Eager,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:012:independent,1,RACE,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:012:independent,1,ACORN-1 + selector + guard ef=128,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:012:independent,1,ACORN-1 + selector + guard ef=512,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:012:independent,1,ACORN-1 + selector + guard ef=1024,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:012:clustered,1,Eager,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:012:clustered,1,RACE,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:012:clustered,1,ACORN-1 + selector + guard ef=128,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:012:clustered,1,ACORN-1 + selector + guard ef=512,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:012:clustered,1,ACORN-1 + selector + guard ef=1024,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:013:independent,1,Eager,448,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:013:independent,1,RACE,448,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:013:independent,1,ACORN-1 + selector + guard ef=128,448,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:1:013:independent,1,ACORN-1 + selector + guard ef=512,448,10,10,10,1.0,1.0,False,True,False,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:013:independent,1,ACORN-1 + selector + guard ef=1024,448,10,10,10,1.0,1.0,False,True,False,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:013:clustered,1,Eager,448,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:013:clustered,1,RACE,448,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:013:clustered,1,ACORN-1 + selector + guard ef=128,448,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:1:013:clustered,1,ACORN-1 + selector + guard ef=512,448,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:013:clustered,1,ACORN-1 + selector + guard ef=1024,448,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:014:independent,1,Eager,3185,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:014:independent,1,RACE,3185,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:014:independent,1,ACORN-1 + selector + guard ef=128,3185,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:014:independent,1,ACORN-1 + selector + guard ef=512,3185,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:014:independent,1,ACORN-1 + selector + guard ef=1024,3185,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:014:clustered,1,Eager,3185,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:014:clustered,1,RACE,3185,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:014:clustered,1,ACORN-1 + selector + guard ef=128,3185,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+amazon_product,amazon_product:1:014:clustered,1,ACORN-1 + selector + guard ef=512,3185,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:1:014:clustered,1,ACORN-1 + selector + guard ef=1024,3185,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:1:015:independent,1,Eager,828,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:015:independent,1,RACE,828,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:015:independent,1,ACORN-1 + selector + guard ef=128,828,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:1:015:independent,1,ACORN-1 + selector + guard ef=512,828,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:015:independent,1,ACORN-1 + selector + guard ef=1024,828,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:015:clustered,1,Eager,828,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:015:clustered,1,RACE,828,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:015:clustered,1,ACORN-1 + selector + guard ef=128,828,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:015:clustered,1,ACORN-1 + selector + guard ef=512,828,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:015:clustered,1,ACORN-1 + selector + guard ef=1024,828,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:016:independent,1,Eager,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:016:independent,1,RACE,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:016:independent,1,ACORN-1 + selector + guard ef=128,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:016:independent,1,ACORN-1 + selector + guard ef=512,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:016:independent,1,ACORN-1 + selector + guard ef=1024,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:016:clustered,1,Eager,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:016:clustered,1,RACE,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:016:clustered,1,ACORN-1 + selector + guard ef=128,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:016:clustered,1,ACORN-1 + selector + guard ef=512,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:016:clustered,1,ACORN-1 + selector + guard ef=1024,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:017:independent,1,Eager,374,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:017:independent,1,RACE,374,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:017:independent,1,ACORN-1 + selector + guard ef=128,374,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:017:independent,1,ACORN-1 + selector + guard ef=512,374,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:017:independent,1,ACORN-1 + selector + guard ef=1024,374,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:017:clustered,1,Eager,374,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:017:clustered,1,RACE,374,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:017:clustered,1,ACORN-1 + selector + guard ef=128,374,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:017:clustered,1,ACORN-1 + selector + guard ef=512,374,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:017:clustered,1,ACORN-1 + selector + guard ef=1024,374,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:018:independent,1,Eager,11406,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:018:independent,1,RACE,11406,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:018:independent,1,ACORN-1 + selector + guard ef=128,11406,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:018:independent,1,ACORN-1 + selector + guard ef=512,11406,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:018:independent,1,ACORN-1 + selector + guard ef=1024,11406,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:018:clustered,1,Eager,11406,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:018:clustered,1,RACE,11406,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:018:clustered,1,ACORN-1 + selector + guard ef=128,11406,10,10,10,0.6,0.6,False,False,False,False,0.6,0.6,0,0,0,False,False
+amazon_product,amazon_product:1:018:clustered,1,ACORN-1 + selector + guard ef=512,11406,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:018:clustered,1,ACORN-1 + selector + guard ef=1024,11406,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:019:independent,1,Eager,110,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:019:independent,1,RACE,110,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:019:independent,1,ACORN-1 + selector + guard ef=128,110,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:019:independent,1,ACORN-1 + selector + guard ef=512,110,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:019:independent,1,ACORN-1 + selector + guard ef=1024,110,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:019:clustered,1,Eager,110,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:019:clustered,1,RACE,110,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:019:clustered,1,ACORN-1 + selector + guard ef=128,110,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:019:clustered,1,ACORN-1 + selector + guard ef=512,110,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:019:clustered,1,ACORN-1 + selector + guard ef=1024,110,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:020:independent,1,Eager,832,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:020:independent,1,RACE,832,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:020:independent,1,ACORN-1 + selector + guard ef=128,832,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:020:independent,1,ACORN-1 + selector + guard ef=512,832,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:020:independent,1,ACORN-1 + selector + guard ef=1024,832,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:020:clustered,1,Eager,832,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:020:clustered,1,RACE,832,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:020:clustered,1,ACORN-1 + selector + guard ef=128,832,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:1:020:clustered,1,ACORN-1 + selector + guard ef=512,832,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:020:clustered,1,ACORN-1 + selector + guard ef=1024,832,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:021:independent,1,Eager,1721,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:021:independent,1,RACE,1721,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:021:independent,1,ACORN-1 + selector + guard ef=128,1721,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:021:independent,1,ACORN-1 + selector + guard ef=512,1721,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:021:independent,1,ACORN-1 + selector + guard ef=1024,1721,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:021:clustered,1,Eager,1721,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:021:clustered,1,RACE,1721,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:021:clustered,1,ACORN-1 + selector + guard ef=128,1721,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:021:clustered,1,ACORN-1 + selector + guard ef=512,1721,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:021:clustered,1,ACORN-1 + selector + guard ef=1024,1721,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:022:independent,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:022:independent,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:022:independent,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:022:independent,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:022:independent,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:022:clustered,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:022:clustered,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:022:clustered,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:022:clustered,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:022:clustered,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:023:independent,1,Eager,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:023:independent,1,RACE,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:023:independent,1,ACORN-1 + selector + guard ef=128,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:023:independent,1,ACORN-1 + selector + guard ef=512,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:023:independent,1,ACORN-1 + selector + guard ef=1024,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:023:clustered,1,Eager,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:023:clustered,1,RACE,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:023:clustered,1,ACORN-1 + selector + guard ef=128,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:023:clustered,1,ACORN-1 + selector + guard ef=512,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:023:clustered,1,ACORN-1 + selector + guard ef=1024,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:024:independent,1,Eager,800,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:024:independent,1,RACE,800,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:024:independent,1,ACORN-1 + selector + guard ef=128,800,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:1:024:independent,1,ACORN-1 + selector + guard ef=512,800,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:024:independent,1,ACORN-1 + selector + guard ef=1024,800,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:024:clustered,1,Eager,800,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:024:clustered,1,RACE,800,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:024:clustered,1,ACORN-1 + selector + guard ef=128,800,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:024:clustered,1,ACORN-1 + selector + guard ef=512,800,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:024:clustered,1,ACORN-1 + selector + guard ef=1024,800,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:025:independent,1,Eager,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:025:independent,1,RACE,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:025:independent,1,ACORN-1 + selector + guard ef=128,100,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+amazon_product,amazon_product:1:025:independent,1,ACORN-1 + selector + guard ef=512,100,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+amazon_product,amazon_product:1:025:independent,1,ACORN-1 + selector + guard ef=1024,100,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+amazon_product,amazon_product:1:025:clustered,1,Eager,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:025:clustered,1,RACE,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:025:clustered,1,ACORN-1 + selector + guard ef=128,100,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+amazon_product,amazon_product:1:025:clustered,1,ACORN-1 + selector + guard ef=512,100,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+amazon_product,amazon_product:1:025:clustered,1,ACORN-1 + selector + guard ef=1024,100,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+amazon_product,amazon_product:1:026:independent,1,Eager,17396,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:026:independent,1,RACE,17396,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:026:independent,1,ACORN-1 + selector + guard ef=128,17396,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+amazon_product,amazon_product:1:026:independent,1,ACORN-1 + selector + guard ef=512,17396,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:1:026:independent,1,ACORN-1 + selector + guard ef=1024,17396,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:026:clustered,1,Eager,17396,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:026:clustered,1,RACE,17396,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:026:clustered,1,ACORN-1 + selector + guard ef=128,17396,10,10,10,0.4,0.4,False,False,False,False,0.4,0.4,0,0,0,False,False
+amazon_product,amazon_product:1:026:clustered,1,ACORN-1 + selector + guard ef=512,17396,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:1:026:clustered,1,ACORN-1 + selector + guard ef=1024,17396,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:027:independent,1,Eager,27250,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:027:independent,1,RACE,27250,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:027:independent,1,ACORN-1 + selector + guard ef=128,27250,10,10,10,0.5,0.5,False,False,False,False,0.5,0.5,0,0,0,False,False
+amazon_product,amazon_product:1:027:independent,1,ACORN-1 + selector + guard ef=512,27250,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:1:027:independent,1,ACORN-1 + selector + guard ef=1024,27250,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:027:clustered,1,Eager,27250,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:027:clustered,1,RACE,27250,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:027:clustered,1,ACORN-1 + selector + guard ef=128,27250,10,10,10,0.4,0.4,False,False,False,False,0.4,0.4,0,0,0,False,False
+amazon_product,amazon_product:1:027:clustered,1,ACORN-1 + selector + guard ef=512,27250,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+amazon_product,amazon_product:1:027:clustered,1,ACORN-1 + selector + guard ef=1024,27250,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:028:independent,1,Eager,84,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:028:independent,1,RACE,84,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:028:independent,1,ACORN-1 + selector + guard ef=128,84,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:028:independent,1,ACORN-1 + selector + guard ef=512,84,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:028:independent,1,ACORN-1 + selector + guard ef=1024,84,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:028:clustered,1,Eager,84,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:028:clustered,1,RACE,84,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:028:clustered,1,ACORN-1 + selector + guard ef=128,84,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:1:028:clustered,1,ACORN-1 + selector + guard ef=512,84,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:1:028:clustered,1,ACORN-1 + selector + guard ef=1024,84,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:1:029:independent,1,Eager,15,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:029:independent,1,RACE,15,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:029:independent,1,ACORN-1 + selector + guard ef=128,15,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:1:029:independent,1,ACORN-1 + selector + guard ef=512,15,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:1:029:independent,1,ACORN-1 + selector + guard ef=1024,15,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:1:029:clustered,1,Eager,15,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:029:clustered,1,RACE,15,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:029:clustered,1,ACORN-1 + selector + guard ef=128,15,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:1:029:clustered,1,ACORN-1 + selector + guard ef=512,15,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:1:029:clustered,1,ACORN-1 + selector + guard ef=1024,15,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+amazon_product,amazon_product:1:030:independent,1,Eager,790,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:030:independent,1,RACE,790,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:030:independent,1,ACORN-1 + selector + guard ef=128,790,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:030:independent,1,ACORN-1 + selector + guard ef=512,790,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:030:independent,1,ACORN-1 + selector + guard ef=1024,790,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:030:clustered,1,Eager,790,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:030:clustered,1,RACE,790,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:030:clustered,1,ACORN-1 + selector + guard ef=128,790,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:030:clustered,1,ACORN-1 + selector + guard ef=512,790,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:030:clustered,1,ACORN-1 + selector + guard ef=1024,790,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:031:independent,1,Eager,649,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:031:independent,1,RACE,649,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:031:independent,1,ACORN-1 + selector + guard ef=128,649,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:031:independent,1,ACORN-1 + selector + guard ef=512,649,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:031:independent,1,ACORN-1 + selector + guard ef=1024,649,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:031:clustered,1,Eager,649,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:031:clustered,1,RACE,649,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:031:clustered,1,ACORN-1 + selector + guard ef=128,649,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:031:clustered,1,ACORN-1 + selector + guard ef=512,649,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:1:031:clustered,1,ACORN-1 + selector + guard ef=1024,649,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:000:independent,2,Eager,13096,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:000:independent,2,RACE,13096,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:000:independent,2,ACORN-1 + selector + guard ef=128,13096,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+amazon_product,amazon_product:2:000:independent,2,ACORN-1 + selector + guard ef=512,13096,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:000:independent,2,ACORN-1 + selector + guard ef=1024,13096,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:000:clustered,2,Eager,13096,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:000:clustered,2,RACE,13096,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:000:clustered,2,ACORN-1 + selector + guard ef=128,13096,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:000:clustered,2,ACORN-1 + selector + guard ef=512,13096,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:000:clustered,2,ACORN-1 + selector + guard ef=1024,13096,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:001:independent,2,Eager,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:001:independent,2,RACE,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:001:independent,2,ACORN-1 + selector + guard ef=128,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:2:001:independent,2,ACORN-1 + selector + guard ef=512,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:2:001:independent,2,ACORN-1 + selector + guard ef=1024,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:2:001:clustered,2,Eager,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:001:clustered,2,RACE,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:001:clustered,2,ACORN-1 + selector + guard ef=128,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:2:001:clustered,2,ACORN-1 + selector + guard ef=512,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:2:001:clustered,2,ACORN-1 + selector + guard ef=1024,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:2:002:independent,2,Eager,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:002:independent,2,RACE,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:002:independent,2,ACORN-1 + selector + guard ef=128,200,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:002:independent,2,ACORN-1 + selector + guard ef=512,200,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:002:independent,2,ACORN-1 + selector + guard ef=1024,200,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:002:clustered,2,Eager,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:002:clustered,2,RACE,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:002:clustered,2,ACORN-1 + selector + guard ef=128,200,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:002:clustered,2,ACORN-1 + selector + guard ef=512,200,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:002:clustered,2,ACORN-1 + selector + guard ef=1024,200,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:003:independent,2,Eager,3226,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:003:independent,2,RACE,3226,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:003:independent,2,ACORN-1 + selector + guard ef=128,3226,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:003:independent,2,ACORN-1 + selector + guard ef=512,3226,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:003:independent,2,ACORN-1 + selector + guard ef=1024,3226,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:003:clustered,2,Eager,3226,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:003:clustered,2,RACE,3226,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:003:clustered,2,ACORN-1 + selector + guard ef=128,3226,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:003:clustered,2,ACORN-1 + selector + guard ef=512,3226,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:003:clustered,2,ACORN-1 + selector + guard ef=1024,3226,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:004:independent,2,Eager,286,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:004:independent,2,RACE,286,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:004:independent,2,ACORN-1 + selector + guard ef=128,286,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:004:independent,2,ACORN-1 + selector + guard ef=512,286,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:004:independent,2,ACORN-1 + selector + guard ef=1024,286,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:004:clustered,2,Eager,286,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:004:clustered,2,RACE,286,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:004:clustered,2,ACORN-1 + selector + guard ef=128,286,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:004:clustered,2,ACORN-1 + selector + guard ef=512,286,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:004:clustered,2,ACORN-1 + selector + guard ef=1024,286,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:005:independent,2,Eager,6,6,6,6,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:005:independent,2,RACE,6,6,6,6,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:005:independent,2,ACORN-1 + selector + guard ef=128,6,6,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:2:005:independent,2,ACORN-1 + selector + guard ef=512,6,6,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:2:005:independent,2,ACORN-1 + selector + guard ef=1024,6,6,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:2:005:clustered,2,Eager,6,6,6,6,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:005:clustered,2,RACE,6,6,6,6,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:005:clustered,2,ACORN-1 + selector + guard ef=128,6,6,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:2:005:clustered,2,ACORN-1 + selector + guard ef=512,6,6,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:2:005:clustered,2,ACORN-1 + selector + guard ef=1024,6,6,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:2:006:independent,2,Eager,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:006:independent,2,RACE,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:006:independent,2,ACORN-1 + selector + guard ef=128,100,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:006:independent,2,ACORN-1 + selector + guard ef=512,100,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:006:independent,2,ACORN-1 + selector + guard ef=1024,100,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:006:clustered,2,Eager,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:006:clustered,2,RACE,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:006:clustered,2,ACORN-1 + selector + guard ef=128,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:006:clustered,2,ACORN-1 + selector + guard ef=512,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:006:clustered,2,ACORN-1 + selector + guard ef=1024,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:007:independent,2,Eager,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:007:independent,2,RACE,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:007:independent,2,ACORN-1 + selector + guard ef=128,200,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:007:independent,2,ACORN-1 + selector + guard ef=512,200,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:007:independent,2,ACORN-1 + selector + guard ef=1024,200,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:007:clustered,2,Eager,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:007:clustered,2,RACE,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:007:clustered,2,ACORN-1 + selector + guard ef=128,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:007:clustered,2,ACORN-1 + selector + guard ef=512,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:007:clustered,2,ACORN-1 + selector + guard ef=1024,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:008:independent,2,Eager,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:008:independent,2,RACE,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:008:independent,2,ACORN-1 + selector + guard ef=128,100,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:008:independent,2,ACORN-1 + selector + guard ef=512,100,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:008:independent,2,ACORN-1 + selector + guard ef=1024,100,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:008:clustered,2,Eager,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:008:clustered,2,RACE,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:008:clustered,2,ACORN-1 + selector + guard ef=128,100,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:008:clustered,2,ACORN-1 + selector + guard ef=512,100,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:008:clustered,2,ACORN-1 + selector + guard ef=1024,100,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:009:independent,2,Eager,2096,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:009:independent,2,RACE,2096,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:009:independent,2,ACORN-1 + selector + guard ef=128,2096,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:009:independent,2,ACORN-1 + selector + guard ef=512,2096,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:009:independent,2,ACORN-1 + selector + guard ef=1024,2096,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:009:clustered,2,Eager,2096,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:009:clustered,2,RACE,2096,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:009:clustered,2,ACORN-1 + selector + guard ef=128,2096,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:009:clustered,2,ACORN-1 + selector + guard ef=512,2096,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:009:clustered,2,ACORN-1 + selector + guard ef=1024,2096,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:010:independent,2,Eager,324,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:010:independent,2,RACE,324,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:010:independent,2,ACORN-1 + selector + guard ef=128,324,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:010:independent,2,ACORN-1 + selector + guard ef=512,324,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:010:independent,2,ACORN-1 + selector + guard ef=1024,324,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:010:clustered,2,Eager,324,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:010:clustered,2,RACE,324,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:010:clustered,2,ACORN-1 + selector + guard ef=128,324,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:010:clustered,2,ACORN-1 + selector + guard ef=512,324,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:010:clustered,2,ACORN-1 + selector + guard ef=1024,324,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:011:independent,2,Eager,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:011:independent,2,RACE,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:011:independent,2,ACORN-1 + selector + guard ef=128,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:2:011:independent,2,ACORN-1 + selector + guard ef=512,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:2:011:independent,2,ACORN-1 + selector + guard ef=1024,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:2:011:clustered,2,Eager,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:011:clustered,2,RACE,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:011:clustered,2,ACORN-1 + selector + guard ef=128,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:2:011:clustered,2,ACORN-1 + selector + guard ef=512,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:2:011:clustered,2,ACORN-1 + selector + guard ef=1024,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+amazon_product,amazon_product:2:012:independent,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:012:independent,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:012:independent,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:012:independent,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:012:independent,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:012:clustered,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:012:clustered,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:012:clustered,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:012:clustered,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:012:clustered,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:013:independent,2,Eager,44,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:013:independent,2,RACE,44,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:013:independent,2,ACORN-1 + selector + guard ef=128,44,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:013:independent,2,ACORN-1 + selector + guard ef=512,44,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:013:independent,2,ACORN-1 + selector + guard ef=1024,44,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:013:clustered,2,Eager,44,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:013:clustered,2,RACE,44,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:013:clustered,2,ACORN-1 + selector + guard ef=128,44,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+amazon_product,amazon_product:2:013:clustered,2,ACORN-1 + selector + guard ef=512,44,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+amazon_product,amazon_product:2:013:clustered,2,ACORN-1 + selector + guard ef=1024,44,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+amazon_product,amazon_product:2:014:independent,2,Eager,389,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:014:independent,2,RACE,389,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:014:independent,2,ACORN-1 + selector + guard ef=128,389,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:014:independent,2,ACORN-1 + selector + guard ef=512,389,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:014:independent,2,ACORN-1 + selector + guard ef=1024,389,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:014:clustered,2,Eager,389,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:014:clustered,2,RACE,389,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:014:clustered,2,ACORN-1 + selector + guard ef=128,389,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:014:clustered,2,ACORN-1 + selector + guard ef=512,389,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:014:clustered,2,ACORN-1 + selector + guard ef=1024,389,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:015:independent,2,Eager,315,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:015:independent,2,RACE,315,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:015:independent,2,ACORN-1 + selector + guard ef=128,315,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:015:independent,2,ACORN-1 + selector + guard ef=512,315,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:015:independent,2,ACORN-1 + selector + guard ef=1024,315,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:015:clustered,2,Eager,315,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:015:clustered,2,RACE,315,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:015:clustered,2,ACORN-1 + selector + guard ef=128,315,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:015:clustered,2,ACORN-1 + selector + guard ef=512,315,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:015:clustered,2,ACORN-1 + selector + guard ef=1024,315,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:016:independent,2,Eager,78,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:016:independent,2,RACE,78,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:016:independent,2,ACORN-1 + selector + guard ef=128,78,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:016:independent,2,ACORN-1 + selector + guard ef=512,78,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:016:independent,2,ACORN-1 + selector + guard ef=1024,78,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:016:clustered,2,Eager,78,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:016:clustered,2,RACE,78,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:016:clustered,2,ACORN-1 + selector + guard ef=128,78,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:016:clustered,2,ACORN-1 + selector + guard ef=512,78,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:016:clustered,2,ACORN-1 + selector + guard ef=1024,78,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:017:independent,2,Eager,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:017:independent,2,RACE,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:017:independent,2,ACORN-1 + selector + guard ef=128,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:017:independent,2,ACORN-1 + selector + guard ef=512,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:017:independent,2,ACORN-1 + selector + guard ef=1024,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:017:clustered,2,Eager,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:017:clustered,2,RACE,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:017:clustered,2,ACORN-1 + selector + guard ef=128,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:017:clustered,2,ACORN-1 + selector + guard ef=512,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:017:clustered,2,ACORN-1 + selector + guard ef=1024,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:018:independent,2,Eager,15,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:018:independent,2,RACE,15,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:018:independent,2,ACORN-1 + selector + guard ef=128,15,10,6,6,0.4,0.4,False,False,False,False,0.6666666666666666,0.6666666666666666,0,0,0,True,True
+amazon_product,amazon_product:2:018:independent,2,ACORN-1 + selector + guard ef=512,15,10,6,6,0.4,0.4,False,False,False,False,0.6666666666666666,0.6666666666666666,0,0,0,True,True
+amazon_product,amazon_product:2:018:independent,2,ACORN-1 + selector + guard ef=1024,15,10,6,6,0.4,0.4,False,False,False,False,0.6666666666666666,0.6666666666666666,0,0,0,True,True
+amazon_product,amazon_product:2:018:clustered,2,Eager,15,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:018:clustered,2,RACE,15,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:018:clustered,2,ACORN-1 + selector + guard ef=128,15,10,6,6,0.4,0.4,False,False,False,False,0.6666666666666666,0.6666666666666666,0,0,0,True,True
+amazon_product,amazon_product:2:018:clustered,2,ACORN-1 + selector + guard ef=512,15,10,6,6,0.4,0.4,False,False,False,False,0.6666666666666666,0.6666666666666666,0,0,0,True,True
+amazon_product,amazon_product:2:018:clustered,2,ACORN-1 + selector + guard ef=1024,15,10,6,6,0.4,0.4,False,False,False,False,0.6666666666666666,0.6666666666666666,0,0,0,True,True
+amazon_product,amazon_product:2:019:independent,2,Eager,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:019:independent,2,RACE,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:019:independent,2,ACORN-1 + selector + guard ef=128,100,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+amazon_product,amazon_product:2:019:independent,2,ACORN-1 + selector + guard ef=512,100,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+amazon_product,amazon_product:2:019:independent,2,ACORN-1 + selector + guard ef=1024,100,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+amazon_product,amazon_product:2:019:clustered,2,Eager,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:019:clustered,2,RACE,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:019:clustered,2,ACORN-1 + selector + guard ef=128,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:019:clustered,2,ACORN-1 + selector + guard ef=512,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:019:clustered,2,ACORN-1 + selector + guard ef=1024,100,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:020:independent,2,Eager,255,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:020:independent,2,RACE,255,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:020:independent,2,ACORN-1 + selector + guard ef=128,255,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:020:independent,2,ACORN-1 + selector + guard ef=512,255,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:020:independent,2,ACORN-1 + selector + guard ef=1024,255,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:020:clustered,2,Eager,255,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:020:clustered,2,RACE,255,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:020:clustered,2,ACORN-1 + selector + guard ef=128,255,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+amazon_product,amazon_product:2:020:clustered,2,ACORN-1 + selector + guard ef=512,255,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:020:clustered,2,ACORN-1 + selector + guard ef=1024,255,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:021:independent,2,Eager,3169,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:021:independent,2,RACE,3169,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:021:independent,2,ACORN-1 + selector + guard ef=128,3169,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:021:independent,2,ACORN-1 + selector + guard ef=512,3169,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:021:independent,2,ACORN-1 + selector + guard ef=1024,3169,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:021:clustered,2,Eager,3169,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:021:clustered,2,RACE,3169,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:021:clustered,2,ACORN-1 + selector + guard ef=128,3169,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:021:clustered,2,ACORN-1 + selector + guard ef=512,3169,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:021:clustered,2,ACORN-1 + selector + guard ef=1024,3169,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:022:independent,2,Eager,204,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:022:independent,2,RACE,204,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:022:independent,2,ACORN-1 + selector + guard ef=128,204,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:022:independent,2,ACORN-1 + selector + guard ef=512,204,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:022:independent,2,ACORN-1 + selector + guard ef=1024,204,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:022:clustered,2,Eager,204,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:022:clustered,2,RACE,204,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:022:clustered,2,ACORN-1 + selector + guard ef=128,204,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:022:clustered,2,ACORN-1 + selector + guard ef=512,204,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:022:clustered,2,ACORN-1 + selector + guard ef=1024,204,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:023:independent,2,Eager,492,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:023:independent,2,RACE,492,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:023:independent,2,ACORN-1 + selector + guard ef=128,492,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:023:independent,2,ACORN-1 + selector + guard ef=512,492,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:023:independent,2,ACORN-1 + selector + guard ef=1024,492,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:023:clustered,2,Eager,492,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:023:clustered,2,RACE,492,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:023:clustered,2,ACORN-1 + selector + guard ef=128,492,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:023:clustered,2,ACORN-1 + selector + guard ef=512,492,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:023:clustered,2,ACORN-1 + selector + guard ef=1024,492,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:024:independent,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:024:independent,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:024:independent,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:024:independent,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:024:independent,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:024:clustered,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:024:clustered,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:024:clustered,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:024:clustered,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:024:clustered,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:025:independent,2,Eager,21683,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:025:independent,2,RACE,21683,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:025:independent,2,ACORN-1 + selector + guard ef=128,21683,10,10,10,0.4,0.4,False,False,False,False,0.4,0.4,0,0,0,False,False
+amazon_product,amazon_product:2:025:independent,2,ACORN-1 + selector + guard ef=512,21683,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:025:independent,2,ACORN-1 + selector + guard ef=1024,21683,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:025:clustered,2,Eager,21683,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:025:clustered,2,RACE,21683,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:025:clustered,2,ACORN-1 + selector + guard ef=128,21683,10,10,10,0.5,0.5,False,False,False,False,0.5,0.5,0,0,0,False,False
+amazon_product,amazon_product:2:025:clustered,2,ACORN-1 + selector + guard ef=512,21683,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:025:clustered,2,ACORN-1 + selector + guard ef=1024,21683,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:026:independent,2,Eager,603,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:026:independent,2,RACE,603,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:026:independent,2,ACORN-1 + selector + guard ef=128,603,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:026:independent,2,ACORN-1 + selector + guard ef=512,603,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:026:independent,2,ACORN-1 + selector + guard ef=1024,603,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:026:clustered,2,Eager,603,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:026:clustered,2,RACE,603,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:026:clustered,2,ACORN-1 + selector + guard ef=128,603,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:026:clustered,2,ACORN-1 + selector + guard ef=512,603,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:026:clustered,2,ACORN-1 + selector + guard ef=1024,603,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:027:independent,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:027:independent,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:027:independent,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:027:independent,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:027:independent,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:027:clustered,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:027:clustered,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:027:clustered,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:027:clustered,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:027:clustered,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:028:independent,2,Eager,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:028:independent,2,RACE,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:028:independent,2,ACORN-1 + selector + guard ef=128,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:028:independent,2,ACORN-1 + selector + guard ef=512,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:028:independent,2,ACORN-1 + selector + guard ef=1024,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:028:clustered,2,Eager,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:028:clustered,2,RACE,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:028:clustered,2,ACORN-1 + selector + guard ef=128,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:028:clustered,2,ACORN-1 + selector + guard ef=512,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:028:clustered,2,ACORN-1 + selector + guard ef=1024,200,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:029:independent,2,Eager,309,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:029:independent,2,RACE,309,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:029:independent,2,ACORN-1 + selector + guard ef=128,309,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:029:independent,2,ACORN-1 + selector + guard ef=512,309,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:029:independent,2,ACORN-1 + selector + guard ef=1024,309,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:029:clustered,2,Eager,309,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:029:clustered,2,RACE,309,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:029:clustered,2,ACORN-1 + selector + guard ef=128,309,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:029:clustered,2,ACORN-1 + selector + guard ef=512,309,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:029:clustered,2,ACORN-1 + selector + guard ef=1024,309,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:030:independent,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:030:independent,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:030:independent,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:030:independent,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:030:independent,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:030:clustered,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:030:clustered,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:030:clustered,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:030:clustered,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:030:clustered,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:031:independent,2,Eager,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:031:independent,2,RACE,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:031:independent,2,ACORN-1 + selector + guard ef=128,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:031:independent,2,ACORN-1 + selector + guard ef=512,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:031:independent,2,ACORN-1 + selector + guard ef=1024,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:031:clustered,2,Eager,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:031:clustered,2,RACE,300,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+amazon_product,amazon_product:2:031:clustered,2,ACORN-1 + selector + guard ef=128,300,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:031:clustered,2,ACORN-1 + selector + guard ef=512,300,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+amazon_product,amazon_product:2:031:clustered,2,ACORN-1 + selector + guard ef=1024,300,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False

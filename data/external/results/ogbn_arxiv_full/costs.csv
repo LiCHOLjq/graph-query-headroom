@@ -1,0 +1,961 @@
+corpus,query_id,seed,policy,cost_ms,bitmap_ms,search_ms,repeats,eligible_count
+ogbn_arxiv_full,ogbn_arxiv_full:0:000:independent,0,Eager,1.2220235000000002,,,10,27841
+ogbn_arxiv_full,ogbn_arxiv_full:0:000:independent,0,RACE,1.900227,,,10,27841
+ogbn_arxiv_full,ogbn_arxiv_full:0:000:independent,0,ACORN-1 + selector + guard ef=128,1.6857734999999998,0.23305599999999999,1.454102,10,27841
+ogbn_arxiv_full,ogbn_arxiv_full:0:000:independent,0,ACORN-1 + selector + guard ef=512,6.8224165,0.236201,6.5734295,10,27841
+ogbn_arxiv_full,ogbn_arxiv_full:0:000:independent,0,ACORN-1 + selector + guard ef=1024,16.792136,0.2470905,16.543559000000002,10,27841
+ogbn_arxiv_full,ogbn_arxiv_full:0:000:clustered,0,Eager,1.2652645,,,10,27841
+ogbn_arxiv_full,ogbn_arxiv_full:0:000:clustered,0,RACE,1.7086169999999998,,,10,27841
+ogbn_arxiv_full,ogbn_arxiv_full:0:000:clustered,0,ACORN-1 + selector + guard ef=128,1.225373,0.23272199999999998,0.990361,10,27841
+ogbn_arxiv_full,ogbn_arxiv_full:0:000:clustered,0,ACORN-1 + selector + guard ef=512,4.918671,0.234763,4.6825165,10,27841
+ogbn_arxiv_full,ogbn_arxiv_full:0:000:clustered,0,ACORN-1 + selector + guard ef=1024,13.990541499999999,0.23550500000000002,13.7561845,10,27841
+ogbn_arxiv_full,ogbn_arxiv_full:0:001:independent,0,Eager,0.9257960000000001,,,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:0:001:independent,0,RACE,0.937497,,,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:0:001:independent,0,ACORN-1 + selector + guard ef=128,0.0263735,0.0136685,0.012760500000000001,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:0:001:independent,0,ACORN-1 + selector + guard ef=512,0.023628,0.0120675,0.011563,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:0:001:independent,0,ACORN-1 + selector + guard ef=1024,0.025903,0.013243,0.012660000000000001,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:0:001:clustered,0,Eager,0.9666855,,,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:0:001:clustered,0,RACE,0.9601065,,,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:0:001:clustered,0,ACORN-1 + selector + guard ef=128,0.0239925,0.0121785,0.011814,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:0:001:clustered,0,ACORN-1 + selector + guard ef=512,0.025817,0.013312000000000001,0.012491499999999999,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:0:001:clustered,0,ACORN-1 + selector + guard ef=1024,0.0260705,0.0133515,0.012719,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:0:002:independent,0,Eager,0.725446,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:002:independent,0,RACE,0.7275294999999999,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:002:independent,0,ACORN-1 + selector + guard ef=128,0.013245,0.0119575,0.0012875,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:002:independent,0,ACORN-1 + selector + guard ef=512,0.013898500000000001,0.012383,0.0014985,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:002:independent,0,ACORN-1 + selector + guard ef=1024,0.014075,0.0125575,0.0015175,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:002:clustered,0,Eager,0.869065,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:002:clustered,0,RACE,0.862078,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:002:clustered,0,ACORN-1 + selector + guard ef=128,0.0130715,0.0119025,0.0012215,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:002:clustered,0,ACORN-1 + selector + guard ef=512,0.0135715,0.0122465,0.0013255,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:002:clustered,0,ACORN-1 + selector + guard ef=1024,0.013025,0.0118465,0.001175,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:003:independent,0,Eager,0.9818225,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:003:independent,0,RACE,0.9812915,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:003:independent,0,ACORN-1 + selector + guard ef=128,0.014034,0.0125805,0.0014535,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:003:independent,0,ACORN-1 + selector + guard ef=512,0.0135025,0.012184500000000001,0.0013180000000000002,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:003:independent,0,ACORN-1 + selector + guard ef=1024,0.014562499999999999,0.012834,0.0017375,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:003:clustered,0,Eager,0.6363525,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:003:clustered,0,RACE,0.6391045,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:003:clustered,0,ACORN-1 + selector + guard ef=128,0.013195,0.011946,0.001262,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:003:clustered,0,ACORN-1 + selector + guard ef=512,0.013765,0.0123115,0.001466,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:003:clustered,0,ACORN-1 + selector + guard ef=1024,0.0139985,0.01262,0.001398,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:004:independent,0,Eager,0.83109,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:004:independent,0,RACE,0.8879525,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:004:independent,0,ACORN-1 + selector + guard ef=128,0.0337195,0.0321165,0.0015730000000000002,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:004:independent,0,ACORN-1 + selector + guard ef=512,0.040643,0.03881,0.0017855000000000002,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:004:independent,0,ACORN-1 + selector + guard ef=1024,0.040754,0.038847,0.0017745,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:004:clustered,0,Eager,0.9656005,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:004:clustered,0,RACE,1.0240995000000002,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:004:clustered,0,ACORN-1 + selector + guard ef=128,0.038483,0.03684949999999999,0.0016335,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:004:clustered,0,ACORN-1 + selector + guard ef=512,0.041597,0.039835,0.001697,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:004:clustered,0,ACORN-1 + selector + guard ef=1024,0.044209,0.042226,0.0018479999999999998,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:005:independent,0,Eager,1.192162,,,10,1332
+ogbn_arxiv_full,ogbn_arxiv_full:0:005:independent,0,RACE,1.429843,,,10,1332
+ogbn_arxiv_full,ogbn_arxiv_full:0:005:independent,0,ACORN-1 + selector + guard ef=128,1.9328365,0.0631785,1.8700709999999998,10,1332
+ogbn_arxiv_full,ogbn_arxiv_full:0:005:independent,0,ACORN-1 + selector + guard ef=512,7.1865845,0.0610575,7.125527,10,1332
+ogbn_arxiv_full,ogbn_arxiv_full:0:005:independent,0,ACORN-1 + selector + guard ef=1024,14.4727085,0.06336449999999999,14.4060915,10,1332
+ogbn_arxiv_full,ogbn_arxiv_full:0:005:clustered,0,Eager,1.051669,,,10,1332
+ogbn_arxiv_full,ogbn_arxiv_full:0:005:clustered,0,RACE,1.1048935000000002,,,10,1332
+ogbn_arxiv_full,ogbn_arxiv_full:0:005:clustered,0,ACORN-1 + selector + guard ef=128,1.9431785000000001,0.0615225,1.881659,10,1332
+ogbn_arxiv_full,ogbn_arxiv_full:0:005:clustered,0,ACORN-1 + selector + guard ef=512,7.2491645,0.06122,7.1854225,10,1332
+ogbn_arxiv_full,ogbn_arxiv_full:0:005:clustered,0,ACORN-1 + selector + guard ef=1024,14.3447055,0.0618075,14.2837195,10,1332
+ogbn_arxiv_full,ogbn_arxiv_full:0:006:independent,0,Eager,0.8817254999999999,,,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:0:006:independent,0,RACE,0.884641,,,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:0:006:independent,0,ACORN-1 + selector + guard ef=128,0.026175999999999998,0.013644,0.0126185,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:0:006:independent,0,ACORN-1 + selector + guard ef=512,0.024496,0.012045,0.011980999999999999,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:0:006:independent,0,ACORN-1 + selector + guard ef=1024,0.024697,0.012583500000000001,0.0119125,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:0:006:clustered,0,Eager,0.8525635,,,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:0:006:clustered,0,RACE,0.850861,,,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:0:006:clustered,0,ACORN-1 + selector + guard ef=128,0.026042000000000003,0.013314,0.012676,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:0:006:clustered,0,ACORN-1 + selector + guard ef=512,0.023647500000000002,0.011986,0.0116615,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:0:006:clustered,0,ACORN-1 + selector + guard ef=1024,0.0261295,0.013327,0.012748,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:0:007:independent,0,Eager,0.858805,,,10,84
+ogbn_arxiv_full,ogbn_arxiv_full:0:007:independent,0,RACE,0.861946,,,10,84
+ogbn_arxiv_full,ogbn_arxiv_full:0:007:independent,0,ACORN-1 + selector + guard ef=128,0.035866499999999996,0.0145875,0.021386000000000002,10,84
+ogbn_arxiv_full,ogbn_arxiv_full:0:007:independent,0,ACORN-1 + selector + guard ef=512,0.0346305,0.013138,0.0207595,10,84
+ogbn_arxiv_full,ogbn_arxiv_full:0:007:independent,0,ACORN-1 + selector + guard ef=1024,0.0339015,0.013486,0.020464,10,84
+ogbn_arxiv_full,ogbn_arxiv_full:0:007:clustered,0,Eager,0.9799964999999999,,,10,84
+ogbn_arxiv_full,ogbn_arxiv_full:0:007:clustered,0,RACE,0.9929285000000001,,,10,84
+ogbn_arxiv_full,ogbn_arxiv_full:0:007:clustered,0,ACORN-1 + selector + guard ef=128,0.031921000000000005,0.012715,0.0193385,10,84
+ogbn_arxiv_full,ogbn_arxiv_full:0:007:clustered,0,ACORN-1 + selector + guard ef=512,0.036146,0.014747,0.0213625,10,84
+ogbn_arxiv_full,ogbn_arxiv_full:0:007:clustered,0,ACORN-1 + selector + guard ef=1024,0.032072,0.012546999999999999,0.0195415,10,84
+ogbn_arxiv_full,ogbn_arxiv_full:0:008:independent,0,Eager,0.9329455,,,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:0:008:independent,0,RACE,0.9319839999999999,,,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:0:008:independent,0,ACORN-1 + selector + guard ef=128,0.0242965,0.012468,0.0118315,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:0:008:independent,0,ACORN-1 + selector + guard ef=512,0.026112,0.013387,0.012677500000000001,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:0:008:independent,0,ACORN-1 + selector + guard ef=1024,0.0235515,0.011921000000000001,0.011619,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:0:008:clustered,0,Eager,0.7757164999999999,,,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:0:008:clustered,0,RACE,0.7657805,,,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:0:008:clustered,0,ACORN-1 + selector + guard ef=128,0.023521,0.0120105,0.011512000000000001,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:0:008:clustered,0,ACORN-1 + selector + guard ef=512,0.0254285,0.013094999999999999,0.0122965,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:0:008:clustered,0,ACORN-1 + selector + guard ef=1024,0.0234775,0.011854,0.0116035,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:0:009:independent,0,Eager,0.839975,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:009:independent,0,RACE,0.8492775,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:009:independent,0,ACORN-1 + selector + guard ef=128,0.0142285,0.0126655,0.0013945,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:009:independent,0,ACORN-1 + selector + guard ef=512,0.014593499999999999,0.012827,0.0018095,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:009:independent,0,ACORN-1 + selector + guard ef=1024,0.014151500000000001,0.012612,0.0014529999999999999,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:009:clustered,0,Eager,0.8136895,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:009:clustered,0,RACE,0.805686,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:009:clustered,0,ACORN-1 + selector + guard ef=128,0.014472,0.012715,0.00179,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:009:clustered,0,ACORN-1 + selector + guard ef=512,0.01315,0.0119055,0.0012605,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:009:clustered,0,ACORN-1 + selector + guard ef=1024,0.0141485,0.012592,0.0014615000000000001,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:010:independent,0,Eager,1.290733,,,10,4522
+ogbn_arxiv_full,ogbn_arxiv_full:0:010:independent,0,RACE,1.5808035,,,10,4522
+ogbn_arxiv_full,ogbn_arxiv_full:0:010:independent,0,ACORN-1 + selector + guard ef=128,2.176777,0.040897,2.1355255,10,4522
+ogbn_arxiv_full,ogbn_arxiv_full:0:010:independent,0,ACORN-1 + selector + guard ef=512,8.0021915,0.04057,7.961569,10,4522
+ogbn_arxiv_full,ogbn_arxiv_full:0:010:independent,0,ACORN-1 + selector + guard ef=1024,16.523835,0.042266,16.482416999999998,10,4522
+ogbn_arxiv_full,ogbn_arxiv_full:0:010:clustered,0,Eager,0.782097,,,10,4522
+ogbn_arxiv_full,ogbn_arxiv_full:0:010:clustered,0,RACE,0.8299650000000001,,,10,4522
+ogbn_arxiv_full,ogbn_arxiv_full:0:010:clustered,0,ACORN-1 + selector + guard ef=128,1.9615265,0.040717500000000004,1.9206595,10,4522
+ogbn_arxiv_full,ogbn_arxiv_full:0:010:clustered,0,ACORN-1 + selector + guard ef=512,8.070828500000001,0.0413325,8.0300395,10,4522
+ogbn_arxiv_full,ogbn_arxiv_full:0:010:clustered,0,ACORN-1 + selector + guard ef=1024,16.647316500000002,0.0408935,16.6036255,10,4522
+ogbn_arxiv_full,ogbn_arxiv_full:0:011:independent,0,Eager,0.9914255000000001,,,10,1172
+ogbn_arxiv_full,ogbn_arxiv_full:0:011:independent,0,RACE,1.1544915,,,10,1172
+ogbn_arxiv_full,ogbn_arxiv_full:0:011:independent,0,ACORN-1 + selector + guard ef=128,1.910749,0.0673305,1.8424285,10,1172
+ogbn_arxiv_full,ogbn_arxiv_full:0:011:independent,0,ACORN-1 + selector + guard ef=512,7.1799275,0.069044,7.110393,10,1172
+ogbn_arxiv_full,ogbn_arxiv_full:0:011:independent,0,ACORN-1 + selector + guard ef=1024,14.145988,0.069573,14.076001999999999,10,1172
+ogbn_arxiv_full,ogbn_arxiv_full:0:011:clustered,0,Eager,1.082017,,,10,1172
+ogbn_arxiv_full,ogbn_arxiv_full:0:011:clustered,0,RACE,1.23394,,,10,1172
+ogbn_arxiv_full,ogbn_arxiv_full:0:011:clustered,0,ACORN-1 + selector + guard ef=128,1.888492,0.06721099999999999,1.822024,10,1172
+ogbn_arxiv_full,ogbn_arxiv_full:0:011:clustered,0,ACORN-1 + selector + guard ef=512,7.181922,0.0689825,7.112375500000001,10,1172
+ogbn_arxiv_full,ogbn_arxiv_full:0:011:clustered,0,ACORN-1 + selector + guard ef=1024,14.158744500000001,0.069637,14.088960499999999,10,1172
+ogbn_arxiv_full,ogbn_arxiv_full:0:012:independent,0,Eager,0.949762,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:012:independent,0,RACE,0.9504185,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:012:independent,0,ACORN-1 + selector + guard ef=128,0.013930000000000001,0.012497999999999999,0.0014320000000000001,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:012:independent,0,ACORN-1 + selector + guard ef=512,0.014312,0.0126145,0.0014805,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:012:independent,0,ACORN-1 + selector + guard ef=1024,0.013203,0.0118765,0.0013265,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:012:clustered,0,Eager,0.7930865,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:012:clustered,0,RACE,0.797687,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:012:clustered,0,ACORN-1 + selector + guard ef=128,0.014476,0.012736,0.0015915,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:012:clustered,0,ACORN-1 + selector + guard ef=512,0.014452,0.012737,0.001725,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:012:clustered,0,ACORN-1 + selector + guard ef=1024,0.013166500000000001,0.0118885,0.001266,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:013:independent,0,Eager,0.7745355,,,10,21
+ogbn_arxiv_full,ogbn_arxiv_full:0:013:independent,0,RACE,0.7789539999999999,,,10,21
+ogbn_arxiv_full,ogbn_arxiv_full:0:013:independent,0,ACORN-1 + selector + guard ef=128,0.026388500000000002,0.013707,0.012717,10,21
+ogbn_arxiv_full,ogbn_arxiv_full:0:013:independent,0,ACORN-1 + selector + guard ef=512,0.023779,0.012233,0.0116015,10,21
+ogbn_arxiv_full,ogbn_arxiv_full:0:013:independent,0,ACORN-1 + selector + guard ef=1024,0.0237555,0.012151499999999999,0.01158,10,21
+ogbn_arxiv_full,ogbn_arxiv_full:0:013:clustered,0,Eager,0.8671755,,,10,21
+ogbn_arxiv_full,ogbn_arxiv_full:0:013:clustered,0,RACE,0.8645164999999999,,,10,21
+ogbn_arxiv_full,ogbn_arxiv_full:0:013:clustered,0,ACORN-1 + selector + guard ef=128,0.0246305,0.012749,0.0118815,10,21
+ogbn_arxiv_full,ogbn_arxiv_full:0:013:clustered,0,ACORN-1 + selector + guard ef=512,0.023878499999999997,0.0121705,0.011738,10,21
+ogbn_arxiv_full,ogbn_arxiv_full:0:013:clustered,0,ACORN-1 + selector + guard ef=1024,0.0267755,0.014009,0.0127205,10,21
+ogbn_arxiv_full,ogbn_arxiv_full:0:014:independent,0,Eager,1.0178479999999999,,,10,30
+ogbn_arxiv_full,ogbn_arxiv_full:0:014:independent,0,RACE,1.0268964999999999,,,10,30
+ogbn_arxiv_full,ogbn_arxiv_full:0:014:independent,0,ACORN-1 + selector + guard ef=128,0.1585295,0.019426,0.13933649999999997,10,30
+ogbn_arxiv_full,ogbn_arxiv_full:0:014:independent,0,ACORN-1 + selector + guard ef=512,0.1718065,0.0226535,0.14888099999999999,10,30
+ogbn_arxiv_full,ogbn_arxiv_full:0:014:independent,0,ACORN-1 + selector + guard ef=1024,0.16027,0.019394500000000002,0.1409965,10,30
+ogbn_arxiv_full,ogbn_arxiv_full:0:014:clustered,0,Eager,0.827369,,,10,30
+ogbn_arxiv_full,ogbn_arxiv_full:0:014:clustered,0,RACE,0.8205775,,,10,30
+ogbn_arxiv_full,ogbn_arxiv_full:0:014:clustered,0,ACORN-1 + selector + guard ef=128,0.1645135,0.021376,0.1436015,10,30
+ogbn_arxiv_full,ogbn_arxiv_full:0:014:clustered,0,ACORN-1 + selector + guard ef=512,0.1722915,0.0231725,0.148909,10,30
+ogbn_arxiv_full,ogbn_arxiv_full:0:014:clustered,0,ACORN-1 + selector + guard ef=1024,0.1547215,0.0188685,0.135853,10,30
+ogbn_arxiv_full,ogbn_arxiv_full:0:015:independent,0,Eager,0.858683,,,10,230
+ogbn_arxiv_full,ogbn_arxiv_full:0:015:independent,0,RACE,0.8518465,,,10,230
+ogbn_arxiv_full,ogbn_arxiv_full:0:015:independent,0,ACORN-1 + selector + guard ef=128,1.6408025,0.0281555,1.6126684999999998,10,230
+ogbn_arxiv_full,ogbn_arxiv_full:0:015:independent,0,ACORN-1 + selector + guard ef=512,2.4314475,0.027949500000000002,2.403434,10,230
+ogbn_arxiv_full,ogbn_arxiv_full:0:015:independent,0,ACORN-1 + selector + guard ef=1024,2.451171,0.029115500000000002,2.422012,10,230
+ogbn_arxiv_full,ogbn_arxiv_full:0:015:clustered,0,Eager,0.778646,,,10,230
+ogbn_arxiv_full,ogbn_arxiv_full:0:015:clustered,0,RACE,0.779596,,,10,230
+ogbn_arxiv_full,ogbn_arxiv_full:0:015:clustered,0,ACORN-1 + selector + guard ef=128,1.609022,0.028497500000000002,1.5807185000000001,10,230
+ogbn_arxiv_full,ogbn_arxiv_full:0:015:clustered,0,ACORN-1 + selector + guard ef=512,2.4256575,0.027696,2.398147,10,230
+ogbn_arxiv_full,ogbn_arxiv_full:0:015:clustered,0,ACORN-1 + selector + guard ef=1024,2.4296045,0.028990000000000002,2.400602,10,230
+ogbn_arxiv_full,ogbn_arxiv_full:0:016:independent,0,Eager,2.9253025,,,10,5656
+ogbn_arxiv_full,ogbn_arxiv_full:0:016:independent,0,RACE,3.759276,,,10,5656
+ogbn_arxiv_full,ogbn_arxiv_full:0:016:independent,0,ACORN-1 + selector + guard ef=128,3.32891,1.2045425,2.120251,10,5656
+ogbn_arxiv_full,ogbn_arxiv_full:0:016:independent,0,ACORN-1 + selector + guard ef=512,9.786652,1.2034449999999999,8.578191,10,5656
+ogbn_arxiv_full,ogbn_arxiv_full:0:016:independent,0,ACORN-1 + selector + guard ef=1024,18.7470655,1.216259,17.528126999999998,10,5656
+ogbn_arxiv_full,ogbn_arxiv_full:0:016:clustered,0,Eager,3.0309575,,,10,5656
+ogbn_arxiv_full,ogbn_arxiv_full:0:016:clustered,0,RACE,3.8685625000000003,,,10,5656
+ogbn_arxiv_full,ogbn_arxiv_full:0:016:clustered,0,ACORN-1 + selector + guard ef=128,3.2077665,1.2050345,2.00711,10,5656
+ogbn_arxiv_full,ogbn_arxiv_full:0:016:clustered,0,ACORN-1 + selector + guard ef=512,9.591281500000001,1.232087,8.373932,10,5656
+ogbn_arxiv_full,ogbn_arxiv_full:0:016:clustered,0,ACORN-1 + selector + guard ef=1024,18.682614,1.220573,17.440571499999997,10,5656
+ogbn_arxiv_full,ogbn_arxiv_full:0:017:independent,0,Eager,1.1367984999999998,,,10,1984
+ogbn_arxiv_full,ogbn_arxiv_full:0:017:independent,0,RACE,1.592136,,,10,1984
+ogbn_arxiv_full,ogbn_arxiv_full:0:017:independent,0,ACORN-1 + selector + guard ef=128,2.024094,0.09011949999999999,1.9350935,10,1984
+ogbn_arxiv_full,ogbn_arxiv_full:0:017:independent,0,ACORN-1 + selector + guard ef=512,7.702616000000001,0.095855,7.608397999999999,10,1984
+ogbn_arxiv_full,ogbn_arxiv_full:0:017:independent,0,ACORN-1 + selector + guard ef=1024,16.075427,0.11132049999999999,15.959527,10,1984
+ogbn_arxiv_full,ogbn_arxiv_full:0:017:clustered,0,Eager,2.0754525,,,10,1984
+ogbn_arxiv_full,ogbn_arxiv_full:0:017:clustered,0,RACE,2.658945,,,10,1984
+ogbn_arxiv_full,ogbn_arxiv_full:0:017:clustered,0,ACORN-1 + selector + guard ef=128,2.4110165,0.1538875,2.253568,10,1984
+ogbn_arxiv_full,ogbn_arxiv_full:0:017:clustered,0,ACORN-1 + selector + guard ef=512,8.6175835,0.124066,8.4934835,10,1984
+ogbn_arxiv_full,ogbn_arxiv_full:0:017:clustered,0,ACORN-1 + selector + guard ef=1024,19.5780595,0.206684,19.3571965,10,1984
+ogbn_arxiv_full,ogbn_arxiv_full:0:018:independent,0,Eager,0.6744334999999999,,,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:0:018:independent,0,RACE,0.675998,,,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:0:018:independent,0,ACORN-1 + selector + guard ef=128,0.0243465,0.012508,0.011849499999999999,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:0:018:independent,0,ACORN-1 + selector + guard ef=512,0.026027500000000002,0.0132915,0.012685499999999999,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:0:018:independent,0,ACORN-1 + selector + guard ef=1024,0.023567499999999998,0.011899,0.0116405,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:0:018:clustered,0,Eager,0.928994,,,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:0:018:clustered,0,RACE,0.936366,,,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:0:018:clustered,0,ACORN-1 + selector + guard ef=128,0.0245305,0.0125415,0.011989,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:0:018:clustered,0,ACORN-1 + selector + guard ef=512,0.023509000000000002,0.011923,0.011602999999999999,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:0:018:clustered,0,ACORN-1 + selector + guard ef=1024,0.0245335,0.012666,0.0118675,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:0:019:independent,0,Eager,3.4320209999999998,,,10,6005
+ogbn_arxiv_full,ogbn_arxiv_full:0:019:independent,0,RACE,5.0691835,,,10,6005
+ogbn_arxiv_full,ogbn_arxiv_full:0:019:independent,0,ACORN-1 + selector + guard ef=128,3.1480475,1.2239575,1.927747,10,6005
+ogbn_arxiv_full,ogbn_arxiv_full:0:019:independent,0,ACORN-1 + selector + guard ef=512,9.322308,1.2274405,8.098972,10,6005
+ogbn_arxiv_full,ogbn_arxiv_full:0:019:independent,0,ACORN-1 + selector + guard ef=1024,17.671989,1.235959,16.437188,10,6005
+ogbn_arxiv_full,ogbn_arxiv_full:0:019:clustered,0,Eager,3.2438295,,,10,6005
+ogbn_arxiv_full,ogbn_arxiv_full:0:019:clustered,0,RACE,4.1337934999999995,,,10,6005
+ogbn_arxiv_full,ogbn_arxiv_full:0:019:clustered,0,ACORN-1 + selector + guard ef=128,3.2944335000000002,1.236915,2.060188,10,6005
+ogbn_arxiv_full,ogbn_arxiv_full:0:019:clustered,0,ACORN-1 + selector + guard ef=512,9.642811,1.222483,8.419804,10,6005
+ogbn_arxiv_full,ogbn_arxiv_full:0:019:clustered,0,ACORN-1 + selector + guard ef=1024,18.4410445,1.2627380000000001,17.182889,10,6005
+ogbn_arxiv_full,ogbn_arxiv_full:0:020:independent,0,Eager,0.793271,,,10,169
+ogbn_arxiv_full,ogbn_arxiv_full:0:020:independent,0,RACE,0.788891,,,10,169
+ogbn_arxiv_full,ogbn_arxiv_full:0:020:independent,0,ACORN-1 + selector + guard ef=128,1.567124,0.0258075,1.5413875,10,169
+ogbn_arxiv_full,ogbn_arxiv_full:0:020:independent,0,ACORN-1 + selector + guard ef=512,1.7868665,0.026931499999999997,1.7598699999999998,10,169
+ogbn_arxiv_full,ogbn_arxiv_full:0:020:independent,0,ACORN-1 + selector + guard ef=1024,1.782089,0.0259575,1.7559545,10,169
+ogbn_arxiv_full,ogbn_arxiv_full:0:020:clustered,0,Eager,0.7079165,,,10,169
+ogbn_arxiv_full,ogbn_arxiv_full:0:020:clustered,0,RACE,0.7000785,,,10,169
+ogbn_arxiv_full,ogbn_arxiv_full:0:020:clustered,0,ACORN-1 + selector + guard ef=128,1.548195,0.026541,1.5217925,10,169
+ogbn_arxiv_full,ogbn_arxiv_full:0:020:clustered,0,ACORN-1 + selector + guard ef=512,1.761439,0.0260085,1.7350720000000002,10,169
+ogbn_arxiv_full,ogbn_arxiv_full:0:020:clustered,0,ACORN-1 + selector + guard ef=1024,1.7664005,0.026708000000000003,1.739636,10,169
+ogbn_arxiv_full,ogbn_arxiv_full:0:021:independent,0,Eager,0.863559,,,10,210
+ogbn_arxiv_full,ogbn_arxiv_full:0:021:independent,0,RACE,0.8709255,,,10,210
+ogbn_arxiv_full,ogbn_arxiv_full:0:021:independent,0,ACORN-1 + selector + guard ef=128,1.7744425000000001,0.028867499999999997,1.7464365000000002,10,210
+ogbn_arxiv_full,ogbn_arxiv_full:0:021:independent,0,ACORN-1 + selector + guard ef=512,2.3645750000000003,0.028610499999999997,2.33525,10,210
+ogbn_arxiv_full,ogbn_arxiv_full:0:021:independent,0,ACORN-1 + selector + guard ef=1024,2.362724,0.0287375,2.3331425,10,210
+ogbn_arxiv_full,ogbn_arxiv_full:0:021:clustered,0,Eager,0.799353,,,10,210
+ogbn_arxiv_full,ogbn_arxiv_full:0:021:clustered,0,RACE,0.8094615000000001,,,10,210
+ogbn_arxiv_full,ogbn_arxiv_full:0:021:clustered,0,ACORN-1 + selector + guard ef=128,1.674166,0.028506,1.6453585,10,210
+ogbn_arxiv_full,ogbn_arxiv_full:0:021:clustered,0,ACORN-1 + selector + guard ef=512,2.2419965,0.027893,2.2133599999999998,10,210
+ogbn_arxiv_full,ogbn_arxiv_full:0:021:clustered,0,ACORN-1 + selector + guard ef=1024,2.2369505,0.027888,2.2098855,10,210
+ogbn_arxiv_full,ogbn_arxiv_full:0:022:independent,0,Eager,0.8984165,,,10,181
+ogbn_arxiv_full,ogbn_arxiv_full:0:022:independent,0,RACE,0.9097569999999999,,,10,181
+ogbn_arxiv_full,ogbn_arxiv_full:0:022:independent,0,ACORN-1 + selector + guard ef=128,1.6746845000000001,0.026631000000000002,1.648381,10,181
+ogbn_arxiv_full,ogbn_arxiv_full:0:022:independent,0,ACORN-1 + selector + guard ef=512,1.8970734999999999,0.026336,1.8705794999999998,10,181
+ogbn_arxiv_full,ogbn_arxiv_full:0:022:independent,0,ACORN-1 + selector + guard ef=1024,1.9076895,0.028032500000000002,1.879924,10,181
+ogbn_arxiv_full,ogbn_arxiv_full:0:022:clustered,0,Eager,0.868891,,,10,181
+ogbn_arxiv_full,ogbn_arxiv_full:0:022:clustered,0,RACE,0.8671905,,,10,181
+ogbn_arxiv_full,ogbn_arxiv_full:0:022:clustered,0,ACORN-1 + selector + guard ef=128,1.677417,0.0265345,1.650912,10,181
+ogbn_arxiv_full,ogbn_arxiv_full:0:022:clustered,0,ACORN-1 + selector + guard ef=512,1.9032879999999999,0.027951999999999998,1.875141,10,181
+ogbn_arxiv_full,ogbn_arxiv_full:0:022:clustered,0,ACORN-1 + selector + guard ef=1024,1.900891,0.027014,1.874309,10,181
+ogbn_arxiv_full,ogbn_arxiv_full:0:023:independent,0,Eager,0.897215,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:023:independent,0,RACE,0.8945965,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:023:independent,0,ACORN-1 + selector + guard ef=128,0.0137615,0.0122465,0.0014455,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:023:independent,0,ACORN-1 + selector + guard ef=512,0.0129975,0.0118165,0.0011825,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:023:independent,0,ACORN-1 + selector + guard ef=1024,0.014445,0.0127315,0.0018340000000000001,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:023:clustered,0,Eager,0.6564335,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:023:clustered,0,RACE,0.6570735000000001,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:023:clustered,0,ACORN-1 + selector + guard ef=128,0.0144315,0.0128225,0.0015765,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:023:clustered,0,ACORN-1 + selector + guard ef=512,0.013090999999999998,0.0118745,0.001243,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:023:clustered,0,ACORN-1 + selector + guard ef=1024,0.013395,0.012189499999999999,0.001207,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:0:024:independent,0,Eager,1.00322,,,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:0:024:independent,0,RACE,0.9933115,,,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:0:024:independent,0,ACORN-1 + selector + guard ef=128,0.025665,0.0130885,0.012594500000000002,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:0:024:independent,0,ACORN-1 + selector + guard ef=512,0.0261755,0.013318,0.012933,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:0:024:independent,0,ACORN-1 + selector + guard ef=1024,0.023774,0.0119965,0.011804499999999999,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:0:024:clustered,0,Eager,0.8442725,,,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:0:024:clustered,0,RACE,0.8419485,,,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:0:024:clustered,0,ACORN-1 + selector + guard ef=128,0.0254675,0.013128,0.012293499999999999,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:0:024:clustered,0,ACORN-1 + selector + guard ef=512,0.0257895,0.01317,0.0126195,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:0:024:clustered,0,ACORN-1 + selector + guard ef=1024,0.0261375,0.01337,0.012826500000000001,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:0:025:independent,0,Eager,2.4092835,,,10,45802
+ogbn_arxiv_full,ogbn_arxiv_full:0:025:independent,0,RACE,3.7562214999999997,,,10,45802
+ogbn_arxiv_full,ogbn_arxiv_full:0:025:independent,0,ACORN-1 + selector + guard ef=128,2.0882545,0.9584714999999999,1.1399105,10,45802
+ogbn_arxiv_full,ogbn_arxiv_full:0:025:independent,0,ACORN-1 + selector + guard ef=512,6.672238500000001,0.9674775,5.713092,10,45802
+ogbn_arxiv_full,ogbn_arxiv_full:0:025:independent,0,ACORN-1 + selector + guard ef=1024,14.259261500000001,1.0233195,13.2168605,10,45802
+ogbn_arxiv_full,ogbn_arxiv_full:0:025:clustered,0,Eager,2.5813205,,,10,45802
+ogbn_arxiv_full,ogbn_arxiv_full:0:025:clustered,0,RACE,3.4351605000000003,,,10,45802
+ogbn_arxiv_full,ogbn_arxiv_full:0:025:clustered,0,ACORN-1 + selector + guard ef=128,1.7740230000000001,0.9521875,0.824098,10,45802
+ogbn_arxiv_full,ogbn_arxiv_full:0:025:clustered,0,ACORN-1 + selector + guard ef=512,4.1737305,0.9826364999999999,3.2185035,10,45802
+ogbn_arxiv_full,ogbn_arxiv_full:0:025:clustered,0,ACORN-1 + selector + guard ef=1024,9.560130999999998,0.96637,8.5390675,10,45802
+ogbn_arxiv_full,ogbn_arxiv_full:0:026:independent,0,Eager,1.0136245,,,10,57
+ogbn_arxiv_full,ogbn_arxiv_full:0:026:independent,0,RACE,0.9953715000000001,,,10,57
+ogbn_arxiv_full,ogbn_arxiv_full:0:026:independent,0,ACORN-1 + selector + guard ef=128,0.426353,0.026129,0.40000650000000004,10,57
+ogbn_arxiv_full,ogbn_arxiv_full:0:026:independent,0,ACORN-1 + selector + guard ef=512,0.42679100000000003,0.0264105,0.4006025,10,57
+ogbn_arxiv_full,ogbn_arxiv_full:0:026:independent,0,ACORN-1 + selector + guard ef=1024,0.425429,0.026402000000000002,0.399027,10,57
+ogbn_arxiv_full,ogbn_arxiv_full:0:026:clustered,0,Eager,0.655804,,,10,57
+ogbn_arxiv_full,ogbn_arxiv_full:0:026:clustered,0,RACE,0.6546075,,,10,57
+ogbn_arxiv_full,ogbn_arxiv_full:0:026:clustered,0,ACORN-1 + selector + guard ef=128,0.4152345,0.026723,0.388456,10,57
+ogbn_arxiv_full,ogbn_arxiv_full:0:026:clustered,0,ACORN-1 + selector + guard ef=512,0.415487,0.0265105,0.38922599999999996,10,57
+ogbn_arxiv_full,ogbn_arxiv_full:0:026:clustered,0,ACORN-1 + selector + guard ef=1024,0.4124765,0.0253115,0.3872925,10,57
+ogbn_arxiv_full,ogbn_arxiv_full:0:027:independent,0,Eager,0.7813604999999999,,,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:0:027:independent,0,RACE,0.7863755,,,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:0:027:independent,0,ACORN-1 + selector + guard ef=128,0.024355,0.012525,0.011789999999999998,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:0:027:independent,0,ACORN-1 + selector + guard ef=512,0.0235455,0.01194,0.0115815,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:0:027:independent,0,ACORN-1 + selector + guard ef=1024,0.026075,0.013256,0.012801,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:0:027:clustered,0,Eager,0.7493775,,,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:0:027:clustered,0,RACE,0.7429224999999999,,,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:0:027:clustered,0,ACORN-1 + selector + guard ef=128,0.0256705,0.0131475,0.012570999999999999,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:0:027:clustered,0,ACORN-1 + selector + guard ef=512,0.025848,0.013226,0.0125755,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:0:027:clustered,0,ACORN-1 + selector + guard ef=1024,0.025287,0.0130395,0.012233,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:0:028:independent,0,Eager,2.3867640000000003,,,10,6559
+ogbn_arxiv_full,ogbn_arxiv_full:0:028:independent,0,RACE,2.474517,,,10,6559
+ogbn_arxiv_full,ogbn_arxiv_full:0:028:independent,0,ACORN-1 + selector + guard ef=128,2.2162664999999997,0.2639165,1.952278,10,6559
+ogbn_arxiv_full,ogbn_arxiv_full:0:028:independent,0,ACORN-1 + selector + guard ef=512,8.4414475,0.265664,8.176885500000001,10,6559
+ogbn_arxiv_full,ogbn_arxiv_full:0:028:independent,0,ACORN-1 + selector + guard ef=1024,17.524515,0.263891,17.2624295,10,6559
+ogbn_arxiv_full,ogbn_arxiv_full:0:028:clustered,0,Eager,1.3425414999999998,,,10,6559
+ogbn_arxiv_full,ogbn_arxiv_full:0:028:clustered,0,RACE,1.407871,,,10,6559
+ogbn_arxiv_full,ogbn_arxiv_full:0:028:clustered,0,ACORN-1 + selector + guard ef=128,2.185721,0.2592815,1.9291925,10,6559
+ogbn_arxiv_full,ogbn_arxiv_full:0:028:clustered,0,ACORN-1 + selector + guard ef=512,8.6361265,0.2568745,8.3797775,10,6559
+ogbn_arxiv_full,ogbn_arxiv_full:0:028:clustered,0,ACORN-1 + selector + guard ef=1024,16.9812365,0.260568,16.726813,10,6559
+ogbn_arxiv_full,ogbn_arxiv_full:0:029:independent,0,Eager,0.7335715,,,10,131
+ogbn_arxiv_full,ogbn_arxiv_full:0:029:independent,0,RACE,0.7577085,,,10,131
+ogbn_arxiv_full,ogbn_arxiv_full:0:029:independent,0,ACORN-1 + selector + guard ef=128,1.229889,0.0251025,1.204818,10,131
+ogbn_arxiv_full,ogbn_arxiv_full:0:029:independent,0,ACORN-1 + selector + guard ef=512,1.1976245,0.0249755,1.173257,10,131
+ogbn_arxiv_full,ogbn_arxiv_full:0:029:independent,0,ACORN-1 + selector + guard ef=1024,1.2010255,0.0250995,1.175449,10,131
+ogbn_arxiv_full,ogbn_arxiv_full:0:029:clustered,0,Eager,0.824746,,,10,131
+ogbn_arxiv_full,ogbn_arxiv_full:0:029:clustered,0,RACE,0.829412,,,10,131
+ogbn_arxiv_full,ogbn_arxiv_full:0:029:clustered,0,ACORN-1 + selector + guard ef=128,1.1908505,0.024813,1.1658659999999998,10,131
+ogbn_arxiv_full,ogbn_arxiv_full:0:029:clustered,0,ACORN-1 + selector + guard ef=512,1.1914060000000002,0.023994,1.1659994999999999,10,131
+ogbn_arxiv_full,ogbn_arxiv_full:0:029:clustered,0,ACORN-1 + selector + guard ef=1024,1.185675,0.023906499999999997,1.1614019999999998,10,131
+ogbn_arxiv_full,ogbn_arxiv_full:0:030:independent,0,Eager,0.8821975,,,10,3
+ogbn_arxiv_full,ogbn_arxiv_full:0:030:independent,0,RACE,0.886311,,,10,3
+ogbn_arxiv_full,ogbn_arxiv_full:0:030:independent,0,ACORN-1 + selector + guard ef=128,0.024708,0.012837000000000001,0.011871,10,3
+ogbn_arxiv_full,ogbn_arxiv_full:0:030:independent,0,ACORN-1 + selector + guard ef=512,0.025627999999999998,0.013276,0.012355000000000001,10,3
+ogbn_arxiv_full,ogbn_arxiv_full:0:030:independent,0,ACORN-1 + selector + guard ef=1024,0.023321,0.011961,0.0114105,10,3
+ogbn_arxiv_full,ogbn_arxiv_full:0:030:clustered,0,Eager,0.8596385,,,10,3
+ogbn_arxiv_full,ogbn_arxiv_full:0:030:clustered,0,RACE,0.8676725000000001,,,10,3
+ogbn_arxiv_full,ogbn_arxiv_full:0:030:clustered,0,ACORN-1 + selector + guard ef=128,0.023059,0.011883999999999999,0.0111555,10,3
+ogbn_arxiv_full,ogbn_arxiv_full:0:030:clustered,0,ACORN-1 + selector + guard ef=512,0.024126,0.012473,0.011663,10,3
+ogbn_arxiv_full,ogbn_arxiv_full:0:030:clustered,0,ACORN-1 + selector + guard ef=1024,0.024307,0.012625500000000001,0.011681500000000001,10,3
+ogbn_arxiv_full,ogbn_arxiv_full:0:031:independent,0,Eager,0.817718,,,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:0:031:independent,0,RACE,0.821478,,,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:0:031:independent,0,ACORN-1 + selector + guard ef=128,0.023695,0.0121265,0.011501,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:0:031:independent,0,ACORN-1 + selector + guard ef=512,0.023885,0.012250500000000001,0.011632,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:0:031:independent,0,ACORN-1 + selector + guard ef=1024,0.0232675,0.0118295,0.0114545,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:0:031:clustered,0,Eager,0.895437,,,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:0:031:clustered,0,RACE,0.886695,,,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:0:031:clustered,0,ACORN-1 + selector + guard ef=128,0.0251485,0.012912,0.012137,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:0:031:clustered,0,ACORN-1 + selector + guard ef=512,0.023414499999999998,0.011865500000000001,0.011563,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:0:031:clustered,0,ACORN-1 + selector + guard ef=1024,0.0258385,0.013122499999999999,0.0127395,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:1:000:independent,1,Eager,0.6432115,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:000:independent,1,RACE,0.650423,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:000:independent,1,ACORN-1 + selector + guard ef=128,0.013236999999999999,0.011861,0.001288,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:000:independent,1,ACORN-1 + selector + guard ef=512,0.012743,0.0115985,0.001145,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:000:independent,1,ACORN-1 + selector + guard ef=1024,0.0138585,0.0123875,0.0015270000000000001,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:000:clustered,1,Eager,0.803794,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:000:clustered,1,RACE,0.8066145,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:000:clustered,1,ACORN-1 + selector + guard ef=128,0.0141855,0.012532,0.0016725,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:000:clustered,1,ACORN-1 + selector + guard ef=512,0.0141505,0.0125075,0.0015505,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:000:clustered,1,ACORN-1 + selector + guard ef=1024,0.0128865,0.0116215,0.0011925,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:001:independent,1,Eager,0.7709005,,,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:001:independent,1,RACE,0.775121,,,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:001:independent,1,ACORN-1 + selector + guard ef=128,0.0237845,0.012160500000000001,0.0116155,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:001:independent,1,ACORN-1 + selector + guard ef=512,0.023022,0.011727,0.011303,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:001:independent,1,ACORN-1 + selector + guard ef=1024,0.024906499999999998,0.0127085,0.012039500000000002,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:001:clustered,1,Eager,0.842511,,,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:001:clustered,1,RACE,0.840211,,,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:001:clustered,1,ACORN-1 + selector + guard ef=128,0.024732999999999998,0.012589,0.012144,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:001:clustered,1,ACORN-1 + selector + guard ef=512,0.02302,0.011740500000000001,0.011346,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:001:clustered,1,ACORN-1 + selector + guard ef=1024,0.0250985,0.012707,0.012388,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:002:independent,1,Eager,0.783741,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:002:independent,1,RACE,0.7861940000000001,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:002:independent,1,ACORN-1 + selector + guard ef=128,0.013626,0.0121585,0.0014824999999999999,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:002:independent,1,ACORN-1 + selector + guard ef=512,0.0130815,0.011848500000000001,0.0012465,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:002:independent,1,ACORN-1 + selector + guard ef=1024,0.0143355,0.012676,0.0016465,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:002:clustered,1,Eager,0.8234485,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:002:clustered,1,RACE,0.826924,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:002:clustered,1,ACORN-1 + selector + guard ef=128,0.012833500000000001,0.0116665,0.0011849999999999999,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:002:clustered,1,ACORN-1 + selector + guard ef=512,0.0143445,0.012642500000000001,0.001445,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:002:clustered,1,ACORN-1 + selector + guard ef=1024,0.012942,0.011711,0.0012325,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:003:independent,1,Eager,0.8096099999999999,,,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:003:independent,1,RACE,0.8198845,,,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:003:independent,1,ACORN-1 + selector + guard ef=128,0.026726,0.0137365,0.0129895,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:003:independent,1,ACORN-1 + selector + guard ef=512,0.028532500000000002,0.0146345,0.01341,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:003:independent,1,ACORN-1 + selector + guard ef=1024,0.028201,0.0144025,0.013735,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:003:clustered,1,Eager,0.810997,,,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:003:clustered,1,RACE,0.7789045,,,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:003:clustered,1,ACORN-1 + selector + guard ef=128,0.0279045,0.014411,0.0134865,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:003:clustered,1,ACORN-1 + selector + guard ef=512,0.025596,0.0130855,0.0125025,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:003:clustered,1,ACORN-1 + selector + guard ef=1024,0.025721,0.013157499999999999,0.0126245,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:004:independent,1,Eager,0.810234,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:004:independent,1,RACE,0.794842,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:004:independent,1,ACORN-1 + selector + guard ef=128,0.0142355,0.012514500000000001,0.0015575,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:004:independent,1,ACORN-1 + selector + guard ef=512,0.01319,0.0119725,0.0012599999999999998,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:004:independent,1,ACORN-1 + selector + guard ef=1024,0.014387,0.012678,0.0017235,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:004:clustered,1,Eager,0.68771,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:004:clustered,1,RACE,0.686835,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:004:clustered,1,ACORN-1 + selector + guard ef=128,0.0136105,0.012169,0.0013484999999999999,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:004:clustered,1,ACORN-1 + selector + guard ef=512,0.014145000000000001,0.012501499999999999,0.001565,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:004:clustered,1,ACORN-1 + selector + guard ef=1024,0.012910499999999998,0.0116765,0.0012339999999999999,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:005:independent,1,Eager,0.8464929999999999,,,10,112
+ogbn_arxiv_full,ogbn_arxiv_full:1:005:independent,1,RACE,0.8475965,,,10,112
+ogbn_arxiv_full,ogbn_arxiv_full:1:005:independent,1,ACORN-1 + selector + guard ef=128,0.024919999999999998,0.013304,0.0114745,10,112
+ogbn_arxiv_full,ogbn_arxiv_full:1:005:independent,1,ACORN-1 + selector + guard ef=512,0.023873,0.0124755,0.011417,10,112
+ogbn_arxiv_full,ogbn_arxiv_full:1:005:independent,1,ACORN-1 + selector + guard ef=1024,0.0251465,0.013323,0.0117465,10,112
+ogbn_arxiv_full,ogbn_arxiv_full:1:005:clustered,1,Eager,0.7401154999999999,,,10,112
+ogbn_arxiv_full,ogbn_arxiv_full:1:005:clustered,1,RACE,0.740739,,,10,112
+ogbn_arxiv_full,ogbn_arxiv_full:1:005:clustered,1,ACORN-1 + selector + guard ef=128,0.024188,0.012732,0.011477000000000001,10,112
+ogbn_arxiv_full,ogbn_arxiv_full:1:005:clustered,1,ACORN-1 + selector + guard ef=512,0.0261015,0.0143165,0.011776,10,112
+ogbn_arxiv_full,ogbn_arxiv_full:1:005:clustered,1,ACORN-1 + selector + guard ef=1024,0.024693,0.0130795,0.0116105,10,112
+ogbn_arxiv_full,ogbn_arxiv_full:1:006:independent,1,Eager,0.8608659999999999,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:006:independent,1,RACE,0.8748235,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:006:independent,1,ACORN-1 + selector + guard ef=128,0.014159999999999999,0.012715500000000001,0.0014435,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:006:independent,1,ACORN-1 + selector + guard ef=512,0.0137165,0.012421999999999999,0.0012965,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:006:independent,1,ACORN-1 + selector + guard ef=1024,0.0131235,0.012011,0.0011285000000000002,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:006:clustered,1,Eager,0.6051059999999999,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:006:clustered,1,RACE,0.611409,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:006:clustered,1,ACORN-1 + selector + guard ef=128,0.014267,0.012768000000000002,0.0012959999999999998,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:006:clustered,1,ACORN-1 + selector + guard ef=512,0.0139095,0.0126575,0.0012905,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:006:clustered,1,ACORN-1 + selector + guard ef=1024,0.0138935,0.012584999999999999,0.001358,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:007:independent,1,Eager,0.9128195,,,10,28
+ogbn_arxiv_full,ogbn_arxiv_full:1:007:independent,1,RACE,0.91601,,,10,28
+ogbn_arxiv_full,ogbn_arxiv_full:1:007:independent,1,ACORN-1 + selector + guard ef=128,0.09385450000000001,0.014762,0.0790865,10,28
+ogbn_arxiv_full,ogbn_arxiv_full:1:007:independent,1,ACORN-1 + selector + guard ef=512,0.091144,0.015012000000000001,0.076122,10,28
+ogbn_arxiv_full,ogbn_arxiv_full:1:007:independent,1,ACORN-1 + selector + guard ef=1024,0.097104,0.016153,0.080763,10,28
+ogbn_arxiv_full,ogbn_arxiv_full:1:007:clustered,1,Eager,0.8107725,,,10,28
+ogbn_arxiv_full,ogbn_arxiv_full:1:007:clustered,1,RACE,0.8213955,,,10,28
+ogbn_arxiv_full,ogbn_arxiv_full:1:007:clustered,1,ACORN-1 + selector + guard ef=128,0.08612700000000001,0.013614000000000001,0.072493,10,28
+ogbn_arxiv_full,ogbn_arxiv_full:1:007:clustered,1,ACORN-1 + selector + guard ef=512,0.0903885,0.01468,0.075818,10,28
+ogbn_arxiv_full,ogbn_arxiv_full:1:007:clustered,1,ACORN-1 + selector + guard ef=1024,0.0968535,0.0159465,0.0808835,10,28
+ogbn_arxiv_full,ogbn_arxiv_full:1:008:independent,1,Eager,0.8198225,,,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:1:008:independent,1,RACE,0.8234,,,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:1:008:independent,1,ACORN-1 + selector + guard ef=128,0.025375,0.0131295,0.012177,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:1:008:independent,1,ACORN-1 + selector + guard ef=512,0.0234095,0.0120155,0.011397000000000001,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:1:008:independent,1,ACORN-1 + selector + guard ef=1024,0.023279,0.011999,0.0113355,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:1:008:clustered,1,Eager,0.907989,,,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:1:008:clustered,1,RACE,0.9063505000000001,,,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:1:008:clustered,1,ACORN-1 + selector + guard ef=128,0.025343,0.013139999999999999,0.0122115,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:1:008:clustered,1,ACORN-1 + selector + guard ef=512,0.0232165,0.0119555,0.011232,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:1:008:clustered,1,ACORN-1 + selector + guard ef=1024,0.024489999999999998,0.012597500000000001,0.0118245,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:1:009:independent,1,Eager,1.150699,,,10,1297
+ogbn_arxiv_full,ogbn_arxiv_full:1:009:independent,1,RACE,1.0701075000000002,,,10,1297
+ogbn_arxiv_full,ogbn_arxiv_full:1:009:independent,1,ACORN-1 + selector + guard ef=128,1.8003390000000001,0.042396500000000004,1.757507,10,1297
+ogbn_arxiv_full,ogbn_arxiv_full:1:009:independent,1,ACORN-1 + selector + guard ef=512,6.9403555,0.042164999999999994,6.898563,10,1297
+ogbn_arxiv_full,ogbn_arxiv_full:1:009:independent,1,ACORN-1 + selector + guard ef=1024,13.9243445,0.042537000000000005,13.882471500000001,10,1297
+ogbn_arxiv_full,ogbn_arxiv_full:1:009:clustered,1,Eager,1.0426995,,,10,1297
+ogbn_arxiv_full,ogbn_arxiv_full:1:009:clustered,1,RACE,0.9761150000000001,,,10,1297
+ogbn_arxiv_full,ogbn_arxiv_full:1:009:clustered,1,ACORN-1 + selector + guard ef=128,1.9021535,0.041624,1.860743,10,1297
+ogbn_arxiv_full,ogbn_arxiv_full:1:009:clustered,1,ACORN-1 + selector + guard ef=512,7.1291875000000005,0.0431845,7.0861515,10,1297
+ogbn_arxiv_full,ogbn_arxiv_full:1:009:clustered,1,ACORN-1 + selector + guard ef=1024,14.085300499999999,0.0422295,14.043251000000001,10,1297
+ogbn_arxiv_full,ogbn_arxiv_full:1:010:independent,1,Eager,0.8939155,,,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:1:010:independent,1,RACE,0.8915465,,,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:1:010:independent,1,ACORN-1 + selector + guard ef=128,0.0249775,0.01295,0.0120245,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:1:010:independent,1,ACORN-1 + selector + guard ef=512,0.023193,0.0117785,0.0114265,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:1:010:independent,1,ACORN-1 + selector + guard ef=1024,0.024807500000000003,0.012679,0.0120375,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:1:010:clustered,1,Eager,0.826794,,,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:1:010:clustered,1,RACE,0.829835,,,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:1:010:clustered,1,ACORN-1 + selector + guard ef=128,0.0229415,0.011738,0.011204,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:1:010:clustered,1,ACORN-1 + selector + guard ef=512,0.024565999999999998,0.012471,0.012095,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:1:010:clustered,1,ACORN-1 + selector + guard ef=1024,0.023289,0.011845,0.011474,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:1:011:independent,1,Eager,0.9478385,,,10,365
+ogbn_arxiv_full,ogbn_arxiv_full:1:011:independent,1,RACE,0.9608384999999999,,,10,365
+ogbn_arxiv_full,ogbn_arxiv_full:1:011:independent,1,ACORN-1 + selector + guard ef=128,1.7476099999999999,0.032081,1.714649,10,365
+ogbn_arxiv_full,ogbn_arxiv_full:1:011:independent,1,ACORN-1 + selector + guard ef=512,4.198005,0.034681500000000004,4.1616610000000005,10,365
+ogbn_arxiv_full,ogbn_arxiv_full:1:011:independent,1,ACORN-1 + selector + guard ef=1024,4.187098000000001,0.0328725,4.154185,10,365
+ogbn_arxiv_full,ogbn_arxiv_full:1:011:clustered,1,Eager,1.027331,,,10,365
+ogbn_arxiv_full,ogbn_arxiv_full:1:011:clustered,1,RACE,1.0365514999999998,,,10,365
+ogbn_arxiv_full,ogbn_arxiv_full:1:011:clustered,1,ACORN-1 + selector + guard ef=128,1.7318685,0.0327815,1.699136,10,365
+ogbn_arxiv_full,ogbn_arxiv_full:1:011:clustered,1,ACORN-1 + selector + guard ef=512,4.2141605,0.0346495,4.1796875,10,365
+ogbn_arxiv_full,ogbn_arxiv_full:1:011:clustered,1,ACORN-1 + selector + guard ef=1024,4.210034500000001,0.034454,4.174666500000001,10,365
+ogbn_arxiv_full,ogbn_arxiv_full:1:012:independent,1,Eager,0.717661,,,10,140
+ogbn_arxiv_full,ogbn_arxiv_full:1:012:independent,1,RACE,0.7188195,,,10,140
+ogbn_arxiv_full,ogbn_arxiv_full:1:012:independent,1,ACORN-1 + selector + guard ef=128,0.0256895,0.013445,0.012296,10,140
+ogbn_arxiv_full,ogbn_arxiv_full:1:012:independent,1,ACORN-1 + selector + guard ef=512,0.023780999999999997,0.012393999999999999,0.011418000000000001,10,140
+ogbn_arxiv_full,ogbn_arxiv_full:1:012:independent,1,ACORN-1 + selector + guard ef=1024,0.025845,0.0134935,0.012348000000000001,10,140
+ogbn_arxiv_full,ogbn_arxiv_full:1:012:clustered,1,Eager,0.9226555000000001,,,10,140
+ogbn_arxiv_full,ogbn_arxiv_full:1:012:clustered,1,RACE,0.929945,,,10,140
+ogbn_arxiv_full,ogbn_arxiv_full:1:012:clustered,1,ACORN-1 + selector + guard ef=128,0.024369000000000002,0.012768,0.011623,10,140
+ogbn_arxiv_full,ogbn_arxiv_full:1:012:clustered,1,ACORN-1 + selector + guard ef=512,0.024225,0.012679,0.011605500000000001,10,140
+ogbn_arxiv_full,ogbn_arxiv_full:1:012:clustered,1,ACORN-1 + selector + guard ef=1024,0.0258345,0.013516,0.012279499999999999,10,140
+ogbn_arxiv_full,ogbn_arxiv_full:1:013:independent,1,Eager,0.8007175,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:013:independent,1,RACE,0.7960555,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:013:independent,1,ACORN-1 + selector + guard ef=128,0.0136075,0.0122,0.0013515,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:013:independent,1,ACORN-1 + selector + guard ef=512,0.012962000000000001,0.011824000000000001,0.001157,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:013:independent,1,ACORN-1 + selector + guard ef=1024,0.01307,0.011881,0.001209,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:013:clustered,1,Eager,0.9275525,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:013:clustered,1,RACE,0.9303845,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:013:clustered,1,ACORN-1 + selector + guard ef=128,0.012969999999999999,0.0118015,0.0011535,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:013:clustered,1,ACORN-1 + selector + guard ef=512,0.0143165,0.012728,0.0016784999999999999,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:013:clustered,1,ACORN-1 + selector + guard ef=1024,0.013179,0.011895,0.001284,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:014:independent,1,Eager,0.9106285000000001,,,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:1:014:independent,1,RACE,0.91682,,,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:1:014:independent,1,ACORN-1 + selector + guard ef=128,0.024855500000000003,0.012798,0.012073500000000001,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:1:014:independent,1,ACORN-1 + selector + guard ef=512,0.025048,0.012745,0.012284,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:1:014:independent,1,ACORN-1 + selector + guard ef=1024,0.0230845,0.011678999999999998,0.0113775,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:1:014:clustered,1,Eager,0.5339415000000001,,,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:1:014:clustered,1,RACE,0.5277005,,,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:1:014:clustered,1,ACORN-1 + selector + guard ef=128,0.023851499999999998,0.012218,0.011641,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:1:014:clustered,1,ACORN-1 + selector + guard ef=512,0.0249725,0.012868500000000001,0.0121135,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:1:014:clustered,1,ACORN-1 + selector + guard ef=1024,0.0229565,0.0116495,0.011337,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:1:015:independent,1,Eager,0.9193185,,,10,12
+ogbn_arxiv_full,ogbn_arxiv_full:1:015:independent,1,RACE,0.91259,,,10,12
+ogbn_arxiv_full,ogbn_arxiv_full:1:015:independent,1,ACORN-1 + selector + guard ef=128,0.035491499999999995,0.0117735,0.023671499999999998,10,12
+ogbn_arxiv_full,ogbn_arxiv_full:1:015:independent,1,ACORN-1 + selector + guard ef=512,0.039353,0.013149000000000001,0.026174500000000003,10,12
+ogbn_arxiv_full,ogbn_arxiv_full:1:015:independent,1,ACORN-1 + selector + guard ef=1024,0.037424,0.012463499999999999,0.024968,10,12
+ogbn_arxiv_full,ogbn_arxiv_full:1:015:clustered,1,Eager,0.835912,,,10,12
+ogbn_arxiv_full,ogbn_arxiv_full:1:015:clustered,1,RACE,0.839355,,,10,12
+ogbn_arxiv_full,ogbn_arxiv_full:1:015:clustered,1,ACORN-1 + selector + guard ef=128,0.035809,0.011834,0.023994500000000002,10,12
+ogbn_arxiv_full,ogbn_arxiv_full:1:015:clustered,1,ACORN-1 + selector + guard ef=512,0.038645,0.0130375,0.0256075,10,12
+ogbn_arxiv_full,ogbn_arxiv_full:1:015:clustered,1,ACORN-1 + selector + guard ef=1024,0.039608000000000004,0.013055500000000001,0.025181500000000002,10,12
+ogbn_arxiv_full,ogbn_arxiv_full:1:016:independent,1,Eager,0.975117,,,10,549
+ogbn_arxiv_full,ogbn_arxiv_full:1:016:independent,1,RACE,0.983622,,,10,549
+ogbn_arxiv_full,ogbn_arxiv_full:1:016:independent,1,ACORN-1 + selector + guard ef=128,1.753491,0.0368265,1.7166489999999999,10,549
+ogbn_arxiv_full,ogbn_arxiv_full:1:016:independent,1,ACORN-1 + selector + guard ef=512,6.0601825,0.0368275,6.0239645,10,549
+ogbn_arxiv_full,ogbn_arxiv_full:1:016:independent,1,ACORN-1 + selector + guard ef=1024,6.0658270000000005,0.036341,6.0294405,10,549
+ogbn_arxiv_full,ogbn_arxiv_full:1:016:clustered,1,Eager,0.8544895,,,10,549
+ogbn_arxiv_full,ogbn_arxiv_full:1:016:clustered,1,RACE,0.8763354999999999,,,10,549
+ogbn_arxiv_full,ogbn_arxiv_full:1:016:clustered,1,ACORN-1 + selector + guard ef=128,1.666662,0.0355085,1.6316739999999998,10,549
+ogbn_arxiv_full,ogbn_arxiv_full:1:016:clustered,1,ACORN-1 + selector + guard ef=512,6.033935,0.0375115,5.9951455,10,549
+ogbn_arxiv_full,ogbn_arxiv_full:1:016:clustered,1,ACORN-1 + selector + guard ef=1024,6.0379784999999995,0.036958500000000005,6.001391,10,549
+ogbn_arxiv_full,ogbn_arxiv_full:1:017:independent,1,Eager,0.7395885,,,10,18
+ogbn_arxiv_full,ogbn_arxiv_full:1:017:independent,1,RACE,0.7382705,,,10,18
+ogbn_arxiv_full,ogbn_arxiv_full:1:017:independent,1,ACORN-1 + selector + guard ef=128,0.025196999999999997,0.013089,0.0119085,10,18
+ogbn_arxiv_full,ogbn_arxiv_full:1:017:independent,1,ACORN-1 + selector + guard ef=512,0.023145,0.011887,0.011272,10,18
+ogbn_arxiv_full,ogbn_arxiv_full:1:017:independent,1,ACORN-1 + selector + guard ef=1024,0.0253865,0.0132005,0.0121505,10,18
+ogbn_arxiv_full,ogbn_arxiv_full:1:017:clustered,1,Eager,0.832238,,,10,18
+ogbn_arxiv_full,ogbn_arxiv_full:1:017:clustered,1,RACE,0.836837,,,10,18
+ogbn_arxiv_full,ogbn_arxiv_full:1:017:clustered,1,ACORN-1 + selector + guard ef=128,0.025617,0.013493,0.012074499999999998,10,18
+ogbn_arxiv_full,ogbn_arxiv_full:1:017:clustered,1,ACORN-1 + selector + guard ef=512,0.0231165,0.011868,0.0112535,10,18
+ogbn_arxiv_full,ogbn_arxiv_full:1:017:clustered,1,ACORN-1 + selector + guard ef=1024,0.0231605,0.011827500000000001,0.0113685,10,18
+ogbn_arxiv_full,ogbn_arxiv_full:1:018:independent,1,Eager,0.779728,,,10,33
+ogbn_arxiv_full,ogbn_arxiv_full:1:018:independent,1,RACE,0.7862325,,,10,33
+ogbn_arxiv_full,ogbn_arxiv_full:1:018:independent,1,ACORN-1 + selector + guard ef=128,0.02998,0.0120005,0.017991,10,33
+ogbn_arxiv_full,ogbn_arxiv_full:1:018:independent,1,ACORN-1 + selector + guard ef=512,0.032615000000000005,0.0131535,0.01944,10,33
+ogbn_arxiv_full,ogbn_arxiv_full:1:018:independent,1,ACORN-1 + selector + guard ef=1024,0.0295335,0.0118175,0.0177485,10,33
+ogbn_arxiv_full,ogbn_arxiv_full:1:018:clustered,1,Eager,0.925468,,,10,33
+ogbn_arxiv_full,ogbn_arxiv_full:1:018:clustered,1,RACE,0.9189715,,,10,33
+ogbn_arxiv_full,ogbn_arxiv_full:1:018:clustered,1,ACORN-1 + selector + guard ef=128,0.0295565,0.011861,0.0177135,10,33
+ogbn_arxiv_full,ogbn_arxiv_full:1:018:clustered,1,ACORN-1 + selector + guard ef=512,0.0311515,0.011880499999999999,0.01764,10,33
+ogbn_arxiv_full,ogbn_arxiv_full:1:018:clustered,1,ACORN-1 + selector + guard ef=1024,0.0326235,0.013087,0.019559,10,33
+ogbn_arxiv_full,ogbn_arxiv_full:1:019:independent,1,Eager,0.7704245000000001,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:019:independent,1,RACE,0.7702089999999999,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:019:independent,1,ACORN-1 + selector + guard ef=128,0.0133395,0.0121105,0.001277,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:019:independent,1,ACORN-1 + selector + guard ef=512,0.0128735,0.0116875,0.001206,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:019:independent,1,ACORN-1 + selector + guard ef=1024,0.014114,0.0125165,0.0015975,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:019:clustered,1,Eager,0.9314119999999999,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:019:clustered,1,RACE,0.9314260000000001,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:019:clustered,1,ACORN-1 + selector + guard ef=128,0.012869499999999999,0.0116765,0.001176,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:019:clustered,1,ACORN-1 + selector + guard ef=512,0.0141955,0.012495,0.0017285,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:019:clustered,1,ACORN-1 + selector + guard ef=1024,0.014326499999999999,0.0125795,0.001704,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:020:independent,1,Eager,0.9025795,,,10,10
+ogbn_arxiv_full,ogbn_arxiv_full:1:020:independent,1,RACE,0.8986575,,,10,10
+ogbn_arxiv_full,ogbn_arxiv_full:1:020:independent,1,ACORN-1 + selector + guard ef=128,0.0301345,0.0118725,0.018288,10,10
+ogbn_arxiv_full,ogbn_arxiv_full:1:020:independent,1,ACORN-1 + selector + guard ef=512,0.034022,0.013138500000000001,0.020907000000000002,10,10
+ogbn_arxiv_full,ogbn_arxiv_full:1:020:independent,1,ACORN-1 + selector + guard ef=1024,0.0298655,0.0118305,0.018011,10,10
+ogbn_arxiv_full,ogbn_arxiv_full:1:020:clustered,1,Eager,0.9200429999999999,,,10,10
+ogbn_arxiv_full,ogbn_arxiv_full:1:020:clustered,1,RACE,0.9264885,,,10,10
+ogbn_arxiv_full,ogbn_arxiv_full:1:020:clustered,1,ACORN-1 + selector + guard ef=128,0.033589,0.013147,0.0204555,10,10
+ogbn_arxiv_full,ogbn_arxiv_full:1:020:clustered,1,ACORN-1 + selector + guard ef=512,0.030756,0.012111,0.018645000000000002,10,10
+ogbn_arxiv_full,ogbn_arxiv_full:1:020:clustered,1,ACORN-1 + selector + guard ef=1024,0.030058,0.011810999999999999,0.018243,10,10
+ogbn_arxiv_full,ogbn_arxiv_full:1:021:independent,1,Eager,0.592656,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:021:independent,1,RACE,0.5999650000000001,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:021:independent,1,ACORN-1 + selector + guard ef=128,0.013663,0.012302,0.001416,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:021:independent,1,ACORN-1 + selector + guard ef=512,0.014021,0.0123445,0.001616,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:021:independent,1,ACORN-1 + selector + guard ef=1024,0.012767,0.011584,0.001174,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:021:clustered,1,Eager,0.8895175,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:021:clustered,1,RACE,0.8838809999999999,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:021:clustered,1,ACORN-1 + selector + guard ef=128,0.0127685,0.0115745,0.0011955,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:021:clustered,1,ACORN-1 + selector + guard ef=512,0.01422,0.0124965,0.0016965,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:021:clustered,1,ACORN-1 + selector + guard ef=1024,0.0128755,0.0116355,0.0012469999999999998,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:022:independent,1,Eager,0.82226,,,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:022:independent,1,RACE,0.8210145,,,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:022:independent,1,ACORN-1 + selector + guard ef=128,0.023981000000000002,0.012473000000000001,0.0114975,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:022:independent,1,ACORN-1 + selector + guard ef=512,0.024904000000000003,0.0128845,0.011906,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:022:independent,1,ACORN-1 + selector + guard ef=1024,0.0231805,0.011844,0.0113365,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:022:clustered,1,Eager,0.9113445,,,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:022:clustered,1,RACE,0.9104565,,,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:022:clustered,1,ACORN-1 + selector + guard ef=128,0.025410000000000002,0.0131555,0.0122765,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:022:clustered,1,ACORN-1 + selector + guard ef=512,0.023195,0.011863,0.011332,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:022:clustered,1,ACORN-1 + selector + guard ef=1024,0.023302999999999997,0.011918499999999999,0.011463000000000001,10,5
+ogbn_arxiv_full,ogbn_arxiv_full:1:023:independent,1,Eager,0.8222185,,,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:1:023:independent,1,RACE,0.8516025,,,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:1:023:independent,1,ACORN-1 + selector + guard ef=128,0.0267625,0.013826,0.0124975,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:1:023:independent,1,ACORN-1 + selector + guard ef=512,0.026069000000000002,0.013404,0.012701500000000001,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:1:023:independent,1,ACORN-1 + selector + guard ef=1024,0.027131000000000002,0.013899,0.013309999999999999,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:1:023:clustered,1,Eager,0.915153,,,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:1:023:clustered,1,RACE,0.932646,,,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:1:023:clustered,1,ACORN-1 + selector + guard ef=128,0.0269615,0.0139015,0.013080999999999999,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:1:023:clustered,1,ACORN-1 + selector + guard ef=512,0.0266265,0.013831,0.0127975,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:1:023:clustered,1,ACORN-1 + selector + guard ef=1024,0.025737,0.013275,0.012479,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:1:024:independent,1,Eager,0.9106505,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:024:independent,1,RACE,0.9133335,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:024:independent,1,ACORN-1 + selector + guard ef=128,0.0139255,0.012315,0.0016105,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:024:independent,1,ACORN-1 + selector + guard ef=512,0.012952499999999999,0.0116975,0.001255,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:024:independent,1,ACORN-1 + selector + guard ef=1024,0.0131865,0.0119335,0.0012534999999999998,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:024:clustered,1,Eager,0.7769805,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:024:clustered,1,RACE,0.7822245,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:024:clustered,1,ACORN-1 + selector + guard ef=128,0.014017,0.012428,0.0015755,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:024:clustered,1,ACORN-1 + selector + guard ef=512,0.012908,0.011703,0.001205,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:024:clustered,1,ACORN-1 + selector + guard ef=1024,0.0134895,0.0120345,0.0014135,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:025:independent,1,Eager,0.8754765,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:025:independent,1,RACE,0.87914,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:025:independent,1,ACORN-1 + selector + guard ef=128,0.0127005,0.0115545,0.0011795,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:025:independent,1,ACORN-1 + selector + guard ef=512,0.014152,0.0124015,0.0017425000000000001,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:025:independent,1,ACORN-1 + selector + guard ef=1024,0.012774,0.011574000000000001,0.001191,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:025:clustered,1,Eager,0.769512,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:025:clustered,1,RACE,0.7737985000000001,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:025:clustered,1,ACORN-1 + selector + guard ef=128,0.0139735,0.012389500000000001,0.001584,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:025:clustered,1,ACORN-1 + selector + guard ef=512,0.013269,0.011977499999999999,0.0012395,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:025:clustered,1,ACORN-1 + selector + guard ef=1024,0.013749,0.0122875,0.0013779999999999999,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:026:independent,1,Eager,1.696175,,,10,40382
+ogbn_arxiv_full,ogbn_arxiv_full:1:026:independent,1,RACE,2.5057505000000004,,,10,40382
+ogbn_arxiv_full,ogbn_arxiv_full:1:026:independent,1,ACORN-1 + selector + guard ef=128,1.2690145,0.5043525,0.771514,10,40382
+ogbn_arxiv_full,ogbn_arxiv_full:1:026:independent,1,ACORN-1 + selector + guard ef=512,3.936713,0.517641,3.4203194999999997,10,40382
+ogbn_arxiv_full,ogbn_arxiv_full:1:026:independent,1,ACORN-1 + selector + guard ef=1024,9.020522,0.5150555,8.515187999999998,10,40382
+ogbn_arxiv_full,ogbn_arxiv_full:1:026:clustered,1,Eager,1.7359200000000001,,,10,40382
+ogbn_arxiv_full,ogbn_arxiv_full:1:026:clustered,1,RACE,2.4777180000000003,,,10,40382
+ogbn_arxiv_full,ogbn_arxiv_full:1:026:clustered,1,ACORN-1 + selector + guard ef=128,1.3024,0.502197,0.7990285,10,40382
+ogbn_arxiv_full,ogbn_arxiv_full:1:026:clustered,1,ACORN-1 + selector + guard ef=512,3.7126405,0.506254,3.2008555,10,40382
+ogbn_arxiv_full,ogbn_arxiv_full:1:026:clustered,1,ACORN-1 + selector + guard ef=1024,8.338221999999998,0.50674,7.8336594999999996,10,40382
+ogbn_arxiv_full,ogbn_arxiv_full:1:027:independent,1,Eager,0.8365585,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:027:independent,1,RACE,0.829546,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:027:independent,1,ACORN-1 + selector + guard ef=128,0.014217500000000001,0.012625,0.0013969999999999998,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:027:independent,1,ACORN-1 + selector + guard ef=512,0.013894,0.012348000000000001,0.0014789999999999998,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:027:independent,1,ACORN-1 + selector + guard ef=1024,0.014255,0.0125175,0.0016485,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:027:clustered,1,Eager,0.8704974999999999,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:027:clustered,1,RACE,0.8704689999999999,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:027:clustered,1,ACORN-1 + selector + guard ef=128,0.012852,0.011654999999999999,0.0012115,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:027:clustered,1,ACORN-1 + selector + guard ef=512,0.012858999999999999,0.0116565,0.0012055,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:027:clustered,1,ACORN-1 + selector + guard ef=1024,0.013586,0.012124,0.001462,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:028:independent,1,Eager,0.9098595,,,10,289
+ogbn_arxiv_full,ogbn_arxiv_full:1:028:independent,1,RACE,0.9410685,,,10,289
+ogbn_arxiv_full,ogbn_arxiv_full:1:028:independent,1,ACORN-1 + selector + guard ef=128,1.7022620000000002,0.031441,1.665849,10,289
+ogbn_arxiv_full,ogbn_arxiv_full:1:028:independent,1,ACORN-1 + selector + guard ef=512,3.1519125,0.032253,3.1199495,10,289
+ogbn_arxiv_full,ogbn_arxiv_full:1:028:independent,1,ACORN-1 + selector + guard ef=1024,3.1470425,0.030087000000000003,3.116819,10,289
+ogbn_arxiv_full,ogbn_arxiv_full:1:028:clustered,1,Eager,0.9484645,,,10,289
+ogbn_arxiv_full,ogbn_arxiv_full:1:028:clustered,1,RACE,0.9607684999999999,,,10,289
+ogbn_arxiv_full,ogbn_arxiv_full:1:028:clustered,1,ACORN-1 + selector + guard ef=128,1.694863,0.0296845,1.6656650000000002,10,289
+ogbn_arxiv_full,ogbn_arxiv_full:1:028:clustered,1,ACORN-1 + selector + guard ef=512,3.16981,0.031606499999999996,3.1388475,10,289
+ogbn_arxiv_full,ogbn_arxiv_full:1:028:clustered,1,ACORN-1 + selector + guard ef=1024,3.165917,0.030601999999999997,3.135583,10,289
+ogbn_arxiv_full,ogbn_arxiv_full:1:029:independent,1,Eager,1.802372,,,10,8534
+ogbn_arxiv_full,ogbn_arxiv_full:1:029:independent,1,RACE,2.1191975000000003,,,10,8534
+ogbn_arxiv_full,ogbn_arxiv_full:1:029:independent,1,ACORN-1 + selector + guard ef=128,2.181589,0.42176400000000003,1.764343,10,8534
+ogbn_arxiv_full,ogbn_arxiv_full:1:029:independent,1,ACORN-1 + selector + guard ef=512,8.75408,0.420622,8.333091,10,8534
+ogbn_arxiv_full,ogbn_arxiv_full:1:029:independent,1,ACORN-1 + selector + guard ef=1024,18.0451445,0.422469,17.620143,10,8534
+ogbn_arxiv_full,ogbn_arxiv_full:1:029:clustered,1,Eager,1.5088795,,,10,8534
+ogbn_arxiv_full,ogbn_arxiv_full:1:029:clustered,1,RACE,2.1547995,,,10,8534
+ogbn_arxiv_full,ogbn_arxiv_full:1:029:clustered,1,ACORN-1 + selector + guard ef=128,2.3420705,0.420531,1.9226174999999999,10,8534
+ogbn_arxiv_full,ogbn_arxiv_full:1:029:clustered,1,ACORN-1 + selector + guard ef=512,8.848262,0.4169685,8.434517,10,8534
+ogbn_arxiv_full,ogbn_arxiv_full:1:029:clustered,1,ACORN-1 + selector + guard ef=1024,18.079351000000003,0.423879,17.6553835,10,8534
+ogbn_arxiv_full,ogbn_arxiv_full:1:030:independent,1,Eager,0.8462955000000001,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:030:independent,1,RACE,0.8444055,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:030:independent,1,ACORN-1 + selector + guard ef=128,0.0127775,0.0116085,0.001229,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:030:independent,1,ACORN-1 + selector + guard ef=512,0.0132585,0.011945500000000001,0.0013185,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:030:independent,1,ACORN-1 + selector + guard ef=1024,0.013306,0.011984,0.0013245000000000002,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:030:clustered,1,Eager,0.9273015,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:030:clustered,1,RACE,0.9264950000000001,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:030:clustered,1,ACORN-1 + selector + guard ef=128,0.0129315,0.0117185,0.00123,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:030:clustered,1,ACORN-1 + selector + guard ef=512,0.01423,0.012494499999999999,0.001706,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:030:clustered,1,ACORN-1 + selector + guard ef=1024,0.014142499999999999,0.012518,0.001594,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:1:031:independent,1,Eager,0.9227685,,,10,65
+ogbn_arxiv_full,ogbn_arxiv_full:1:031:independent,1,RACE,0.945947,,,10,65
+ogbn_arxiv_full,ogbn_arxiv_full:1:031:independent,1,ACORN-1 + selector + guard ef=128,0.5964039999999999,0.023625,0.572932,10,65
+ogbn_arxiv_full,ogbn_arxiv_full:1:031:independent,1,ACORN-1 + selector + guard ef=512,0.606455,0.024934,0.5813905,10,65
+ogbn_arxiv_full,ogbn_arxiv_full:1:031:independent,1,ACORN-1 + selector + guard ef=1024,0.6075740000000001,0.0243725,0.580594,10,65
+ogbn_arxiv_full,ogbn_arxiv_full:1:031:clustered,1,Eager,0.7722555,,,10,65
+ogbn_arxiv_full,ogbn_arxiv_full:1:031:clustered,1,RACE,0.768068,,,10,65
+ogbn_arxiv_full,ogbn_arxiv_full:1:031:clustered,1,ACORN-1 + selector + guard ef=128,0.603298,0.0244,0.5782025,10,65
+ogbn_arxiv_full,ogbn_arxiv_full:1:031:clustered,1,ACORN-1 + selector + guard ef=512,0.603494,0.0246895,0.578857,10,65
+ogbn_arxiv_full,ogbn_arxiv_full:1:031:clustered,1,ACORN-1 + selector + guard ef=1024,0.605608,0.024653,0.5808880000000001,10,65
+ogbn_arxiv_full,ogbn_arxiv_full:2:000:independent,2,Eager,0.8394520000000001,,,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:2:000:independent,2,RACE,0.8358585000000001,,,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:2:000:independent,2,ACORN-1 + selector + guard ef=128,0.028991,0.012403,0.016627000000000003,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:2:000:independent,2,ACORN-1 + selector + guard ef=512,0.0293555,0.0124725,0.016856,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:2:000:independent,2,ACORN-1 + selector + guard ef=1024,0.0277245,0.011814999999999999,0.0159275,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:2:000:clustered,2,Eager,0.9436775,,,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:2:000:clustered,2,RACE,0.9462965,,,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:2:000:clustered,2,ACORN-1 + selector + guard ef=128,0.030212,0.0129885,0.0171765,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:2:000:clustered,2,ACORN-1 + selector + guard ef=512,0.028484500000000003,0.012205,0.016279500000000002,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:2:000:clustered,2,ACORN-1 + selector + guard ef=1024,0.0303525,0.012958500000000001,0.01745,10,9
+ogbn_arxiv_full,ogbn_arxiv_full:2:001:independent,2,Eager,0.8057095000000001,,,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:2:001:independent,2,RACE,0.8034445,,,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:2:001:independent,2,ACORN-1 + selector + guard ef=128,0.023765500000000002,0.012291,0.011480500000000001,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:2:001:independent,2,ACORN-1 + selector + guard ef=512,0.0252305,0.0129245,0.0123415,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:2:001:independent,2,ACORN-1 + selector + guard ef=1024,0.023222,0.011858,0.011405,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:2:001:clustered,2,Eager,0.8931335,,,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:2:001:clustered,2,RACE,0.8931545,,,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:2:001:clustered,2,ACORN-1 + selector + guard ef=128,0.025174500000000002,0.0129935,0.012123,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:2:001:clustered,2,ACORN-1 + selector + guard ef=512,0.023132,0.011797499999999999,0.011366999999999999,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:2:001:clustered,2,ACORN-1 + selector + guard ef=1024,0.0233275,0.011843,0.011497,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:2:002:independent,2,Eager,0.774577,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:002:independent,2,RACE,0.769227,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:002:independent,2,ACORN-1 + selector + guard ef=128,0.0144255,0.012706499999999999,0.0016545,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:002:independent,2,ACORN-1 + selector + guard ef=512,0.012883499999999999,0.011679499999999999,0.0011914999999999999,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:002:independent,2,ACORN-1 + selector + guard ef=1024,0.0129975,0.011824000000000001,0.0011819999999999999,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:002:clustered,2,Eager,0.836918,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:002:clustered,2,RACE,0.833311,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:002:clustered,2,ACORN-1 + selector + guard ef=128,0.0128395,0.0116695,0.0011845,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:002:clustered,2,ACORN-1 + selector + guard ef=512,0.012817499999999999,0.011667,0.0011535,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:002:clustered,2,ACORN-1 + selector + guard ef=1024,0.0143065,0.012565,0.0017865,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:003:independent,2,Eager,0.788717,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:003:independent,2,RACE,0.7927770000000001,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:003:independent,2,ACORN-1 + selector + guard ef=128,0.012763,0.0115485,0.0012209999999999999,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:003:independent,2,ACORN-1 + selector + guard ef=512,0.014064,0.0123705,0.001621,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:003:independent,2,ACORN-1 + selector + guard ef=1024,0.013902999999999999,0.012329,0.001582,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:003:clustered,2,Eager,0.8931454999999999,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:003:clustered,2,RACE,0.89106,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:003:clustered,2,ACORN-1 + selector + guard ef=128,0.0133695,0.012053,0.0013345,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:003:clustered,2,ACORN-1 + selector + guard ef=512,0.013576999999999999,0.012181500000000001,0.0012785000000000001,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:003:clustered,2,ACORN-1 + selector + guard ef=1024,0.012777,0.0115875,0.0011979999999999998,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:004:independent,2,Eager,0.6630505,,,10,44
+ogbn_arxiv_full,ogbn_arxiv_full:2:004:independent,2,RACE,0.6594205,,,10,44
+ogbn_arxiv_full,ogbn_arxiv_full:2:004:independent,2,ACORN-1 + selector + guard ef=128,0.024348500000000002,0.0125715,0.011797499999999999,10,44
+ogbn_arxiv_full,ogbn_arxiv_full:2:004:independent,2,ACORN-1 + selector + guard ef=512,0.024595,0.01207,0.011886500000000001,10,44
+ogbn_arxiv_full,ogbn_arxiv_full:2:004:independent,2,ACORN-1 + selector + guard ef=1024,0.0231955,0.0118735,0.011319,10,44
+ogbn_arxiv_full,ogbn_arxiv_full:2:004:clustered,2,Eager,0.9169555,,,10,44
+ogbn_arxiv_full,ogbn_arxiv_full:2:004:clustered,2,RACE,0.907838,,,10,44
+ogbn_arxiv_full,ogbn_arxiv_full:2:004:clustered,2,ACORN-1 + selector + guard ef=128,0.023108999999999998,0.011894,0.0112535,10,44
+ogbn_arxiv_full,ogbn_arxiv_full:2:004:clustered,2,ACORN-1 + selector + guard ef=512,0.0233085,0.011969,0.011400500000000001,10,44
+ogbn_arxiv_full,ogbn_arxiv_full:2:004:clustered,2,ACORN-1 + selector + guard ef=1024,0.0258825,0.013274999999999999,0.0125705,10,44
+ogbn_arxiv_full,ogbn_arxiv_full:2:005:independent,2,Eager,0.9580675,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:005:independent,2,RACE,0.9602645,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:005:independent,2,ACORN-1 + selector + guard ef=128,0.01329,0.011935000000000001,0.001366,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:005:independent,2,ACORN-1 + selector + guard ef=512,0.0132805,0.011988,0.001281,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:005:independent,2,ACORN-1 + selector + guard ef=1024,0.0142125,0.01251,0.0016955,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:005:clustered,2,Eager,0.806217,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:005:clustered,2,RACE,0.8119445000000001,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:005:clustered,2,ACORN-1 + selector + guard ef=128,0.013490499999999999,0.012055,0.0014265,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:005:clustered,2,ACORN-1 + selector + guard ef=512,0.0128145,0.0115725,0.0012625000000000002,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:005:clustered,2,ACORN-1 + selector + guard ef=1024,0.0140435,0.0123435,0.0016985,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:006:independent,2,Eager,0.9277515000000001,,,10,18
+ogbn_arxiv_full,ogbn_arxiv_full:2:006:independent,2,RACE,0.9260715,,,10,18
+ogbn_arxiv_full,ogbn_arxiv_full:2:006:independent,2,ACORN-1 + selector + guard ef=128,0.0242425,0.012406,0.011701,10,18
+ogbn_arxiv_full,ogbn_arxiv_full:2:006:independent,2,ACORN-1 + selector + guard ef=512,0.024247499999999998,0.0122845,0.0119425,10,18
+ogbn_arxiv_full,ogbn_arxiv_full:2:006:independent,2,ACORN-1 + selector + guard ef=1024,0.0230845,0.01176,0.011353499999999999,10,18
+ogbn_arxiv_full,ogbn_arxiv_full:2:006:clustered,2,Eager,0.8767039999999999,,,10,18
+ogbn_arxiv_full,ogbn_arxiv_full:2:006:clustered,2,RACE,0.880217,,,10,18
+ogbn_arxiv_full,ogbn_arxiv_full:2:006:clustered,2,ACORN-1 + selector + guard ef=128,0.025361,0.013053499999999999,0.012368,10,18
+ogbn_arxiv_full,ogbn_arxiv_full:2:006:clustered,2,ACORN-1 + selector + guard ef=512,0.0230105,0.01176,0.0112585,10,18
+ogbn_arxiv_full,ogbn_arxiv_full:2:006:clustered,2,ACORN-1 + selector + guard ef=1024,0.024186,0.012410000000000001,0.011739,10,18
+ogbn_arxiv_full,ogbn_arxiv_full:2:007:independent,2,Eager,2.8865985,,,10,17179
+ogbn_arxiv_full,ogbn_arxiv_full:2:007:independent,2,RACE,3.8767765,,,10,17179
+ogbn_arxiv_full,ogbn_arxiv_full:2:007:independent,2,ACORN-1 + selector + guard ef=128,1.942938,0.091265,1.851809,10,17179
+ogbn_arxiv_full,ogbn_arxiv_full:2:007:independent,2,ACORN-1 + selector + guard ef=512,8.428515,0.092432,8.3366605,10,17179
+ogbn_arxiv_full,ogbn_arxiv_full:2:007:independent,2,ACORN-1 + selector + guard ef=1024,18.589179,0.0915565,18.497003499999998,10,17179
+ogbn_arxiv_full,ogbn_arxiv_full:2:007:clustered,2,Eager,1.0527704999999998,,,10,17179
+ogbn_arxiv_full,ogbn_arxiv_full:2:007:clustered,2,RACE,1.373415,,,10,17179
+ogbn_arxiv_full,ogbn_arxiv_full:2:007:clustered,2,ACORN-1 + selector + guard ef=128,1.239283,0.0881495,1.150913,10,17179
+ogbn_arxiv_full,ogbn_arxiv_full:2:007:clustered,2,ACORN-1 + selector + guard ef=512,7.233473,0.089615,7.144398000000001,10,17179
+ogbn_arxiv_full,ogbn_arxiv_full:2:007:clustered,2,ACORN-1 + selector + guard ef=1024,17.727945,0.0900795,17.6380245,10,17179
+ogbn_arxiv_full,ogbn_arxiv_full:2:008:independent,2,Eager,0.9224775000000001,,,10,366
+ogbn_arxiv_full,ogbn_arxiv_full:2:008:independent,2,RACE,0.9178630000000001,,,10,366
+ogbn_arxiv_full,ogbn_arxiv_full:2:008:independent,2,ACORN-1 + selector + guard ef=128,1.719052,0.031894,1.687664,10,366
+ogbn_arxiv_full,ogbn_arxiv_full:2:008:independent,2,ACORN-1 + selector + guard ef=512,4.017637499999999,0.0315675,3.986049,10,366
+ogbn_arxiv_full,ogbn_arxiv_full:2:008:independent,2,ACORN-1 + selector + guard ef=1024,4.0184655,0.0303415,3.9877575,10,366
+ogbn_arxiv_full,ogbn_arxiv_full:2:008:clustered,2,Eager,0.9379635,,,10,366
+ogbn_arxiv_full,ogbn_arxiv_full:2:008:clustered,2,RACE,0.9564775,,,10,366
+ogbn_arxiv_full,ogbn_arxiv_full:2:008:clustered,2,ACORN-1 + selector + guard ef=128,1.6901229999999998,0.030872500000000004,1.6597650000000002,10,366
+ogbn_arxiv_full,ogbn_arxiv_full:2:008:clustered,2,ACORN-1 + selector + guard ef=512,4.012583,0.031773499999999996,3.9803024999999996,10,366
+ogbn_arxiv_full,ogbn_arxiv_full:2:008:clustered,2,ACORN-1 + selector + guard ef=1024,4.011737,0.031918,3.980299,10,366
+ogbn_arxiv_full,ogbn_arxiv_full:2:009:independent,2,Eager,0.881567,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:009:independent,2,RACE,0.882836,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:009:independent,2,ACORN-1 + selector + guard ef=128,0.013087000000000001,0.011883000000000001,0.0012304999999999998,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:009:independent,2,ACORN-1 + selector + guard ef=512,0.013936,0.0123795,0.001557,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:009:independent,2,ACORN-1 + selector + guard ef=1024,0.0128425,0.011643500000000001,0.0012155,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:009:clustered,2,Eager,0.9121589999999999,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:009:clustered,2,RACE,0.908307,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:009:clustered,2,ACORN-1 + selector + guard ef=128,0.013277,0.0119635,0.0013135,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:009:clustered,2,ACORN-1 + selector + guard ef=512,0.01287,0.011673,0.00123,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:009:clustered,2,ACORN-1 + selector + guard ef=1024,0.0134145,0.012004,0.0013945,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:010:independent,2,Eager,0.6649285,,,10,24
+ogbn_arxiv_full,ogbn_arxiv_full:2:010:independent,2,RACE,0.6639474999999999,,,10,24
+ogbn_arxiv_full,ogbn_arxiv_full:2:010:independent,2,ACORN-1 + selector + guard ef=128,0.025535500000000003,0.0133495,0.0121415,10,24
+ogbn_arxiv_full,ogbn_arxiv_full:2:010:independent,2,ACORN-1 + selector + guard ef=512,0.025451,0.0130725,0.012257500000000001,10,24
+ogbn_arxiv_full,ogbn_arxiv_full:2:010:independent,2,ACORN-1 + selector + guard ef=1024,0.0231125,0.0118675,0.0113055,10,24
+ogbn_arxiv_full,ogbn_arxiv_full:2:010:clustered,2,Eager,0.927135,,,10,24
+ogbn_arxiv_full,ogbn_arxiv_full:2:010:clustered,2,RACE,0.9204225,,,10,24
+ogbn_arxiv_full,ogbn_arxiv_full:2:010:clustered,2,ACORN-1 + selector + guard ef=128,0.023712999999999998,0.012162,0.011551,10,24
+ogbn_arxiv_full,ogbn_arxiv_full:2:010:clustered,2,ACORN-1 + selector + guard ef=512,0.0232275,0.0119215,0.0113515,10,24
+ogbn_arxiv_full,ogbn_arxiv_full:2:010:clustered,2,ACORN-1 + selector + guard ef=1024,0.02467,0.0127415,0.011910500000000001,10,24
+ogbn_arxiv_full,ogbn_arxiv_full:2:011:independent,2,Eager,0.859949,,,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:2:011:independent,2,RACE,0.8603689999999999,,,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:2:011:independent,2,ACORN-1 + selector + guard ef=128,0.025425,0.0133145,0.011618,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:2:011:independent,2,ACORN-1 + selector + guard ef=512,0.025634999999999998,0.013453,0.0121525,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:2:011:independent,2,ACORN-1 + selector + guard ef=1024,0.0244135,0.0126875,0.011699000000000001,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:2:011:clustered,2,Eager,0.7334735,,,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:2:011:clustered,2,RACE,0.7282115,,,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:2:011:clustered,2,ACORN-1 + selector + guard ef=128,0.0262475,0.013634,0.0125,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:2:011:clustered,2,ACORN-1 + selector + guard ef=512,0.0233475,0.0120565,0.0113205,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:2:011:clustered,2,ACORN-1 + selector + guard ef=1024,0.0234025,0.012027,0.0114135,10,7
+ogbn_arxiv_full,ogbn_arxiv_full:2:012:independent,2,Eager,0.8083125,,,10,418
+ogbn_arxiv_full,ogbn_arxiv_full:2:012:independent,2,RACE,0.8121845000000001,,,10,418
+ogbn_arxiv_full,ogbn_arxiv_full:2:012:independent,2,ACORN-1 + selector + guard ef=128,1.6408485000000002,0.030008,1.6106705,10,418
+ogbn_arxiv_full,ogbn_arxiv_full:2:012:independent,2,ACORN-1 + selector + guard ef=512,4.630304000000001,0.029976000000000003,4.6001925,10,418
+ogbn_arxiv_full,ogbn_arxiv_full:2:012:independent,2,ACORN-1 + selector + guard ef=1024,4.632714999999999,0.029318999999999998,4.603724,10,418
+ogbn_arxiv_full,ogbn_arxiv_full:2:012:clustered,2,Eager,0.8269445,,,10,418
+ogbn_arxiv_full,ogbn_arxiv_full:2:012:clustered,2,RACE,0.8439025,,,10,418
+ogbn_arxiv_full,ogbn_arxiv_full:2:012:clustered,2,ACORN-1 + selector + guard ef=128,1.585618,0.0302035,1.55559,10,418
+ogbn_arxiv_full,ogbn_arxiv_full:2:012:clustered,2,ACORN-1 + selector + guard ef=512,4.608357,0.030058,4.5780405,10,418
+ogbn_arxiv_full,ogbn_arxiv_full:2:012:clustered,2,ACORN-1 + selector + guard ef=1024,4.609979,0.0298635,4.5803885,10,418
+ogbn_arxiv_full,ogbn_arxiv_full:2:013:independent,2,Eager,0.8951534999999999,,,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:2:013:independent,2,RACE,0.8899604999999999,,,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:2:013:independent,2,ACORN-1 + selector + guard ef=128,0.024174,0.012364,0.0118245,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:2:013:independent,2,ACORN-1 + selector + guard ef=512,0.023066000000000003,0.011723500000000001,0.011352,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:2:013:independent,2,ACORN-1 + selector + guard ef=1024,0.0231455,0.0117275,0.0114465,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:2:013:clustered,2,Eager,0.633035,,,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:2:013:clustered,2,RACE,0.6248929999999999,,,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:2:013:clustered,2,ACORN-1 + selector + guard ef=128,0.022965,0.011672,0.011348500000000001,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:2:013:clustered,2,ACORN-1 + selector + guard ef=512,0.023958,0.012271,0.011687,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:2:013:clustered,2,ACORN-1 + selector + guard ef=1024,0.025680500000000002,0.013093,0.0125405,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:2:014:independent,2,Eager,0.7501530000000001,,,10,92
+ogbn_arxiv_full,ogbn_arxiv_full:2:014:independent,2,RACE,0.7510345,,,10,92
+ogbn_arxiv_full,ogbn_arxiv_full:2:014:independent,2,ACORN-1 + selector + guard ef=128,0.7050164999999999,0.0272635,0.6776675,10,92
+ogbn_arxiv_full,ogbn_arxiv_full:2:014:independent,2,ACORN-1 + selector + guard ef=512,0.6948565,0.0260225,0.6688099999999999,10,92
+ogbn_arxiv_full,ogbn_arxiv_full:2:014:independent,2,ACORN-1 + selector + guard ef=1024,0.702076,0.0270695,0.674757,10,92
+ogbn_arxiv_full,ogbn_arxiv_full:2:014:clustered,2,Eager,0.841079,,,10,92
+ogbn_arxiv_full,ogbn_arxiv_full:2:014:clustered,2,RACE,0.847588,,,10,92
+ogbn_arxiv_full,ogbn_arxiv_full:2:014:clustered,2,ACORN-1 + selector + guard ef=128,0.7010085,0.027288,0.6739310000000001,10,92
+ogbn_arxiv_full,ogbn_arxiv_full:2:014:clustered,2,ACORN-1 + selector + guard ef=512,0.696762,0.0261305,0.6701595,10,92
+ogbn_arxiv_full,ogbn_arxiv_full:2:014:clustered,2,ACORN-1 + selector + guard ef=1024,0.6993355,0.026340000000000002,0.6730929999999999,10,92
+ogbn_arxiv_full,ogbn_arxiv_full:2:015:independent,2,Eager,0.8883114999999999,,,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:2:015:independent,2,RACE,0.8941045,,,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:2:015:independent,2,ACORN-1 + selector + guard ef=128,0.025653,0.0132205,0.0124905,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:2:015:independent,2,ACORN-1 + selector + guard ef=512,0.023129499999999997,0.011798,0.0113515,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:2:015:independent,2,ACORN-1 + selector + guard ef=1024,0.023152,0.011789,0.0113685,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:2:015:clustered,2,Eager,0.9306455,,,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:2:015:clustered,2,RACE,0.9373505,,,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:2:015:clustered,2,ACORN-1 + selector + guard ef=128,0.0244025,0.012456,0.0114895,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:2:015:clustered,2,ACORN-1 + selector + guard ef=512,0.024804,0.0125525,0.0122255,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:2:015:clustered,2,ACORN-1 + selector + guard ef=1024,0.023184,0.011733,0.011390500000000001,10,4
+ogbn_arxiv_full,ogbn_arxiv_full:2:016:independent,2,Eager,1.1007315,,,10,9597
+ogbn_arxiv_full,ogbn_arxiv_full:2:016:independent,2,RACE,1.3656709999999999,,,10,9597
+ogbn_arxiv_full,ogbn_arxiv_full:2:016:independent,2,ACORN-1 + selector + guard ef=128,2.0173435,0.1593835,1.8587189999999998,10,9597
+ogbn_arxiv_full,ogbn_arxiv_full:2:016:independent,2,ACORN-1 + selector + guard ef=512,9.0622895,0.15990949999999998,8.9023465,10,9597
+ogbn_arxiv_full,ogbn_arxiv_full:2:016:independent,2,ACORN-1 + selector + guard ef=1024,18.7031525,0.16174650000000002,18.543309999999998,10,9597
+ogbn_arxiv_full,ogbn_arxiv_full:2:016:clustered,2,Eager,1.0629455,,,10,9597
+ogbn_arxiv_full,ogbn_arxiv_full:2:016:clustered,2,RACE,1.308868,,,10,9597
+ogbn_arxiv_full,ogbn_arxiv_full:2:016:clustered,2,ACORN-1 + selector + guard ef=128,1.8012329999999999,0.1631415,1.638245,10,9597
+ogbn_arxiv_full,ogbn_arxiv_full:2:016:clustered,2,ACORN-1 + selector + guard ef=512,8.5716655,0.15871649999999998,8.402009499999998,10,9597
+ogbn_arxiv_full,ogbn_arxiv_full:2:016:clustered,2,ACORN-1 + selector + guard ef=1024,18.2116845,0.161095,18.0534465,10,9597
+ogbn_arxiv_full,ogbn_arxiv_full:2:017:independent,2,Eager,0.9086145,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:017:independent,2,RACE,0.910543,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:017:independent,2,ACORN-1 + selector + guard ef=128,0.013437,0.012060999999999999,0.0014160000000000002,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:017:independent,2,ACORN-1 + selector + guard ef=512,0.013255,0.011963,0.0012929999999999999,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:017:independent,2,ACORN-1 + selector + guard ef=1024,0.0142395,0.0124985,0.0017305,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:017:clustered,2,Eager,0.93626,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:017:clustered,2,RACE,0.9347145,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:017:clustered,2,ACORN-1 + selector + guard ef=128,0.0140925,0.012451,0.0015785,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:017:clustered,2,ACORN-1 + selector + guard ef=512,0.013399,0.012019,0.00142,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:017:clustered,2,ACORN-1 + selector + guard ef=1024,0.012965,0.0116325,0.0013325,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:018:independent,2,Eager,0.8467945,,,10,42
+ogbn_arxiv_full,ogbn_arxiv_full:2:018:independent,2,RACE,0.8515334999999999,,,10,42
+ogbn_arxiv_full,ogbn_arxiv_full:2:018:independent,2,ACORN-1 + selector + guard ef=128,0.025516999999999998,0.013379,0.012138,10,42
+ogbn_arxiv_full,ogbn_arxiv_full:2:018:independent,2,ACORN-1 + selector + guard ef=512,0.0247,0.0127045,0.011939,10,42
+ogbn_arxiv_full,ogbn_arxiv_full:2:018:independent,2,ACORN-1 + selector + guard ef=1024,0.025908,0.0133185,0.012495,10,42
+ogbn_arxiv_full,ogbn_arxiv_full:2:018:clustered,2,Eager,0.8754775,,,10,42
+ogbn_arxiv_full,ogbn_arxiv_full:2:018:clustered,2,RACE,0.885521,,,10,42
+ogbn_arxiv_full,ogbn_arxiv_full:2:018:clustered,2,ACORN-1 + selector + guard ef=128,0.0255805,0.0133105,0.0122135,10,42
+ogbn_arxiv_full,ogbn_arxiv_full:2:018:clustered,2,ACORN-1 + selector + guard ef=512,0.0260725,0.0134395,0.0127935,10,42
+ogbn_arxiv_full,ogbn_arxiv_full:2:018:clustered,2,ACORN-1 + selector + guard ef=1024,0.023324499999999998,0.011894,0.011408999999999999,10,42
+ogbn_arxiv_full,ogbn_arxiv_full:2:019:independent,2,Eager,1.3219124999999998,,,10,18163
+ogbn_arxiv_full,ogbn_arxiv_full:2:019:independent,2,RACE,1.3493825,,,10,18163
+ogbn_arxiv_full,ogbn_arxiv_full:2:019:independent,2,ACORN-1 + selector + guard ef=128,2.0195385,0.12115300000000001,1.897913,10,18163
+ogbn_arxiv_full,ogbn_arxiv_full:2:019:independent,2,ACORN-1 + selector + guard ef=512,8.248961,0.1204325,8.126983500000001,10,18163
+ogbn_arxiv_full,ogbn_arxiv_full:2:019:independent,2,ACORN-1 + selector + guard ef=1024,18.152012,0.123005,18.028314,10,18163
+ogbn_arxiv_full,ogbn_arxiv_full:2:019:clustered,2,Eager,0.8710405,,,10,18163
+ogbn_arxiv_full,ogbn_arxiv_full:2:019:clustered,2,RACE,1.092179,,,10,18163
+ogbn_arxiv_full,ogbn_arxiv_full:2:019:clustered,2,ACORN-1 + selector + guard ef=128,1.9751859999999999,0.1192645,1.856482,10,18163
+ogbn_arxiv_full,ogbn_arxiv_full:2:019:clustered,2,ACORN-1 + selector + guard ef=512,8.186129000000001,0.12055099999999999,8.061211,10,18163
+ogbn_arxiv_full,ogbn_arxiv_full:2:019:clustered,2,ACORN-1 + selector + guard ef=1024,17.9000165,0.120855,17.7791615,10,18163
+ogbn_arxiv_full,ogbn_arxiv_full:2:020:independent,2,Eager,0.9339845,,,10,14
+ogbn_arxiv_full,ogbn_arxiv_full:2:020:independent,2,RACE,0.938283,,,10,14
+ogbn_arxiv_full,ogbn_arxiv_full:2:020:independent,2,ACORN-1 + selector + guard ef=128,0.024201,0.0125725,0.0116285,10,14
+ogbn_arxiv_full,ogbn_arxiv_full:2:020:independent,2,ACORN-1 + selector + guard ef=512,0.023335,0.011961,0.0113895,10,14
+ogbn_arxiv_full,ogbn_arxiv_full:2:020:independent,2,ACORN-1 + selector + guard ef=1024,0.0256055,0.013465000000000001,0.012080500000000001,10,14
+ogbn_arxiv_full,ogbn_arxiv_full:2:020:clustered,2,Eager,0.6850385000000001,,,10,14
+ogbn_arxiv_full,ogbn_arxiv_full:2:020:clustered,2,RACE,0.691119,,,10,14
+ogbn_arxiv_full,ogbn_arxiv_full:2:020:clustered,2,ACORN-1 + selector + guard ef=128,0.023781,0.012262499999999999,0.011518500000000001,10,14
+ogbn_arxiv_full,ogbn_arxiv_full:2:020:clustered,2,ACORN-1 + selector + guard ef=512,0.024807000000000003,0.01276,0.011928999999999999,10,14
+ogbn_arxiv_full,ogbn_arxiv_full:2:020:clustered,2,ACORN-1 + selector + guard ef=1024,0.0259225,0.013572,0.0123645,10,14
+ogbn_arxiv_full,ogbn_arxiv_full:2:021:independent,2,Eager,0.9077045,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:021:independent,2,RACE,0.9048054999999999,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:021:independent,2,ACORN-1 + selector + guard ef=128,0.012874,0.011622500000000001,0.001258,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:021:independent,2,ACORN-1 + selector + guard ef=512,0.014296,0.012480499999999999,0.0017634999999999999,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:021:independent,2,ACORN-1 + selector + guard ef=1024,0.012847500000000001,0.011644499999999999,0.001277,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:021:clustered,2,Eager,0.793124,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:021:clustered,2,RACE,0.796302,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:021:clustered,2,ACORN-1 + selector + guard ef=128,0.01345,0.0120015,0.0014375,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:021:clustered,2,ACORN-1 + selector + guard ef=512,0.0137725,0.01217,0.0014165,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:021:clustered,2,ACORN-1 + selector + guard ef=1024,0.014034,0.0123645,0.001699,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:022:independent,2,Eager,0.9737175,,,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:2:022:independent,2,RACE,0.973349,,,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:2:022:independent,2,ACORN-1 + selector + guard ef=128,0.024084500000000002,0.0124155,0.011736,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:2:022:independent,2,ACORN-1 + selector + guard ef=512,0.025301999999999998,0.012959,0.012343,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:2:022:independent,2,ACORN-1 + selector + guard ef=1024,0.023876,0.011857,0.0120065,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:2:022:clustered,2,Eager,0.8243579999999999,,,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:2:022:clustered,2,RACE,0.823383,,,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:2:022:clustered,2,ACORN-1 + selector + guard ef=128,0.025338,0.0129335,0.012375500000000001,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:2:022:clustered,2,ACORN-1 + selector + guard ef=512,0.0230205,0.011719,0.0113565,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:2:022:clustered,2,ACORN-1 + selector + guard ef=1024,0.024209500000000002,0.012295500000000001,0.0119215,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:2:023:independent,2,Eager,0.8716425,,,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:2:023:independent,2,RACE,0.8734905,,,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:2:023:independent,2,ACORN-1 + selector + guard ef=128,0.025408,0.0130215,0.012384,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:2:023:independent,2,ACORN-1 + selector + guard ef=512,0.023111,0.011803000000000001,0.011327,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:2:023:independent,2,ACORN-1 + selector + guard ef=1024,0.025444500000000002,0.01296,0.012445999999999999,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:2:023:clustered,2,Eager,0.7128300000000001,,,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:2:023:clustered,2,RACE,0.722484,,,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:2:023:clustered,2,ACORN-1 + selector + guard ef=128,0.025618500000000002,0.013135,0.0124675,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:2:023:clustered,2,ACORN-1 + selector + guard ef=512,0.023263,0.01184,0.01154,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:2:023:clustered,2,ACORN-1 + selector + guard ef=1024,0.023004,0.0116635,0.011332,10,2
+ogbn_arxiv_full,ogbn_arxiv_full:2:024:independent,2,Eager,0.7031775,,,10,3
+ogbn_arxiv_full,ogbn_arxiv_full:2:024:independent,2,RACE,0.7047859999999999,,,10,3
+ogbn_arxiv_full,ogbn_arxiv_full:2:024:independent,2,ACORN-1 + selector + guard ef=128,0.024966500000000003,0.012812,0.011673,10,3
+ogbn_arxiv_full,ogbn_arxiv_full:2:024:independent,2,ACORN-1 + selector + guard ef=512,0.023031000000000003,0.011696999999999999,0.0113465,10,3
+ogbn_arxiv_full,ogbn_arxiv_full:2:024:independent,2,ACORN-1 + selector + guard ef=1024,0.0255365,0.0131175,0.012497,10,3
+ogbn_arxiv_full,ogbn_arxiv_full:2:024:clustered,2,Eager,0.8785795000000001,,,10,3
+ogbn_arxiv_full,ogbn_arxiv_full:2:024:clustered,2,RACE,0.876071,,,10,3
+ogbn_arxiv_full,ogbn_arxiv_full:2:024:clustered,2,ACORN-1 + selector + guard ef=128,0.022997999999999998,0.011654000000000001,0.0113335,10,3
+ogbn_arxiv_full,ogbn_arxiv_full:2:024:clustered,2,ACORN-1 + selector + guard ef=512,0.025637,0.013011499999999999,0.0126225,10,3
+ogbn_arxiv_full,ogbn_arxiv_full:2:024:clustered,2,ACORN-1 + selector + guard ef=1024,0.023095,0.0116835,0.011403,10,3
+ogbn_arxiv_full,ogbn_arxiv_full:2:025:independent,2,Eager,1.0304069999999999,,,10,17
+ogbn_arxiv_full,ogbn_arxiv_full:2:025:independent,2,RACE,1.029563,,,10,17
+ogbn_arxiv_full,ogbn_arxiv_full:2:025:independent,2,ACORN-1 + selector + guard ef=128,0.023122499999999997,0.011775,0.011303,10,17
+ogbn_arxiv_full,ogbn_arxiv_full:2:025:independent,2,ACORN-1 + selector + guard ef=512,0.023268,0.011851,0.011417,10,17
+ogbn_arxiv_full,ogbn_arxiv_full:2:025:independent,2,ACORN-1 + selector + guard ef=1024,0.025582,0.013041,0.012484,10,17
+ogbn_arxiv_full,ogbn_arxiv_full:2:025:clustered,2,Eager,0.8764675,,,10,17
+ogbn_arxiv_full,ogbn_arxiv_full:2:025:clustered,2,RACE,0.879157,,,10,17
+ogbn_arxiv_full,ogbn_arxiv_full:2:025:clustered,2,ACORN-1 + selector + guard ef=128,0.025465,0.0130835,0.0124405,10,17
+ogbn_arxiv_full,ogbn_arxiv_full:2:025:clustered,2,ACORN-1 + selector + guard ef=512,0.025035,0.012910999999999999,0.012102,10,17
+ogbn_arxiv_full,ogbn_arxiv_full:2:025:clustered,2,ACORN-1 + selector + guard ef=1024,0.023363500000000002,0.011864,0.011521,10,17
+ogbn_arxiv_full,ogbn_arxiv_full:2:026:independent,2,Eager,0.874689,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:026:independent,2,RACE,0.8701425,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:026:independent,2,ACORN-1 + selector + guard ef=128,0.0128145,0.0115985,0.001204,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:026:independent,2,ACORN-1 + selector + guard ef=512,0.013551,0.012028500000000001,0.0014975,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:026:independent,2,ACORN-1 + selector + guard ef=1024,0.013815000000000001,0.012373499999999999,0.0014895,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:026:clustered,2,Eager,0.878243,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:026:clustered,2,RACE,0.875665,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:026:clustered,2,ACORN-1 + selector + guard ef=128,0.0142335,0.012585,0.0016835,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:026:clustered,2,ACORN-1 + selector + guard ef=512,0.014248,0.0126415,0.0015769999999999998,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:026:clustered,2,ACORN-1 + selector + guard ef=1024,0.0127775,0.011636500000000001,0.0011555,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:027:independent,2,Eager,0.906278,,,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:2:027:independent,2,RACE,0.9071575000000001,,,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:2:027:independent,2,ACORN-1 + selector + guard ef=128,0.025467,0.0130125,0.0123825,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:2:027:independent,2,ACORN-1 + selector + guard ef=512,0.022996,0.0116685,0.011326,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:2:027:independent,2,ACORN-1 + selector + guard ef=1024,0.025555,0.013006,0.0125345,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:2:027:clustered,2,Eager,0.898674,,,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:2:027:clustered,2,RACE,0.905691,,,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:2:027:clustered,2,ACORN-1 + selector + guard ef=128,0.0243155,0.012369000000000002,0.011887,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:2:027:clustered,2,ACORN-1 + selector + guard ef=512,0.022965,0.01167,0.011299,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:2:027:clustered,2,ACORN-1 + selector + guard ef=1024,0.024390500000000002,0.0124155,0.012006,10,1
+ogbn_arxiv_full,ogbn_arxiv_full:2:028:independent,2,Eager,0.8465145000000001,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:028:independent,2,RACE,0.841214,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:028:independent,2,ACORN-1 + selector + guard ef=128,0.0129745,0.0116895,0.0012850000000000001,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:028:independent,2,ACORN-1 + selector + guard ef=512,0.013347000000000001,0.012038,0.0012795,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:028:independent,2,ACORN-1 + selector + guard ef=1024,0.013454,0.01202,0.001447,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:028:clustered,2,Eager,0.927999,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:028:clustered,2,RACE,0.927421,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:028:clustered,2,ACORN-1 + selector + guard ef=128,0.0129265,0.011696999999999999,0.0012144999999999999,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:028:clustered,2,ACORN-1 + selector + guard ef=512,0.013758,0.012214,0.001369,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:028:clustered,2,ACORN-1 + selector + guard ef=1024,0.014499999999999999,0.0126985,0.0017569999999999999,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:029:independent,2,Eager,0.9313885,,,10,20
+ogbn_arxiv_full,ogbn_arxiv_full:2:029:independent,2,RACE,0.9381045,,,10,20
+ogbn_arxiv_full,ogbn_arxiv_full:2:029:independent,2,ACORN-1 + selector + guard ef=128,0.023015,0.0118965,0.0111685,10,20
+ogbn_arxiv_full,ogbn_arxiv_full:2:029:independent,2,ACORN-1 + selector + guard ef=512,0.024505,0.01255,0.0118775,10,20
+ogbn_arxiv_full,ogbn_arxiv_full:2:029:independent,2,ACORN-1 + selector + guard ef=1024,0.0244305,0.012501,0.0119,10,20
+ogbn_arxiv_full,ogbn_arxiv_full:2:029:clustered,2,Eager,0.7481385,,,10,20
+ogbn_arxiv_full,ogbn_arxiv_full:2:029:clustered,2,RACE,0.7489405,,,10,20
+ogbn_arxiv_full,ogbn_arxiv_full:2:029:clustered,2,ACORN-1 + selector + guard ef=128,0.0254695,0.013068,0.012352,10,20
+ogbn_arxiv_full,ogbn_arxiv_full:2:029:clustered,2,ACORN-1 + selector + guard ef=512,0.0243715,0.0124665,0.011904999999999999,10,20
+ogbn_arxiv_full,ogbn_arxiv_full:2:029:clustered,2,ACORN-1 + selector + guard ef=1024,0.024469499999999998,0.0124455,0.0120245,10,20
+ogbn_arxiv_full,ogbn_arxiv_full:2:030:independent,2,Eager,0.8632340000000001,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:030:independent,2,RACE,0.8675895,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:030:independent,2,ACORN-1 + selector + guard ef=128,0.013623,0.0121595,0.0014260000000000002,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:030:independent,2,ACORN-1 + selector + guard ef=512,0.0141985,0.0125885,0.0016865,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:030:independent,2,ACORN-1 + selector + guard ef=1024,0.012813000000000001,0.0115945,0.0011995,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:030:clustered,2,Eager,0.828794,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:030:clustered,2,RACE,0.8286505,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:030:clustered,2,ACORN-1 + selector + guard ef=128,0.0130025,0.011738,0.0012905,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:030:clustered,2,ACORN-1 + selector + guard ef=512,0.013295000000000001,0.012004500000000001,0.0013175,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:030:clustered,2,ACORN-1 + selector + guard ef=1024,0.0143255,0.012594000000000001,0.0017315,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:031:independent,2,Eager,0.7387,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:031:independent,2,RACE,0.7452185,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:031:independent,2,ACORN-1 + selector + guard ef=128,0.014264,0.0126155,0.001645,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:031:independent,2,ACORN-1 + selector + guard ef=512,0.0127325,0.011592499999999999,0.0011345,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:031:independent,2,ACORN-1 + selector + guard ef=1024,0.012768000000000002,0.011583,0.0011985,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:031:clustered,2,Eager,0.8775109999999999,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:031:clustered,2,RACE,0.8825675,,,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:031:clustered,2,ACORN-1 + selector + guard ef=128,0.0144495,0.012733,0.0016979999999999999,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:031:clustered,2,ACORN-1 + selector + guard ef=512,0.013052500000000002,0.011882,0.001211,10,0
+ogbn_arxiv_full,ogbn_arxiv_full:2:031:clustered,2,ACORN-1 + selector + guard ef=1024,0.013016,0.011847,0.001198,10,0

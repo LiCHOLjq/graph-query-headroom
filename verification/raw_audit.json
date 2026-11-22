@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "scope": "Numeric records and recorded audit flags; no independent graph or answer-ID verification.",
+  "prospective": {
+    "queries": 3200,
+    "measured_calls": 204800,
+    "median_rows": 25600,
+    "answer_hashes_agree": true
+  },
+  "factorial": {
+    "queries": 960,
+    "sessions": 2,
+    "cells": 4,
+    "measured_calls": 122880,
+    "median_rows": 15360
+  },
+  "external": {
+    "queries": 576,
+    "measured_calls": 28800,
+    "median_rows": 2880
+  },
+  "scan": {
+    "queries": 960,
+    "attempts": 3840,
+    "completed": 3352,
+    "censored": 488,
+    "no_imputed_costs": true
+  }
+}

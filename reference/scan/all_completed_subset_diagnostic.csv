@@ -1,0 +1,7 @@
+corpus,queries,total_queries,scope,eager_observed_oracle_ratio,pair_subset_oracle_over_four,observed_oracle_budget_us
+ALL,725,960,conditional on all four policy calls completing; selection-biased diagnostic,1.0812400389286525,1.0190693355480573,1455.3419089655172
+amazon_product,134,192,conditional on all four policy calls completing; selection-biased diagnostic,1.0699576673459965,1.0145749457223845,1400.6939029850748
+ldbc_snb,131,192,conditional on all four policy calls completing; selection-biased diagnostic,1.0607819653663888,1.01366078698649,1409.513290076336
+ogbn_arxiv_full,173,192,conditional on all four policy calls completing; selection-biased diagnostic,1.1326583380932864,1.0332751874931707,1613.1600173410404
+ogbn_products,109,192,conditional on all four policy calls completing; selection-biased diagnostic,1.0644695417298238,1.0181048555444345,1536.4907155963306
+openalex_db,178,192,conditional on all four policy calls completing; selection-biased diagnostic,1.0920821425427236,1.0195015684852677,1327.1319606741574

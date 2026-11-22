@@ -1,0 +1,283 @@
+{
+  "status": "PASS",
+  "seconds": 14.082848099998955,
+  "python": "3.11.14",
+  "numpy": "2.4.0",
+  "pandas": "2.3.3",
+  "numeric_rtol": 1e-10,
+  "numeric_atol": 1e-12,
+  "commands": [
+    {
+      "analysis": "raw_audit",
+      "returncode": 0
+    },
+    {
+      "analysis": "retained",
+      "returncode": 0
+    },
+    {
+      "analysis": "prospective",
+      "returncode": 0
+    },
+    {
+      "analysis": "factorial",
+      "returncode": 0
+    },
+    {
+      "analysis": "scan",
+      "returncode": 0
+    },
+    {
+      "analysis": "external",
+      "returncode": 0
+    },
+    {
+      "analysis": "leakage",
+      "returncode": 0
+    }
+  ],
+  "reference_tables": [
+    {
+      "analysis": "retained",
+      "file": "absolute_costs.csv",
+      "rows": 264,
+      "status": "PASS"
+    },
+    {
+      "analysis": "retained",
+      "file": "choice_counts.csv",
+      "rows": 256,
+      "status": "PASS"
+    },
+    {
+      "analysis": "retained",
+      "file": "configuration_features.csv",
+      "rows": 29,
+      "status": "PASS"
+    },
+    {
+      "analysis": "retained",
+      "file": "configuration_weights.csv",
+      "rows": 29,
+      "status": "PASS"
+    },
+    {
+      "analysis": "retained",
+      "file": "figure3_intervals.csv",
+      "rows": 21,
+      "status": "PASS"
+    },
+    {
+      "analysis": "retained",
+      "file": "figure6_ranges.csv",
+      "rows": 14,
+      "status": "PASS"
+    },
+    {
+      "analysis": "retained",
+      "file": "holm_stepdown.csv",
+      "rows": 42,
+      "status": "PASS"
+    },
+    {
+      "analysis": "retained",
+      "file": "macro_summary.csv",
+      "rows": 28,
+      "status": "PASS"
+    },
+    {
+      "analysis": "retained",
+      "file": "original_figure3_intervals.csv",
+      "rows": 21,
+      "status": "PASS"
+    },
+    {
+      "analysis": "retained",
+      "file": "overhead_summary.csv",
+      "rows": 12,
+      "status": "PASS"
+    },
+    {
+      "analysis": "retained",
+      "file": "paired_differences.csv",
+      "rows": 138,
+      "status": "PASS"
+    },
+    {
+      "analysis": "retained",
+      "file": "policy_configuration_costs.csv",
+      "rows": 98,
+      "status": "PASS"
+    },
+    {
+      "analysis": "retained",
+      "file": "regret_tails.csv",
+      "rows": 231,
+      "status": "PASS"
+    },
+    {
+      "analysis": "retained",
+      "file": "seed_values.csv",
+      "rows": 1610,
+      "status": "PASS"
+    },
+    {
+      "analysis": "retained",
+      "file": "selector_configuration_weights.csv",
+      "rows": 232,
+      "status": "PASS"
+    },
+    {
+      "analysis": "prospective",
+      "file": "configuration_summary.csv",
+      "rows": 40,
+      "status": "PASS"
+    },
+    {
+      "analysis": "prospective",
+      "file": "fixed_oracle_excess.csv",
+      "rows": 8,
+      "status": "PASS"
+    },
+    {
+      "analysis": "prospective",
+      "file": "policy_choices.csv",
+      "rows": 52,
+      "status": "PASS"
+    },
+    {
+      "analysis": "prospective",
+      "file": "position_audit.csv",
+      "rows": 64,
+      "status": "PASS"
+    },
+    {
+      "analysis": "prospective",
+      "file": "quality_summary.csv",
+      "rows": 5,
+      "status": "PASS"
+    },
+    {
+      "analysis": "prospective",
+      "file": "seed_results.csv",
+      "rows": 400,
+      "status": "PASS"
+    },
+    {
+      "analysis": "prospective",
+      "file": "summary.csv",
+      "rows": 8,
+      "status": "PASS"
+    },
+    {
+      "analysis": "prospective",
+      "file": "timing_components.csv",
+      "rows": 8,
+      "status": "PASS"
+    },
+    {
+      "analysis": "factorial",
+      "file": "cell_summary.csv",
+      "rows": 144,
+      "status": "PASS"
+    },
+    {
+      "analysis": "factorial",
+      "file": "costs.csv",
+      "rows": 15360,
+      "status": "PASS"
+    },
+    {
+      "analysis": "factorial",
+      "file": "cross_session_cases.csv",
+      "rows": 3840,
+      "status": "PASS"
+    },
+    {
+      "analysis": "factorial",
+      "file": "cross_session_summary.csv",
+      "rows": 24,
+      "status": "PASS"
+    },
+    {
+      "analysis": "factorial",
+      "file": "factorial_contrasts.csv",
+      "rows": 240,
+      "status": "PASS"
+    },
+    {
+      "analysis": "factorial",
+      "file": "factorial_seed_blocks.csv",
+      "rows": 600,
+      "status": "PASS"
+    },
+    {
+      "analysis": "factorial",
+      "file": "fixed_policy_summary.csv",
+      "rows": 96,
+      "status": "PASS"
+    },
+    {
+      "analysis": "factorial",
+      "file": "quality.csv",
+      "rows": 7680,
+      "status": "PASS"
+    },
+    {
+      "analysis": "factorial",
+      "file": "winner_counts.csv",
+      "rows": 96,
+      "status": "PASS"
+    },
+    {
+      "analysis": "scan",
+      "file": "all_completed_subset_diagnostic.csv",
+      "rows": 6,
+      "status": "PASS"
+    },
+    {
+      "analysis": "scan",
+      "file": "completion_summary.csv",
+      "rows": 24,
+      "status": "PASS"
+    },
+    {
+      "analysis": "scan",
+      "file": "query_completion_coverage.csv",
+      "rows": 6,
+      "status": "PASS"
+    },
+    {
+      "analysis": "external",
+      "file": "seed_summary.csv",
+      "rows": 45,
+      "status": "PASS"
+    },
+    {
+      "analysis": "external",
+      "file": "summary.csv",
+      "rows": 15,
+      "status": "PASS"
+    },
+    {
+      "analysis": "leakage",
+      "file": "leakage_folds.csv",
+      "rows": 87,
+      "status": "PASS"
+    },
+    {
+      "analysis": "leakage",
+      "file": "leakage_predictions.csv",
+      "rows": 96768,
+      "status": "PASS"
+    },
+    {
+      "analysis": "leakage",
+      "file": "leakage_summary.csv",
+      "rows": 36,
+      "status": "PASS"
+    }
+  ],
+  "frozen_1pct_criterion": "NOT_MET",
+  "largest_simultaneous_upper": 1.018103231012578
+}

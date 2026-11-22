@@ -1,0 +1,43 @@
+stage,strategy,p_raw,clusters,nonzero_blocks,positive_blocks,negative_blocks,zero_blocks,nominal_raw_resolution,effective_raw_lower_bound,family,family_size,rank,multiplier,rank_scaled_p,p_adjusted
+EGR,cost_tree,0.001953125,10,10,10,0,0,0.001953125,0.001953125,original24,24,1,24,0.046875,0.046875
+EGR,penalty_tree,0.001953125,10,10,10,0,0,0.001953125,0.001953125,original24,24,2,23,0.044921875,0.046875
+EGR,threshold,0.001953125,10,10,0,10,0,0.001953125,0.001953125,original24,24,3,22,0.04296875,0.046875
+EGR,uncertainty_tree,0.001953125,10,10,10,0,0,0.001953125,0.001953125,original24,24,4,21,0.041015625,0.046875
+BCR,penalty_tree,0.1875,15,9,6,3,6,6.103515625e-05,0.00390625,original24,24,5,20,3.75,1
+BCR,uncertainty_tree,0.1875,15,9,6,3,6,6.103515625e-05,0.00390625,original24,24,6,19,3.5625,1
+RPE,cost_tree,0.25,3,3,0,3,0,0.25,0.25,original24,24,7,18,4.5,1
+RPE,most_frequent,0.25,3,3,0,3,0,0.25,0.25,original24,24,8,17,4.25,1
+RPE,threshold,0.25,3,3,0,3,0,0.25,0.25,original24,24,9,16,4,1
+RPE legacy,cost_tree,0.25,3,3,0,3,0,0.25,0.25,original24,24,10,15,3.75,1
+RPE legacy,most_frequent,0.25,3,3,0,3,0,0.25,0.25,original24,24,11,14,3.5,1
+RPE legacy,penalty_tree,0.25,3,3,0,3,0,0.25,0.25,original24,24,12,13,3.25,1
+RPE legacy,threshold,0.25,3,3,0,3,0,0.25,0.25,original24,24,13,12,3,1
+RPE legacy,train_best,0.25,3,3,0,3,0,0.25,0.25,original24,24,14,11,2.75,1
+RPE legacy,uncertainty_tree,0.25,3,3,0,3,0,0.25,0.25,original24,24,15,10,2.5,1
+BCR,cost_tree,0.5,15,3,2,1,12,6.103515625e-05,0.25,original24,24,16,9,4.5,1
+RPE,penalty_tree,0.5,3,3,2,1,0,0.25,0.25,original24,24,17,8,4,1
+RPE,train_best,0.5,3,3,2,1,0,0.25,0.25,original24,24,18,7,3.5,1
+RPE,uncertainty_tree,0.5,3,3,2,1,0,0.25,0.25,original24,24,19,6,3,1
+BCR,most_frequent,1,15,0,0,0,15,6.103515625e-05,1,original24,24,20,5,5,1
+BCR,threshold,1,15,0,0,0,15,6.103515625e-05,1,original24,24,21,4,4,1
+BCR,train_best,1,15,0,0,0,15,6.103515625e-05,1,original24,24,22,3,3,1
+EGR,most_frequent,1,10,0,0,0,10,0.001953125,1,original24,24,23,2,2,1
+EGR,train_best,1,10,0,0,0,10,0.001953125,1,original24,24,24,1,1,1
+EGR,cost_tree,0.001953125,10,10,10,0,0,0.001953125,0.001953125,primary18,18,1,18,0.03515625,0.03515625
+EGR,penalty_tree,0.001953125,10,10,10,0,0,0.001953125,0.001953125,primary18,18,2,17,0.033203125,0.03515625
+EGR,threshold,0.001953125,10,10,0,10,0,0.001953125,0.001953125,primary18,18,3,16,0.03125,0.03515625
+EGR,uncertainty_tree,0.001953125,10,10,10,0,0,0.001953125,0.001953125,primary18,18,4,15,0.029296875,0.03515625
+BCR,penalty_tree,0.1875,15,9,6,3,6,6.103515625e-05,0.00390625,primary18,18,5,14,2.625,1
+BCR,uncertainty_tree,0.1875,15,9,6,3,6,6.103515625e-05,0.00390625,primary18,18,6,13,2.4375,1
+RPE,cost_tree,0.25,3,3,0,3,0,0.25,0.25,primary18,18,7,12,3,1
+RPE,most_frequent,0.25,3,3,0,3,0,0.25,0.25,primary18,18,8,11,2.75,1
+RPE,threshold,0.25,3,3,0,3,0,0.25,0.25,primary18,18,9,10,2.5,1
+BCR,cost_tree,0.5,15,3,2,1,12,6.103515625e-05,0.25,primary18,18,10,9,4.5,1
+RPE,penalty_tree,0.5,3,3,2,1,0,0.25,0.25,primary18,18,11,8,4,1
+RPE,train_best,0.5,3,3,2,1,0,0.25,0.25,primary18,18,12,7,3.5,1
+RPE,uncertainty_tree,0.5,3,3,2,1,0,0.25,0.25,primary18,18,13,6,3,1
+BCR,most_frequent,1,15,0,0,0,15,6.103515625e-05,1,primary18,18,14,5,5,1
+BCR,threshold,1,15,0,0,0,15,6.103515625e-05,1,primary18,18,15,4,4,1
+BCR,train_best,1,15,0,0,0,15,6.103515625e-05,1,primary18,18,16,3,3,1
+EGR,most_frequent,1,10,0,0,0,10,0.001953125,1,primary18,18,17,2,2,1
+EGR,train_best,1,10,0,0,0,10,0.001953125,1,primary18,18,18,1,1,1

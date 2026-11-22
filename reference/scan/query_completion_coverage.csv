@@ -1,0 +1,7 @@
+corpus,queries,all_four_complete,any_censored,eager_complete,full_workload_native_oracle_identified,full_workload_empirical_oracle_cost_ms,reason
+ALL,960,725,235,948,False,,Censored native call costs remain unknown; this is a one-shot fork regime
+amazon_product,192,134,58,192,False,,Censored native call costs remain unknown; this is a one-shot fork regime
+ldbc_snb,192,131,61,192,False,,Censored native call costs remain unknown; this is a one-shot fork regime
+ogbn_arxiv_full,192,173,19,192,False,,Censored native call costs remain unknown; this is a one-shot fork regime
+ogbn_products,192,109,83,180,False,,Censored native call costs remain unknown; this is a one-shot fork regime
+openalex_db,192,178,14,192,False,,Censored native call costs remain unknown; this is a one-shot fork regime

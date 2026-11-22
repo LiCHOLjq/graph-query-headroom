@@ -1,0 +1,37 @@
+{
+  "predictions.csv": {
+    "original_relative_path": "experiments/results/predictions.csv",
+    "sha256": "78f681f4b5353569d83edd3cac0d53d1af51e8483bc9eeffd6108d631ea90608",
+    "bytes": 8155058
+  },
+  "summary.csv": {
+    "original_relative_path": "experiments/results/summary.csv",
+    "sha256": "189f07c21a46621defca9d87cc30fa4bdee5194e03376137e7410df71a5dc717",
+    "bytes": 56832
+  },
+  "costs.csv": {
+    "original_relative_path": "experiments/data/costs.csv",
+    "sha256": "31064c6c199c3a502ce196b328d73916cef790113126ba5e712b752a401202db",
+    "bytes": 7585325
+  },
+  "costs_bcr.csv": {
+    "original_relative_path": "experiments/data/costs_jq8.csv",
+    "sha256": "be5959fdd093558c5f623a1c27e800013bd587dcac982b0c4e5339ed0017c538",
+    "bytes": 294310
+  },
+  "router_timings.csv": {
+    "original_relative_path": "experiments/results/router_timings.csv",
+    "sha256": "fcff0705500b1af65f6e7ac63ad8a7464cc80243999361f7e897b0b4fa8545c1",
+    "bytes": 6753
+  },
+  "native_overhead.csv": {
+    "original_relative_path": "experiments/results/native_overhead.csv",
+    "sha256": "0608555a015fbfcd4453a180b9698d095e97ba4ea1357f1bb1578dfaadc57833",
+    "bytes": 6464
+  },
+  "folds.csv": {
+    "original_relative_path": "experiments/results/folds.csv",
+    "sha256": "13163a789f37498c8c9ae88f25e55fecb63e3a3d7a106ba4ab674020820f37a5",
+    "bytes": 6882
+  }
+}

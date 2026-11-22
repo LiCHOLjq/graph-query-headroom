@@ -1,0 +1,6 @@
+config,queries,mean_recall,exact_matches,empty_queries
+amazon_product,640,0.99968749999999995,638,104
+ldbc_snb,640,0.99875000000000003,632,58
+ogbn_arxiv_full,640,0.99968749999999995,639,226
+ogbn_products,640,0.91796875,538,42
+openalex_db,640,1,640,132

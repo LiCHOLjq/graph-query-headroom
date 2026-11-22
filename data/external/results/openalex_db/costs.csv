@@ -1,0 +1,961 @@
+corpus,query_id,seed,policy,cost_ms,bitmap_ms,search_ms,repeats,eligible_count
+openalex_db,openalex_db:0:000:independent,0,Eager,4.3716625,,,10,3
+openalex_db,openalex_db:0:000:independent,0,RACE,4.380198999999999,,,10,3
+openalex_db,openalex_db:0:000:independent,0,ACORN-1 + selector + guard ef=128,0.019036,0.007261500000000001,0.011703,10,3
+openalex_db,openalex_db:0:000:independent,0,ACORN-1 + selector + guard ef=512,0.018688999999999997,0.0067745,0.011778,10,3
+openalex_db,openalex_db:0:000:independent,0,ACORN-1 + selector + guard ef=1024,0.0200805,0.00747,0.012442,10,3
+openalex_db,openalex_db:0:000:clustered,0,Eager,4.357357,,,10,3
+openalex_db,openalex_db:0:000:clustered,0,RACE,4.3620985,,,10,3
+openalex_db,openalex_db:0:000:clustered,0,ACORN-1 + selector + guard ef=128,0.018058499999999998,0.0066289999999999995,0.011437,10,3
+openalex_db,openalex_db:0:000:clustered,0,ACORN-1 + selector + guard ef=512,0.018957,0.0069925000000000005,0.011929,10,3
+openalex_db,openalex_db:0:000:clustered,0,ACORN-1 + selector + guard ef=1024,0.0188365,0.0068845,0.0118375,10,3
+openalex_db,openalex_db:0:001:independent,0,Eager,4.302962,,,10,204
+openalex_db,openalex_db:0:001:independent,0,RACE,1.4345485,,,10,204
+openalex_db,openalex_db:0:001:independent,0,ACORN-1 + selector + guard ef=128,3.5960374999999996,0.0168665,3.578457,10,204
+openalex_db,openalex_db:0:001:independent,0,ACORN-1 + selector + guard ef=512,5.2950235,0.018189999999999998,5.276441,10,204
+openalex_db,openalex_db:0:001:independent,0,ACORN-1 + selector + guard ef=1024,3.779598,0.020074500000000002,3.7610279999999996,10,204
+openalex_db,openalex_db:0:001:clustered,0,Eager,1.2982945,,,10,204
+openalex_db,openalex_db:0:001:clustered,0,RACE,2.7963225,,,10,204
+openalex_db,openalex_db:0:001:clustered,0,ACORN-1 + selector + guard ef=128,1.545207,0.0168545,1.52546,10,204
+openalex_db,openalex_db:0:001:clustered,0,ACORN-1 + selector + guard ef=512,5.290177,0.016994000000000002,5.2732814999999995,10,204
+openalex_db,openalex_db:0:001:clustered,0,ACORN-1 + selector + guard ef=1024,5.2964515,0.017737,5.2798095,10,204
+openalex_db,openalex_db:0:002:independent,0,Eager,1.533108,,,10,0
+openalex_db,openalex_db:0:002:independent,0,RACE,1.17509,,,10,0
+openalex_db,openalex_db:0:002:independent,0,ACORN-1 + selector + guard ef=128,0.0092,0.0078995,0.0012685,10,0
+openalex_db,openalex_db:0:002:independent,0,ACORN-1 + selector + guard ef=512,0.010683,0.009270500000000001,0.0014104999999999999,10,0
+openalex_db,openalex_db:0:002:independent,0,ACORN-1 + selector + guard ef=1024,0.009052000000000001,0.007848,0.0012155,10,0
+openalex_db,openalex_db:0:002:clustered,0,Eager,4.604440500000001,,,10,0
+openalex_db,openalex_db:0:002:clustered,0,RACE,3.3387425000000004,,,10,0
+openalex_db,openalex_db:0:002:clustered,0,ACORN-1 + selector + guard ef=128,0.010729,0.009137,0.0015145,10,0
+openalex_db,openalex_db:0:002:clustered,0,ACORN-1 + selector + guard ef=512,0.0100455,0.008693,0.001281,10,0
+openalex_db,openalex_db:0:002:clustered,0,ACORN-1 + selector + guard ef=1024,0.009524,0.008240500000000001,0.001272,10,0
+openalex_db,openalex_db:0:003:independent,0,Eager,4.847901,,,10,685
+openalex_db,openalex_db:0:003:independent,0,RACE,3.421809,,,10,685
+openalex_db,openalex_db:0:003:independent,0,ACORN-1 + selector + guard ef=128,4.897231,0.020782500000000002,4.877091500000001,10,685
+openalex_db,openalex_db:0:003:independent,0,ACORN-1 + selector + guard ef=512,12.8162485,0.021002,12.796313000000001,10,685
+openalex_db,openalex_db:0:003:independent,0,ACORN-1 + selector + guard ef=1024,18.038713,0.021989,18.017039500000003,10,685
+openalex_db,openalex_db:0:003:clustered,0,Eager,4.618695499999999,,,10,685
+openalex_db,openalex_db:0:003:clustered,0,RACE,4.7262075,,,10,685
+openalex_db,openalex_db:0:003:clustered,0,ACORN-1 + selector + guard ef=128,1.9377385,0.020597999999999998,1.9163709999999998,10,685
+openalex_db,openalex_db:0:003:clustered,0,ACORN-1 + selector + guard ef=512,12.8266205,0.0213075,12.803272,10,685
+openalex_db,openalex_db:0:003:clustered,0,ACORN-1 + selector + guard ef=1024,18.1081955,0.023252000000000002,18.0845355,10,685
+openalex_db,openalex_db:0:004:independent,0,Eager,1.4798875,,,10,12
+openalex_db,openalex_db:0:004:independent,0,RACE,1.4933394999999998,,,10,12
+openalex_db,openalex_db:0:004:independent,0,ACORN-1 + selector + guard ef=128,0.016861,0.00617,0.010691,10,12
+openalex_db,openalex_db:0:004:independent,0,ACORN-1 + selector + guard ef=512,0.0182585,0.006854,0.011351,10,12
+openalex_db,openalex_db:0:004:independent,0,ACORN-1 + selector + guard ef=1024,0.01847,0.00684,0.011630000000000001,10,12
+openalex_db,openalex_db:0:004:clustered,0,Eager,2.61646,,,10,12
+openalex_db,openalex_db:0:004:clustered,0,RACE,1.1480190000000001,,,10,12
+openalex_db,openalex_db:0:004:clustered,0,ACORN-1 + selector + guard ef=128,0.017904,0.006464,0.01133,10,12
+openalex_db,openalex_db:0:004:clustered,0,ACORN-1 + selector + guard ef=512,0.0182025,0.006491500000000001,0.0115745,10,12
+openalex_db,openalex_db:0:004:clustered,0,ACORN-1 + selector + guard ef=1024,0.018625,0.0070335,0.0116755,10,12
+openalex_db,openalex_db:0:005:independent,0,Eager,4.384789,,,10,31
+openalex_db,openalex_db:0:005:independent,0,RACE,4.44065,,,10,31
+openalex_db,openalex_db:0:005:independent,0,ACORN-1 + selector + guard ef=128,0.0245305,0.009717,0.0147695,10,31
+openalex_db,openalex_db:0:005:independent,0,ACORN-1 + selector + guard ef=512,0.0240525,0.009253,0.0148125,10,31
+openalex_db,openalex_db:0:005:independent,0,ACORN-1 + selector + guard ef=1024,0.024148000000000003,0.009252,0.0148275,10,31
+openalex_db,openalex_db:0:005:clustered,0,Eager,1.2556805,,,10,31
+openalex_db,openalex_db:0:005:clustered,0,RACE,1.7995204999999999,,,10,31
+openalex_db,openalex_db:0:005:clustered,0,ACORN-1 + selector + guard ef=128,0.021702,0.008472,0.0132915,10,31
+openalex_db,openalex_db:0:005:clustered,0,ACORN-1 + selector + guard ef=512,0.023941,0.0096355,0.0142505,10,31
+openalex_db,openalex_db:0:005:clustered,0,ACORN-1 + selector + guard ef=1024,0.023232000000000003,0.009330499999999999,0.0141105,10,31
+openalex_db,openalex_db:0:006:independent,0,Eager,1.6771705,,,10,21
+openalex_db,openalex_db:0:006:independent,0,RACE,1.574116,,,10,21
+openalex_db,openalex_db:0:006:independent,0,ACORN-1 + selector + guard ef=128,0.0169425,0.0062935,0.0105415,10,21
+openalex_db,openalex_db:0:006:independent,0,ACORN-1 + selector + guard ef=512,0.0183415,0.007116,0.0113855,10,21
+openalex_db,openalex_db:0:006:independent,0,ACORN-1 + selector + guard ef=1024,0.018388500000000002,0.0069905,0.0113245,10,21
+openalex_db,openalex_db:0:006:clustered,0,Eager,1.2362875,,,10,21
+openalex_db,openalex_db:0:006:clustered,0,RACE,1.2512525,,,10,21
+openalex_db,openalex_db:0:006:clustered,0,ACORN-1 + selector + guard ef=128,0.0191325,0.0074210000000000005,0.01197,10,21
+openalex_db,openalex_db:0:006:clustered,0,ACORN-1 + selector + guard ef=512,0.018715,0.006893,0.01176,10,21
+openalex_db,openalex_db:0:006:clustered,0,ACORN-1 + selector + guard ef=1024,0.018938,0.007084,0.011913,10,21
+openalex_db,openalex_db:0:007:independent,0,Eager,2.5733975,,,10,32
+openalex_db,openalex_db:0:007:independent,0,RACE,1.11606,,,10,32
+openalex_db,openalex_db:0:007:independent,0,ACORN-1 + selector + guard ef=128,0.018133,0.0068005,0.011325,10,32
+openalex_db,openalex_db:0:007:independent,0,ACORN-1 + selector + guard ef=512,0.018175999999999998,0.006701,0.011518500000000001,10,32
+openalex_db,openalex_db:0:007:independent,0,ACORN-1 + selector + guard ef=1024,0.0181755,0.0066445,0.011504,10,32
+openalex_db,openalex_db:0:007:clustered,0,Eager,1.489865,,,10,32
+openalex_db,openalex_db:0:007:clustered,0,RACE,1.5004645,,,10,32
+openalex_db,openalex_db:0:007:clustered,0,ACORN-1 + selector + guard ef=128,0.016563500000000002,0.0061385,0.0104665,10,32
+openalex_db,openalex_db:0:007:clustered,0,ACORN-1 + selector + guard ef=512,0.017694,0.006531,0.01098,10,32
+openalex_db,openalex_db:0:007:clustered,0,ACORN-1 + selector + guard ef=1024,0.0179695,0.006719,0.0112505,10,32
+openalex_db,openalex_db:0:008:independent,0,Eager,1.274083,,,10,24
+openalex_db,openalex_db:0:008:independent,0,RACE,1.323521,,,10,24
+openalex_db,openalex_db:0:008:independent,0,ACORN-1 + selector + guard ef=128,0.043332999999999997,0.0072715,0.035959,10,24
+openalex_db,openalex_db:0:008:independent,0,ACORN-1 + selector + guard ef=512,0.0428315,0.0071805,0.03559,10,24
+openalex_db,openalex_db:0:008:independent,0,ACORN-1 + selector + guard ef=1024,0.0434315,0.0070065,0.0363585,10,24
+openalex_db,openalex_db:0:008:clustered,0,Eager,4.446643999999999,,,10,24
+openalex_db,openalex_db:0:008:clustered,0,RACE,4.4419070000000005,,,10,24
+openalex_db,openalex_db:0:008:clustered,0,ACORN-1 + selector + guard ef=128,0.0463925,0.0077339999999999996,0.038993,10,24
+openalex_db,openalex_db:0:008:clustered,0,ACORN-1 + selector + guard ef=512,0.046653,0.0073945,0.03914,10,24
+openalex_db,openalex_db:0:008:clustered,0,ACORN-1 + selector + guard ef=1024,0.047213000000000005,0.007840999999999999,0.039094500000000004,10,24
+openalex_db,openalex_db:0:009:independent,0,Eager,3.282368,,,10,6
+openalex_db,openalex_db:0:009:independent,0,RACE,4.760245,,,10,6
+openalex_db,openalex_db:0:009:independent,0,ACORN-1 + selector + guard ef=128,0.0201055,0.007417,0.012452000000000001,10,6
+openalex_db,openalex_db:0:009:independent,0,ACORN-1 + selector + guard ef=512,0.017812500000000002,0.006402,0.01141,10,6
+openalex_db,openalex_db:0:009:independent,0,ACORN-1 + selector + guard ef=1024,0.018101,0.006755000000000001,0.011445,10,6
+openalex_db,openalex_db:0:009:clustered,0,Eager,4.504034,,,10,6
+openalex_db,openalex_db:0:009:clustered,0,RACE,4.4966865,,,10,6
+openalex_db,openalex_db:0:009:clustered,0,ACORN-1 + selector + guard ef=128,0.017806000000000002,0.00651,0.011313,10,6
+openalex_db,openalex_db:0:009:clustered,0,ACORN-1 + selector + guard ef=512,0.018842499999999998,0.007053,0.0119755,10,6
+openalex_db,openalex_db:0:009:clustered,0,ACORN-1 + selector + guard ef=1024,0.018034,0.0065425,0.011449,10,6
+openalex_db,openalex_db:0:010:independent,0,Eager,1.2884799999999998,,,10,1
+openalex_db,openalex_db:0:010:independent,0,RACE,2.7796685,,,10,1
+openalex_db,openalex_db:0:010:independent,0,ACORN-1 + selector + guard ef=128,0.017750000000000002,0.0064175,0.011249499999999999,10,1
+openalex_db,openalex_db:0:010:independent,0,ACORN-1 + selector + guard ef=512,0.016635499999999998,0.005981,0.0106545,10,1
+openalex_db,openalex_db:0:010:independent,0,ACORN-1 + selector + guard ef=1024,0.018452999999999997,0.0067815,0.011637999999999999,10,1
+openalex_db,openalex_db:0:010:clustered,0,Eager,2.7620535,,,10,1
+openalex_db,openalex_db:0:010:clustered,0,RACE,4.707953,,,10,1
+openalex_db,openalex_db:0:010:clustered,0,ACORN-1 + selector + guard ef=128,0.017936,0.006548,0.0114065,10,1
+openalex_db,openalex_db:0:010:clustered,0,ACORN-1 + selector + guard ef=512,0.017994999999999997,0.0064855,0.0114425,10,1
+openalex_db,openalex_db:0:010:clustered,0,ACORN-1 + selector + guard ef=1024,0.018062500000000002,0.006599,0.011570500000000001,10,1
+openalex_db,openalex_db:0:011:independent,0,Eager,4.1913205,,,10,19
+openalex_db,openalex_db:0:011:independent,0,RACE,1.218315,,,10,19
+openalex_db,openalex_db:0:011:independent,0,ACORN-1 + selector + guard ef=128,0.033933500000000005,0.0068655,0.027185,10,19
+openalex_db,openalex_db:0:011:independent,0,ACORN-1 + selector + guard ef=512,0.0351035,0.0070265,0.028006,10,19
+openalex_db,openalex_db:0:011:independent,0,ACORN-1 + selector + guard ef=1024,0.036587499999999995,0.0072274999999999995,0.029047,10,19
+openalex_db,openalex_db:0:011:clustered,0,Eager,4.708542,,,10,19
+openalex_db,openalex_db:0:011:clustered,0,RACE,4.7600014999999996,,,10,19
+openalex_db,openalex_db:0:011:clustered,0,ACORN-1 + selector + guard ef=128,0.030918,0.00715,0.0238435,10,19
+openalex_db,openalex_db:0:011:clustered,0,ACORN-1 + selector + guard ef=512,0.0297135,0.0061589999999999995,0.023134000000000002,10,19
+openalex_db,openalex_db:0:011:clustered,0,ACORN-1 + selector + guard ef=1024,0.0306195,0.0067670000000000004,0.0236885,10,19
+openalex_db,openalex_db:0:012:independent,0,Eager,4.856461,,,10,568
+openalex_db,openalex_db:0:012:independent,0,RACE,3.209754,,,10,568
+openalex_db,openalex_db:0:012:independent,0,ACORN-1 + selector + guard ef=128,4.790288500000001,0.0220775,4.768408,10,568
+openalex_db,openalex_db:0:012:independent,0,ACORN-1 + selector + guard ef=512,12.5281375,0.0233975,12.5037965,10,568
+openalex_db,openalex_db:0:012:independent,0,ACORN-1 + selector + guard ef=1024,13.197173,0.023141,13.172037,10,568
+openalex_db,openalex_db:0:012:clustered,0,Eager,1.9705765,,,10,568
+openalex_db,openalex_db:0:012:clustered,0,RACE,4.9836765,,,10,568
+openalex_db,openalex_db:0:012:clustered,0,ACORN-1 + selector + guard ef=128,1.778419,0.0220235,1.75563,10,568
+openalex_db,openalex_db:0:012:clustered,0,ACORN-1 + selector + guard ef=512,12.4272685,0.023069,12.400491,10,568
+openalex_db,openalex_db:0:012:clustered,0,ACORN-1 + selector + guard ef=1024,13.1870295,0.026414,13.1592765,10,568
+openalex_db,openalex_db:0:013:independent,0,Eager,4.6527665,,,10,191
+openalex_db,openalex_db:0:013:independent,0,RACE,4.745123,,,10,191
+openalex_db,openalex_db:0:013:independent,0,ACORN-1 + selector + guard ef=128,1.533559,0.018964,1.514539,10,191
+openalex_db,openalex_db:0:013:independent,0,ACORN-1 + selector + guard ef=512,5.209901500000001,0.01901,5.191797,10,191
+openalex_db,openalex_db:0:013:independent,0,ACORN-1 + selector + guard ef=1024,5.2516915,0.0198535,5.231911,10,191
+openalex_db,openalex_db:0:013:clustered,0,Eager,3.125441,,,10,191
+openalex_db,openalex_db:0:013:clustered,0,RACE,1.5869870000000001,,,10,191
+openalex_db,openalex_db:0:013:clustered,0,ACORN-1 + selector + guard ef=128,1.6551305,0.017675999999999997,1.635989,10,191
+openalex_db,openalex_db:0:013:clustered,0,ACORN-1 + selector + guard ef=512,5.1930335,0.017176999999999998,5.1759185,10,191
+openalex_db,openalex_db:0:013:clustered,0,ACORN-1 + selector + guard ef=1024,5.2052035,0.0176225,5.1897255,10,191
+openalex_db,openalex_db:0:014:independent,0,Eager,4.262748500000001,,,10,64
+openalex_db,openalex_db:0:014:independent,0,RACE,4.274645,,,10,64
+openalex_db,openalex_db:0:014:independent,0,ACORN-1 + selector + guard ef=128,0.4644355,0.0139875,0.44876150000000004,10,64
+openalex_db,openalex_db:0:014:independent,0,ACORN-1 + selector + guard ef=512,0.4965085,0.0138455,0.481679,10,64
+openalex_db,openalex_db:0:014:independent,0,ACORN-1 + selector + guard ef=1024,0.48601099999999997,0.01439,0.471163,10,64
+openalex_db,openalex_db:0:014:clustered,0,Eager,2.979079,,,10,64
+openalex_db,openalex_db:0:014:clustered,0,RACE,1.5945559999999999,,,10,64
+openalex_db,openalex_db:0:014:clustered,0,ACORN-1 + selector + guard ef=128,0.4803105,0.01381,0.465569,10,64
+openalex_db,openalex_db:0:014:clustered,0,ACORN-1 + selector + guard ef=512,0.471798,0.0139355,0.456828,10,64
+openalex_db,openalex_db:0:014:clustered,0,ACORN-1 + selector + guard ef=1024,0.4739795,0.0145635,0.45951299999999995,10,64
+openalex_db,openalex_db:0:015:independent,0,Eager,1.359003,,,10,21
+openalex_db,openalex_db:0:015:independent,0,RACE,1.3781284999999999,,,10,21
+openalex_db,openalex_db:0:015:independent,0,ACORN-1 + selector + guard ef=128,0.018749000000000002,0.0072510000000000005,0.011272500000000001,10,21
+openalex_db,openalex_db:0:015:independent,0,ACORN-1 + selector + guard ef=512,0.018285,0.007091500000000001,0.0111935,10,21
+openalex_db,openalex_db:0:015:independent,0,ACORN-1 + selector + guard ef=1024,0.017144,0.0064855,0.0107075,10,21
+openalex_db,openalex_db:0:015:clustered,0,Eager,1.5609915,,,10,21
+openalex_db,openalex_db:0:015:clustered,0,RACE,3.0797515000000004,,,10,21
+openalex_db,openalex_db:0:015:clustered,0,ACORN-1 + selector + guard ef=128,0.0180405,0.006846,0.011168,10,21
+openalex_db,openalex_db:0:015:clustered,0,ACORN-1 + selector + guard ef=512,0.019198,0.0073615,0.011663,10,21
+openalex_db,openalex_db:0:015:clustered,0,ACORN-1 + selector + guard ef=1024,0.018646,0.0073635,0.0113215,10,21
+openalex_db,openalex_db:0:016:independent,0,Eager,1.220523,,,10,123
+openalex_db,openalex_db:0:016:independent,0,RACE,4.203692500000001,,,10,123
+openalex_db,openalex_db:0:016:independent,0,ACORN-1 + selector + guard ef=128,0.020941500000000002,0.009785499999999999,0.0113705,10,123
+openalex_db,openalex_db:0:016:independent,0,ACORN-1 + selector + guard ef=512,0.024411000000000002,0.012248499999999999,0.012230999999999999,10,123
+openalex_db,openalex_db:0:016:independent,0,ACORN-1 + selector + guard ef=1024,0.0218525,0.0096455,0.011477000000000001,10,123
+openalex_db,openalex_db:0:016:clustered,0,Eager,1.3452255000000002,,,10,123
+openalex_db,openalex_db:0:016:clustered,0,RACE,1.2660455,,,10,123
+openalex_db,openalex_db:0:016:clustered,0,ACORN-1 + selector + guard ef=128,0.019984000000000002,0.008988,0.011025,10,123
+openalex_db,openalex_db:0:016:clustered,0,ACORN-1 + selector + guard ef=512,0.023481000000000002,0.012079,0.011652,10,123
+openalex_db,openalex_db:0:016:clustered,0,ACORN-1 + selector + guard ef=1024,0.02315,0.011772,0.011300000000000001,10,123
+openalex_db,openalex_db:0:017:independent,0,Eager,4.7491795,,,10,516
+openalex_db,openalex_db:0:017:independent,0,RACE,4.596947999999999,,,10,516
+openalex_db,openalex_db:0:017:independent,0,ACORN-1 + selector + guard ef=128,4.7978345000000004,0.020528,4.777820500000001,10,516
+openalex_db,openalex_db:0:017:independent,0,ACORN-1 + selector + guard ef=512,12.420429,0.0216715,12.3998685,10,516
+openalex_db,openalex_db:0:017:independent,0,ACORN-1 + selector + guard ef=1024,12.5146875,0.0223635,12.467181,10,516
+openalex_db,openalex_db:0:017:clustered,0,Eager,2.9331835,,,10,516
+openalex_db,openalex_db:0:017:clustered,0,RACE,1.5570315,,,10,516
+openalex_db,openalex_db:0:017:clustered,0,ACORN-1 + selector + guard ef=128,3.1818489999999997,0.020228,3.16153,10,516
+openalex_db,openalex_db:0:017:clustered,0,ACORN-1 + selector + guard ef=512,12.363641000000001,0.02186,12.340863500000001,10,516
+openalex_db,openalex_db:0:017:clustered,0,ACORN-1 + selector + guard ef=1024,12.419502000000001,0.0225205,12.3966465,10,516
+openalex_db,openalex_db:0:018:independent,0,Eager,1.2599575,,,10,19
+openalex_db,openalex_db:0:018:independent,0,RACE,1.2581875,,,10,19
+openalex_db,openalex_db:0:018:independent,0,ACORN-1 + selector + guard ef=128,0.112997,0.007548,0.10539699999999999,10,19
+openalex_db,openalex_db:0:018:independent,0,ACORN-1 + selector + guard ef=512,0.126508,0.009578,0.11681949999999999,10,19
+openalex_db,openalex_db:0:018:independent,0,ACORN-1 + selector + guard ef=1024,0.1146945,0.007593,0.1071425,10,19
+openalex_db,openalex_db:0:018:clustered,0,Eager,4.738026,,,10,19
+openalex_db,openalex_db:0:018:clustered,0,RACE,4.6865805,,,10,19
+openalex_db,openalex_db:0:018:clustered,0,ACORN-1 + selector + guard ef=128,0.1215425,0.008885500000000001,0.11265700000000001,10,19
+openalex_db,openalex_db:0:018:clustered,0,ACORN-1 + selector + guard ef=512,0.1165995,0.0077234999999999995,0.10873949999999999,10,19
+openalex_db,openalex_db:0:018:clustered,0,ACORN-1 + selector + guard ef=1024,0.13161899999999999,0.009840999999999999,0.121888,10,19
+openalex_db,openalex_db:0:019:independent,0,Eager,4.553837,,,10,1240
+openalex_db,openalex_db:0:019:independent,0,RACE,3.389775,,,10,1240
+openalex_db,openalex_db:0:019:independent,0,ACORN-1 + selector + guard ef=128,5.1279945,0.030207499999999998,5.099622500000001,10,1240
+openalex_db,openalex_db:0:019:independent,0,ACORN-1 + selector + guard ef=512,13.316689499999999,0.031167,13.281812500000001,10,1240
+openalex_db,openalex_db:0:019:independent,0,ACORN-1 + selector + guard ef=1024,29.27353,0.032863,29.2419765,10,1240
+openalex_db,openalex_db:0:019:clustered,0,Eager,5.850807,,,10,1240
+openalex_db,openalex_db:0:019:clustered,0,RACE,5.9633769999999995,,,10,1240
+openalex_db,openalex_db:0:019:clustered,0,ACORN-1 + selector + guard ef=128,5.027345,0.029989000000000002,4.9731645,10,1240
+openalex_db,openalex_db:0:019:clustered,0,ACORN-1 + selector + guard ef=512,13.1237755,0.0316075,13.094083000000001,10,1240
+openalex_db,openalex_db:0:019:clustered,0,ACORN-1 + selector + guard ef=1024,27.4511605,0.0314525,27.419057,10,1240
+openalex_db,openalex_db:0:020:independent,0,Eager,1.3269255,,,10,0
+openalex_db,openalex_db:0:020:independent,0,RACE,2.777135,,,10,0
+openalex_db,openalex_db:0:020:independent,0,ACORN-1 + selector + guard ef=128,0.0097075,0.008071499999999999,0.001752,10,0
+openalex_db,openalex_db:0:020:independent,0,ACORN-1 + selector + guard ef=512,0.0090785,0.0077610000000000005,0.0013735,10,0
+openalex_db,openalex_db:0:020:independent,0,ACORN-1 + selector + guard ef=1024,0.0092565,0.0076375,0.0014605,10,0
+openalex_db,openalex_db:0:020:clustered,0,Eager,1.1575674999999999,,,10,0
+openalex_db,openalex_db:0:020:clustered,0,RACE,4.105662000000001,,,10,0
+openalex_db,openalex_db:0:020:clustered,0,ACORN-1 + selector + guard ef=128,0.0094225,0.0079345,0.0014269999999999999,10,0
+openalex_db,openalex_db:0:020:clustered,0,ACORN-1 + selector + guard ef=512,0.0095,0.008136000000000001,0.0014750000000000002,10,0
+openalex_db,openalex_db:0:020:clustered,0,ACORN-1 + selector + guard ef=1024,0.010190999999999999,0.0084605,0.001661,10,0
+openalex_db,openalex_db:0:021:independent,0,Eager,4.874539,,,10,0
+openalex_db,openalex_db:0:021:independent,0,RACE,4.898208,,,10,0
+openalex_db,openalex_db:0:021:independent,0,ACORN-1 + selector + guard ef=128,0.009177999999999999,0.007124,0.0013535,10,0
+openalex_db,openalex_db:0:021:independent,0,ACORN-1 + selector + guard ef=512,0.00831,0.006866499999999999,0.0014445,10,0
+openalex_db,openalex_db:0:021:independent,0,ACORN-1 + selector + guard ef=1024,0.0080345,0.006562500000000001,0.001375,10,0
+openalex_db,openalex_db:0:021:clustered,0,Eager,2.642442,,,10,0
+openalex_db,openalex_db:0:021:clustered,0,RACE,1.1622214999999998,,,10,0
+openalex_db,openalex_db:0:021:clustered,0,ACORN-1 + selector + guard ef=128,0.009277,0.007703,0.0014759999999999999,10,0
+openalex_db,openalex_db:0:021:clustered,0,ACORN-1 + selector + guard ef=512,0.009038500000000001,0.0070905,0.0014060000000000001,10,0
+openalex_db,openalex_db:0:021:clustered,0,ACORN-1 + selector + guard ef=1024,0.009271,0.0073620000000000005,0.0017560000000000002,10,0
+openalex_db,openalex_db:0:022:independent,0,Eager,4.7127115,,,10,28
+openalex_db,openalex_db:0:022:independent,0,RACE,4.690211,,,10,28
+openalex_db,openalex_db:0:022:independent,0,ACORN-1 + selector + guard ef=128,0.323696,0.012281,0.3118005,10,28
+openalex_db,openalex_db:0:022:independent,0,ACORN-1 + selector + guard ef=512,0.325666,0.012,0.3136465,10,28
+openalex_db,openalex_db:0:022:independent,0,ACORN-1 + selector + guard ef=1024,0.33097,0.011723,0.3193405,10,28
+openalex_db,openalex_db:0:022:clustered,0,Eager,1.8061829999999999,,,10,28
+openalex_db,openalex_db:0:022:clustered,0,RACE,1.798743,,,10,28
+openalex_db,openalex_db:0:022:clustered,0,ACORN-1 + selector + guard ef=128,0.322288,0.0125855,0.3103505,10,28
+openalex_db,openalex_db:0:022:clustered,0,ACORN-1 + selector + guard ef=512,0.32940800000000003,0.012376499999999999,0.317203,10,28
+openalex_db,openalex_db:0:022:clustered,0,ACORN-1 + selector + guard ef=1024,0.3495695,0.011312,0.335156,10,28
+openalex_db,openalex_db:0:023:independent,0,Eager,4.5564655,,,10,33
+openalex_db,openalex_db:0:023:independent,0,RACE,3.1076245,,,10,33
+openalex_db,openalex_db:0:023:independent,0,ACORN-1 + selector + guard ef=128,0.0181605,0.007036499999999999,0.011143,10,33
+openalex_db,openalex_db:0:023:independent,0,ACORN-1 + selector + guard ef=512,0.0201385,0.0078455,0.012293,10,33
+openalex_db,openalex_db:0:023:independent,0,ACORN-1 + selector + guard ef=1024,0.019372,0.00777,0.011637000000000002,10,33
+openalex_db,openalex_db:0:023:clustered,0,Eager,1.4862775,,,10,33
+openalex_db,openalex_db:0:023:clustered,0,RACE,1.4843864999999998,,,10,33
+openalex_db,openalex_db:0:023:clustered,0,ACORN-1 + selector + guard ef=128,0.018874500000000002,0.007431,0.0113725,10,33
+openalex_db,openalex_db:0:023:clustered,0,ACORN-1 + selector + guard ef=512,0.019339000000000002,0.0077085,0.011655,10,33
+openalex_db,openalex_db:0:023:clustered,0,ACORN-1 + selector + guard ef=1024,0.018672,0.0073314999999999995,0.0112765,10,33
+openalex_db,openalex_db:0:024:independent,0,Eager,3.0122714999999998,,,10,26
+openalex_db,openalex_db:0:024:independent,0,RACE,3.0116490000000002,,,10,26
+openalex_db,openalex_db:0:024:independent,0,ACORN-1 + selector + guard ef=128,0.0877565,0.008965,0.07868649999999999,10,26
+openalex_db,openalex_db:0:024:independent,0,ACORN-1 + selector + guard ef=512,0.08301449999999999,0.008135,0.0751735,10,26
+openalex_db,openalex_db:0:024:independent,0,ACORN-1 + selector + guard ef=1024,0.08228450000000001,0.0070475,0.075033,10,26
+openalex_db,openalex_db:0:024:clustered,0,Eager,4.395891000000001,,,10,26
+openalex_db,openalex_db:0:024:clustered,0,RACE,4.3774025000000005,,,10,26
+openalex_db,openalex_db:0:024:clustered,0,ACORN-1 + selector + guard ef=128,0.0824405,0.0080145,0.07442599999999999,10,26
+openalex_db,openalex_db:0:024:clustered,0,ACORN-1 + selector + guard ef=512,0.08164199999999999,0.0071335,0.0743895,10,26
+openalex_db,openalex_db:0:024:clustered,0,ACORN-1 + selector + guard ef=1024,0.08698900000000001,0.008296,0.078548,10,26
+openalex_db,openalex_db:0:025:independent,0,Eager,3.0212305,,,10,1
+openalex_db,openalex_db:0:025:independent,0,RACE,3.023802,,,10,1
+openalex_db,openalex_db:0:025:independent,0,ACORN-1 + selector + guard ef=128,0.017021,0.006202,0.010819,10,1
+openalex_db,openalex_db:0:025:independent,0,ACORN-1 + selector + guard ef=512,0.01813,0.0067045,0.011377499999999999,10,1
+openalex_db,openalex_db:0:025:independent,0,ACORN-1 + selector + guard ef=1024,0.0177845,0.006151,0.0114485,10,1
+openalex_db,openalex_db:0:025:clustered,0,Eager,3.129775,,,10,1
+openalex_db,openalex_db:0:025:clustered,0,RACE,4.550465000000001,,,10,1
+openalex_db,openalex_db:0:025:clustered,0,ACORN-1 + selector + guard ef=128,0.0207605,0.007525500000000001,0.0132145,10,1
+openalex_db,openalex_db:0:025:clustered,0,ACORN-1 + selector + guard ef=512,0.0207785,0.0075915,0.013187,10,1
+openalex_db,openalex_db:0:025:clustered,0,ACORN-1 + selector + guard ef=1024,0.0191535,0.0070625,0.0123635,10,1
+openalex_db,openalex_db:0:026:independent,0,Eager,4.741308500000001,,,10,0
+openalex_db,openalex_db:0:026:independent,0,RACE,4.7274145,,,10,0
+openalex_db,openalex_db:0:026:independent,0,ACORN-1 + selector + guard ef=128,0.009281,0.007857,0.0013945,10,0
+openalex_db,openalex_db:0:026:independent,0,ACORN-1 + selector + guard ef=512,0.009158,0.0078435,0.0012980000000000001,10,0
+openalex_db,openalex_db:0:026:independent,0,ACORN-1 + selector + guard ef=1024,0.0096405,0.007908499999999999,0.0015555,10,0
+openalex_db,openalex_db:0:026:clustered,0,Eager,4.995381500000001,,,10,0
+openalex_db,openalex_db:0:026:clustered,0,RACE,5.0068625,,,10,0
+openalex_db,openalex_db:0:026:clustered,0,ACORN-1 + selector + guard ef=128,0.0083535,0.0066265000000000004,0.0015485,10,0
+openalex_db,openalex_db:0:026:clustered,0,ACORN-1 + selector + guard ef=512,0.008745,0.0068205,0.0015425,10,0
+openalex_db,openalex_db:0:026:clustered,0,ACORN-1 + selector + guard ef=1024,0.0089765,0.0073455,0.001393,10,0
+openalex_db,openalex_db:0:027:independent,0,Eager,4.4585989999999995,,,10,0
+openalex_db,openalex_db:0:027:independent,0,RACE,4.49377,,,10,0
+openalex_db,openalex_db:0:027:independent,0,ACORN-1 + selector + guard ef=128,0.0087695,0.00726,0.0014789999999999998,10,0
+openalex_db,openalex_db:0:027:independent,0,ACORN-1 + selector + guard ef=512,0.009617500000000001,0.0076749999999999995,0.0014005,10,0
+openalex_db,openalex_db:0:027:independent,0,ACORN-1 + selector + guard ef=1024,0.010010999999999999,0.0076525,0.0016605,10,0
+openalex_db,openalex_db:0:027:clustered,0,Eager,3.1578065000000004,,,10,0
+openalex_db,openalex_db:0:027:clustered,0,RACE,3.167202,,,10,0
+openalex_db,openalex_db:0:027:clustered,0,ACORN-1 + selector + guard ef=128,0.008272999999999999,0.006919,0.0013839999999999998,10,0
+openalex_db,openalex_db:0:027:clustered,0,ACORN-1 + selector + guard ef=512,0.0082425,0.0069175,0.001358,10,0
+openalex_db,openalex_db:0:027:clustered,0,ACORN-1 + selector + guard ef=1024,0.008882000000000001,0.0071685,0.0015509999999999999,10,0
+openalex_db,openalex_db:0:028:independent,0,Eager,3.1574255,,,10,0
+openalex_db,openalex_db:0:028:independent,0,RACE,4.692672,,,10,0
+openalex_db,openalex_db:0:028:independent,0,ACORN-1 + selector + guard ef=128,0.008694,0.0071885000000000004,0.001472,10,0
+openalex_db,openalex_db:0:028:independent,0,ACORN-1 + selector + guard ef=512,0.008112000000000001,0.006757,0.0013635000000000001,10,0
+openalex_db,openalex_db:0:028:independent,0,ACORN-1 + selector + guard ef=1024,0.008810499999999999,0.0071995,0.001467,10,0
+openalex_db,openalex_db:0:028:clustered,0,Eager,4.303281999999999,,,10,0
+openalex_db,openalex_db:0:028:clustered,0,RACE,1.3388205,,,10,0
+openalex_db,openalex_db:0:028:clustered,0,ACORN-1 + selector + guard ef=128,0.0078615,0.0065474999999999995,0.001322,10,0
+openalex_db,openalex_db:0:028:clustered,0,ACORN-1 + selector + guard ef=512,0.008484499999999999,0.0069630000000000004,0.0013939999999999998,10,0
+openalex_db,openalex_db:0:028:clustered,0,ACORN-1 + selector + guard ef=1024,0.008539,0.007018,0.0014785,10,0
+openalex_db,openalex_db:0:029:independent,0,Eager,4.293115500000001,,,10,7
+openalex_db,openalex_db:0:029:independent,0,RACE,4.3124685,,,10,7
+openalex_db,openalex_db:0:029:independent,0,ACORN-1 + selector + guard ef=128,0.0188315,0.0071915,0.011748,10,7
+openalex_db,openalex_db:0:029:independent,0,ACORN-1 + selector + guard ef=512,0.0217795,0.008608999999999999,0.01325,10,7
+openalex_db,openalex_db:0:029:independent,0,ACORN-1 + selector + guard ef=1024,0.019454,0.00733,0.012077999999999998,10,7
+openalex_db,openalex_db:0:029:clustered,0,Eager,5.0644645,,,10,7
+openalex_db,openalex_db:0:029:clustered,0,RACE,5.058941,,,10,7
+openalex_db,openalex_db:0:029:clustered,0,ACORN-1 + selector + guard ef=128,0.019008999999999998,0.007197,0.011812,10,7
+openalex_db,openalex_db:0:029:clustered,0,ACORN-1 + selector + guard ef=512,0.020506,0.008473,0.012434,10,7
+openalex_db,openalex_db:0:029:clustered,0,ACORN-1 + selector + guard ef=1024,0.0200685,0.0076605,0.0121005,10,7
+openalex_db,openalex_db:0:030:independent,0,Eager,4.690144,,,10,700
+openalex_db,openalex_db:0:030:independent,0,RACE,3.3642765,,,10,700
+openalex_db,openalex_db:0:030:independent,0,ACORN-1 + selector + guard ef=128,4.7909065,0.025047,4.7669915,10,700
+openalex_db,openalex_db:0:030:independent,0,ACORN-1 + selector + guard ef=512,12.6143365,0.027367500000000003,12.5841425,10,700
+openalex_db,openalex_db:0:030:independent,0,ACORN-1 + selector + guard ef=1024,17.864587999999998,0.0280975,17.797181000000002,10,700
+openalex_db,openalex_db:0:030:clustered,0,Eager,1.8370465,,,10,700
+openalex_db,openalex_db:0:030:clustered,0,RACE,1.7041195,,,10,700
+openalex_db,openalex_db:0:030:clustered,0,ACORN-1 + selector + guard ef=128,4.9076875,0.025849,4.882994500000001,10,700
+openalex_db,openalex_db:0:030:clustered,0,ACORN-1 + selector + guard ef=512,12.949428000000001,0.028622,12.9196665,10,700
+openalex_db,openalex_db:0:030:clustered,0,ACORN-1 + selector + guard ef=1024,18.260575,0.0270305,18.2343445,10,700
+openalex_db,openalex_db:0:031:independent,0,Eager,1.7758319999999999,,,10,1134
+openalex_db,openalex_db:0:031:independent,0,RACE,4.331213,,,10,1134
+openalex_db,openalex_db:0:031:independent,0,ACORN-1 + selector + guard ef=128,5.0325055,0.036708,3.568047,10,1134
+openalex_db,openalex_db:0:031:independent,0,ACORN-1 + selector + guard ef=512,13.096956500000001,0.039048,13.0559485,10,1134
+openalex_db,openalex_db:0:031:independent,0,ACORN-1 + selector + guard ef=1024,29.432035,0.0381395,29.382065500000003,10,1134
+openalex_db,openalex_db:0:031:clustered,0,Eager,1.455477,,,10,1134
+openalex_db,openalex_db:0:031:clustered,0,RACE,4.5623865,,,10,1134
+openalex_db,openalex_db:0:031:clustered,0,ACORN-1 + selector + guard ef=128,5.112818,0.038857,5.0760015,10,1134
+openalex_db,openalex_db:0:031:clustered,0,ACORN-1 + selector + guard ef=512,16.6333985,0.0384225,16.594913,10,1134
+openalex_db,openalex_db:0:031:clustered,0,ACORN-1 + selector + guard ef=1024,29.8193185,0.0388565,29.781532,10,1134
+openalex_db,openalex_db:1:000:independent,1,Eager,1.38539,,,10,16
+openalex_db,openalex_db:1:000:independent,1,RACE,1.3591989999999998,,,10,16
+openalex_db,openalex_db:1:000:independent,1,ACORN-1 + selector + guard ef=128,0.0477965,0.0072575,0.040539000000000006,10,16
+openalex_db,openalex_db:1:000:independent,1,ACORN-1 + selector + guard ef=512,0.048329,0.0073019999999999995,0.040848999999999996,10,16
+openalex_db,openalex_db:1:000:independent,1,ACORN-1 + selector + guard ef=1024,0.0459605,0.0066125,0.039319,10,16
+openalex_db,openalex_db:1:000:clustered,1,Eager,4.6114045,,,10,16
+openalex_db,openalex_db:1:000:clustered,1,RACE,3.1458735,,,10,16
+openalex_db,openalex_db:1:000:clustered,1,ACORN-1 + selector + guard ef=128,0.047785499999999995,0.007124,0.040426500000000004,10,16
+openalex_db,openalex_db:1:000:clustered,1,ACORN-1 + selector + guard ef=512,0.049204,0.0075265,0.0416525,10,16
+openalex_db,openalex_db:1:000:clustered,1,ACORN-1 + selector + guard ef=1024,0.048306,0.0074684999999999994,0.040915,10,16
+openalex_db,openalex_db:1:001:independent,1,Eager,1.081728,,,10,0
+openalex_db,openalex_db:1:001:independent,1,RACE,2.5703545,,,10,0
+openalex_db,openalex_db:1:001:independent,1,ACORN-1 + selector + guard ef=128,0.007813,0.0064765,0.001274,10,0
+openalex_db,openalex_db:1:001:independent,1,ACORN-1 + selector + guard ef=512,0.008038,0.0063739999999999995,0.0017035,10,0
+openalex_db,openalex_db:1:001:independent,1,ACORN-1 + selector + guard ef=1024,0.008266,0.006569,0.001611,10,0
+openalex_db,openalex_db:1:001:clustered,1,Eager,1.3375045,,,10,0
+openalex_db,openalex_db:1:001:clustered,1,RACE,4.2368245,,,10,0
+openalex_db,openalex_db:1:001:clustered,1,ACORN-1 + selector + guard ef=128,0.009083,0.0076835,0.001443,10,0
+openalex_db,openalex_db:1:001:clustered,1,ACORN-1 + selector + guard ef=512,0.0090815,0.007484,0.0015065,10,0
+openalex_db,openalex_db:1:001:clustered,1,ACORN-1 + selector + guard ef=1024,0.008588499999999999,0.007206,0.0013175,10,0
+openalex_db,openalex_db:1:002:independent,1,Eager,0.9326265,,,10,111
+openalex_db,openalex_db:1:002:independent,1,RACE,0.9604524999999999,,,10,111
+openalex_db,openalex_db:1:002:independent,1,ACORN-1 + selector + guard ef=128,0.0189345,0.0075875000000000005,0.011466,10,111
+openalex_db,openalex_db:1:002:independent,1,ACORN-1 + selector + guard ef=512,0.019667,0.0082475,0.011606499999999999,10,111
+openalex_db,openalex_db:1:002:independent,1,ACORN-1 + selector + guard ef=1024,0.0194325,0.007716000000000001,0.011813,10,111
+openalex_db,openalex_db:1:002:clustered,1,Eager,2.768742,,,10,111
+openalex_db,openalex_db:1:002:clustered,1,RACE,1.2895535,,,10,111
+openalex_db,openalex_db:1:002:clustered,1,ACORN-1 + selector + guard ef=128,0.020171,0.008478,0.011622,10,111
+openalex_db,openalex_db:1:002:clustered,1,ACORN-1 + selector + guard ef=512,0.019118499999999997,0.0075295,0.011589,10,111
+openalex_db,openalex_db:1:002:clustered,1,ACORN-1 + selector + guard ef=1024,0.0193515,0.007794000000000001,0.011523,10,111
+openalex_db,openalex_db:1:003:independent,1,Eager,2.055072,,,10,13
+openalex_db,openalex_db:1:003:independent,1,RACE,2.846238,,,10,13
+openalex_db,openalex_db:1:003:independent,1,ACORN-1 + selector + guard ef=128,0.018223999999999997,0.006784,0.011497,10,13
+openalex_db,openalex_db:1:003:independent,1,ACORN-1 + selector + guard ef=512,0.018464,0.0068520000000000005,0.0117665,10,13
+openalex_db,openalex_db:1:003:independent,1,ACORN-1 + selector + guard ef=1024,0.018078,0.006529,0.01159,10,13
+openalex_db,openalex_db:1:003:clustered,1,Eager,4.404325999999999,,,10,13
+openalex_db,openalex_db:1:003:clustered,1,RACE,4.3835595000000005,,,10,13
+openalex_db,openalex_db:1:003:clustered,1,ACORN-1 + selector + guard ef=128,0.018217,0.006671,0.011525500000000001,10,13
+openalex_db,openalex_db:1:003:clustered,1,ACORN-1 + selector + guard ef=512,0.019164,0.007364,0.011872,10,13
+openalex_db,openalex_db:1:003:clustered,1,ACORN-1 + selector + guard ef=1024,0.018139000000000002,0.006762499999999999,0.01153,10,13
+openalex_db,openalex_db:1:004:independent,1,Eager,4.2600155,,,10,7
+openalex_db,openalex_db:1:004:independent,1,RACE,1.2891175000000001,,,10,7
+openalex_db,openalex_db:1:004:independent,1,ACORN-1 + selector + guard ef=128,0.0185425,0.0068215,0.0117605,10,7
+openalex_db,openalex_db:1:004:independent,1,ACORN-1 + selector + guard ef=512,0.019874,0.0071805,0.012708500000000001,10,7
+openalex_db,openalex_db:1:004:independent,1,ACORN-1 + selector + guard ef=1024,0.020944499999999998,0.0077115,0.013233,10,7
+openalex_db,openalex_db:1:004:clustered,1,Eager,4.561367000000001,,,10,7
+openalex_db,openalex_db:1:004:clustered,1,RACE,4.5741845,,,10,7
+openalex_db,openalex_db:1:004:clustered,1,ACORN-1 + selector + guard ef=128,0.0226055,0.0082985,0.0142455,10,7
+openalex_db,openalex_db:1:004:clustered,1,ACORN-1 + selector + guard ef=512,0.0228345,0.008234,0.014569499999999999,10,7
+openalex_db,openalex_db:1:004:clustered,1,ACORN-1 + selector + guard ef=1024,0.0236285,0.0087265,0.014967000000000001,10,7
+openalex_db,openalex_db:1:005:independent,1,Eager,0.9640755000000001,,,10,3
+openalex_db,openalex_db:1:005:independent,1,RACE,0.9640245000000001,,,10,3
+openalex_db,openalex_db:1:005:independent,1,ACORN-1 + selector + guard ef=128,0.0217615,0.0076205000000000005,0.014128499999999999,10,3
+openalex_db,openalex_db:1:005:independent,1,ACORN-1 + selector + guard ef=512,0.022738,0.008279499999999999,0.014458499999999999,10,3
+openalex_db,openalex_db:1:005:independent,1,ACORN-1 + selector + guard ef=1024,0.0211405,0.0069595,0.0139185,10,3
+openalex_db,openalex_db:1:005:clustered,1,Eager,4.6659655,,,10,3
+openalex_db,openalex_db:1:005:clustered,1,RACE,3.3507675,,,10,3
+openalex_db,openalex_db:1:005:clustered,1,ACORN-1 + selector + guard ef=128,0.017875500000000002,0.006564,0.0113115,10,3
+openalex_db,openalex_db:1:005:clustered,1,ACORN-1 + selector + guard ef=512,0.016773499999999997,0.0060225,0.010751,10,3
+openalex_db,openalex_db:1:005:clustered,1,ACORN-1 + selector + guard ef=1024,0.018292999999999997,0.006666999999999999,0.0117305,10,3
+openalex_db,openalex_db:1:006:independent,1,Eager,1.3949015,,,10,384
+openalex_db,openalex_db:1:006:independent,1,RACE,3.730021,,,10,384
+openalex_db,openalex_db:1:006:independent,1,ACORN-1 + selector + guard ef=128,1.6834105,0.0194965,1.6634055,10,384
+openalex_db,openalex_db:1:006:independent,1,ACORN-1 + selector + guard ef=512,7.6178205,0.020277999999999997,7.595451499999999,10,384
+openalex_db,openalex_db:1:006:independent,1,ACORN-1 + selector + guard ef=1024,10.460791,0.0198995,10.4426325,10,384
+openalex_db,openalex_db:1:006:clustered,1,Eager,5.181013,,,10,384
+openalex_db,openalex_db:1:006:clustered,1,RACE,5.072703,,,10,384
+openalex_db,openalex_db:1:006:clustered,1,ACORN-1 + selector + guard ef=128,4.637557,0.0202585,3.1300085,10,384
+openalex_db,openalex_db:1:006:clustered,1,ACORN-1 + selector + guard ef=512,9.104633,0.01987,9.08391,10,384
+openalex_db,openalex_db:1:006:clustered,1,ACORN-1 + selector + guard ef=1024,10.48883,0.019983,10.4686785,10,384
+openalex_db,openalex_db:1:007:independent,1,Eager,4.64438,,,10,1284
+openalex_db,openalex_db:1:007:independent,1,RACE,2.3930724999999997,,,10,1284
+openalex_db,openalex_db:1:007:independent,1,ACORN-1 + selector + guard ef=128,5.1502324999999995,0.0285365,5.1231355,10,1284
+openalex_db,openalex_db:1:007:independent,1,ACORN-1 + selector + guard ef=512,16.244258000000002,0.031553,16.215066,10,1284
+openalex_db,openalex_db:1:007:independent,1,ACORN-1 + selector + guard ef=1024,29.4792455,0.032173,29.449467,10,1284
+openalex_db,openalex_db:1:007:clustered,1,Eager,7.4298455,,,10,1284
+openalex_db,openalex_db:1:007:clustered,1,RACE,7.8120715,,,10,1284
+openalex_db,openalex_db:1:007:clustered,1,ACORN-1 + selector + guard ef=128,5.1325985,0.047300999999999996,5.098006,10,1284
+openalex_db,openalex_db:1:007:clustered,1,ACORN-1 + selector + guard ef=512,14.100372,0.045301,14.0424295,10,1284
+openalex_db,openalex_db:1:007:clustered,1,ACORN-1 + selector + guard ef=1024,30.5720375,0.062067,30.1106045,10,1284
+openalex_db,openalex_db:1:008:independent,1,Eager,4.363675499999999,,,10,16
+openalex_db,openalex_db:1:008:independent,1,RACE,4.3405815,,,10,16
+openalex_db,openalex_db:1:008:independent,1,ACORN-1 + selector + guard ef=128,0.016519,0.006082499999999999,0.010467,10,16
+openalex_db,openalex_db:1:008:independent,1,ACORN-1 + selector + guard ef=512,0.0181905,0.0067345,0.0113815,10,16
+openalex_db,openalex_db:1:008:independent,1,ACORN-1 + selector + guard ef=1024,0.017464,0.0064415,0.011022500000000001,10,16
+openalex_db,openalex_db:1:008:clustered,1,Eager,1.096282,,,10,16
+openalex_db,openalex_db:1:008:clustered,1,RACE,4.08609,,,10,16
+openalex_db,openalex_db:1:008:clustered,1,ACORN-1 + selector + guard ef=128,0.0179565,0.006765500000000001,0.011191,10,16
+openalex_db,openalex_db:1:008:clustered,1,ACORN-1 + selector + guard ef=512,0.017913,0.006640999999999999,0.011207,10,16
+openalex_db,openalex_db:1:008:clustered,1,ACORN-1 + selector + guard ef=1024,0.017928,0.0066555,0.011345000000000001,10,16
+openalex_db,openalex_db:1:009:independent,1,Eager,4.336948,,,10,0
+openalex_db,openalex_db:1:009:independent,1,RACE,2.8517855,,,10,0
+openalex_db,openalex_db:1:009:independent,1,ACORN-1 + selector + guard ef=128,0.007455,0.0061505,0.001325,10,0
+openalex_db,openalex_db:1:009:independent,1,ACORN-1 + selector + guard ef=512,0.0073855,0.0060755,0.0012695,10,0
+openalex_db,openalex_db:1:009:independent,1,ACORN-1 + selector + guard ef=1024,0.007298,0.005981500000000001,0.0012965,10,0
+openalex_db,openalex_db:1:009:clustered,1,Eager,1.4049265000000002,,,10,0
+openalex_db,openalex_db:1:009:clustered,1,RACE,1.4167485,,,10,0
+openalex_db,openalex_db:1:009:clustered,1,ACORN-1 + selector + guard ef=128,0.00711,0.0059515,0.0011884999999999999,10,0
+openalex_db,openalex_db:1:009:clustered,1,ACORN-1 + selector + guard ef=512,0.0074645,0.006136,0.001327,10,0
+openalex_db,openalex_db:1:009:clustered,1,ACORN-1 + selector + guard ef=1024,0.007781,0.006351,0.0014299999999999998,10,0
+openalex_db,openalex_db:1:010:independent,1,Eager,2.9078965,,,10,0
+openalex_db,openalex_db:1:010:independent,1,RACE,1.4154045000000002,,,10,0
+openalex_db,openalex_db:1:010:independent,1,ACORN-1 + selector + guard ef=128,0.007736,0.006272,0.0013900000000000002,10,0
+openalex_db,openalex_db:1:010:independent,1,ACORN-1 + selector + guard ef=512,0.0073855,0.0061095,0.001276,10,0
+openalex_db,openalex_db:1:010:independent,1,ACORN-1 + selector + guard ef=1024,0.0074540000000000006,0.006115499999999999,0.0012829999999999999,10,0
+openalex_db,openalex_db:1:010:clustered,1,Eager,1.300389,,,10,0
+openalex_db,openalex_db:1:010:clustered,1,RACE,4.2992989999999995,,,10,0
+openalex_db,openalex_db:1:010:clustered,1,ACORN-1 + selector + guard ef=128,0.0071255,0.0059105,0.0012195,10,0
+openalex_db,openalex_db:1:010:clustered,1,ACORN-1 + selector + guard ef=512,0.007690499999999999,0.006251,0.0014395,10,0
+openalex_db,openalex_db:1:010:clustered,1,ACORN-1 + selector + guard ef=1024,0.007391,0.0061294999999999995,0.0012615,10,0
+openalex_db,openalex_db:1:011:independent,1,Eager,3.4723430000000004,,,10,1
+openalex_db,openalex_db:1:011:independent,1,RACE,4.4427635,,,10,1
+openalex_db,openalex_db:1:011:independent,1,ACORN-1 + selector + guard ef=128,0.018002999999999998,0.0065565,0.0114795,10,1
+openalex_db,openalex_db:1:011:independent,1,ACORN-1 + selector + guard ef=512,0.018147,0.006611499999999999,0.011550000000000001,10,1
+openalex_db,openalex_db:1:011:independent,1,ACORN-1 + selector + guard ef=1024,0.016730000000000002,0.006032,0.0107545,10,1
+openalex_db,openalex_db:1:011:clustered,1,Eager,4.690448,,,10,1
+openalex_db,openalex_db:1:011:clustered,1,RACE,4.6966165,,,10,1
+openalex_db,openalex_db:1:011:clustered,1,ACORN-1 + selector + guard ef=128,0.0178655,0.006599,0.0110695,10,1
+openalex_db,openalex_db:1:011:clustered,1,ACORN-1 + selector + guard ef=512,0.017431000000000002,0.006326,0.011101,10,1
+openalex_db,openalex_db:1:011:clustered,1,ACORN-1 + selector + guard ef=1024,0.0168415,0.0059875,0.010867,10,1
+openalex_db,openalex_db:1:012:independent,1,Eager,4.674979,,,10,16
+openalex_db,openalex_db:1:012:independent,1,RACE,1.7037535,,,10,16
+openalex_db,openalex_db:1:012:independent,1,ACORN-1 + selector + guard ef=128,0.037531499999999995,0.00655,0.030966,10,16
+openalex_db,openalex_db:1:012:independent,1,ACORN-1 + selector + guard ef=512,0.0390275,0.006732999999999999,0.032015,10,16
+openalex_db,openalex_db:1:012:independent,1,ACORN-1 + selector + guard ef=1024,0.0439575,0.0076690000000000005,0.036107,10,16
+openalex_db,openalex_db:1:012:clustered,1,Eager,0.8918515,,,10,16
+openalex_db,openalex_db:1:012:clustered,1,RACE,2.4083725,,,10,16
+openalex_db,openalex_db:1:012:clustered,1,ACORN-1 + selector + guard ef=128,0.0393535,0.0068635,0.031885,10,16
+openalex_db,openalex_db:1:012:clustered,1,ACORN-1 + selector + guard ef=512,0.039786,0.0073375,0.0324425,10,16
+openalex_db,openalex_db:1:012:clustered,1,ACORN-1 + selector + guard ef=1024,0.0363235,0.0063325,0.030040499999999998,10,16
+openalex_db,openalex_db:1:013:independent,1,Eager,4.83094,,,10,3
+openalex_db,openalex_db:1:013:independent,1,RACE,4.8276655,,,10,3
+openalex_db,openalex_db:1:013:independent,1,ACORN-1 + selector + guard ef=128,0.026848499999999997,0.007624,0.019181999999999998,10,3
+openalex_db,openalex_db:1:013:independent,1,ACORN-1 + selector + guard ef=512,0.0265275,0.0074719999999999995,0.018906,10,3
+openalex_db,openalex_db:1:013:independent,1,ACORN-1 + selector + guard ef=1024,0.0295565,0.00861,0.020875,10,3
+openalex_db,openalex_db:1:013:clustered,1,Eager,3.0859245,,,10,3
+openalex_db,openalex_db:1:013:clustered,1,RACE,3.0723805000000004,,,10,3
+openalex_db,openalex_db:1:013:clustered,1,ACORN-1 + selector + guard ef=128,0.027921,0.0076925,0.0197085,10,3
+openalex_db,openalex_db:1:013:clustered,1,ACORN-1 + selector + guard ef=512,0.0280685,0.007698,0.020392,10,3
+openalex_db,openalex_db:1:013:clustered,1,ACORN-1 + selector + guard ef=1024,0.0297,0.008413,0.0210635,10,3
+openalex_db,openalex_db:1:014:independent,1,Eager,4.6355705,,,10,0
+openalex_db,openalex_db:1:014:independent,1,RACE,3.142484,,,10,0
+openalex_db,openalex_db:1:014:independent,1,ACORN-1 + selector + guard ef=128,0.008483000000000001,0.0071024999999999994,0.0013185,10,0
+openalex_db,openalex_db:1:014:independent,1,ACORN-1 + selector + guard ef=512,0.008981,0.0077345,0.0014125000000000001,10,0
+openalex_db,openalex_db:1:014:independent,1,ACORN-1 + selector + guard ef=1024,0.009278,0.007991,0.001369,10,0
+openalex_db,openalex_db:1:014:clustered,1,Eager,3.259888,,,10,0
+openalex_db,openalex_db:1:014:clustered,1,RACE,1.1453425,,,10,0
+openalex_db,openalex_db:1:014:clustered,1,ACORN-1 + selector + guard ef=128,0.0095485,0.007643499999999999,0.002066,10,0
+openalex_db,openalex_db:1:014:clustered,1,ACORN-1 + selector + guard ef=512,0.009667,0.007723000000000001,0.002404,10,0
+openalex_db,openalex_db:1:014:clustered,1,ACORN-1 + selector + guard ef=1024,0.009562999999999999,0.0078045,0.002166,10,0
+openalex_db,openalex_db:1:015:independent,1,Eager,1.3759540000000001,,,10,8
+openalex_db,openalex_db:1:015:independent,1,RACE,4.304971500000001,,,10,8
+openalex_db,openalex_db:1:015:independent,1,ACORN-1 + selector + guard ef=128,0.0225025,0.0083635,0.0139555,10,8
+openalex_db,openalex_db:1:015:independent,1,ACORN-1 + selector + guard ef=512,0.0212355,0.0075645,0.013673500000000002,10,8
+openalex_db,openalex_db:1:015:independent,1,ACORN-1 + selector + guard ef=1024,0.021344500000000002,0.007575,0.0137695,10,8
+openalex_db,openalex_db:1:015:clustered,1,Eager,2.7013925,,,10,8
+openalex_db,openalex_db:1:015:clustered,1,RACE,1.1996175,,,10,8
+openalex_db,openalex_db:1:015:clustered,1,ACORN-1 + selector + guard ef=128,0.0226825,0.008265,0.0143745,10,8
+openalex_db,openalex_db:1:015:clustered,1,ACORN-1 + selector + guard ef=512,0.0228405,0.008361,0.014457999999999999,10,8
+openalex_db,openalex_db:1:015:clustered,1,ACORN-1 + selector + guard ef=1024,0.022662,0.008301,0.014273000000000001,10,8
+openalex_db,openalex_db:1:016:independent,1,Eager,4.877225,,,10,54
+openalex_db,openalex_db:1:016:independent,1,RACE,4.8590495,,,10,54
+openalex_db,openalex_db:1:016:independent,1,ACORN-1 + selector + guard ef=128,0.028989,0.017619,0.011238999999999999,10,54
+openalex_db,openalex_db:1:016:independent,1,ACORN-1 + selector + guard ef=512,0.0269535,0.0142725,0.0113125,10,54
+openalex_db,openalex_db:1:016:independent,1,ACORN-1 + selector + guard ef=1024,0.033256999999999995,0.0204275,0.012448,10,54
+openalex_db,openalex_db:1:016:clustered,1,Eager,1.842488,,,10,54
+openalex_db,openalex_db:1:016:clustered,1,RACE,4.5468174999999995,,,10,54
+openalex_db,openalex_db:1:016:clustered,1,ACORN-1 + selector + guard ef=128,0.03032,0.018366,0.011752499999999999,10,54
+openalex_db,openalex_db:1:016:clustered,1,ACORN-1 + selector + guard ef=512,0.0306185,0.019237999999999998,0.011639,10,54
+openalex_db,openalex_db:1:016:clustered,1,ACORN-1 + selector + guard ef=1024,0.032627500000000004,0.0206105,0.012019499999999999,10,54
+openalex_db,openalex_db:1:017:independent,1,Eager,4.676287500000001,,,10,2
+openalex_db,openalex_db:1:017:independent,1,RACE,3.1846135,,,10,2
+openalex_db,openalex_db:1:017:independent,1,ACORN-1 + selector + guard ef=128,0.017189000000000003,0.006155,0.010576499999999999,10,2
+openalex_db,openalex_db:1:017:independent,1,ACORN-1 + selector + guard ef=512,0.018097500000000002,0.006581999999999999,0.011452,10,2
+openalex_db,openalex_db:1:017:independent,1,ACORN-1 + selector + guard ef=1024,0.0178235,0.0064755,0.011348,10,2
+openalex_db,openalex_db:1:017:clustered,1,Eager,1.289564,,,10,2
+openalex_db,openalex_db:1:017:clustered,1,RACE,2.7719924999999996,,,10,2
+openalex_db,openalex_db:1:017:clustered,1,ACORN-1 + selector + guard ef=128,0.018043499999999997,0.006628,0.0114155,10,2
+openalex_db,openalex_db:1:017:clustered,1,ACORN-1 + selector + guard ef=512,0.018299,0.006539,0.0117,10,2
+openalex_db,openalex_db:1:017:clustered,1,ACORN-1 + selector + guard ef=1024,0.0181945,0.0065535,0.01166,10,2
+openalex_db,openalex_db:1:018:independent,1,Eager,1.4155245,,,10,4
+openalex_db,openalex_db:1:018:independent,1,RACE,1.467364,,,10,4
+openalex_db,openalex_db:1:018:independent,1,ACORN-1 + selector + guard ef=128,0.019938,0.007887,0.011938,10,4
+openalex_db,openalex_db:1:018:independent,1,ACORN-1 + selector + guard ef=512,0.020038,0.008005,0.011876999999999999,10,4
+openalex_db,openalex_db:1:018:independent,1,ACORN-1 + selector + guard ef=1024,0.019413,0.0075975,0.0116075,10,4
+openalex_db,openalex_db:1:018:clustered,1,Eager,4.547772500000001,,,10,4
+openalex_db,openalex_db:1:018:clustered,1,RACE,4.5648805,,,10,4
+openalex_db,openalex_db:1:018:clustered,1,ACORN-1 + selector + guard ef=128,0.0227505,0.009157499999999999,0.013509,10,4
+openalex_db,openalex_db:1:018:clustered,1,ACORN-1 + selector + guard ef=512,0.022537,0.0088385,0.013698499999999999,10,4
+openalex_db,openalex_db:1:018:clustered,1,ACORN-1 + selector + guard ef=1024,0.021053,0.008217,0.0126745,10,4
+openalex_db,openalex_db:1:019:independent,1,Eager,1.567989,,,10,16
+openalex_db,openalex_db:1:019:independent,1,RACE,1.509017,,,10,16
+openalex_db,openalex_db:1:019:independent,1,ACORN-1 + selector + guard ef=128,0.142046,0.0094625,0.1314225,10,16
+openalex_db,openalex_db:1:019:independent,1,ACORN-1 + selector + guard ef=512,0.1445855,0.010579,0.1338185,10,16
+openalex_db,openalex_db:1:019:independent,1,ACORN-1 + selector + guard ef=1024,0.1359525,0.009647,0.126058,10,16
+openalex_db,openalex_db:1:019:clustered,1,Eager,4.745405,,,10,16
+openalex_db,openalex_db:1:019:clustered,1,RACE,1.7855845000000001,,,10,16
+openalex_db,openalex_db:1:019:clustered,1,ACORN-1 + selector + guard ef=128,0.14993800000000002,0.0103375,0.139372,10,16
+openalex_db,openalex_db:1:019:clustered,1,ACORN-1 + selector + guard ef=512,0.1424315,0.009774999999999999,0.13289499999999999,10,16
+openalex_db,openalex_db:1:019:clustered,1,ACORN-1 + selector + guard ef=1024,0.1358545,0.008532,0.12733450000000002,10,16
+openalex_db,openalex_db:1:020:independent,1,Eager,4.6518785000000005,,,10,25
+openalex_db,openalex_db:1:020:independent,1,RACE,4.6796635,,,10,25
+openalex_db,openalex_db:1:020:independent,1,ACORN-1 + selector + guard ef=128,0.020505000000000002,0.0085875,0.011785,10,25
+openalex_db,openalex_db:1:020:independent,1,ACORN-1 + selector + guard ef=512,0.019223499999999998,0.0078495,0.0111705,10,25
+openalex_db,openalex_db:1:020:independent,1,ACORN-1 + selector + guard ef=1024,0.019174,0.0077955,0.0114535,10,25
+openalex_db,openalex_db:1:020:clustered,1,Eager,1.655845,,,10,25
+openalex_db,openalex_db:1:020:clustered,1,RACE,1.213215,,,10,25
+openalex_db,openalex_db:1:020:clustered,1,ACORN-1 + selector + guard ef=128,0.019036499999999998,0.0079335,0.010977,10,25
+openalex_db,openalex_db:1:020:clustered,1,ACORN-1 + selector + guard ef=512,0.019861,0.0082815,0.011581999999999999,10,25
+openalex_db,openalex_db:1:020:clustered,1,ACORN-1 + selector + guard ef=1024,0.017474999999999997,0.00694,0.010574,10,25
+openalex_db,openalex_db:1:021:independent,1,Eager,5.468094,,,10,256
+openalex_db,openalex_db:1:021:independent,1,RACE,5.5601015,,,10,256
+openalex_db,openalex_db:1:021:independent,1,ACORN-1 + selector + guard ef=128,4.654674,0.0290355,4.626312,10,256
+openalex_db,openalex_db:1:021:independent,1,ACORN-1 + selector + guard ef=512,6.0996625,0.03187,6.068871,10,256
+openalex_db,openalex_db:1:021:independent,1,ACORN-1 + selector + guard ef=1024,6.003026,0.029346,5.9744135,10,256
+openalex_db,openalex_db:1:021:clustered,1,Eager,4.5905285,,,10,256
+openalex_db,openalex_db:1:021:clustered,1,RACE,4.617535,,,10,256
+openalex_db,openalex_db:1:021:clustered,1,ACORN-1 + selector + guard ef=128,4.6211035,0.028214999999999997,3.149159,10,256
+openalex_db,openalex_db:1:021:clustered,1,ACORN-1 + selector + guard ef=512,5.9897375,0.0290305,5.958433,10,256
+openalex_db,openalex_db:1:021:clustered,1,ACORN-1 + selector + guard ef=1024,5.98124,0.0273785,5.9530085,10,256
+openalex_db,openalex_db:1:022:independent,1,Eager,4.635578,,,10,0
+openalex_db,openalex_db:1:022:independent,1,RACE,3.1582760000000003,,,10,0
+openalex_db,openalex_db:1:022:independent,1,ACORN-1 + selector + guard ef=128,0.0079025,0.006617,0.0012275,10,0
+openalex_db,openalex_db:1:022:independent,1,ACORN-1 + selector + guard ef=512,0.008123,0.006814499999999999,0.0013255,10,0
+openalex_db,openalex_db:1:022:independent,1,ACORN-1 + selector + guard ef=1024,0.0085305,0.0070585,0.001371,10,0
+openalex_db,openalex_db:1:022:clustered,1,Eager,1.4427569999999998,,,10,0
+openalex_db,openalex_db:1:022:clustered,1,RACE,4.3603565,,,10,0
+openalex_db,openalex_db:1:022:clustered,1,ACORN-1 + selector + guard ef=128,0.0075435,0.006317,0.001225,10,0
+openalex_db,openalex_db:1:022:clustered,1,ACORN-1 + selector + guard ef=512,0.0081155,0.006821000000000001,0.0012764999999999999,10,0
+openalex_db,openalex_db:1:022:clustered,1,ACORN-1 + selector + guard ef=1024,0.008692,0.0070685,0.00149,10,0
+openalex_db,openalex_db:1:023:independent,1,Eager,4.7607085,,,10,16
+openalex_db,openalex_db:1:023:independent,1,RACE,4.7817825,,,10,16
+openalex_db,openalex_db:1:023:independent,1,ACORN-1 + selector + guard ef=128,0.0231325,0.008767500000000001,0.014333,10,16
+openalex_db,openalex_db:1:023:independent,1,ACORN-1 + selector + guard ef=512,0.0224735,0.008150999999999999,0.0143755,10,16
+openalex_db,openalex_db:1:023:independent,1,ACORN-1 + selector + guard ef=1024,0.0222845,0.008081,0.0142035,10,16
+openalex_db,openalex_db:1:023:clustered,1,Eager,3.0039415000000003,,,10,16
+openalex_db,openalex_db:1:023:clustered,1,RACE,1.5999634999999999,,,10,16
+openalex_db,openalex_db:1:023:clustered,1,ACORN-1 + selector + guard ef=128,0.023010000000000003,0.0085935,0.014416499999999999,10,16
+openalex_db,openalex_db:1:023:clustered,1,ACORN-1 + selector + guard ef=512,0.0224585,0.0081885,0.014284999999999999,10,16
+openalex_db,openalex_db:1:023:clustered,1,ACORN-1 + selector + guard ef=1024,0.02272,0.008185000000000001,0.014463,10,16
+openalex_db,openalex_db:1:024:independent,1,Eager,3.5998669999999997,,,10,16
+openalex_db,openalex_db:1:024:independent,1,RACE,4.9598965,,,10,16
+openalex_db,openalex_db:1:024:independent,1,ACORN-1 + selector + guard ef=128,0.0187215,0.007004,0.011812,10,16
+openalex_db,openalex_db:1:024:independent,1,ACORN-1 + selector + guard ef=512,0.0190965,0.00696,0.012087500000000001,10,16
+openalex_db,openalex_db:1:024:independent,1,ACORN-1 + selector + guard ef=1024,0.019389999999999998,0.007174,0.012216,10,16
+openalex_db,openalex_db:1:024:clustered,1,Eager,1.1955885,,,10,16
+openalex_db,openalex_db:1:024:clustered,1,RACE,1.187049,,,10,16
+openalex_db,openalex_db:1:024:clustered,1,ACORN-1 + selector + guard ef=128,0.01896,0.0071575,0.011813,10,16
+openalex_db,openalex_db:1:024:clustered,1,ACORN-1 + selector + guard ef=512,0.0188925,0.0070015,0.011938,10,16
+openalex_db,openalex_db:1:024:clustered,1,ACORN-1 + selector + guard ef=1024,0.01718,0.006278499999999999,0.0109355,10,16
+openalex_db,openalex_db:1:025:independent,1,Eager,4.5995795,,,10,0
+openalex_db,openalex_db:1:025:independent,1,RACE,1.6022414999999999,,,10,0
+openalex_db,openalex_db:1:025:independent,1,ACORN-1 + selector + guard ef=128,0.0073384999999999995,0.0060845,0.0012575,10,0
+openalex_db,openalex_db:1:025:independent,1,ACORN-1 + selector + guard ef=512,0.007434,0.0061835,0.0012605,10,0
+openalex_db,openalex_db:1:025:independent,1,ACORN-1 + selector + guard ef=1024,0.007882,0.006376,0.0014115,10,0
+openalex_db,openalex_db:1:025:clustered,1,Eager,4.7782405,,,10,0
+openalex_db,openalex_db:1:025:clustered,1,RACE,1.9549295,,,10,0
+openalex_db,openalex_db:1:025:clustered,1,ACORN-1 + selector + guard ef=128,0.0079635,0.0066289999999999995,0.001343,10,0
+openalex_db,openalex_db:1:025:clustered,1,ACORN-1 + selector + guard ef=512,0.008754999999999999,0.00717,0.001546,10,0
+openalex_db,openalex_db:1:025:clustered,1,ACORN-1 + selector + guard ef=1024,0.007955,0.0065825,0.0013655,10,0
+openalex_db,openalex_db:1:026:independent,1,Eager,1.4895,,,10,24
+openalex_db,openalex_db:1:026:independent,1,RACE,1.4439540000000002,,,10,24
+openalex_db,openalex_db:1:026:independent,1,ACORN-1 + selector + guard ef=128,0.023047,0.00885,0.014360000000000001,10,24
+openalex_db,openalex_db:1:026:independent,1,ACORN-1 + selector + guard ef=512,0.0229505,0.008487,0.014543,10,24
+openalex_db,openalex_db:1:026:independent,1,ACORN-1 + selector + guard ef=1024,0.02267,0.008385,0.014444499999999999,10,24
+openalex_db,openalex_db:1:026:clustered,1,Eager,1.7811685,,,10,24
+openalex_db,openalex_db:1:026:clustered,1,RACE,4.681833,,,10,24
+openalex_db,openalex_db:1:026:clustered,1,ACORN-1 + selector + guard ef=128,0.024038,0.00901,0.015064000000000001,10,24
+openalex_db,openalex_db:1:026:clustered,1,ACORN-1 + selector + guard ef=512,0.0218415,0.007939,0.0139025,10,24
+openalex_db,openalex_db:1:026:clustered,1,ACORN-1 + selector + guard ef=1024,0.023227499999999998,0.0086235,0.014589999999999999,10,24
+openalex_db,openalex_db:1:027:independent,1,Eager,4.6403795,,,10,24
+openalex_db,openalex_db:1:027:independent,1,RACE,4.6801725,,,10,24
+openalex_db,openalex_db:1:027:independent,1,ACORN-1 + selector + guard ef=128,0.126764,0.0122525,0.1148065,10,24
+openalex_db,openalex_db:1:027:independent,1,ACORN-1 + selector + guard ef=512,0.12545599999999998,0.011526999999999999,0.11453150000000001,10,24
+openalex_db,openalex_db:1:027:independent,1,ACORN-1 + selector + guard ef=1024,0.121358,0.0103825,0.110441,10,24
+openalex_db,openalex_db:1:027:clustered,1,Eager,2.9583405000000003,,,10,24
+openalex_db,openalex_db:1:027:clustered,1,RACE,4.4512515,,,10,24
+openalex_db,openalex_db:1:027:clustered,1,ACORN-1 + selector + guard ef=128,0.131092,0.010834,0.1183475,10,24
+openalex_db,openalex_db:1:027:clustered,1,ACORN-1 + selector + guard ef=512,0.131152,0.012212,0.11898,10,24
+openalex_db,openalex_db:1:027:clustered,1,ACORN-1 + selector + guard ef=1024,0.119085,0.009587499999999999,0.10963149999999999,10,24
+openalex_db,openalex_db:1:028:independent,1,Eager,4.435506500000001,,,10,21
+openalex_db,openalex_db:1:028:independent,1,RACE,4.4449265,,,10,21
+openalex_db,openalex_db:1:028:independent,1,ACORN-1 + selector + guard ef=128,0.0192445,0.0074129999999999995,0.0116775,10,21
+openalex_db,openalex_db:1:028:independent,1,ACORN-1 + selector + guard ef=512,0.019722999999999997,0.007648,0.0121705,10,21
+openalex_db,openalex_db:1:028:independent,1,ACORN-1 + selector + guard ef=1024,0.018608,0.0070115,0.011547,10,21
+openalex_db,openalex_db:1:028:clustered,1,Eager,1.2487245,,,10,21
+openalex_db,openalex_db:1:028:clustered,1,RACE,1.229628,,,10,21
+openalex_db,openalex_db:1:028:clustered,1,ACORN-1 + selector + guard ef=128,0.019191,0.0071164999999999996,0.011658499999999999,10,21
+openalex_db,openalex_db:1:028:clustered,1,ACORN-1 + selector + guard ef=512,0.018617,0.007018,0.011581,10,21
+openalex_db,openalex_db:1:028:clustered,1,ACORN-1 + selector + guard ef=1024,0.019112999999999998,0.007355,0.011747500000000001,10,21
+openalex_db,openalex_db:1:029:independent,1,Eager,2.774833,,,10,0
+openalex_db,openalex_db:1:029:independent,1,RACE,2.7695005,,,10,0
+openalex_db,openalex_db:1:029:independent,1,ACORN-1 + selector + guard ef=128,0.007987000000000001,0.0066675,0.00135,10,0
+openalex_db,openalex_db:1:029:independent,1,ACORN-1 + selector + guard ef=512,0.008067,0.006547000000000001,0.0013725,10,0
+openalex_db,openalex_db:1:029:independent,1,ACORN-1 + selector + guard ef=1024,0.0080155,0.0066675,0.001348,10,0
+openalex_db,openalex_db:1:029:clustered,1,Eager,1.1285185,,,10,0
+openalex_db,openalex_db:1:029:clustered,1,RACE,4.1102229999999995,,,10,0
+openalex_db,openalex_db:1:029:clustered,1,ACORN-1 + selector + guard ef=128,0.008649,0.007169,0.0013605000000000002,10,0
+openalex_db,openalex_db:1:029:clustered,1,ACORN-1 + selector + guard ef=512,0.0084455,0.0068874999999999995,0.0013635000000000001,10,0
+openalex_db,openalex_db:1:029:clustered,1,ACORN-1 + selector + guard ef=1024,0.008271,0.0065425,0.0017725,10,0
+openalex_db,openalex_db:1:030:independent,1,Eager,1.740993,,,10,12
+openalex_db,openalex_db:1:030:independent,1,RACE,4.6734405,,,10,12
+openalex_db,openalex_db:1:030:independent,1,ACORN-1 + selector + guard ef=128,0.021351500000000002,0.0077675,0.0135885,10,12
+openalex_db,openalex_db:1:030:independent,1,ACORN-1 + selector + guard ef=512,0.024420999999999998,0.0088005,0.015148499999999999,10,12
+openalex_db,openalex_db:1:030:independent,1,ACORN-1 + selector + guard ef=1024,0.022823999999999997,0.008313000000000001,0.014451499999999999,10,12
+openalex_db,openalex_db:1:030:clustered,1,Eager,1.130009,,,10,12
+openalex_db,openalex_db:1:030:clustered,1,RACE,1.111864,,,10,12
+openalex_db,openalex_db:1:030:clustered,1,ACORN-1 + selector + guard ef=128,0.021540999999999998,0.007312,0.0140415,10,12
+openalex_db,openalex_db:1:030:clustered,1,ACORN-1 + selector + guard ef=512,0.0217385,0.0075945000000000006,0.014149,10,12
+openalex_db,openalex_db:1:030:clustered,1,ACORN-1 + selector + guard ef=1024,0.0207245,0.007438500000000001,0.0132105,10,12
+openalex_db,openalex_db:1:031:independent,1,Eager,1.608916,,,10,6
+openalex_db,openalex_db:1:031:independent,1,RACE,3.076275,,,10,6
+openalex_db,openalex_db:1:031:independent,1,ACORN-1 + selector + guard ef=128,0.019228000000000002,0.007600000000000001,0.011200499999999999,10,6
+openalex_db,openalex_db:1:031:independent,1,ACORN-1 + selector + guard ef=512,0.017648,0.0066555,0.010992499999999999,10,6
+openalex_db,openalex_db:1:031:independent,1,ACORN-1 + selector + guard ef=1024,0.0185185,0.0069435,0.011357,10,6
+openalex_db,openalex_db:1:031:clustered,1,Eager,4.431773,,,10,6
+openalex_db,openalex_db:1:031:clustered,1,RACE,4.4300575,,,10,6
+openalex_db,openalex_db:1:031:clustered,1,ACORN-1 + selector + guard ef=128,0.018994,0.0073045,0.011676,10,6
+openalex_db,openalex_db:1:031:clustered,1,ACORN-1 + selector + guard ef=512,0.020707,0.008211,0.012514,10,6
+openalex_db,openalex_db:1:031:clustered,1,ACORN-1 + selector + guard ef=1024,0.018449,0.006814000000000001,0.011635,10,6
+openalex_db,openalex_db:2:000:independent,2,Eager,1.5786885000000002,,,10,32
+openalex_db,openalex_db:2:000:independent,2,RACE,1.6104224999999999,,,10,32
+openalex_db,openalex_db:2:000:independent,2,ACORN-1 + selector + guard ef=128,0.399373,0.012787,0.385846,10,32
+openalex_db,openalex_db:2:000:independent,2,ACORN-1 + selector + guard ef=512,0.397925,0.012783,0.3837105,10,32
+openalex_db,openalex_db:2:000:independent,2,ACORN-1 + selector + guard ef=1024,0.385865,0.012933,0.371114,10,32
+openalex_db,openalex_db:2:000:clustered,2,Eager,4.5293345,,,10,32
+openalex_db,openalex_db:2:000:clustered,2,RACE,3.085596,,,10,32
+openalex_db,openalex_db:2:000:clustered,2,ACORN-1 + selector + guard ef=128,0.38993599999999995,0.0132555,0.3765665,10,32
+openalex_db,openalex_db:2:000:clustered,2,ACORN-1 + selector + guard ef=512,0.41348799999999997,0.013502,0.39888500000000005,10,32
+openalex_db,openalex_db:2:000:clustered,2,ACORN-1 + selector + guard ef=1024,0.38210750000000004,0.012251999999999999,0.369675,10,32
+openalex_db,openalex_db:2:001:independent,2,Eager,1.384398,,,10,25
+openalex_db,openalex_db:2:001:independent,2,RACE,1.3680185,,,10,25
+openalex_db,openalex_db:2:001:independent,2,ACORN-1 + selector + guard ef=128,0.022594,0.007894,0.0142945,10,25
+openalex_db,openalex_db:2:001:independent,2,ACORN-1 + selector + guard ef=512,0.0225115,0.00833,0.0144285,10,25
+openalex_db,openalex_db:2:001:independent,2,ACORN-1 + selector + guard ef=1024,0.023644,0.00899,0.014727,10,25
+openalex_db,openalex_db:2:001:clustered,2,Eager,4.476366499999999,,,10,25
+openalex_db,openalex_db:2:001:clustered,2,RACE,4.464665,,,10,25
+openalex_db,openalex_db:2:001:clustered,2,ACORN-1 + selector + guard ef=128,0.019168499999999998,0.007183,0.0119855,10,25
+openalex_db,openalex_db:2:001:clustered,2,ACORN-1 + selector + guard ef=512,0.021464499999999997,0.0080855,0.0133015,10,25
+openalex_db,openalex_db:2:001:clustered,2,ACORN-1 + selector + guard ef=1024,0.019142,0.0070244999999999995,0.0121175,10,25
+openalex_db,openalex_db:2:002:independent,2,Eager,4.464383,,,10,10
+openalex_db,openalex_db:2:002:independent,2,RACE,4.448978500000001,,,10,10
+openalex_db,openalex_db:2:002:independent,2,ACORN-1 + selector + guard ef=128,0.053475,0.0064195,0.047087500000000004,10,10
+openalex_db,openalex_db:2:002:independent,2,ACORN-1 + selector + guard ef=512,0.059883000000000006,0.007883000000000001,0.051873,10,10
+openalex_db,openalex_db:2:002:independent,2,ACORN-1 + selector + guard ef=1024,0.061207,0.008185,0.053059999999999996,10,10
+openalex_db,openalex_db:2:002:clustered,2,Eager,3.266194,,,10,10
+openalex_db,openalex_db:2:002:clustered,2,RACE,4.7175195,,,10,10
+openalex_db,openalex_db:2:002:clustered,2,ACORN-1 + selector + guard ef=128,0.06578149999999999,0.0088085,0.057019,10,10
+openalex_db,openalex_db:2:002:clustered,2,ACORN-1 + selector + guard ef=512,0.060345499999999996,0.007955,0.052484,10,10
+openalex_db,openalex_db:2:002:clustered,2,ACORN-1 + selector + guard ef=1024,0.063395,0.007976,0.054277,10,10
+openalex_db,openalex_db:2:003:independent,2,Eager,4.9358699999999995,,,10,746
+openalex_db,openalex_db:2:003:independent,2,RACE,4.9050095,,,10,746
+openalex_db,openalex_db:2:003:independent,2,ACORN-1 + selector + guard ef=128,4.9219755,0.02854,4.8941155,10,746
+openalex_db,openalex_db:2:003:independent,2,ACORN-1 + selector + guard ef=512,12.861749,0.030253500000000003,12.829528,10,746
+openalex_db,openalex_db:2:003:independent,2,ACORN-1 + selector + guard ef=1024,18.56474,0.029546999999999997,18.5341755,10,746
+openalex_db,openalex_db:2:003:clustered,2,Eager,6.1499705,,,10,746
+openalex_db,openalex_db:2:003:clustered,2,RACE,6.062332,,,10,746
+openalex_db,openalex_db:2:003:clustered,2,ACORN-1 + selector + guard ef=128,4.9425205000000005,0.0294455,4.9137205,10,746
+openalex_db,openalex_db:2:003:clustered,2,ACORN-1 + selector + guard ef=512,12.771640000000001,0.031394,12.741287,10,746
+openalex_db,openalex_db:2:003:clustered,2,ACORN-1 + selector + guard ef=1024,18.3616515,0.029448000000000002,18.3305375,10,746
+openalex_db,openalex_db:2:004:independent,2,Eager,5.783793,,,10,195
+openalex_db,openalex_db:2:004:independent,2,RACE,6.0019445000000005,,,10,195
+openalex_db,openalex_db:2:004:independent,2,ACORN-1 + selector + guard ef=128,1.5960885,0.0166725,1.5785175,10,195
+openalex_db,openalex_db:2:004:independent,2,ACORN-1 + selector + guard ef=512,5.2661955,0.0172175,5.250268999999999,10,195
+openalex_db,openalex_db:2:004:independent,2,ACORN-1 + selector + guard ef=1024,5.459092999999999,0.018890499999999998,5.4409505,10,195
+openalex_db,openalex_db:2:004:clustered,2,Eager,4.862242,,,10,195
+openalex_db,openalex_db:2:004:clustered,2,RACE,3.265268,,,10,195
+openalex_db,openalex_db:2:004:clustered,2,ACORN-1 + selector + guard ef=128,3.3072835,0.0173195,3.2864705,10,195
+openalex_db,openalex_db:2:004:clustered,2,ACORN-1 + selector + guard ef=512,5.238706499999999,0.0161595,5.223152000000001,10,195
+openalex_db,openalex_db:2:004:clustered,2,ACORN-1 + selector + guard ef=1024,5.3587240000000005,0.015615500000000001,5.3425475,10,195
+openalex_db,openalex_db:2:005:independent,2,Eager,4.780545,,,10,28
+openalex_db,openalex_db:2:005:independent,2,RACE,4.7838525,,,10,28
+openalex_db,openalex_db:2:005:independent,2,ACORN-1 + selector + guard ef=128,0.016755,0.0062369999999999995,0.01054,10,28
+openalex_db,openalex_db:2:005:independent,2,ACORN-1 + selector + guard ef=512,0.017685,0.0066575,0.0109945,10,28
+openalex_db,openalex_db:2:005:independent,2,ACORN-1 + selector + guard ef=1024,0.018433,0.007126,0.011193999999999999,10,28
+openalex_db,openalex_db:2:005:clustered,2,Eager,1.272062,,,10,28
+openalex_db,openalex_db:2:005:clustered,2,RACE,1.2822330000000002,,,10,28
+openalex_db,openalex_db:2:005:clustered,2,ACORN-1 + selector + guard ef=128,0.0189015,0.007273,0.011622,10,28
+openalex_db,openalex_db:2:005:clustered,2,ACORN-1 + selector + guard ef=512,0.0170235,0.006248,0.0107315,10,28
+openalex_db,openalex_db:2:005:clustered,2,ACORN-1 + selector + guard ef=1024,0.017063500000000002,0.006278,0.0107635,10,28
+openalex_db,openalex_db:2:006:independent,2,Eager,4.0890185,,,10,2
+openalex_db,openalex_db:2:006:independent,2,RACE,1.1578635,,,10,2
+openalex_db,openalex_db:2:006:independent,2,ACORN-1 + selector + guard ef=128,0.019219,0.0085345,0.0106845,10,2
+openalex_db,openalex_db:2:006:independent,2,ACORN-1 + selector + guard ef=512,0.021378,0.010039,0.011312,10,2
+openalex_db,openalex_db:2:006:independent,2,ACORN-1 + selector + guard ef=1024,0.021572,0.0099265,0.011436499999999999,10,2
+openalex_db,openalex_db:2:006:clustered,2,Eager,0.796789,,,10,2
+openalex_db,openalex_db:2:006:clustered,2,RACE,0.832024,,,10,2
+openalex_db,openalex_db:2:006:clustered,2,ACORN-1 + selector + guard ef=128,0.021216,0.010028,0.011127999999999999,10,2
+openalex_db,openalex_db:2:006:clustered,2,ACORN-1 + selector + guard ef=512,0.019070999999999998,0.008402,0.010672000000000001,10,2
+openalex_db,openalex_db:2:006:clustered,2,ACORN-1 + selector + guard ef=1024,0.0215015,0.010077,0.011348500000000001,10,2
+openalex_db,openalex_db:2:007:independent,2,Eager,4.477036999999999,,,10,9
+openalex_db,openalex_db:2:007:independent,2,RACE,3.0505195,,,10,9
+openalex_db,openalex_db:2:007:independent,2,ACORN-1 + selector + guard ef=128,0.017044999999999998,0.006437,0.0106315,10,9
+openalex_db,openalex_db:2:007:independent,2,ACORN-1 + selector + guard ef=512,0.017634999999999998,0.0067065,0.01089,10,9
+openalex_db,openalex_db:2:007:independent,2,ACORN-1 + selector + guard ef=1024,0.0177185,0.0066835,0.011009,10,9
+openalex_db,openalex_db:2:007:clustered,2,Eager,3.4705295,,,10,9
+openalex_db,openalex_db:2:007:clustered,2,RACE,3.0340715,,,10,9
+openalex_db,openalex_db:2:007:clustered,2,ACORN-1 + selector + guard ef=128,0.0181265,0.0068895,0.011237,10,9
+openalex_db,openalex_db:2:007:clustered,2,ACORN-1 + selector + guard ef=512,0.0172735,0.006418,0.010869,10,9
+openalex_db,openalex_db:2:007:clustered,2,ACORN-1 + selector + guard ef=1024,0.018521,0.007067,0.011449,10,9
+openalex_db,openalex_db:2:008:independent,2,Eager,2.965431,,,10,1
+openalex_db,openalex_db:2:008:independent,2,RACE,2.241901,,,10,1
+openalex_db,openalex_db:2:008:independent,2,ACORN-1 + selector + guard ef=128,0.0209815,0.010271,0.010745000000000001,10,1
+openalex_db,openalex_db:2:008:independent,2,ACORN-1 + selector + guard ef=512,0.020626,0.0099695,0.010641,10,1
+openalex_db,openalex_db:2:008:independent,2,ACORN-1 + selector + guard ef=1024,0.022253500000000002,0.010866500000000001,0.0108985,10,1
+openalex_db,openalex_db:2:008:clustered,2,Eager,1.2115874999999998,,,10,1
+openalex_db,openalex_db:2:008:clustered,2,RACE,1.2842365,,,10,1
+openalex_db,openalex_db:2:008:clustered,2,ACORN-1 + selector + guard ef=128,0.02157,0.0105885,0.0109815,10,1
+openalex_db,openalex_db:2:008:clustered,2,ACORN-1 + selector + guard ef=512,0.022755,0.0112785,0.011538,10,1
+openalex_db,openalex_db:2:008:clustered,2,ACORN-1 + selector + guard ef=1024,0.020900000000000002,0.010134,0.010766000000000001,10,1
+openalex_db,openalex_db:2:009:independent,2,Eager,1.4923445,,,10,0
+openalex_db,openalex_db:2:009:independent,2,RACE,1.493656,,,10,0
+openalex_db,openalex_db:2:009:independent,2,ACORN-1 + selector + guard ef=128,0.008139,0.0067095,0.001333,10,0
+openalex_db,openalex_db:2:009:independent,2,ACORN-1 + selector + guard ef=512,0.007962,0.0065875,0.0013185,10,0
+openalex_db,openalex_db:2:009:independent,2,ACORN-1 + selector + guard ef=1024,0.0074335,0.0062385,0.0011949999999999999,10,0
+openalex_db,openalex_db:2:009:clustered,2,Eager,1.2102490000000001,,,10,0
+openalex_db,openalex_db:2:009:clustered,2,RACE,1.1799089999999999,,,10,0
+openalex_db,openalex_db:2:009:clustered,2,ACORN-1 + selector + guard ef=128,0.007944,0.0064745,0.0013395,10,0
+openalex_db,openalex_db:2:009:clustered,2,ACORN-1 + selector + guard ef=512,0.007459,0.006207000000000001,0.0011945,10,0
+openalex_db,openalex_db:2:009:clustered,2,ACORN-1 + selector + guard ef=1024,0.007959,0.0066405,0.001317,10,0
+openalex_db,openalex_db:2:010:independent,2,Eager,2.7025445,,,10,24
+openalex_db,openalex_db:2:010:independent,2,RACE,2.6975685,,,10,24
+openalex_db,openalex_db:2:010:independent,2,ACORN-1 + selector + guard ef=128,0.048834,0.007653,0.0406815,10,24
+openalex_db,openalex_db:2:010:independent,2,ACORN-1 + selector + guard ef=512,0.05222,0.009314,0.0428065,10,24
+openalex_db,openalex_db:2:010:independent,2,ACORN-1 + selector + guard ef=1024,0.047093499999999996,0.0074375,0.039656,10,24
+openalex_db,openalex_db:2:010:clustered,2,Eager,1.508969,,,10,24
+openalex_db,openalex_db:2:010:clustered,2,RACE,4.5736165,,,10,24
+openalex_db,openalex_db:2:010:clustered,2,ACORN-1 + selector + guard ef=128,0.052249000000000004,0.009563499999999999,0.042480000000000004,10,24
+openalex_db,openalex_db:2:010:clustered,2,ACORN-1 + selector + guard ef=512,0.048797,0.007774,0.040722999999999995,10,24
+openalex_db,openalex_db:2:010:clustered,2,ACORN-1 + selector + guard ef=1024,0.045939999999999995,0.007143,0.0387875,10,24
+openalex_db,openalex_db:2:011:independent,2,Eager,4.630841,,,10,533
+openalex_db,openalex_db:2:011:independent,2,RACE,4.647167,,,10,533
+openalex_db,openalex_db:2:011:independent,2,ACORN-1 + selector + guard ef=128,4.7318635,0.027566,4.705211,10,533
+openalex_db,openalex_db:2:011:independent,2,ACORN-1 + selector + guard ef=512,12.2983225,0.027674999999999998,12.271329,10,533
+openalex_db,openalex_db:2:011:independent,2,ACORN-1 + selector + guard ef=1024,12.5590255,0.027673,12.532706000000001,10,533
+openalex_db,openalex_db:2:011:clustered,2,Eager,4.976417,,,10,533
+openalex_db,openalex_db:2:011:clustered,2,RACE,4.831059,,,10,533
+openalex_db,openalex_db:2:011:clustered,2,ACORN-1 + selector + guard ef=128,3.1976155000000004,0.026268,3.1687010000000004,10,533
+openalex_db,openalex_db:2:011:clustered,2,ACORN-1 + selector + guard ef=512,12.41788,0.028555999999999998,12.388221,10,533
+openalex_db,openalex_db:2:011:clustered,2,ACORN-1 + selector + guard ef=1024,12.6170405,0.0272505,12.5887545,10,533
+openalex_db,openalex_db:2:012:independent,2,Eager,4.479561,,,10,0
+openalex_db,openalex_db:2:012:independent,2,RACE,4.496111,,,10,0
+openalex_db,openalex_db:2:012:independent,2,ACORN-1 + selector + guard ef=128,0.007778,0.006503,0.0012745,10,0
+openalex_db,openalex_db:2:012:independent,2,ACORN-1 + selector + guard ef=512,0.008733,0.0072185,0.001562,10,0
+openalex_db,openalex_db:2:012:independent,2,ACORN-1 + selector + guard ef=1024,0.007961,0.006616,0.001261,10,0
+openalex_db,openalex_db:2:012:clustered,2,Eager,4.567553500000001,,,10,0
+openalex_db,openalex_db:2:012:clustered,2,RACE,4.5952145,,,10,0
+openalex_db,openalex_db:2:012:clustered,2,ACORN-1 + selector + guard ef=128,0.009683,0.008168,0.0016015,10,0
+openalex_db,openalex_db:2:012:clustered,2,ACORN-1 + selector + guard ef=512,0.0101285,0.008229,0.0016725,10,0
+openalex_db,openalex_db:2:012:clustered,2,ACORN-1 + selector + guard ef=1024,0.010631000000000002,0.008941000000000001,0.00169,10,0
+openalex_db,openalex_db:2:013:independent,2,Eager,2.8949204999999996,,,10,46
+openalex_db,openalex_db:2:013:independent,2,RACE,4.397690000000001,,,10,46
+openalex_db,openalex_db:2:013:independent,2,ACORN-1 + selector + guard ef=128,0.0204795,0.007887,0.012521000000000001,10,46
+openalex_db,openalex_db:2:013:independent,2,ACORN-1 + selector + guard ef=512,0.020353,0.007972,0.0123935,10,46
+openalex_db,openalex_db:2:013:independent,2,ACORN-1 + selector + guard ef=1024,0.018853,0.007095499999999999,0.0117575,10,46
+openalex_db,openalex_db:2:013:clustered,2,Eager,1.372277,,,10,46
+openalex_db,openalex_db:2:013:clustered,2,RACE,1.397226,,,10,46
+openalex_db,openalex_db:2:013:clustered,2,ACORN-1 + selector + guard ef=128,0.018501499999999997,0.007039,0.0114655,10,46
+openalex_db,openalex_db:2:013:clustered,2,ACORN-1 + selector + guard ef=512,0.018943,0.007443,0.0114995,10,46
+openalex_db,openalex_db:2:013:clustered,2,ACORN-1 + selector + guard ef=1024,0.019968,0.0075835,0.012154,10,46
+openalex_db,openalex_db:2:014:independent,2,Eager,5.560294,,,10,652
+openalex_db,openalex_db:2:014:independent,2,RACE,5.5215844999999995,,,10,652
+openalex_db,openalex_db:2:014:independent,2,ACORN-1 + selector + guard ef=128,4.8563,0.032025,4.8280065,10,652
+openalex_db,openalex_db:2:014:independent,2,ACORN-1 + selector + guard ef=512,12.768571,0.034629999999999994,12.732308,10,652
+openalex_db,openalex_db:2:014:independent,2,ACORN-1 + selector + guard ef=1024,17.321283,0.031737,17.289174000000003,10,652
+openalex_db,openalex_db:2:014:clustered,2,Eager,5.5088995,,,10,652
+openalex_db,openalex_db:2:014:clustered,2,RACE,5.362399,,,10,652
+openalex_db,openalex_db:2:014:clustered,2,ACORN-1 + selector + guard ef=128,4.972046,0.034378,4.904726500000001,10,652
+openalex_db,openalex_db:2:014:clustered,2,ACORN-1 + selector + guard ef=512,12.754657,0.0336715,12.7224905,10,652
+openalex_db,openalex_db:2:014:clustered,2,ACORN-1 + selector + guard ef=1024,17.985246,0.038908,17.808336500000003,10,652
+openalex_db,openalex_db:2:015:independent,2,Eager,4.1967195,,,10,6
+openalex_db,openalex_db:2:015:independent,2,RACE,2.767463,,,10,6
+openalex_db,openalex_db:2:015:independent,2,ACORN-1 + selector + guard ef=128,0.0235195,0.0074915,0.016015500000000002,10,6
+openalex_db,openalex_db:2:015:independent,2,ACORN-1 + selector + guard ef=512,0.0250395,0.0081035,0.016936,10,6
+openalex_db,openalex_db:2:015:independent,2,ACORN-1 + selector + guard ef=1024,0.0252685,0.008145,0.0171785,10,6
+openalex_db,openalex_db:2:015:clustered,2,Eager,4.506401,,,10,6
+openalex_db,openalex_db:2:015:clustered,2,RACE,4.5042555,,,10,6
+openalex_db,openalex_db:2:015:clustered,2,ACORN-1 + selector + guard ef=128,0.0222635,0.006951499999999999,0.01516,10,6
+openalex_db,openalex_db:2:015:clustered,2,ACORN-1 + selector + guard ef=512,0.022019499999999997,0.006964,0.0150555,10,6
+openalex_db,openalex_db:2:015:clustered,2,ACORN-1 + selector + guard ef=1024,0.02377,0.007666,0.0159355,10,6
+openalex_db,openalex_db:2:016:independent,2,Eager,1.4368275000000001,,,10,0
+openalex_db,openalex_db:2:016:independent,2,RACE,4.3446375,,,10,0
+openalex_db,openalex_db:2:016:independent,2,ACORN-1 + selector + guard ef=128,0.008885500000000001,0.0076105,0.0012885000000000001,10,0
+openalex_db,openalex_db:2:016:independent,2,ACORN-1 + selector + guard ef=512,0.009262,0.00794,0.0013635000000000001,10,0
+openalex_db,openalex_db:2:016:independent,2,ACORN-1 + selector + guard ef=1024,0.009430000000000001,0.007991,0.0014905,10,0
+openalex_db,openalex_db:2:016:clustered,2,Eager,1.305619,,,10,0
+openalex_db,openalex_db:2:016:clustered,2,RACE,3.7862660000000004,,,10,0
+openalex_db,openalex_db:2:016:clustered,2,ACORN-1 + selector + guard ef=128,0.0077345,0.0063275,0.0013345000000000002,10,0
+openalex_db,openalex_db:2:016:clustered,2,ACORN-1 + selector + guard ef=512,0.0076365,0.0063715,0.0012955,10,0
+openalex_db,openalex_db:2:016:clustered,2,ACORN-1 + selector + guard ef=1024,0.0072815,0.006035,0.001294,10,0
+openalex_db,openalex_db:2:017:independent,2,Eager,1.2149775,,,10,14
+openalex_db,openalex_db:2:017:independent,2,RACE,2.710412,,,10,14
+openalex_db,openalex_db:2:017:independent,2,ACORN-1 + selector + guard ef=128,0.020166,0.00805,0.011921999999999999,10,14
+openalex_db,openalex_db:2:017:independent,2,ACORN-1 + selector + guard ef=512,0.0198085,0.007736,0.012073500000000001,10,14
+openalex_db,openalex_db:2:017:independent,2,ACORN-1 + selector + guard ef=1024,0.017791,0.0067135,0.0111205,10,14
+openalex_db,openalex_db:2:017:clustered,2,Eager,2.8777575000000004,,,10,14
+openalex_db,openalex_db:2:017:clustered,2,RACE,4.31239,,,10,14
+openalex_db,openalex_db:2:017:clustered,2,ACORN-1 + selector + guard ef=128,0.01845,0.0072,0.0113135,10,14
+openalex_db,openalex_db:2:017:clustered,2,ACORN-1 + selector + guard ef=512,0.018235,0.0068579999999999995,0.011363999999999999,10,14
+openalex_db,openalex_db:2:017:clustered,2,ACORN-1 + selector + guard ef=1024,0.019034,0.007284499999999999,0.011745499999999999,10,14
+openalex_db,openalex_db:2:018:independent,2,Eager,1.4204845000000001,,,10,13
+openalex_db,openalex_db:2:018:independent,2,RACE,1.47041,,,10,13
+openalex_db,openalex_db:2:018:independent,2,ACORN-1 + selector + guard ef=128,0.018786499999999998,0.007409,0.0111655,10,13
+openalex_db,openalex_db:2:018:independent,2,ACORN-1 + selector + guard ef=512,0.0195165,0.007615,0.0111085,10,13
+openalex_db,openalex_db:2:018:independent,2,ACORN-1 + selector + guard ef=1024,0.0211675,0.0095835,0.0117015,10,13
+openalex_db,openalex_db:2:018:clustered,2,Eager,1.5001605,,,10,13
+openalex_db,openalex_db:2:018:clustered,2,RACE,1.5354005000000002,,,10,13
+openalex_db,openalex_db:2:018:clustered,2,ACORN-1 + selector + guard ef=128,0.019828,0.008831499999999999,0.0110285,10,13
+openalex_db,openalex_db:2:018:clustered,2,ACORN-1 + selector + guard ef=512,0.017421,0.0068995,0.010551000000000001,10,13
+openalex_db,openalex_db:2:018:clustered,2,ACORN-1 + selector + guard ef=1024,0.019653999999999998,0.008131,0.0111565,10,13
+openalex_db,openalex_db:2:019:independent,2,Eager,2.6992504999999998,,,10,5
+openalex_db,openalex_db:2:019:independent,2,RACE,1.795306,,,10,5
+openalex_db,openalex_db:2:019:independent,2,ACORN-1 + selector + guard ef=128,0.01907,0.0071,0.012011,10,5
+openalex_db,openalex_db:2:019:independent,2,ACORN-1 + selector + guard ef=512,0.0183395,0.0067104999999999995,0.0115925,10,5
+openalex_db,openalex_db:2:019:independent,2,ACORN-1 + selector + guard ef=1024,0.018781,0.0069455,0.012021,10,5
+openalex_db,openalex_db:2:019:clustered,2,Eager,1.034685,,,10,5
+openalex_db,openalex_db:2:019:clustered,2,RACE,4.0192025,,,10,5
+openalex_db,openalex_db:2:019:clustered,2,ACORN-1 + selector + guard ef=128,0.0181505,0.006649,0.011443,10,5
+openalex_db,openalex_db:2:019:clustered,2,ACORN-1 + selector + guard ef=512,0.0180865,0.0065015,0.011567000000000001,10,5
+openalex_db,openalex_db:2:019:clustered,2,ACORN-1 + selector + guard ef=1024,0.018705,0.0067659999999999994,0.0119135,10,5
+openalex_db,openalex_db:2:020:independent,2,Eager,2.8607585,,,10,45
+openalex_db,openalex_db:2:020:independent,2,RACE,2.8904194999999997,,,10,45
+openalex_db,openalex_db:2:020:independent,2,ACORN-1 + selector + guard ef=128,0.4552065,0.01567,0.438704,10,45
+openalex_db,openalex_db:2:020:independent,2,ACORN-1 + selector + guard ef=512,0.45310300000000003,0.0157645,0.4370425,10,45
+openalex_db,openalex_db:2:020:independent,2,ACORN-1 + selector + guard ef=1024,0.4198455,0.0143485,0.405691,10,45
+openalex_db,openalex_db:2:020:clustered,2,Eager,1.3086305,,,10,45
+openalex_db,openalex_db:2:020:clustered,2,RACE,2.815926,,,10,45
+openalex_db,openalex_db:2:020:clustered,2,ACORN-1 + selector + guard ef=128,0.432928,0.015224,0.41680249999999996,10,45
+openalex_db,openalex_db:2:020:clustered,2,ACORN-1 + selector + guard ef=512,0.4387935,0.016132,0.420765,10,45
+openalex_db,openalex_db:2:020:clustered,2,ACORN-1 + selector + guard ef=1024,0.4202435,0.015324,0.4049195,10,45
+openalex_db,openalex_db:2:021:independent,2,Eager,5.251749,,,10,140
+openalex_db,openalex_db:2:021:independent,2,RACE,5.1687735,,,10,140
+openalex_db,openalex_db:2:021:independent,2,ACORN-1 + selector + guard ef=128,1.6544535,0.017286,1.636038,10,140
+openalex_db,openalex_db:2:021:independent,2,ACORN-1 + selector + guard ef=512,1.5194580000000002,0.016888,1.5012495000000001,10,140
+openalex_db,openalex_db:2:021:independent,2,ACORN-1 + selector + guard ef=1024,3.0633660000000003,0.016151,3.046024,10,140
+openalex_db,openalex_db:2:021:clustered,2,Eager,3.0171105000000003,,,10,140
+openalex_db,openalex_db:2:021:clustered,2,RACE,3.0542299999999996,,,10,140
+openalex_db,openalex_db:2:021:clustered,2,ACORN-1 + selector + guard ef=128,1.4946675,0.0150255,1.4789385,10,140
+openalex_db,openalex_db:2:021:clustered,2,ACORN-1 + selector + guard ef=512,3.014356,0.016607,2.9966150000000003,10,140
+openalex_db,openalex_db:2:021:clustered,2,ACORN-1 + selector + guard ef=1024,2.9903645,0.017586,2.9734365,10,140
+openalex_db,openalex_db:2:022:independent,2,Eager,4.602008,,,10,8
+openalex_db,openalex_db:2:022:independent,2,RACE,3.2343,,,10,8
+openalex_db,openalex_db:2:022:independent,2,ACORN-1 + selector + guard ef=128,0.0182325,0.0067965,0.011366,10,8
+openalex_db,openalex_db:2:022:independent,2,ACORN-1 + selector + guard ef=512,0.017969,0.0064905,0.011478499999999999,10,8
+openalex_db,openalex_db:2:022:independent,2,ACORN-1 + selector + guard ef=1024,0.0189165,0.0070185,0.011956999999999999,10,8
+openalex_db,openalex_db:2:022:clustered,2,Eager,1.1957035,,,10,8
+openalex_db,openalex_db:2:022:clustered,2,RACE,1.228733,,,10,8
+openalex_db,openalex_db:2:022:clustered,2,ACORN-1 + selector + guard ef=128,0.018517,0.007078,0.011524,10,8
+openalex_db,openalex_db:2:022:clustered,2,ACORN-1 + selector + guard ef=512,0.016599,0.0060315,0.01057,10,8
+openalex_db,openalex_db:2:022:clustered,2,ACORN-1 + selector + guard ef=1024,0.0165755,0.0059965,0.010579,10,8
+openalex_db,openalex_db:2:023:independent,2,Eager,4.3859379999999994,,,10,0
+openalex_db,openalex_db:2:023:independent,2,RACE,1.9368215000000002,,,10,0
+openalex_db,openalex_db:2:023:independent,2,ACORN-1 + selector + guard ef=128,0.0076815,0.00634,0.0013414999999999998,10,0
+openalex_db,openalex_db:2:023:independent,2,ACORN-1 + selector + guard ef=512,0.007320999999999999,0.0061105,0.0012245,10,0
+openalex_db,openalex_db:2:023:independent,2,ACORN-1 + selector + guard ef=1024,0.00767,0.0064285,0.0012625000000000002,10,0
+openalex_db,openalex_db:2:023:clustered,2,Eager,2.6189695,,,10,0
+openalex_db,openalex_db:2:023:clustered,2,RACE,2.145343,,,10,0
+openalex_db,openalex_db:2:023:clustered,2,ACORN-1 + selector + guard ef=128,0.009163,0.007802,0.0014305,10,0
+openalex_db,openalex_db:2:023:clustered,2,ACORN-1 + selector + guard ef=512,0.008711,0.007202500000000001,0.0013985,10,0
+openalex_db,openalex_db:2:023:clustered,2,ACORN-1 + selector + guard ef=1024,0.009034,0.0074985,0.0013779999999999999,10,0
+openalex_db,openalex_db:2:024:independent,2,Eager,4.714822,,,10,61
+openalex_db,openalex_db:2:024:independent,2,RACE,1.9865680000000001,,,10,61
+openalex_db,openalex_db:2:024:independent,2,ACORN-1 + selector + guard ef=128,0.6499459999999999,0.0150985,0.6322875,10,61
+openalex_db,openalex_db:2:024:independent,2,ACORN-1 + selector + guard ef=512,0.6172305,0.016498,0.600943,10,61
+openalex_db,openalex_db:2:024:independent,2,ACORN-1 + selector + guard ef=1024,0.5993470000000001,0.015006499999999999,0.58422,10,61
+openalex_db,openalex_db:2:024:clustered,2,Eager,2.5152010000000002,,,10,61
+openalex_db,openalex_db:2:024:clustered,2,RACE,1.0229300000000001,,,10,61
+openalex_db,openalex_db:2:024:clustered,2,ACORN-1 + selector + guard ef=128,0.5764965,0.014003,0.562344,10,61
+openalex_db,openalex_db:2:024:clustered,2,ACORN-1 + selector + guard ef=512,0.5872705,0.014553,0.5704865,10,61
+openalex_db,openalex_db:2:024:clustered,2,ACORN-1 + selector + guard ef=1024,0.5940179999999999,0.0144865,0.5795859999999999,10,61
+openalex_db,openalex_db:2:025:independent,2,Eager,4.0307715,,,10,23
+openalex_db,openalex_db:2:025:independent,2,RACE,4.030957,,,10,23
+openalex_db,openalex_db:2:025:independent,2,ACORN-1 + selector + guard ef=128,0.2255425,0.012265999999999999,0.21248899999999998,10,23
+openalex_db,openalex_db:2:025:independent,2,ACORN-1 + selector + guard ef=512,0.23839349999999998,0.014210500000000001,0.224576,10,23
+openalex_db,openalex_db:2:025:independent,2,ACORN-1 + selector + guard ef=1024,0.230878,0.013184999999999999,0.217644,10,23
+openalex_db,openalex_db:2:025:clustered,2,Eager,1.5649285,,,10,23
+openalex_db,openalex_db:2:025:clustered,2,RACE,1.55867,,,10,23
+openalex_db,openalex_db:2:025:clustered,2,ACORN-1 + selector + guard ef=128,0.208454,0.011115,0.1969995,10,23
+openalex_db,openalex_db:2:025:clustered,2,ACORN-1 + selector + guard ef=512,0.22912,0.0129125,0.2147065,10,23
+openalex_db,openalex_db:2:025:clustered,2,ACORN-1 + selector + guard ef=1024,0.2235655,0.012071,0.211795,10,23
+openalex_db,openalex_db:2:026:independent,2,Eager,1.2459975,,,10,0
+openalex_db,openalex_db:2:026:independent,2,RACE,2.644955,,,10,0
+openalex_db,openalex_db:2:026:independent,2,ACORN-1 + selector + guard ef=128,0.010123,0.008224,0.001827,10,0
+openalex_db,openalex_db:2:026:independent,2,ACORN-1 + selector + guard ef=512,0.008997,0.007662499999999999,0.0013545,10,0
+openalex_db,openalex_db:2:026:independent,2,ACORN-1 + selector + guard ef=1024,0.0099995,0.008094,0.0018165,10,0
+openalex_db,openalex_db:2:026:clustered,2,Eager,2.705448,,,10,0
+openalex_db,openalex_db:2:026:clustered,2,RACE,1.233182,,,10,0
+openalex_db,openalex_db:2:026:clustered,2,ACORN-1 + selector + guard ef=128,0.009122499999999999,0.0077365,0.001399,10,0
+openalex_db,openalex_db:2:026:clustered,2,ACORN-1 + selector + guard ef=512,0.0099985,0.0081315,0.001794,10,0
+openalex_db,openalex_db:2:026:clustered,2,ACORN-1 + selector + guard ef=1024,0.0092405,0.0078895,0.0014464999999999999,10,0
+openalex_db,openalex_db:2:027:independent,2,Eager,1.0528089999999999,,,10,1
+openalex_db,openalex_db:2:027:independent,2,RACE,1.0575,,,10,1
+openalex_db,openalex_db:2:027:independent,2,ACORN-1 + selector + guard ef=128,0.0233965,0.008574,0.014773,10,1
+openalex_db,openalex_db:2:027:independent,2,ACORN-1 + selector + guard ef=512,0.021786,0.007714,0.0141025,10,1
+openalex_db,openalex_db:2:027:independent,2,ACORN-1 + selector + guard ef=1024,0.0221455,0.007844,0.0143195,10,1
+openalex_db,openalex_db:2:027:clustered,2,Eager,1.3238705,,,10,1
+openalex_db,openalex_db:2:027:clustered,2,RACE,1.3347685,,,10,1
+openalex_db,openalex_db:2:027:clustered,2,ACORN-1 + selector + guard ef=128,0.022616,0.00834,0.014338,10,1
+openalex_db,openalex_db:2:027:clustered,2,ACORN-1 + selector + guard ef=512,0.0217645,0.007801,0.0139605,10,1
+openalex_db,openalex_db:2:027:clustered,2,ACORN-1 + selector + guard ef=1024,0.021407000000000002,0.007678,0.013729,10,1
+openalex_db,openalex_db:2:028:independent,2,Eager,4.9875799999999995,,,10,319
+openalex_db,openalex_db:2:028:independent,2,RACE,4.7639285000000005,,,10,319
+openalex_db,openalex_db:2:028:independent,2,ACORN-1 + selector + guard ef=128,4.6821825,0.0178395,4.666078,10,319
+openalex_db,openalex_db:2:028:independent,2,ACORN-1 + selector + guard ef=512,7.073097000000001,0.0192875,7.0499505,10,319
+openalex_db,openalex_db:2:028:independent,2,ACORN-1 + selector + guard ef=1024,6.9298725,0.018034,6.910635,10,319
+openalex_db,openalex_db:2:028:clustered,2,Eager,5.38455,,,10,319
+openalex_db,openalex_db:2:028:clustered,2,RACE,6.3124590000000005,,,10,319
+openalex_db,openalex_db:2:028:clustered,2,ACORN-1 + selector + guard ef=128,4.7567085,0.0204885,4.7381554999999995,10,319
+openalex_db,openalex_db:2:028:clustered,2,ACORN-1 + selector + guard ef=512,7.4096525,0.017248,7.3917845,10,319
+openalex_db,openalex_db:2:028:clustered,2,ACORN-1 + selector + guard ef=1024,7.7473790000000005,0.017620999999999998,7.726541,10,319
+openalex_db,openalex_db:2:029:independent,2,Eager,7.030474,,,10,1217
+openalex_db,openalex_db:2:029:independent,2,RACE,5.4617655,,,10,1217
+openalex_db,openalex_db:2:029:independent,2,ACORN-1 + selector + guard ef=128,5.226613,0.0379915,5.19071,10,1217
+openalex_db,openalex_db:2:029:independent,2,ACORN-1 + selector + guard ef=512,16.6191965,0.033756999999999995,16.5865095,10,1217
+openalex_db,openalex_db:2:029:independent,2,ACORN-1 + selector + guard ef=1024,31.9810395,0.048478499999999994,31.9220705,10,1217
+openalex_db,openalex_db:2:029:clustered,2,Eager,4.9832339999999995,,,10,1217
+openalex_db,openalex_db:2:029:clustered,2,RACE,5.440023500000001,,,10,1217
+openalex_db,openalex_db:2:029:clustered,2,ACORN-1 + selector + guard ef=128,5.242979500000001,0.0298685,5.2144984999999995,10,1217
+openalex_db,openalex_db:2:029:clustered,2,ACORN-1 + selector + guard ef=512,14.0116115,0.0317165,13.977051,10,1217
+openalex_db,openalex_db:2:029:clustered,2,ACORN-1 + selector + guard ef=1024,28.9967215,0.03288,28.964575,10,1217
+openalex_db,openalex_db:2:030:independent,2,Eager,4.232309,,,10,0
+openalex_db,openalex_db:2:030:independent,2,RACE,1.2759145,,,10,0
+openalex_db,openalex_db:2:030:independent,2,ACORN-1 + selector + guard ef=128,0.009271000000000001,0.0079505,0.001322,10,0
+openalex_db,openalex_db:2:030:independent,2,ACORN-1 + selector + guard ef=512,0.009135,0.007887,0.0014615000000000001,10,0
+openalex_db,openalex_db:2:030:independent,2,ACORN-1 + selector + guard ef=1024,0.009755,0.008282,0.0014290000000000001,10,0
+openalex_db,openalex_db:2:030:clustered,2,Eager,2.5138249999999998,,,10,0
+openalex_db,openalex_db:2:030:clustered,2,RACE,1.41984,,,10,0
+openalex_db,openalex_db:2:030:clustered,2,ACORN-1 + selector + guard ef=128,0.0099285,0.0081945,0.0015835,10,0
+openalex_db,openalex_db:2:030:clustered,2,ACORN-1 + selector + guard ef=512,0.009609,0.0081055,0.001425,10,0
+openalex_db,openalex_db:2:030:clustered,2,ACORN-1 + selector + guard ef=1024,0.009405,0.007984999999999999,0.001353,10,0
+openalex_db,openalex_db:2:031:independent,2,Eager,4.2499755,,,10,26
+openalex_db,openalex_db:2:031:independent,2,RACE,4.259317,,,10,26
+openalex_db,openalex_db:2:031:independent,2,ACORN-1 + selector + guard ef=128,0.0228035,0.008007,0.014246499999999999,10,26
+openalex_db,openalex_db:2:031:independent,2,ACORN-1 + selector + guard ef=512,0.0223485,0.008229,0.014047500000000001,10,26
+openalex_db,openalex_db:2:031:independent,2,ACORN-1 + selector + guard ef=1024,0.021466,0.007825499999999999,0.013551,10,26
+openalex_db,openalex_db:2:031:clustered,2,Eager,1.0532445,,,10,26
+openalex_db,openalex_db:2:031:clustered,2,RACE,1.0546165,,,10,26
+openalex_db,openalex_db:2:031:clustered,2,ACORN-1 + selector + guard ef=128,0.022248,0.008107,0.014207500000000001,10,26
+openalex_db,openalex_db:2:031:clustered,2,ACORN-1 + selector + guard ef=512,0.0209685,0.007745,0.0133415,10,26
+openalex_db,openalex_db:2:031:clustered,2,ACORN-1 + selector + guard ef=1024,0.0233745,0.0089095,0.014489499999999999,10,26

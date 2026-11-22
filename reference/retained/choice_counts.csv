@@ -1,0 +1,257 @@
+stage,config,strategy,chosen_policy,cases
+BCR,amazon_product,cost_tree,Eager,192
+BCR,amazon_product,most_frequent,Eager,192
+BCR,amazon_product,penalty_tree,Eager,192
+BCR,amazon_product,status_quo,Eager,192
+BCR,amazon_product,threshold,Eager,192
+BCR,amazon_product,train_best,Eager,192
+BCR,amazon_product,uncertainty_tree,Eager,192
+BCR,ldbc_snb,cost_tree,Eager,192
+BCR,ldbc_snb,most_frequent,Eager,192
+BCR,ldbc_snb,penalty_tree,Eager,160
+BCR,ldbc_snb,penalty_tree,RACE,32
+BCR,ldbc_snb,status_quo,Eager,192
+BCR,ldbc_snb,threshold,Eager,192
+BCR,ldbc_snb,train_best,Eager,192
+BCR,ldbc_snb,uncertainty_tree,Eager,160
+BCR,ldbc_snb,uncertainty_tree,RACE,32
+BCR,ogbn_arxiv_full,cost_tree,Eager,192
+BCR,ogbn_arxiv_full,most_frequent,Eager,192
+BCR,ogbn_arxiv_full,penalty_tree,Eager,192
+BCR,ogbn_arxiv_full,status_quo,Eager,192
+BCR,ogbn_arxiv_full,threshold,Eager,192
+BCR,ogbn_arxiv_full,train_best,Eager,192
+BCR,ogbn_arxiv_full,uncertainty_tree,Eager,192
+BCR,ogbn_products,cost_tree,Eager,154
+BCR,ogbn_products,cost_tree,RACE,38
+BCR,ogbn_products,most_frequent,Eager,192
+BCR,ogbn_products,penalty_tree,Eager,184
+BCR,ogbn_products,penalty_tree,RACE,8
+BCR,ogbn_products,status_quo,Eager,192
+BCR,ogbn_products,threshold,Eager,192
+BCR,ogbn_products,train_best,Eager,192
+BCR,ogbn_products,uncertainty_tree,Eager,184
+BCR,ogbn_products,uncertainty_tree,RACE,8
+BCR,openalex_db,cost_tree,Eager,192
+BCR,openalex_db,most_frequent,Eager,192
+BCR,openalex_db,penalty_tree,Eager,146
+BCR,openalex_db,penalty_tree,RACE,46
+BCR,openalex_db,status_quo,Eager,192
+BCR,openalex_db,threshold,Eager,192
+BCR,openalex_db,train_best,Eager,192
+BCR,openalex_db,uncertainty_tree,Eager,146
+BCR,openalex_db,uncertainty_tree,RACE,46
+EGR,n100000_deg10,cost_tree,Forward,60
+EGR,n100000_deg10,cost_tree,Lazy,30
+EGR,n100000_deg10,most_frequent,Forward,90
+EGR,n100000_deg10,penalty_tree,Forward,90
+EGR,n100000_deg10,status_quo,Forward,90
+EGR,n100000_deg10,threshold,Forward,80
+EGR,n100000_deg10,threshold,Lazy,10
+EGR,n100000_deg10,train_best,Forward,90
+EGR,n100000_deg10,uncertainty_tree,Forward,90
+EGR,n100000_deg12,cost_tree,Forward,60
+EGR,n100000_deg12,cost_tree,Lazy,30
+EGR,n100000_deg12,most_frequent,Forward,90
+EGR,n100000_deg12,penalty_tree,Forward,90
+EGR,n100000_deg12,status_quo,Forward,90
+EGR,n100000_deg12,threshold,Forward,80
+EGR,n100000_deg12,threshold,Lazy,10
+EGR,n100000_deg12,train_best,Forward,90
+EGR,n100000_deg12,uncertainty_tree,Forward,90
+EGR,n100000_deg16,cost_tree,Forward,60
+EGR,n100000_deg16,cost_tree,Lazy,30
+EGR,n100000_deg16,most_frequent,Forward,90
+EGR,n100000_deg16,penalty_tree,Forward,90
+EGR,n100000_deg16,status_quo,Forward,90
+EGR,n100000_deg16,threshold,Forward,80
+EGR,n100000_deg16,threshold,Lazy,10
+EGR,n100000_deg16,train_best,Forward,90
+EGR,n100000_deg16,uncertainty_tree,Forward,90
+EGR,n100000_deg24,cost_tree,Forward,90
+EGR,n100000_deg24,most_frequent,Forward,90
+EGR,n100000_deg24,penalty_tree,Forward,90
+EGR,n100000_deg24,status_quo,Forward,90
+EGR,n100000_deg24,threshold,Forward,80
+EGR,n100000_deg24,threshold,Lazy,10
+EGR,n100000_deg24,train_best,Forward,90
+EGR,n100000_deg24,uncertainty_tree,Forward,90
+EGR,n100000_deg32,cost_tree,Forward,90
+EGR,n100000_deg32,most_frequent,Forward,90
+EGR,n100000_deg32,penalty_tree,Forward,90
+EGR,n100000_deg32,status_quo,Forward,90
+EGR,n100000_deg32,threshold,Forward,80
+EGR,n100000_deg32,threshold,Lazy,10
+EGR,n100000_deg32,train_best,Forward,90
+EGR,n100000_deg32,uncertainty_tree,Forward,90
+EGR,n100000_deg4,cost_tree,Forward,80
+EGR,n100000_deg4,cost_tree,Lazy,10
+EGR,n100000_deg4,most_frequent,Forward,90
+EGR,n100000_deg4,penalty_tree,Forward,90
+EGR,n100000_deg4,status_quo,Forward,90
+EGR,n100000_deg4,threshold,Forward,90
+EGR,n100000_deg4,train_best,Forward,90
+EGR,n100000_deg4,uncertainty_tree,Forward,90
+EGR,n100000_deg6,cost_tree,Forward,90
+EGR,n100000_deg6,most_frequent,Forward,90
+EGR,n100000_deg6,penalty_tree,Forward,80
+EGR,n100000_deg6,penalty_tree,Lazy,10
+EGR,n100000_deg6,status_quo,Forward,90
+EGR,n100000_deg6,threshold,Forward,90
+EGR,n100000_deg6,train_best,Forward,90
+EGR,n100000_deg6,uncertainty_tree,Forward,80
+EGR,n100000_deg6,uncertainty_tree,Lazy,10
+EGR,n100000_deg8,cost_tree,Forward,90
+EGR,n100000_deg8,most_frequent,Forward,90
+EGR,n100000_deg8,penalty_tree,Forward,60
+EGR,n100000_deg8,penalty_tree,Lazy,30
+EGR,n100000_deg8,status_quo,Forward,90
+EGR,n100000_deg8,threshold,Forward,80
+EGR,n100000_deg8,threshold,Lazy,10
+EGR,n100000_deg8,train_best,Forward,90
+EGR,n100000_deg8,uncertainty_tree,Forward,60
+EGR,n100000_deg8,uncertainty_tree,Lazy,30
+EGR,n10000_deg10,cost_tree,Forward,90
+EGR,n10000_deg10,most_frequent,Forward,90
+EGR,n10000_deg10,penalty_tree,Forward,90
+EGR,n10000_deg10,status_quo,Forward,90
+EGR,n10000_deg10,threshold,Forward,90
+EGR,n10000_deg10,train_best,Forward,90
+EGR,n10000_deg10,uncertainty_tree,Forward,90
+EGR,n10000_deg12,cost_tree,Forward,70
+EGR,n10000_deg12,cost_tree,Lazy,20
+EGR,n10000_deg12,most_frequent,Forward,90
+EGR,n10000_deg12,penalty_tree,Forward,90
+EGR,n10000_deg12,status_quo,Forward,90
+EGR,n10000_deg12,threshold,Forward,90
+EGR,n10000_deg12,train_best,Forward,90
+EGR,n10000_deg12,uncertainty_tree,Forward,90
+EGR,n10000_deg16,cost_tree,Forward,90
+EGR,n10000_deg16,most_frequent,Forward,90
+EGR,n10000_deg16,penalty_tree,Forward,90
+EGR,n10000_deg16,status_quo,Forward,90
+EGR,n10000_deg16,threshold,Forward,90
+EGR,n10000_deg16,train_best,Forward,90
+EGR,n10000_deg16,uncertainty_tree,Forward,90
+EGR,n10000_deg24,cost_tree,Forward,60
+EGR,n10000_deg24,cost_tree,Lazy,30
+EGR,n10000_deg24,most_frequent,Forward,90
+EGR,n10000_deg24,penalty_tree,Forward,90
+EGR,n10000_deg24,status_quo,Forward,90
+EGR,n10000_deg24,threshold,Forward,90
+EGR,n10000_deg24,train_best,Forward,90
+EGR,n10000_deg24,uncertainty_tree,Forward,90
+EGR,n10000_deg32,cost_tree,Forward,90
+EGR,n10000_deg32,most_frequent,Forward,90
+EGR,n10000_deg32,penalty_tree,Forward,90
+EGR,n10000_deg32,status_quo,Forward,90
+EGR,n10000_deg32,threshold,Forward,90
+EGR,n10000_deg32,train_best,Forward,90
+EGR,n10000_deg32,uncertainty_tree,Forward,90
+EGR,n10000_deg4,cost_tree,Forward,90
+EGR,n10000_deg4,most_frequent,Forward,90
+EGR,n10000_deg4,penalty_tree,Forward,90
+EGR,n10000_deg4,status_quo,Forward,90
+EGR,n10000_deg4,threshold,Forward,90
+EGR,n10000_deg4,train_best,Forward,90
+EGR,n10000_deg4,uncertainty_tree,Forward,90
+EGR,n10000_deg6,cost_tree,Forward,90
+EGR,n10000_deg6,most_frequent,Forward,90
+EGR,n10000_deg6,penalty_tree,Forward,90
+EGR,n10000_deg6,status_quo,Forward,90
+EGR,n10000_deg6,threshold,Forward,90
+EGR,n10000_deg6,train_best,Forward,90
+EGR,n10000_deg6,uncertainty_tree,Forward,90
+EGR,n10000_deg8,cost_tree,Forward,90
+EGR,n10000_deg8,most_frequent,Forward,90
+EGR,n10000_deg8,penalty_tree,Forward,90
+EGR,n10000_deg8,status_quo,Forward,90
+EGR,n10000_deg8,threshold,Forward,90
+EGR,n10000_deg8,train_best,Forward,90
+EGR,n10000_deg8,uncertainty_tree,Forward,90
+RPE,hetionet,cost_tree,NoSchema+,312
+RPE,hetionet,cost_tree,ObservedOnly+,624
+RPE,hetionet,most_frequent,NoSchema+,936
+RPE,hetionet,penalty_tree,NoSchema+,312
+RPE,hetionet,penalty_tree,ObservedOnly+,624
+RPE,hetionet,status_quo,Incremental+,936
+RPE,hetionet,threshold,TargetOnly,936
+RPE,hetionet,train_best,NoSchema+,936
+RPE,hetionet,uncertainty_tree,NoSchema+,312
+RPE,hetionet,uncertainty_tree,ObservedOnly+,624
+RPE,openalex,cost_tree,NoSchema+,312
+RPE,openalex,cost_tree,ObservedOnly+,624
+RPE,openalex,most_frequent,NoSchema+,936
+RPE,openalex,penalty_tree,ObservedOnly+,936
+RPE,openalex,status_quo,Incremental+,936
+RPE,openalex,threshold,TargetOnly,936
+RPE,openalex,train_best,NoSchema+,936
+RPE,openalex,uncertainty_tree,ObservedOnly+,936
+RPE,support_churn,cost_tree,ObservedOnly+,600
+RPE,support_churn,cost_tree,TargetOnly,1200
+RPE,support_churn,most_frequent,TargetOnly,1800
+RPE,support_churn,penalty_tree,TargetOnly,1800
+RPE,support_churn,status_quo,Incremental+,1800
+RPE,support_churn,threshold,TargetOnly,1800
+RPE,support_churn,train_best,NoSchema+,1800
+RPE,support_churn,uncertainty_tree,TargetOnly,1800
+RPE,syn_base,cost_tree,ObservedOnly+,312
+RPE,syn_base,cost_tree,TargetOnly,624
+RPE,syn_base,most_frequent,NoSchema+,936
+RPE,syn_base,penalty_tree,ObservedOnly+,533
+RPE,syn_base,penalty_tree,TargetOnly,403
+RPE,syn_base,status_quo,Incremental+,936
+RPE,syn_base,threshold,TargetOnly,936
+RPE,syn_base,train_best,ObservedOnly+,936
+RPE,syn_base,uncertainty_tree,ObservedOnly+,533
+RPE,syn_base,uncertainty_tree,TargetOnly,403
+RPE legacy,syn_base,cost_tree,GuardFull,288
+RPE legacy,syn_base,cost_tree,ObservedOnly,648
+RPE legacy,syn_base,most_frequent,NoSchema,936
+RPE legacy,syn_base,penalty_tree,NoSchema,273
+RPE legacy,syn_base,penalty_tree,ObservedOnly,663
+RPE legacy,syn_base,status_quo,Incremental,936
+RPE legacy,syn_base,threshold,NoSchema,936
+RPE legacy,syn_base,train_best,NoSchema,936
+RPE legacy,syn_base,uncertainty_tree,NoSchema,273
+RPE legacy,syn_base,uncertainty_tree,ObservedOnly,663
+RPE legacy,syn_clean,cost_tree,GuardFull,240
+RPE legacy,syn_clean,cost_tree,LedgerRebuild,117
+RPE legacy,syn_clean,cost_tree,NoSchema,72
+RPE legacy,syn_clean,cost_tree,ObservedOnly,507
+RPE legacy,syn_clean,most_frequent,NoSchema,936
+RPE legacy,syn_clean,penalty_tree,GuardFull,110
+RPE legacy,syn_clean,penalty_tree,LedgerRebuild,221
+RPE legacy,syn_clean,penalty_tree,NoSchema,202
+RPE legacy,syn_clean,penalty_tree,ObservedOnly,403
+RPE legacy,syn_clean,status_quo,Incremental,936
+RPE legacy,syn_clean,threshold,NoSchema,936
+RPE legacy,syn_clean,train_best,NoSchema,936
+RPE legacy,syn_clean,uncertainty_tree,GuardFull,110
+RPE legacy,syn_clean,uncertainty_tree,LedgerRebuild,221
+RPE legacy,syn_clean,uncertainty_tree,NoSchema,202
+RPE legacy,syn_clean,uncertainty_tree,ObservedOnly,403
+RPE legacy,syn_large,cost_tree,GuardFull,144
+RPE legacy,syn_large,cost_tree,NoSchema,155
+RPE legacy,syn_large,cost_tree,ObservedOnly,637
+RPE legacy,syn_large,most_frequent,NoSchema,936
+RPE legacy,syn_large,penalty_tree,NoSchema,273
+RPE legacy,syn_large,penalty_tree,ObservedOnly,663
+RPE legacy,syn_large,status_quo,Incremental,936
+RPE legacy,syn_large,threshold,NoSchema,936
+RPE legacy,syn_large,train_best,NoSchema,936
+RPE legacy,syn_large,uncertainty_tree,NoSchema,273
+RPE legacy,syn_large,uncertainty_tree,ObservedOnly,663
+RPE legacy,syn_small,cost_tree,GuardFull,144
+RPE legacy,syn_small,cost_tree,NoSchema,155
+RPE legacy,syn_small,cost_tree,ObservedOnly,637
+RPE legacy,syn_small,most_frequent,NoSchema,936
+RPE legacy,syn_small,penalty_tree,GuardFull,99
+RPE legacy,syn_small,penalty_tree,NoSchema,174
+RPE legacy,syn_small,penalty_tree,ObservedOnly,663
+RPE legacy,syn_small,status_quo,Incremental,936
+RPE legacy,syn_small,threshold,NoSchema,936
+RPE legacy,syn_small,train_best,NoSchema,936
+RPE legacy,syn_small,uncertainty_tree,GuardFull,99
+RPE legacy,syn_small,uncertainty_tree,NoSchema,174
+RPE legacy,syn_small,uncertainty_tree,ObservedOnly,663

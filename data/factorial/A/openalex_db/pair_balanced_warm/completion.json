@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "queries": 192,
+  "repeats": 8,
+  "legality_failures": 0,
+  "measured_calls": 3072,
+  "untimed_prewarm_calls": 3072
+}

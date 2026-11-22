@@ -1,0 +1,961 @@
+corpus,query_id,seed,policy,eligible_count,reference_count,returned_size,raw_returned_size,recall,raw_recall,exact_ordered_match,exact_set_match,raw_exact_ordered_match,raw_exact_set_match,returned_precision,raw_returned_precision,raw_duplicate_count,raw_invalid_count,guarded_invalid_count,underfilled,eligible_ge_k_underfilled
+openalex_db,openalex_db:0:000:independent,0,Eager,3,3,3,3,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:000:independent,0,RACE,3,3,3,3,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:000:independent,0,ACORN-1 + selector + guard ef=128,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:000:independent,0,ACORN-1 + selector + guard ef=512,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:000:independent,0,ACORN-1 + selector + guard ef=1024,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:000:clustered,0,Eager,3,3,3,3,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:000:clustered,0,RACE,3,3,3,3,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:000:clustered,0,ACORN-1 + selector + guard ef=128,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:000:clustered,0,ACORN-1 + selector + guard ef=512,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:000:clustered,0,ACORN-1 + selector + guard ef=1024,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:001:independent,0,Eager,204,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:001:independent,0,RACE,204,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:001:independent,0,ACORN-1 + selector + guard ef=128,204,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:001:independent,0,ACORN-1 + selector + guard ef=512,204,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:001:independent,0,ACORN-1 + selector + guard ef=1024,204,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:001:clustered,0,Eager,204,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:001:clustered,0,RACE,204,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:001:clustered,0,ACORN-1 + selector + guard ef=128,204,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:001:clustered,0,ACORN-1 + selector + guard ef=512,204,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:001:clustered,0,ACORN-1 + selector + guard ef=1024,204,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:002:independent,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:002:independent,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:002:independent,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:002:independent,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:002:independent,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:002:clustered,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:002:clustered,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:002:clustered,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:002:clustered,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:002:clustered,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:003:independent,0,Eager,685,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:003:independent,0,RACE,685,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:003:independent,0,ACORN-1 + selector + guard ef=128,685,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:003:independent,0,ACORN-1 + selector + guard ef=512,685,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:003:independent,0,ACORN-1 + selector + guard ef=1024,685,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:003:clustered,0,Eager,685,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:003:clustered,0,RACE,685,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:003:clustered,0,ACORN-1 + selector + guard ef=128,685,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:003:clustered,0,ACORN-1 + selector + guard ef=512,685,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:003:clustered,0,ACORN-1 + selector + guard ef=1024,685,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:004:independent,0,Eager,12,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:004:independent,0,RACE,12,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:004:independent,0,ACORN-1 + selector + guard ef=128,12,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:004:independent,0,ACORN-1 + selector + guard ef=512,12,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:004:independent,0,ACORN-1 + selector + guard ef=1024,12,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:004:clustered,0,Eager,12,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:004:clustered,0,RACE,12,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:004:clustered,0,ACORN-1 + selector + guard ef=128,12,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:004:clustered,0,ACORN-1 + selector + guard ef=512,12,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:004:clustered,0,ACORN-1 + selector + guard ef=1024,12,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:005:independent,0,Eager,31,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:005:independent,0,RACE,31,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:005:independent,0,ACORN-1 + selector + guard ef=128,31,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:005:independent,0,ACORN-1 + selector + guard ef=512,31,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:005:independent,0,ACORN-1 + selector + guard ef=1024,31,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:005:clustered,0,Eager,31,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:005:clustered,0,RACE,31,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:005:clustered,0,ACORN-1 + selector + guard ef=128,31,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:005:clustered,0,ACORN-1 + selector + guard ef=512,31,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:005:clustered,0,ACORN-1 + selector + guard ef=1024,31,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:006:independent,0,Eager,21,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:006:independent,0,RACE,21,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:006:independent,0,ACORN-1 + selector + guard ef=128,21,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:006:independent,0,ACORN-1 + selector + guard ef=512,21,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:006:independent,0,ACORN-1 + selector + guard ef=1024,21,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:006:clustered,0,Eager,21,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:006:clustered,0,RACE,21,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:006:clustered,0,ACORN-1 + selector + guard ef=128,21,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:006:clustered,0,ACORN-1 + selector + guard ef=512,21,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:006:clustered,0,ACORN-1 + selector + guard ef=1024,21,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:007:independent,0,Eager,32,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:007:independent,0,RACE,32,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:007:independent,0,ACORN-1 + selector + guard ef=128,32,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:007:independent,0,ACORN-1 + selector + guard ef=512,32,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:007:independent,0,ACORN-1 + selector + guard ef=1024,32,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:007:clustered,0,Eager,32,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:007:clustered,0,RACE,32,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:007:clustered,0,ACORN-1 + selector + guard ef=128,32,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:007:clustered,0,ACORN-1 + selector + guard ef=512,32,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:007:clustered,0,ACORN-1 + selector + guard ef=1024,32,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:008:independent,0,Eager,24,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:008:independent,0,RACE,24,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:008:independent,0,ACORN-1 + selector + guard ef=128,24,10,1,1,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:008:independent,0,ACORN-1 + selector + guard ef=512,24,10,1,1,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:008:independent,0,ACORN-1 + selector + guard ef=1024,24,10,1,1,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:008:clustered,0,Eager,24,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:008:clustered,0,RACE,24,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:008:clustered,0,ACORN-1 + selector + guard ef=128,24,10,1,1,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:008:clustered,0,ACORN-1 + selector + guard ef=512,24,10,1,1,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:008:clustered,0,ACORN-1 + selector + guard ef=1024,24,10,1,1,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:009:independent,0,Eager,6,6,6,6,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:009:independent,0,RACE,6,6,6,6,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:009:independent,0,ACORN-1 + selector + guard ef=128,6,6,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:009:independent,0,ACORN-1 + selector + guard ef=512,6,6,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:009:independent,0,ACORN-1 + selector + guard ef=1024,6,6,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:009:clustered,0,Eager,6,6,6,6,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:009:clustered,0,RACE,6,6,6,6,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:009:clustered,0,ACORN-1 + selector + guard ef=128,6,6,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:009:clustered,0,ACORN-1 + selector + guard ef=512,6,6,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:009:clustered,0,ACORN-1 + selector + guard ef=1024,6,6,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:010:independent,0,Eager,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:010:independent,0,RACE,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:010:independent,0,ACORN-1 + selector + guard ef=128,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:010:independent,0,ACORN-1 + selector + guard ef=512,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:010:independent,0,ACORN-1 + selector + guard ef=1024,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:010:clustered,0,Eager,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:010:clustered,0,RACE,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:010:clustered,0,ACORN-1 + selector + guard ef=128,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:010:clustered,0,ACORN-1 + selector + guard ef=512,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:010:clustered,0,ACORN-1 + selector + guard ef=1024,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:011:independent,0,Eager,19,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:011:independent,0,RACE,19,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:011:independent,0,ACORN-1 + selector + guard ef=128,19,10,1,1,0.1,0.1,False,False,False,False,1.0,1.0,0,0,0,True,True
+openalex_db,openalex_db:0:011:independent,0,ACORN-1 + selector + guard ef=512,19,10,1,1,0.1,0.1,False,False,False,False,1.0,1.0,0,0,0,True,True
+openalex_db,openalex_db:0:011:independent,0,ACORN-1 + selector + guard ef=1024,19,10,1,1,0.1,0.1,False,False,False,False,1.0,1.0,0,0,0,True,True
+openalex_db,openalex_db:0:011:clustered,0,Eager,19,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:011:clustered,0,RACE,19,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:011:clustered,0,ACORN-1 + selector + guard ef=128,19,10,1,1,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:011:clustered,0,ACORN-1 + selector + guard ef=512,19,10,1,1,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:011:clustered,0,ACORN-1 + selector + guard ef=1024,19,10,1,1,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:012:independent,0,Eager,568,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:012:independent,0,RACE,568,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:012:independent,0,ACORN-1 + selector + guard ef=128,568,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+openalex_db,openalex_db:0:012:independent,0,ACORN-1 + selector + guard ef=512,568,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:012:independent,0,ACORN-1 + selector + guard ef=1024,568,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:012:clustered,0,Eager,568,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:012:clustered,0,RACE,568,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:012:clustered,0,ACORN-1 + selector + guard ef=128,568,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:012:clustered,0,ACORN-1 + selector + guard ef=512,568,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:012:clustered,0,ACORN-1 + selector + guard ef=1024,568,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:013:independent,0,Eager,191,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:013:independent,0,RACE,191,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:013:independent,0,ACORN-1 + selector + guard ef=128,191,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:013:independent,0,ACORN-1 + selector + guard ef=512,191,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:013:independent,0,ACORN-1 + selector + guard ef=1024,191,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:013:clustered,0,Eager,191,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:013:clustered,0,RACE,191,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:013:clustered,0,ACORN-1 + selector + guard ef=128,191,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:013:clustered,0,ACORN-1 + selector + guard ef=512,191,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:013:clustered,0,ACORN-1 + selector + guard ef=1024,191,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:014:independent,0,Eager,64,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:014:independent,0,RACE,64,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:014:independent,0,ACORN-1 + selector + guard ef=128,64,10,10,10,0.5,0.5,False,False,False,False,0.5,0.5,0,0,0,False,False
+openalex_db,openalex_db:0:014:independent,0,ACORN-1 + selector + guard ef=512,64,10,10,10,0.5,0.5,False,False,False,False,0.5,0.5,0,0,0,False,False
+openalex_db,openalex_db:0:014:independent,0,ACORN-1 + selector + guard ef=1024,64,10,10,10,0.5,0.5,False,False,False,False,0.5,0.5,0,0,0,False,False
+openalex_db,openalex_db:0:014:clustered,0,Eager,64,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:014:clustered,0,RACE,64,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:014:clustered,0,ACORN-1 + selector + guard ef=128,64,10,10,10,0.7,0.7,False,False,False,False,0.7,0.7,0,0,0,False,False
+openalex_db,openalex_db:0:014:clustered,0,ACORN-1 + selector + guard ef=512,64,10,10,10,0.7,0.7,False,False,False,False,0.7,0.7,0,0,0,False,False
+openalex_db,openalex_db:0:014:clustered,0,ACORN-1 + selector + guard ef=1024,64,10,10,10,0.7,0.7,False,False,False,False,0.7,0.7,0,0,0,False,False
+openalex_db,openalex_db:0:015:independent,0,Eager,21,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:015:independent,0,RACE,21,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:015:independent,0,ACORN-1 + selector + guard ef=128,21,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:015:independent,0,ACORN-1 + selector + guard ef=512,21,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:015:independent,0,ACORN-1 + selector + guard ef=1024,21,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:015:clustered,0,Eager,21,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:015:clustered,0,RACE,21,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:015:clustered,0,ACORN-1 + selector + guard ef=128,21,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:015:clustered,0,ACORN-1 + selector + guard ef=512,21,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:015:clustered,0,ACORN-1 + selector + guard ef=1024,21,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:016:independent,0,Eager,123,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:016:independent,0,RACE,123,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:016:independent,0,ACORN-1 + selector + guard ef=128,123,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:016:independent,0,ACORN-1 + selector + guard ef=512,123,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:016:independent,0,ACORN-1 + selector + guard ef=1024,123,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:016:clustered,0,Eager,123,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:016:clustered,0,RACE,123,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:016:clustered,0,ACORN-1 + selector + guard ef=128,123,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:016:clustered,0,ACORN-1 + selector + guard ef=512,123,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:016:clustered,0,ACORN-1 + selector + guard ef=1024,123,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:017:independent,0,Eager,516,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:017:independent,0,RACE,516,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:017:independent,0,ACORN-1 + selector + guard ef=128,516,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:017:independent,0,ACORN-1 + selector + guard ef=512,516,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:017:independent,0,ACORN-1 + selector + guard ef=1024,516,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:017:clustered,0,Eager,516,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:017:clustered,0,RACE,516,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:017:clustered,0,ACORN-1 + selector + guard ef=128,516,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:017:clustered,0,ACORN-1 + selector + guard ef=512,516,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:017:clustered,0,ACORN-1 + selector + guard ef=1024,516,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:018:independent,0,Eager,19,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:018:independent,0,RACE,19,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:018:independent,0,ACORN-1 + selector + guard ef=128,19,10,10,10,0.5,0.5,False,False,False,False,0.5,0.5,0,0,0,False,False
+openalex_db,openalex_db:0:018:independent,0,ACORN-1 + selector + guard ef=512,19,10,10,10,0.5,0.5,False,False,False,False,0.5,0.5,0,0,0,False,False
+openalex_db,openalex_db:0:018:independent,0,ACORN-1 + selector + guard ef=1024,19,10,10,10,0.5,0.5,False,False,False,False,0.5,0.5,0,0,0,False,False
+openalex_db,openalex_db:0:018:clustered,0,Eager,19,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:018:clustered,0,RACE,19,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:018:clustered,0,ACORN-1 + selector + guard ef=128,19,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+openalex_db,openalex_db:0:018:clustered,0,ACORN-1 + selector + guard ef=512,19,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+openalex_db,openalex_db:0:018:clustered,0,ACORN-1 + selector + guard ef=1024,19,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+openalex_db,openalex_db:0:019:independent,0,Eager,1240,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:019:independent,0,RACE,1240,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:019:independent,0,ACORN-1 + selector + guard ef=128,1240,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:019:independent,0,ACORN-1 + selector + guard ef=512,1240,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:019:independent,0,ACORN-1 + selector + guard ef=1024,1240,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:019:clustered,0,Eager,1240,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:019:clustered,0,RACE,1240,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:019:clustered,0,ACORN-1 + selector + guard ef=128,1240,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:019:clustered,0,ACORN-1 + selector + guard ef=512,1240,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:019:clustered,0,ACORN-1 + selector + guard ef=1024,1240,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:020:independent,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:020:independent,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:020:independent,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:020:independent,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:020:independent,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:020:clustered,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:020:clustered,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:020:clustered,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:020:clustered,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:020:clustered,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:021:independent,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:021:independent,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:021:independent,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:021:independent,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:021:independent,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:021:clustered,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:021:clustered,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:021:clustered,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:021:clustered,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:021:clustered,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:022:independent,0,Eager,28,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:022:independent,0,RACE,28,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:022:independent,0,ACORN-1 + selector + guard ef=128,28,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:022:independent,0,ACORN-1 + selector + guard ef=512,28,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:022:independent,0,ACORN-1 + selector + guard ef=1024,28,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:022:clustered,0,Eager,28,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:022:clustered,0,RACE,28,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:022:clustered,0,ACORN-1 + selector + guard ef=128,28,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+openalex_db,openalex_db:0:022:clustered,0,ACORN-1 + selector + guard ef=512,28,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+openalex_db,openalex_db:0:022:clustered,0,ACORN-1 + selector + guard ef=1024,28,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+openalex_db,openalex_db:0:023:independent,0,Eager,33,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:023:independent,0,RACE,33,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:023:independent,0,ACORN-1 + selector + guard ef=128,33,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:023:independent,0,ACORN-1 + selector + guard ef=512,33,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:023:independent,0,ACORN-1 + selector + guard ef=1024,33,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:023:clustered,0,Eager,33,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:023:clustered,0,RACE,33,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:023:clustered,0,ACORN-1 + selector + guard ef=128,33,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:023:clustered,0,ACORN-1 + selector + guard ef=512,33,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:023:clustered,0,ACORN-1 + selector + guard ef=1024,33,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:0:024:independent,0,Eager,26,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:024:independent,0,RACE,26,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:024:independent,0,ACORN-1 + selector + guard ef=128,26,10,9,9,0.8,0.8,False,False,False,False,0.8888888888888888,0.8888888888888888,0,0,0,True,True
+openalex_db,openalex_db:0:024:independent,0,ACORN-1 + selector + guard ef=512,26,10,9,9,0.8,0.8,False,False,False,False,0.8888888888888888,0.8888888888888888,0,0,0,True,True
+openalex_db,openalex_db:0:024:independent,0,ACORN-1 + selector + guard ef=1024,26,10,9,9,0.8,0.8,False,False,False,False,0.8888888888888888,0.8888888888888888,0,0,0,True,True
+openalex_db,openalex_db:0:024:clustered,0,Eager,26,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:024:clustered,0,RACE,26,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:024:clustered,0,ACORN-1 + selector + guard ef=128,26,10,9,9,0.4,0.4,False,False,False,False,0.4444444444444444,0.4444444444444444,0,0,0,True,True
+openalex_db,openalex_db:0:024:clustered,0,ACORN-1 + selector + guard ef=512,26,10,9,9,0.4,0.4,False,False,False,False,0.4444444444444444,0.4444444444444444,0,0,0,True,True
+openalex_db,openalex_db:0:024:clustered,0,ACORN-1 + selector + guard ef=1024,26,10,9,9,0.4,0.4,False,False,False,False,0.4444444444444444,0.4444444444444444,0,0,0,True,True
+openalex_db,openalex_db:0:025:independent,0,Eager,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:025:independent,0,RACE,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:025:independent,0,ACORN-1 + selector + guard ef=128,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:025:independent,0,ACORN-1 + selector + guard ef=512,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:025:independent,0,ACORN-1 + selector + guard ef=1024,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:025:clustered,0,Eager,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:025:clustered,0,RACE,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:025:clustered,0,ACORN-1 + selector + guard ef=128,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:025:clustered,0,ACORN-1 + selector + guard ef=512,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:025:clustered,0,ACORN-1 + selector + guard ef=1024,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:026:independent,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:026:independent,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:026:independent,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:026:independent,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:026:independent,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:026:clustered,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:026:clustered,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:026:clustered,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:026:clustered,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:026:clustered,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:027:independent,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:027:independent,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:027:independent,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:027:independent,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:027:independent,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:027:clustered,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:027:clustered,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:027:clustered,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:027:clustered,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:027:clustered,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:028:independent,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:028:independent,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:028:independent,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:028:independent,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:028:independent,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:028:clustered,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:028:clustered,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:028:clustered,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:028:clustered,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:028:clustered,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:029:independent,0,Eager,7,7,7,7,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:029:independent,0,RACE,7,7,7,7,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:029:independent,0,ACORN-1 + selector + guard ef=128,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:029:independent,0,ACORN-1 + selector + guard ef=512,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:029:independent,0,ACORN-1 + selector + guard ef=1024,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:029:clustered,0,Eager,7,7,7,7,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:029:clustered,0,RACE,7,7,7,7,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:029:clustered,0,ACORN-1 + selector + guard ef=128,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:029:clustered,0,ACORN-1 + selector + guard ef=512,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:029:clustered,0,ACORN-1 + selector + guard ef=1024,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:0:030:independent,0,Eager,700,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:030:independent,0,RACE,700,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:030:independent,0,ACORN-1 + selector + guard ef=128,700,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:030:independent,0,ACORN-1 + selector + guard ef=512,700,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:030:independent,0,ACORN-1 + selector + guard ef=1024,700,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:030:clustered,0,Eager,700,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:030:clustered,0,RACE,700,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:030:clustered,0,ACORN-1 + selector + guard ef=128,700,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+openalex_db,openalex_db:0:030:clustered,0,ACORN-1 + selector + guard ef=512,700,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:030:clustered,0,ACORN-1 + selector + guard ef=1024,700,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:031:independent,0,Eager,1134,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:031:independent,0,RACE,1134,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:031:independent,0,ACORN-1 + selector + guard ef=128,1134,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:031:independent,0,ACORN-1 + selector + guard ef=512,1134,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:031:independent,0,ACORN-1 + selector + guard ef=1024,1134,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:031:clustered,0,Eager,1134,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:031:clustered,0,RACE,1134,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:031:clustered,0,ACORN-1 + selector + guard ef=128,1134,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:031:clustered,0,ACORN-1 + selector + guard ef=512,1134,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:0:031:clustered,0,ACORN-1 + selector + guard ef=1024,1134,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:000:independent,1,Eager,16,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:000:independent,1,RACE,16,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:000:independent,1,ACORN-1 + selector + guard ef=128,16,10,4,4,0.1,0.1,False,False,False,False,0.25,0.25,0,0,0,True,True
+openalex_db,openalex_db:1:000:independent,1,ACORN-1 + selector + guard ef=512,16,10,4,4,0.1,0.1,False,False,False,False,0.25,0.25,0,0,0,True,True
+openalex_db,openalex_db:1:000:independent,1,ACORN-1 + selector + guard ef=1024,16,10,4,4,0.1,0.1,False,False,False,False,0.25,0.25,0,0,0,True,True
+openalex_db,openalex_db:1:000:clustered,1,Eager,16,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:000:clustered,1,RACE,16,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:000:clustered,1,ACORN-1 + selector + guard ef=128,16,10,4,4,0.1,0.1,False,False,False,False,0.25,0.25,0,0,0,True,True
+openalex_db,openalex_db:1:000:clustered,1,ACORN-1 + selector + guard ef=512,16,10,4,4,0.1,0.1,False,False,False,False,0.25,0.25,0,0,0,True,True
+openalex_db,openalex_db:1:000:clustered,1,ACORN-1 + selector + guard ef=1024,16,10,4,4,0.1,0.1,False,False,False,False,0.25,0.25,0,0,0,True,True
+openalex_db,openalex_db:1:001:independent,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:001:independent,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:001:independent,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:001:independent,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:001:independent,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:001:clustered,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:001:clustered,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:001:clustered,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:001:clustered,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:001:clustered,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:002:independent,1,Eager,111,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:002:independent,1,RACE,111,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:002:independent,1,ACORN-1 + selector + guard ef=128,111,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:002:independent,1,ACORN-1 + selector + guard ef=512,111,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:002:independent,1,ACORN-1 + selector + guard ef=1024,111,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:002:clustered,1,Eager,111,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:002:clustered,1,RACE,111,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:002:clustered,1,ACORN-1 + selector + guard ef=128,111,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:002:clustered,1,ACORN-1 + selector + guard ef=512,111,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:002:clustered,1,ACORN-1 + selector + guard ef=1024,111,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:003:independent,1,Eager,13,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:003:independent,1,RACE,13,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:003:independent,1,ACORN-1 + selector + guard ef=128,13,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:003:independent,1,ACORN-1 + selector + guard ef=512,13,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:003:independent,1,ACORN-1 + selector + guard ef=1024,13,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:003:clustered,1,Eager,13,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:003:clustered,1,RACE,13,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:003:clustered,1,ACORN-1 + selector + guard ef=128,13,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:003:clustered,1,ACORN-1 + selector + guard ef=512,13,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:003:clustered,1,ACORN-1 + selector + guard ef=1024,13,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:004:independent,1,Eager,7,7,7,7,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:004:independent,1,RACE,7,7,7,7,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:004:independent,1,ACORN-1 + selector + guard ef=128,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:004:independent,1,ACORN-1 + selector + guard ef=512,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:004:independent,1,ACORN-1 + selector + guard ef=1024,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:004:clustered,1,Eager,7,7,7,7,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:004:clustered,1,RACE,7,7,7,7,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:004:clustered,1,ACORN-1 + selector + guard ef=128,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:004:clustered,1,ACORN-1 + selector + guard ef=512,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:004:clustered,1,ACORN-1 + selector + guard ef=1024,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:005:independent,1,Eager,3,3,3,3,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:005:independent,1,RACE,3,3,3,3,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:005:independent,1,ACORN-1 + selector + guard ef=128,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:005:independent,1,ACORN-1 + selector + guard ef=512,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:005:independent,1,ACORN-1 + selector + guard ef=1024,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:005:clustered,1,Eager,3,3,3,3,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:005:clustered,1,RACE,3,3,3,3,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:005:clustered,1,ACORN-1 + selector + guard ef=128,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:005:clustered,1,ACORN-1 + selector + guard ef=512,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:005:clustered,1,ACORN-1 + selector + guard ef=1024,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:006:independent,1,Eager,384,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:006:independent,1,RACE,384,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:006:independent,1,ACORN-1 + selector + guard ef=128,384,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:006:independent,1,ACORN-1 + selector + guard ef=512,384,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:006:independent,1,ACORN-1 + selector + guard ef=1024,384,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:006:clustered,1,Eager,384,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:006:clustered,1,RACE,384,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:006:clustered,1,ACORN-1 + selector + guard ef=128,384,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+openalex_db,openalex_db:1:006:clustered,1,ACORN-1 + selector + guard ef=512,384,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:006:clustered,1,ACORN-1 + selector + guard ef=1024,384,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:007:independent,1,Eager,1284,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:007:independent,1,RACE,1284,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:007:independent,1,ACORN-1 + selector + guard ef=128,1284,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:007:independent,1,ACORN-1 + selector + guard ef=512,1284,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:007:independent,1,ACORN-1 + selector + guard ef=1024,1284,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:007:clustered,1,Eager,1284,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:007:clustered,1,RACE,1284,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:007:clustered,1,ACORN-1 + selector + guard ef=128,1284,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:007:clustered,1,ACORN-1 + selector + guard ef=512,1284,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:007:clustered,1,ACORN-1 + selector + guard ef=1024,1284,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:008:independent,1,Eager,16,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:008:independent,1,RACE,16,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:008:independent,1,ACORN-1 + selector + guard ef=128,16,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:008:independent,1,ACORN-1 + selector + guard ef=512,16,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:008:independent,1,ACORN-1 + selector + guard ef=1024,16,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:008:clustered,1,Eager,16,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:008:clustered,1,RACE,16,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:008:clustered,1,ACORN-1 + selector + guard ef=128,16,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:008:clustered,1,ACORN-1 + selector + guard ef=512,16,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:008:clustered,1,ACORN-1 + selector + guard ef=1024,16,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:009:independent,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:009:independent,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:009:independent,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:009:independent,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:009:independent,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:009:clustered,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:009:clustered,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:009:clustered,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:009:clustered,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:009:clustered,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:010:independent,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:010:independent,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:010:independent,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:010:independent,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:010:independent,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:010:clustered,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:010:clustered,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:010:clustered,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:010:clustered,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:010:clustered,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:011:independent,1,Eager,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:011:independent,1,RACE,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:011:independent,1,ACORN-1 + selector + guard ef=128,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:011:independent,1,ACORN-1 + selector + guard ef=512,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:011:independent,1,ACORN-1 + selector + guard ef=1024,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:011:clustered,1,Eager,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:011:clustered,1,RACE,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:011:clustered,1,ACORN-1 + selector + guard ef=128,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:011:clustered,1,ACORN-1 + selector + guard ef=512,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:011:clustered,1,ACORN-1 + selector + guard ef=1024,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:012:independent,1,Eager,16,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:012:independent,1,RACE,16,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:012:independent,1,ACORN-1 + selector + guard ef=128,16,10,3,3,0.2,0.2,False,False,False,False,0.6666666666666666,0.6666666666666666,0,0,0,True,True
+openalex_db,openalex_db:1:012:independent,1,ACORN-1 + selector + guard ef=512,16,10,3,3,0.2,0.2,False,False,False,False,0.6666666666666666,0.6666666666666666,0,0,0,True,True
+openalex_db,openalex_db:1:012:independent,1,ACORN-1 + selector + guard ef=1024,16,10,3,3,0.2,0.2,False,False,False,False,0.6666666666666666,0.6666666666666666,0,0,0,True,True
+openalex_db,openalex_db:1:012:clustered,1,Eager,16,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:012:clustered,1,RACE,16,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:012:clustered,1,ACORN-1 + selector + guard ef=128,16,10,3,3,0.1,0.1,False,False,False,False,0.3333333333333333,0.3333333333333333,0,0,0,True,True
+openalex_db,openalex_db:1:012:clustered,1,ACORN-1 + selector + guard ef=512,16,10,3,3,0.1,0.1,False,False,False,False,0.3333333333333333,0.3333333333333333,0,0,0,True,True
+openalex_db,openalex_db:1:012:clustered,1,ACORN-1 + selector + guard ef=1024,16,10,3,3,0.1,0.1,False,False,False,False,0.3333333333333333,0.3333333333333333,0,0,0,True,True
+openalex_db,openalex_db:1:013:independent,1,Eager,3,3,3,3,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:013:independent,1,RACE,3,3,3,3,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:013:independent,1,ACORN-1 + selector + guard ef=128,3,3,1,1,0.3333333333333333,0.3333333333333333,False,False,False,False,1.0,1.0,0,0,0,True,False
+openalex_db,openalex_db:1:013:independent,1,ACORN-1 + selector + guard ef=512,3,3,1,1,0.3333333333333333,0.3333333333333333,False,False,False,False,1.0,1.0,0,0,0,True,False
+openalex_db,openalex_db:1:013:independent,1,ACORN-1 + selector + guard ef=1024,3,3,1,1,0.3333333333333333,0.3333333333333333,False,False,False,False,1.0,1.0,0,0,0,True,False
+openalex_db,openalex_db:1:013:clustered,1,Eager,3,3,3,3,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:013:clustered,1,RACE,3,3,3,3,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:013:clustered,1,ACORN-1 + selector + guard ef=128,3,3,1,1,0.3333333333333333,0.3333333333333333,False,False,False,False,1.0,1.0,0,0,0,True,False
+openalex_db,openalex_db:1:013:clustered,1,ACORN-1 + selector + guard ef=512,3,3,1,1,0.3333333333333333,0.3333333333333333,False,False,False,False,1.0,1.0,0,0,0,True,False
+openalex_db,openalex_db:1:013:clustered,1,ACORN-1 + selector + guard ef=1024,3,3,1,1,0.3333333333333333,0.3333333333333333,False,False,False,False,1.0,1.0,0,0,0,True,False
+openalex_db,openalex_db:1:014:independent,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:014:independent,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:014:independent,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:014:independent,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:014:independent,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:014:clustered,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:014:clustered,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:014:clustered,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:014:clustered,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:014:clustered,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:015:independent,1,Eager,8,8,8,8,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:015:independent,1,RACE,8,8,8,8,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:015:independent,1,ACORN-1 + selector + guard ef=128,8,8,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:015:independent,1,ACORN-1 + selector + guard ef=512,8,8,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:015:independent,1,ACORN-1 + selector + guard ef=1024,8,8,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:015:clustered,1,Eager,8,8,8,8,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:015:clustered,1,RACE,8,8,8,8,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:015:clustered,1,ACORN-1 + selector + guard ef=128,8,8,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:015:clustered,1,ACORN-1 + selector + guard ef=512,8,8,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:015:clustered,1,ACORN-1 + selector + guard ef=1024,8,8,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:016:independent,1,Eager,54,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:016:independent,1,RACE,54,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:016:independent,1,ACORN-1 + selector + guard ef=128,54,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:016:independent,1,ACORN-1 + selector + guard ef=512,54,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:016:independent,1,ACORN-1 + selector + guard ef=1024,54,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:016:clustered,1,Eager,54,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:016:clustered,1,RACE,54,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:016:clustered,1,ACORN-1 + selector + guard ef=128,54,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:016:clustered,1,ACORN-1 + selector + guard ef=512,54,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:016:clustered,1,ACORN-1 + selector + guard ef=1024,54,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:017:independent,1,Eager,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:017:independent,1,RACE,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:017:independent,1,ACORN-1 + selector + guard ef=128,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:017:independent,1,ACORN-1 + selector + guard ef=512,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:017:independent,1,ACORN-1 + selector + guard ef=1024,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:017:clustered,1,Eager,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:017:clustered,1,RACE,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:017:clustered,1,ACORN-1 + selector + guard ef=128,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:017:clustered,1,ACORN-1 + selector + guard ef=512,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:017:clustered,1,ACORN-1 + selector + guard ef=1024,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:018:independent,1,Eager,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:018:independent,1,RACE,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:018:independent,1,ACORN-1 + selector + guard ef=128,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:018:independent,1,ACORN-1 + selector + guard ef=512,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:018:independent,1,ACORN-1 + selector + guard ef=1024,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:018:clustered,1,Eager,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:018:clustered,1,RACE,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:018:clustered,1,ACORN-1 + selector + guard ef=128,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:018:clustered,1,ACORN-1 + selector + guard ef=512,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:018:clustered,1,ACORN-1 + selector + guard ef=1024,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:019:independent,1,Eager,16,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:019:independent,1,RACE,16,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:019:independent,1,ACORN-1 + selector + guard ef=128,16,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+openalex_db,openalex_db:1:019:independent,1,ACORN-1 + selector + guard ef=512,16,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+openalex_db,openalex_db:1:019:independent,1,ACORN-1 + selector + guard ef=1024,16,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+openalex_db,openalex_db:1:019:clustered,1,Eager,16,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:019:clustered,1,RACE,16,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:019:clustered,1,ACORN-1 + selector + guard ef=128,16,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+openalex_db,openalex_db:1:019:clustered,1,ACORN-1 + selector + guard ef=512,16,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+openalex_db,openalex_db:1:019:clustered,1,ACORN-1 + selector + guard ef=1024,16,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+openalex_db,openalex_db:1:020:independent,1,Eager,25,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:020:independent,1,RACE,25,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:020:independent,1,ACORN-1 + selector + guard ef=128,25,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:020:independent,1,ACORN-1 + selector + guard ef=512,25,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:020:independent,1,ACORN-1 + selector + guard ef=1024,25,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:020:clustered,1,Eager,25,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:020:clustered,1,RACE,25,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:020:clustered,1,ACORN-1 + selector + guard ef=128,25,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:020:clustered,1,ACORN-1 + selector + guard ef=512,25,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:020:clustered,1,ACORN-1 + selector + guard ef=1024,25,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:021:independent,1,Eager,256,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:021:independent,1,RACE,256,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:021:independent,1,ACORN-1 + selector + guard ef=128,256,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:021:independent,1,ACORN-1 + selector + guard ef=512,256,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:021:independent,1,ACORN-1 + selector + guard ef=1024,256,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:021:clustered,1,Eager,256,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:021:clustered,1,RACE,256,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:021:clustered,1,ACORN-1 + selector + guard ef=128,256,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+openalex_db,openalex_db:1:021:clustered,1,ACORN-1 + selector + guard ef=512,256,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:021:clustered,1,ACORN-1 + selector + guard ef=1024,256,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:022:independent,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:022:independent,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:022:independent,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:022:independent,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:022:independent,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:022:clustered,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:022:clustered,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:022:clustered,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:022:clustered,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:022:clustered,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:023:independent,1,Eager,16,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:023:independent,1,RACE,16,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:023:independent,1,ACORN-1 + selector + guard ef=128,16,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:023:independent,1,ACORN-1 + selector + guard ef=512,16,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:023:independent,1,ACORN-1 + selector + guard ef=1024,16,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:023:clustered,1,Eager,16,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:023:clustered,1,RACE,16,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:023:clustered,1,ACORN-1 + selector + guard ef=128,16,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:023:clustered,1,ACORN-1 + selector + guard ef=512,16,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:023:clustered,1,ACORN-1 + selector + guard ef=1024,16,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:024:independent,1,Eager,16,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:024:independent,1,RACE,16,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:024:independent,1,ACORN-1 + selector + guard ef=128,16,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:024:independent,1,ACORN-1 + selector + guard ef=512,16,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:024:independent,1,ACORN-1 + selector + guard ef=1024,16,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:024:clustered,1,Eager,16,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:024:clustered,1,RACE,16,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:024:clustered,1,ACORN-1 + selector + guard ef=128,16,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:024:clustered,1,ACORN-1 + selector + guard ef=512,16,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:024:clustered,1,ACORN-1 + selector + guard ef=1024,16,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:025:independent,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:025:independent,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:025:independent,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:025:independent,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:025:independent,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:025:clustered,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:025:clustered,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:025:clustered,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:025:clustered,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:025:clustered,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:026:independent,1,Eager,24,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:026:independent,1,RACE,24,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:026:independent,1,ACORN-1 + selector + guard ef=128,24,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:026:independent,1,ACORN-1 + selector + guard ef=512,24,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:026:independent,1,ACORN-1 + selector + guard ef=1024,24,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:026:clustered,1,Eager,24,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:026:clustered,1,RACE,24,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:026:clustered,1,ACORN-1 + selector + guard ef=128,24,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:026:clustered,1,ACORN-1 + selector + guard ef=512,24,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:026:clustered,1,ACORN-1 + selector + guard ef=1024,24,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:027:independent,1,Eager,24,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:027:independent,1,RACE,24,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:027:independent,1,ACORN-1 + selector + guard ef=128,24,10,10,10,0.5,0.5,False,False,False,False,0.5,0.5,0,0,0,False,False
+openalex_db,openalex_db:1:027:independent,1,ACORN-1 + selector + guard ef=512,24,10,10,10,0.5,0.5,False,False,False,False,0.5,0.5,0,0,0,False,False
+openalex_db,openalex_db:1:027:independent,1,ACORN-1 + selector + guard ef=1024,24,10,10,10,0.5,0.5,False,False,False,False,0.5,0.5,0,0,0,False,False
+openalex_db,openalex_db:1:027:clustered,1,Eager,24,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:027:clustered,1,RACE,24,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:027:clustered,1,ACORN-1 + selector + guard ef=128,24,10,10,10,0.4,0.4,False,False,False,False,0.4,0.4,0,0,0,False,False
+openalex_db,openalex_db:1:027:clustered,1,ACORN-1 + selector + guard ef=512,24,10,10,10,0.4,0.4,False,False,False,False,0.4,0.4,0,0,0,False,False
+openalex_db,openalex_db:1:027:clustered,1,ACORN-1 + selector + guard ef=1024,24,10,10,10,0.4,0.4,False,False,False,False,0.4,0.4,0,0,0,False,False
+openalex_db,openalex_db:1:028:independent,1,Eager,21,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:028:independent,1,RACE,21,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:028:independent,1,ACORN-1 + selector + guard ef=128,21,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:028:independent,1,ACORN-1 + selector + guard ef=512,21,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:028:independent,1,ACORN-1 + selector + guard ef=1024,21,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:028:clustered,1,Eager,21,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:028:clustered,1,RACE,21,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:028:clustered,1,ACORN-1 + selector + guard ef=128,21,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:028:clustered,1,ACORN-1 + selector + guard ef=512,21,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:028:clustered,1,ACORN-1 + selector + guard ef=1024,21,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:029:independent,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:029:independent,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:029:independent,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:029:independent,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:029:independent,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:029:clustered,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:029:clustered,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:029:clustered,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:029:clustered,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:029:clustered,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:030:independent,1,Eager,12,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:030:independent,1,RACE,12,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:030:independent,1,ACORN-1 + selector + guard ef=128,12,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:030:independent,1,ACORN-1 + selector + guard ef=512,12,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:030:independent,1,ACORN-1 + selector + guard ef=1024,12,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:030:clustered,1,Eager,12,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:030:clustered,1,RACE,12,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:030:clustered,1,ACORN-1 + selector + guard ef=128,12,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:030:clustered,1,ACORN-1 + selector + guard ef=512,12,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:030:clustered,1,ACORN-1 + selector + guard ef=1024,12,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:1:031:independent,1,Eager,6,6,6,6,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:031:independent,1,RACE,6,6,6,6,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:031:independent,1,ACORN-1 + selector + guard ef=128,6,6,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:031:independent,1,ACORN-1 + selector + guard ef=512,6,6,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:031:independent,1,ACORN-1 + selector + guard ef=1024,6,6,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:031:clustered,1,Eager,6,6,6,6,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:031:clustered,1,RACE,6,6,6,6,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:1:031:clustered,1,ACORN-1 + selector + guard ef=128,6,6,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:031:clustered,1,ACORN-1 + selector + guard ef=512,6,6,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:1:031:clustered,1,ACORN-1 + selector + guard ef=1024,6,6,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:000:independent,2,Eager,32,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:000:independent,2,RACE,32,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:000:independent,2,ACORN-1 + selector + guard ef=128,32,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+openalex_db,openalex_db:2:000:independent,2,ACORN-1 + selector + guard ef=512,32,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+openalex_db,openalex_db:2:000:independent,2,ACORN-1 + selector + guard ef=1024,32,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+openalex_db,openalex_db:2:000:clustered,2,Eager,32,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:000:clustered,2,RACE,32,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:000:clustered,2,ACORN-1 + selector + guard ef=128,32,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:000:clustered,2,ACORN-1 + selector + guard ef=512,32,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:000:clustered,2,ACORN-1 + selector + guard ef=1024,32,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:001:independent,2,Eager,25,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:001:independent,2,RACE,25,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:001:independent,2,ACORN-1 + selector + guard ef=128,25,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:001:independent,2,ACORN-1 + selector + guard ef=512,25,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:001:independent,2,ACORN-1 + selector + guard ef=1024,25,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:001:clustered,2,Eager,25,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:001:clustered,2,RACE,25,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:001:clustered,2,ACORN-1 + selector + guard ef=128,25,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:001:clustered,2,ACORN-1 + selector + guard ef=512,25,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:001:clustered,2,ACORN-1 + selector + guard ef=1024,25,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:002:independent,2,Eager,10,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:002:independent,2,RACE,10,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:002:independent,2,ACORN-1 + selector + guard ef=128,10,10,6,6,0.6,0.6,False,False,False,False,1.0,1.0,0,0,0,True,True
+openalex_db,openalex_db:2:002:independent,2,ACORN-1 + selector + guard ef=512,10,10,6,6,0.6,0.6,False,False,False,False,1.0,1.0,0,0,0,True,True
+openalex_db,openalex_db:2:002:independent,2,ACORN-1 + selector + guard ef=1024,10,10,6,6,0.6,0.6,False,False,False,False,1.0,1.0,0,0,0,True,True
+openalex_db,openalex_db:2:002:clustered,2,Eager,10,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:002:clustered,2,RACE,10,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:002:clustered,2,ACORN-1 + selector + guard ef=128,10,10,6,6,0.6,0.6,False,False,False,False,1.0,1.0,0,0,0,True,True
+openalex_db,openalex_db:2:002:clustered,2,ACORN-1 + selector + guard ef=512,10,10,6,6,0.6,0.6,False,False,False,False,1.0,1.0,0,0,0,True,True
+openalex_db,openalex_db:2:002:clustered,2,ACORN-1 + selector + guard ef=1024,10,10,6,6,0.6,0.6,False,False,False,False,1.0,1.0,0,0,0,True,True
+openalex_db,openalex_db:2:003:independent,2,Eager,746,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:003:independent,2,RACE,746,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:003:independent,2,ACORN-1 + selector + guard ef=128,746,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+openalex_db,openalex_db:2:003:independent,2,ACORN-1 + selector + guard ef=512,746,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+openalex_db,openalex_db:2:003:independent,2,ACORN-1 + selector + guard ef=1024,746,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:003:clustered,2,Eager,746,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:003:clustered,2,RACE,746,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:003:clustered,2,ACORN-1 + selector + guard ef=128,746,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:003:clustered,2,ACORN-1 + selector + guard ef=512,746,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:003:clustered,2,ACORN-1 + selector + guard ef=1024,746,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:004:independent,2,Eager,195,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:004:independent,2,RACE,195,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:004:independent,2,ACORN-1 + selector + guard ef=128,195,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:004:independent,2,ACORN-1 + selector + guard ef=512,195,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:004:independent,2,ACORN-1 + selector + guard ef=1024,195,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:004:clustered,2,Eager,195,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:004:clustered,2,RACE,195,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:004:clustered,2,ACORN-1 + selector + guard ef=128,195,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:004:clustered,2,ACORN-1 + selector + guard ef=512,195,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:004:clustered,2,ACORN-1 + selector + guard ef=1024,195,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:005:independent,2,Eager,28,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:005:independent,2,RACE,28,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:005:independent,2,ACORN-1 + selector + guard ef=128,28,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:005:independent,2,ACORN-1 + selector + guard ef=512,28,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:005:independent,2,ACORN-1 + selector + guard ef=1024,28,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:005:clustered,2,Eager,28,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:005:clustered,2,RACE,28,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:005:clustered,2,ACORN-1 + selector + guard ef=128,28,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:005:clustered,2,ACORN-1 + selector + guard ef=512,28,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:005:clustered,2,ACORN-1 + selector + guard ef=1024,28,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:006:independent,2,Eager,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:006:independent,2,RACE,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:006:independent,2,ACORN-1 + selector + guard ef=128,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:006:independent,2,ACORN-1 + selector + guard ef=512,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:006:independent,2,ACORN-1 + selector + guard ef=1024,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:006:clustered,2,Eager,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:006:clustered,2,RACE,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:006:clustered,2,ACORN-1 + selector + guard ef=128,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:006:clustered,2,ACORN-1 + selector + guard ef=512,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:006:clustered,2,ACORN-1 + selector + guard ef=1024,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:007:independent,2,Eager,9,9,9,9,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:007:independent,2,RACE,9,9,9,9,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:007:independent,2,ACORN-1 + selector + guard ef=128,9,9,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:007:independent,2,ACORN-1 + selector + guard ef=512,9,9,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:007:independent,2,ACORN-1 + selector + guard ef=1024,9,9,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:007:clustered,2,Eager,9,9,9,9,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:007:clustered,2,RACE,9,9,9,9,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:007:clustered,2,ACORN-1 + selector + guard ef=128,9,9,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:007:clustered,2,ACORN-1 + selector + guard ef=512,9,9,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:007:clustered,2,ACORN-1 + selector + guard ef=1024,9,9,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:008:independent,2,Eager,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:008:independent,2,RACE,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:008:independent,2,ACORN-1 + selector + guard ef=128,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:008:independent,2,ACORN-1 + selector + guard ef=512,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:008:independent,2,ACORN-1 + selector + guard ef=1024,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:008:clustered,2,Eager,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:008:clustered,2,RACE,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:008:clustered,2,ACORN-1 + selector + guard ef=128,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:008:clustered,2,ACORN-1 + selector + guard ef=512,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:008:clustered,2,ACORN-1 + selector + guard ef=1024,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:009:independent,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:009:independent,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:009:independent,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:009:independent,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:009:independent,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:009:clustered,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:009:clustered,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:009:clustered,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:009:clustered,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:009:clustered,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:010:independent,2,Eager,24,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:010:independent,2,RACE,24,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:010:independent,2,ACORN-1 + selector + guard ef=128,24,10,5,5,0.3,0.3,False,False,False,False,0.6,0.6,0,0,0,True,True
+openalex_db,openalex_db:2:010:independent,2,ACORN-1 + selector + guard ef=512,24,10,5,5,0.3,0.3,False,False,False,False,0.6,0.6,0,0,0,True,True
+openalex_db,openalex_db:2:010:independent,2,ACORN-1 + selector + guard ef=1024,24,10,5,5,0.3,0.3,False,False,False,False,0.6,0.6,0,0,0,True,True
+openalex_db,openalex_db:2:010:clustered,2,Eager,24,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:010:clustered,2,RACE,24,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:010:clustered,2,ACORN-1 + selector + guard ef=128,24,10,5,5,0.2,0.2,False,False,False,False,0.4,0.4,0,0,0,True,True
+openalex_db,openalex_db:2:010:clustered,2,ACORN-1 + selector + guard ef=512,24,10,5,5,0.2,0.2,False,False,False,False,0.4,0.4,0,0,0,True,True
+openalex_db,openalex_db:2:010:clustered,2,ACORN-1 + selector + guard ef=1024,24,10,5,5,0.2,0.2,False,False,False,False,0.4,0.4,0,0,0,True,True
+openalex_db,openalex_db:2:011:independent,2,Eager,533,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:011:independent,2,RACE,533,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:011:independent,2,ACORN-1 + selector + guard ef=128,533,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:011:independent,2,ACORN-1 + selector + guard ef=512,533,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:011:independent,2,ACORN-1 + selector + guard ef=1024,533,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:011:clustered,2,Eager,533,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:011:clustered,2,RACE,533,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:011:clustered,2,ACORN-1 + selector + guard ef=128,533,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:011:clustered,2,ACORN-1 + selector + guard ef=512,533,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:011:clustered,2,ACORN-1 + selector + guard ef=1024,533,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:012:independent,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:012:independent,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:012:independent,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:012:independent,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:012:independent,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:012:clustered,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:012:clustered,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:012:clustered,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:012:clustered,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:012:clustered,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:013:independent,2,Eager,46,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:013:independent,2,RACE,46,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:013:independent,2,ACORN-1 + selector + guard ef=128,46,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:013:independent,2,ACORN-1 + selector + guard ef=512,46,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:013:independent,2,ACORN-1 + selector + guard ef=1024,46,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:013:clustered,2,Eager,46,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:013:clustered,2,RACE,46,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:013:clustered,2,ACORN-1 + selector + guard ef=128,46,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:013:clustered,2,ACORN-1 + selector + guard ef=512,46,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:013:clustered,2,ACORN-1 + selector + guard ef=1024,46,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:014:independent,2,Eager,652,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:014:independent,2,RACE,652,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:014:independent,2,ACORN-1 + selector + guard ef=128,652,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+openalex_db,openalex_db:2:014:independent,2,ACORN-1 + selector + guard ef=512,652,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+openalex_db,openalex_db:2:014:independent,2,ACORN-1 + selector + guard ef=1024,652,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+openalex_db,openalex_db:2:014:clustered,2,Eager,652,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:014:clustered,2,RACE,652,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:014:clustered,2,ACORN-1 + selector + guard ef=128,652,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:014:clustered,2,ACORN-1 + selector + guard ef=512,652,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:014:clustered,2,ACORN-1 + selector + guard ef=1024,652,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:015:independent,2,Eager,6,6,6,6,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:015:independent,2,RACE,6,6,6,6,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:015:independent,2,ACORN-1 + selector + guard ef=128,6,6,1,1,0.16666666666666666,0.16666666666666666,False,False,False,False,1.0,1.0,0,0,0,True,False
+openalex_db,openalex_db:2:015:independent,2,ACORN-1 + selector + guard ef=512,6,6,1,1,0.16666666666666666,0.16666666666666666,False,False,False,False,1.0,1.0,0,0,0,True,False
+openalex_db,openalex_db:2:015:independent,2,ACORN-1 + selector + guard ef=1024,6,6,1,1,0.16666666666666666,0.16666666666666666,False,False,False,False,1.0,1.0,0,0,0,True,False
+openalex_db,openalex_db:2:015:clustered,2,Eager,6,6,6,6,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:015:clustered,2,RACE,6,6,6,6,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:015:clustered,2,ACORN-1 + selector + guard ef=128,6,6,1,1,0.16666666666666666,0.16666666666666666,False,False,False,False,1.0,1.0,0,0,0,True,False
+openalex_db,openalex_db:2:015:clustered,2,ACORN-1 + selector + guard ef=512,6,6,1,1,0.16666666666666666,0.16666666666666666,False,False,False,False,1.0,1.0,0,0,0,True,False
+openalex_db,openalex_db:2:015:clustered,2,ACORN-1 + selector + guard ef=1024,6,6,1,1,0.16666666666666666,0.16666666666666666,False,False,False,False,1.0,1.0,0,0,0,True,False
+openalex_db,openalex_db:2:016:independent,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:016:independent,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:016:independent,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:016:independent,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:016:independent,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:016:clustered,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:016:clustered,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:016:clustered,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:016:clustered,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:016:clustered,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:017:independent,2,Eager,14,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:017:independent,2,RACE,14,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:017:independent,2,ACORN-1 + selector + guard ef=128,14,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:017:independent,2,ACORN-1 + selector + guard ef=512,14,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:017:independent,2,ACORN-1 + selector + guard ef=1024,14,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:017:clustered,2,Eager,14,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:017:clustered,2,RACE,14,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:017:clustered,2,ACORN-1 + selector + guard ef=128,14,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:017:clustered,2,ACORN-1 + selector + guard ef=512,14,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:017:clustered,2,ACORN-1 + selector + guard ef=1024,14,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:018:independent,2,Eager,13,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:018:independent,2,RACE,13,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:018:independent,2,ACORN-1 + selector + guard ef=128,13,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:018:independent,2,ACORN-1 + selector + guard ef=512,13,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:018:independent,2,ACORN-1 + selector + guard ef=1024,13,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:018:clustered,2,Eager,13,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:018:clustered,2,RACE,13,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:018:clustered,2,ACORN-1 + selector + guard ef=128,13,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:018:clustered,2,ACORN-1 + selector + guard ef=512,13,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:018:clustered,2,ACORN-1 + selector + guard ef=1024,13,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:019:independent,2,Eager,5,5,5,5,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:019:independent,2,RACE,5,5,5,5,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:019:independent,2,ACORN-1 + selector + guard ef=128,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:019:independent,2,ACORN-1 + selector + guard ef=512,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:019:independent,2,ACORN-1 + selector + guard ef=1024,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:019:clustered,2,Eager,5,5,5,5,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:019:clustered,2,RACE,5,5,5,5,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:019:clustered,2,ACORN-1 + selector + guard ef=128,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:019:clustered,2,ACORN-1 + selector + guard ef=512,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:019:clustered,2,ACORN-1 + selector + guard ef=1024,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:020:independent,2,Eager,45,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:020:independent,2,RACE,45,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:020:independent,2,ACORN-1 + selector + guard ef=128,45,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:020:independent,2,ACORN-1 + selector + guard ef=512,45,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:020:independent,2,ACORN-1 + selector + guard ef=1024,45,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:020:clustered,2,Eager,45,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:020:clustered,2,RACE,45,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:020:clustered,2,ACORN-1 + selector + guard ef=128,45,10,10,10,0.5,0.5,False,False,False,False,0.5,0.5,0,0,0,False,False
+openalex_db,openalex_db:2:020:clustered,2,ACORN-1 + selector + guard ef=512,45,10,10,10,0.5,0.5,False,False,False,False,0.5,0.5,0,0,0,False,False
+openalex_db,openalex_db:2:020:clustered,2,ACORN-1 + selector + guard ef=1024,45,10,10,10,0.5,0.5,False,False,False,False,0.5,0.5,0,0,0,False,False
+openalex_db,openalex_db:2:021:independent,2,Eager,140,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:021:independent,2,RACE,140,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:021:independent,2,ACORN-1 + selector + guard ef=128,140,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+openalex_db,openalex_db:2:021:independent,2,ACORN-1 + selector + guard ef=512,140,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+openalex_db,openalex_db:2:021:independent,2,ACORN-1 + selector + guard ef=1024,140,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+openalex_db,openalex_db:2:021:clustered,2,Eager,140,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:021:clustered,2,RACE,140,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:021:clustered,2,ACORN-1 + selector + guard ef=128,140,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:021:clustered,2,ACORN-1 + selector + guard ef=512,140,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:021:clustered,2,ACORN-1 + selector + guard ef=1024,140,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:022:independent,2,Eager,8,8,8,8,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:022:independent,2,RACE,8,8,8,8,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:022:independent,2,ACORN-1 + selector + guard ef=128,8,8,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:022:independent,2,ACORN-1 + selector + guard ef=512,8,8,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:022:independent,2,ACORN-1 + selector + guard ef=1024,8,8,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:022:clustered,2,Eager,8,8,8,8,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:022:clustered,2,RACE,8,8,8,8,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:022:clustered,2,ACORN-1 + selector + guard ef=128,8,8,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:022:clustered,2,ACORN-1 + selector + guard ef=512,8,8,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:022:clustered,2,ACORN-1 + selector + guard ef=1024,8,8,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:023:independent,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:023:independent,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:023:independent,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:023:independent,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:023:independent,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:023:clustered,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:023:clustered,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:023:clustered,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:023:clustered,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:023:clustered,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:024:independent,2,Eager,61,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:024:independent,2,RACE,61,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:024:independent,2,ACORN-1 + selector + guard ef=128,61,10,10,10,0.6,0.6,False,False,False,False,0.6,0.6,0,0,0,False,False
+openalex_db,openalex_db:2:024:independent,2,ACORN-1 + selector + guard ef=512,61,10,10,10,0.6,0.6,False,False,False,False,0.6,0.6,0,0,0,False,False
+openalex_db,openalex_db:2:024:independent,2,ACORN-1 + selector + guard ef=1024,61,10,10,10,0.6,0.6,False,False,False,False,0.6,0.6,0,0,0,False,False
+openalex_db,openalex_db:2:024:clustered,2,Eager,61,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:024:clustered,2,RACE,61,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:024:clustered,2,ACORN-1 + selector + guard ef=128,61,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+openalex_db,openalex_db:2:024:clustered,2,ACORN-1 + selector + guard ef=512,61,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+openalex_db,openalex_db:2:024:clustered,2,ACORN-1 + selector + guard ef=1024,61,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+openalex_db,openalex_db:2:025:independent,2,Eager,23,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:025:independent,2,RACE,23,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:025:independent,2,ACORN-1 + selector + guard ef=128,23,10,10,10,0.7,0.7,False,False,False,False,0.7,0.7,0,0,0,False,False
+openalex_db,openalex_db:2:025:independent,2,ACORN-1 + selector + guard ef=512,23,10,10,10,0.7,0.7,False,False,False,False,0.7,0.7,0,0,0,False,False
+openalex_db,openalex_db:2:025:independent,2,ACORN-1 + selector + guard ef=1024,23,10,10,10,0.7,0.7,False,False,False,False,0.7,0.7,0,0,0,False,False
+openalex_db,openalex_db:2:025:clustered,2,Eager,23,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:025:clustered,2,RACE,23,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:025:clustered,2,ACORN-1 + selector + guard ef=128,23,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+openalex_db,openalex_db:2:025:clustered,2,ACORN-1 + selector + guard ef=512,23,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+openalex_db,openalex_db:2:025:clustered,2,ACORN-1 + selector + guard ef=1024,23,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+openalex_db,openalex_db:2:026:independent,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:026:independent,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:026:independent,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:026:independent,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:026:independent,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:026:clustered,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:026:clustered,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:026:clustered,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:026:clustered,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:026:clustered,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:027:independent,2,Eager,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:027:independent,2,RACE,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:027:independent,2,ACORN-1 + selector + guard ef=128,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:027:independent,2,ACORN-1 + selector + guard ef=512,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:027:independent,2,ACORN-1 + selector + guard ef=1024,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:027:clustered,2,Eager,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:027:clustered,2,RACE,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:027:clustered,2,ACORN-1 + selector + guard ef=128,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:027:clustered,2,ACORN-1 + selector + guard ef=512,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:027:clustered,2,ACORN-1 + selector + guard ef=1024,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+openalex_db,openalex_db:2:028:independent,2,Eager,319,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:028:independent,2,RACE,319,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:028:independent,2,ACORN-1 + selector + guard ef=128,319,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:028:independent,2,ACORN-1 + selector + guard ef=512,319,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:028:independent,2,ACORN-1 + selector + guard ef=1024,319,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:028:clustered,2,Eager,319,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:028:clustered,2,RACE,319,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:028:clustered,2,ACORN-1 + selector + guard ef=128,319,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:028:clustered,2,ACORN-1 + selector + guard ef=512,319,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:028:clustered,2,ACORN-1 + selector + guard ef=1024,319,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:029:independent,2,Eager,1217,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:029:independent,2,RACE,1217,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:029:independent,2,ACORN-1 + selector + guard ef=128,1217,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:029:independent,2,ACORN-1 + selector + guard ef=512,1217,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:029:independent,2,ACORN-1 + selector + guard ef=1024,1217,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:029:clustered,2,Eager,1217,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:029:clustered,2,RACE,1217,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:029:clustered,2,ACORN-1 + selector + guard ef=128,1217,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:029:clustered,2,ACORN-1 + selector + guard ef=512,1217,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:029:clustered,2,ACORN-1 + selector + guard ef=1024,1217,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:030:independent,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:030:independent,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:030:independent,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:030:independent,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:030:independent,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:030:clustered,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:030:clustered,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:030:clustered,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:030:clustered,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:030:clustered,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:031:independent,2,Eager,26,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:031:independent,2,RACE,26,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:031:independent,2,ACORN-1 + selector + guard ef=128,26,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:031:independent,2,ACORN-1 + selector + guard ef=512,26,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:031:independent,2,ACORN-1 + selector + guard ef=1024,26,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:031:clustered,2,Eager,26,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:031:clustered,2,RACE,26,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+openalex_db,openalex_db:2:031:clustered,2,ACORN-1 + selector + guard ef=128,26,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:031:clustered,2,ACORN-1 + selector + guard ef=512,26,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+openalex_db,openalex_db:2:031:clustered,2,ACORN-1 + selector + guard ef=1024,26,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True

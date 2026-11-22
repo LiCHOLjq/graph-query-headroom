@@ -1,0 +1,961 @@
+corpus,query_id,seed,policy,eligible_count,reference_count,returned_size,raw_returned_size,recall,raw_recall,exact_ordered_match,exact_set_match,raw_exact_ordered_match,raw_exact_set_match,returned_precision,raw_returned_precision,raw_duplicate_count,raw_invalid_count,guarded_invalid_count,underfilled,eligible_ge_k_underfilled
+ogbn_arxiv_full,ogbn_arxiv_full:0:000:independent,0,Eager,27841,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:000:independent,0,RACE,27841,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:000:independent,0,ACORN-1 + selector + guard ef=128,27841,10,10,10,0.7,0.7,False,False,False,False,0.7,0.7,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:000:independent,0,ACORN-1 + selector + guard ef=512,27841,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:000:independent,0,ACORN-1 + selector + guard ef=1024,27841,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:000:clustered,0,Eager,27841,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:000:clustered,0,RACE,27841,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:000:clustered,0,ACORN-1 + selector + guard ef=128,27841,10,10,10,0.5,0.5,False,False,False,False,0.5,0.5,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:000:clustered,0,ACORN-1 + selector + guard ef=512,27841,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:000:clustered,0,ACORN-1 + selector + guard ef=1024,27841,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:001:independent,0,Eager,7,7,7,7,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:001:independent,0,RACE,7,7,7,7,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:001:independent,0,ACORN-1 + selector + guard ef=128,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:001:independent,0,ACORN-1 + selector + guard ef=512,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:001:independent,0,ACORN-1 + selector + guard ef=1024,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:001:clustered,0,Eager,7,7,7,7,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:001:clustered,0,RACE,7,7,7,7,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:001:clustered,0,ACORN-1 + selector + guard ef=128,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:001:clustered,0,ACORN-1 + selector + guard ef=512,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:001:clustered,0,ACORN-1 + selector + guard ef=1024,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:002:independent,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:002:independent,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:002:independent,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:002:independent,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:002:independent,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:002:clustered,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:002:clustered,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:002:clustered,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:002:clustered,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:002:clustered,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:003:independent,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:003:independent,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:003:independent,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:003:independent,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:003:independent,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:003:clustered,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:003:clustered,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:003:clustered,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:003:clustered,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:003:clustered,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:004:independent,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:004:independent,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:004:independent,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:004:independent,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:004:independent,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:004:clustered,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:004:clustered,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:004:clustered,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:004:clustered,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:004:clustered,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:005:independent,0,Eager,1332,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:005:independent,0,RACE,1332,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:005:independent,0,ACORN-1 + selector + guard ef=128,1332,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:005:independent,0,ACORN-1 + selector + guard ef=512,1332,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:005:independent,0,ACORN-1 + selector + guard ef=1024,1332,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:005:clustered,0,Eager,1332,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:005:clustered,0,RACE,1332,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:005:clustered,0,ACORN-1 + selector + guard ef=128,1332,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:005:clustered,0,ACORN-1 + selector + guard ef=512,1332,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:005:clustered,0,ACORN-1 + selector + guard ef=1024,1332,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:006:independent,0,Eager,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:006:independent,0,RACE,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:006:independent,0,ACORN-1 + selector + guard ef=128,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:006:independent,0,ACORN-1 + selector + guard ef=512,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:006:independent,0,ACORN-1 + selector + guard ef=1024,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:006:clustered,0,Eager,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:006:clustered,0,RACE,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:006:clustered,0,ACORN-1 + selector + guard ef=128,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:006:clustered,0,ACORN-1 + selector + guard ef=512,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:006:clustered,0,ACORN-1 + selector + guard ef=1024,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:007:independent,0,Eager,84,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:007:independent,0,RACE,84,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:007:independent,0,ACORN-1 + selector + guard ef=128,84,10,2,2,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:0:007:independent,0,ACORN-1 + selector + guard ef=512,84,10,2,2,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:0:007:independent,0,ACORN-1 + selector + guard ef=1024,84,10,2,2,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:0:007:clustered,0,Eager,84,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:007:clustered,0,RACE,84,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:007:clustered,0,ACORN-1 + selector + guard ef=128,84,10,2,2,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:0:007:clustered,0,ACORN-1 + selector + guard ef=512,84,10,2,2,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:0:007:clustered,0,ACORN-1 + selector + guard ef=1024,84,10,2,2,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:0:008:independent,0,Eager,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:008:independent,0,RACE,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:008:independent,0,ACORN-1 + selector + guard ef=128,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:008:independent,0,ACORN-1 + selector + guard ef=512,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:008:independent,0,ACORN-1 + selector + guard ef=1024,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:008:clustered,0,Eager,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:008:clustered,0,RACE,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:008:clustered,0,ACORN-1 + selector + guard ef=128,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:008:clustered,0,ACORN-1 + selector + guard ef=512,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:008:clustered,0,ACORN-1 + selector + guard ef=1024,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:009:independent,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:009:independent,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:009:independent,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:009:independent,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:009:independent,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:009:clustered,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:009:clustered,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:009:clustered,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:009:clustered,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:009:clustered,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:010:independent,0,Eager,4522,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:010:independent,0,RACE,4522,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:010:independent,0,ACORN-1 + selector + guard ef=128,4522,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:010:independent,0,ACORN-1 + selector + guard ef=512,4522,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:010:independent,0,ACORN-1 + selector + guard ef=1024,4522,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:010:clustered,0,Eager,4522,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:010:clustered,0,RACE,4522,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:010:clustered,0,ACORN-1 + selector + guard ef=128,4522,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:010:clustered,0,ACORN-1 + selector + guard ef=512,4522,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:010:clustered,0,ACORN-1 + selector + guard ef=1024,4522,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:011:independent,0,Eager,1172,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:011:independent,0,RACE,1172,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:011:independent,0,ACORN-1 + selector + guard ef=128,1172,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:011:independent,0,ACORN-1 + selector + guard ef=512,1172,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:011:independent,0,ACORN-1 + selector + guard ef=1024,1172,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:011:clustered,0,Eager,1172,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:011:clustered,0,RACE,1172,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:011:clustered,0,ACORN-1 + selector + guard ef=128,1172,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:011:clustered,0,ACORN-1 + selector + guard ef=512,1172,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:011:clustered,0,ACORN-1 + selector + guard ef=1024,1172,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:012:independent,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:012:independent,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:012:independent,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:012:independent,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:012:independent,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:012:clustered,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:012:clustered,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:012:clustered,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:012:clustered,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:012:clustered,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:013:independent,0,Eager,21,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:013:independent,0,RACE,21,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:013:independent,0,ACORN-1 + selector + guard ef=128,21,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:0:013:independent,0,ACORN-1 + selector + guard ef=512,21,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:0:013:independent,0,ACORN-1 + selector + guard ef=1024,21,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:0:013:clustered,0,Eager,21,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:013:clustered,0,RACE,21,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:013:clustered,0,ACORN-1 + selector + guard ef=128,21,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:0:013:clustered,0,ACORN-1 + selector + guard ef=512,21,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:0:013:clustered,0,ACORN-1 + selector + guard ef=1024,21,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:0:014:independent,0,Eager,30,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:014:independent,0,RACE,30,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:014:independent,0,ACORN-1 + selector + guard ef=128,30,10,10,10,0.7,0.7,False,False,False,False,0.7,0.7,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:014:independent,0,ACORN-1 + selector + guard ef=512,30,10,10,10,0.7,0.7,False,False,False,False,0.7,0.7,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:014:independent,0,ACORN-1 + selector + guard ef=1024,30,10,10,10,0.7,0.7,False,False,False,False,0.7,0.7,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:014:clustered,0,Eager,30,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:014:clustered,0,RACE,30,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:014:clustered,0,ACORN-1 + selector + guard ef=128,30,10,10,10,0.6,0.6,False,False,False,False,0.6,0.6,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:014:clustered,0,ACORN-1 + selector + guard ef=512,30,10,10,10,0.6,0.6,False,False,False,False,0.6,0.6,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:014:clustered,0,ACORN-1 + selector + guard ef=1024,30,10,10,10,0.6,0.6,False,False,False,False,0.6,0.6,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:015:independent,0,Eager,230,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:015:independent,0,RACE,230,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:015:independent,0,ACORN-1 + selector + guard ef=128,230,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:015:independent,0,ACORN-1 + selector + guard ef=512,230,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:015:independent,0,ACORN-1 + selector + guard ef=1024,230,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:015:clustered,0,Eager,230,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:015:clustered,0,RACE,230,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:015:clustered,0,ACORN-1 + selector + guard ef=128,230,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:015:clustered,0,ACORN-1 + selector + guard ef=512,230,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:015:clustered,0,ACORN-1 + selector + guard ef=1024,230,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:016:independent,0,Eager,5656,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:016:independent,0,RACE,5656,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:016:independent,0,ACORN-1 + selector + guard ef=128,5656,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:016:independent,0,ACORN-1 + selector + guard ef=512,5656,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:016:independent,0,ACORN-1 + selector + guard ef=1024,5656,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:016:clustered,0,Eager,5656,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:016:clustered,0,RACE,5656,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:016:clustered,0,ACORN-1 + selector + guard ef=128,5656,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:016:clustered,0,ACORN-1 + selector + guard ef=512,5656,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:016:clustered,0,ACORN-1 + selector + guard ef=1024,5656,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:017:independent,0,Eager,1984,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:017:independent,0,RACE,1984,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:017:independent,0,ACORN-1 + selector + guard ef=128,1984,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:017:independent,0,ACORN-1 + selector + guard ef=512,1984,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:017:independent,0,ACORN-1 + selector + guard ef=1024,1984,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:017:clustered,0,Eager,1984,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:017:clustered,0,RACE,1984,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:017:clustered,0,ACORN-1 + selector + guard ef=128,1984,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:017:clustered,0,ACORN-1 + selector + guard ef=512,1984,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:017:clustered,0,ACORN-1 + selector + guard ef=1024,1984,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:018:independent,0,Eager,5,5,5,5,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:018:independent,0,RACE,5,5,5,5,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:018:independent,0,ACORN-1 + selector + guard ef=128,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:018:independent,0,ACORN-1 + selector + guard ef=512,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:018:independent,0,ACORN-1 + selector + guard ef=1024,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:018:clustered,0,Eager,5,5,5,5,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:018:clustered,0,RACE,5,5,5,5,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:018:clustered,0,ACORN-1 + selector + guard ef=128,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:018:clustered,0,ACORN-1 + selector + guard ef=512,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:018:clustered,0,ACORN-1 + selector + guard ef=1024,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:019:independent,0,Eager,6005,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:019:independent,0,RACE,6005,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:019:independent,0,ACORN-1 + selector + guard ef=128,6005,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:019:independent,0,ACORN-1 + selector + guard ef=512,6005,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:019:independent,0,ACORN-1 + selector + guard ef=1024,6005,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:019:clustered,0,Eager,6005,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:019:clustered,0,RACE,6005,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:019:clustered,0,ACORN-1 + selector + guard ef=128,6005,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:019:clustered,0,ACORN-1 + selector + guard ef=512,6005,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:019:clustered,0,ACORN-1 + selector + guard ef=1024,6005,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:020:independent,0,Eager,169,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:020:independent,0,RACE,169,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:020:independent,0,ACORN-1 + selector + guard ef=128,169,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:020:independent,0,ACORN-1 + selector + guard ef=512,169,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:020:independent,0,ACORN-1 + selector + guard ef=1024,169,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:020:clustered,0,Eager,169,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:020:clustered,0,RACE,169,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:020:clustered,0,ACORN-1 + selector + guard ef=128,169,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:020:clustered,0,ACORN-1 + selector + guard ef=512,169,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:020:clustered,0,ACORN-1 + selector + guard ef=1024,169,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:021:independent,0,Eager,210,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:021:independent,0,RACE,210,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:021:independent,0,ACORN-1 + selector + guard ef=128,210,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:021:independent,0,ACORN-1 + selector + guard ef=512,210,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:021:independent,0,ACORN-1 + selector + guard ef=1024,210,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:021:clustered,0,Eager,210,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:021:clustered,0,RACE,210,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:021:clustered,0,ACORN-1 + selector + guard ef=128,210,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:021:clustered,0,ACORN-1 + selector + guard ef=512,210,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:021:clustered,0,ACORN-1 + selector + guard ef=1024,210,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:022:independent,0,Eager,181,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:022:independent,0,RACE,181,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:022:independent,0,ACORN-1 + selector + guard ef=128,181,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:022:independent,0,ACORN-1 + selector + guard ef=512,181,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:022:independent,0,ACORN-1 + selector + guard ef=1024,181,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:022:clustered,0,Eager,181,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:022:clustered,0,RACE,181,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:022:clustered,0,ACORN-1 + selector + guard ef=128,181,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:022:clustered,0,ACORN-1 + selector + guard ef=512,181,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:022:clustered,0,ACORN-1 + selector + guard ef=1024,181,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:023:independent,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:023:independent,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:023:independent,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:023:independent,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:023:independent,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:023:clustered,0,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:023:clustered,0,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:023:clustered,0,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:023:clustered,0,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:023:clustered,0,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:024:independent,0,Eager,7,7,7,7,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:024:independent,0,RACE,7,7,7,7,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:024:independent,0,ACORN-1 + selector + guard ef=128,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:024:independent,0,ACORN-1 + selector + guard ef=512,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:024:independent,0,ACORN-1 + selector + guard ef=1024,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:024:clustered,0,Eager,7,7,7,7,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:024:clustered,0,RACE,7,7,7,7,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:024:clustered,0,ACORN-1 + selector + guard ef=128,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:024:clustered,0,ACORN-1 + selector + guard ef=512,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:024:clustered,0,ACORN-1 + selector + guard ef=1024,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:025:independent,0,Eager,45802,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:025:independent,0,RACE,45802,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:025:independent,0,ACORN-1 + selector + guard ef=128,45802,10,10,10,0.6,0.6,False,False,False,False,0.6,0.6,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:025:independent,0,ACORN-1 + selector + guard ef=512,45802,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:025:independent,0,ACORN-1 + selector + guard ef=1024,45802,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:025:clustered,0,Eager,45802,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:025:clustered,0,RACE,45802,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:025:clustered,0,ACORN-1 + selector + guard ef=128,45802,10,10,10,0.4,0.4,False,False,False,False,0.4,0.4,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:025:clustered,0,ACORN-1 + selector + guard ef=512,45802,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:025:clustered,0,ACORN-1 + selector + guard ef=1024,45802,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:026:independent,0,Eager,57,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:026:independent,0,RACE,57,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:026:independent,0,ACORN-1 + selector + guard ef=128,57,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:026:independent,0,ACORN-1 + selector + guard ef=512,57,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:026:independent,0,ACORN-1 + selector + guard ef=1024,57,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:026:clustered,0,Eager,57,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:026:clustered,0,RACE,57,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:026:clustered,0,ACORN-1 + selector + guard ef=128,57,10,10,10,0.5,0.5,False,False,False,False,0.5,0.5,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:026:clustered,0,ACORN-1 + selector + guard ef=512,57,10,10,10,0.5,0.5,False,False,False,False,0.5,0.5,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:026:clustered,0,ACORN-1 + selector + guard ef=1024,57,10,10,10,0.5,0.5,False,False,False,False,0.5,0.5,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:027:independent,0,Eager,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:027:independent,0,RACE,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:027:independent,0,ACORN-1 + selector + guard ef=128,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:027:independent,0,ACORN-1 + selector + guard ef=512,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:027:independent,0,ACORN-1 + selector + guard ef=1024,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:027:clustered,0,Eager,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:027:clustered,0,RACE,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:027:clustered,0,ACORN-1 + selector + guard ef=128,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:027:clustered,0,ACORN-1 + selector + guard ef=512,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:027:clustered,0,ACORN-1 + selector + guard ef=1024,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:028:independent,0,Eager,6559,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:028:independent,0,RACE,6559,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:028:independent,0,ACORN-1 + selector + guard ef=128,6559,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:028:independent,0,ACORN-1 + selector + guard ef=512,6559,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:028:independent,0,ACORN-1 + selector + guard ef=1024,6559,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:028:clustered,0,Eager,6559,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:028:clustered,0,RACE,6559,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:028:clustered,0,ACORN-1 + selector + guard ef=128,6559,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:028:clustered,0,ACORN-1 + selector + guard ef=512,6559,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:028:clustered,0,ACORN-1 + selector + guard ef=1024,6559,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:029:independent,0,Eager,131,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:029:independent,0,RACE,131,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:029:independent,0,ACORN-1 + selector + guard ef=128,131,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:029:independent,0,ACORN-1 + selector + guard ef=512,131,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:029:independent,0,ACORN-1 + selector + guard ef=1024,131,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:029:clustered,0,Eager,131,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:029:clustered,0,RACE,131,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:029:clustered,0,ACORN-1 + selector + guard ef=128,131,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:029:clustered,0,ACORN-1 + selector + guard ef=512,131,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:029:clustered,0,ACORN-1 + selector + guard ef=1024,131,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:030:independent,0,Eager,3,3,3,3,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:030:independent,0,RACE,3,3,3,3,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:030:independent,0,ACORN-1 + selector + guard ef=128,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:030:independent,0,ACORN-1 + selector + guard ef=512,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:030:independent,0,ACORN-1 + selector + guard ef=1024,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:030:clustered,0,Eager,3,3,3,3,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:030:clustered,0,RACE,3,3,3,3,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:030:clustered,0,ACORN-1 + selector + guard ef=128,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:030:clustered,0,ACORN-1 + selector + guard ef=512,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:030:clustered,0,ACORN-1 + selector + guard ef=1024,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:031:independent,0,Eager,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:031:independent,0,RACE,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:031:independent,0,ACORN-1 + selector + guard ef=128,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:031:independent,0,ACORN-1 + selector + guard ef=512,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:031:independent,0,ACORN-1 + selector + guard ef=1024,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:031:clustered,0,Eager,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:031:clustered,0,RACE,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:031:clustered,0,ACORN-1 + selector + guard ef=128,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:031:clustered,0,ACORN-1 + selector + guard ef=512,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:0:031:clustered,0,ACORN-1 + selector + guard ef=1024,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:000:independent,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:000:independent,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:000:independent,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:000:independent,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:000:independent,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:000:clustered,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:000:clustered,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:000:clustered,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:000:clustered,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:000:clustered,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:001:independent,1,Eager,5,5,5,5,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:001:independent,1,RACE,5,5,5,5,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:001:independent,1,ACORN-1 + selector + guard ef=128,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:001:independent,1,ACORN-1 + selector + guard ef=512,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:001:independent,1,ACORN-1 + selector + guard ef=1024,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:001:clustered,1,Eager,5,5,5,5,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:001:clustered,1,RACE,5,5,5,5,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:001:clustered,1,ACORN-1 + selector + guard ef=128,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:001:clustered,1,ACORN-1 + selector + guard ef=512,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:001:clustered,1,ACORN-1 + selector + guard ef=1024,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:002:independent,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:002:independent,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:002:independent,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:002:independent,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:002:independent,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:002:clustered,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:002:clustered,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:002:clustered,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:002:clustered,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:002:clustered,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:003:independent,1,Eager,5,5,5,5,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:003:independent,1,RACE,5,5,5,5,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:003:independent,1,ACORN-1 + selector + guard ef=128,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:003:independent,1,ACORN-1 + selector + guard ef=512,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:003:independent,1,ACORN-1 + selector + guard ef=1024,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:003:clustered,1,Eager,5,5,5,5,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:003:clustered,1,RACE,5,5,5,5,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:003:clustered,1,ACORN-1 + selector + guard ef=128,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:003:clustered,1,ACORN-1 + selector + guard ef=512,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:003:clustered,1,ACORN-1 + selector + guard ef=1024,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:004:independent,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:004:independent,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:004:independent,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:004:independent,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:004:independent,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:004:clustered,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:004:clustered,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:004:clustered,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:004:clustered,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:004:clustered,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:005:independent,1,Eager,112,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:005:independent,1,RACE,112,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:005:independent,1,ACORN-1 + selector + guard ef=128,112,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:005:independent,1,ACORN-1 + selector + guard ef=512,112,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:005:independent,1,ACORN-1 + selector + guard ef=1024,112,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:005:clustered,1,Eager,112,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:005:clustered,1,RACE,112,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:005:clustered,1,ACORN-1 + selector + guard ef=128,112,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:005:clustered,1,ACORN-1 + selector + guard ef=512,112,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:005:clustered,1,ACORN-1 + selector + guard ef=1024,112,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:006:independent,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:006:independent,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:006:independent,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:006:independent,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:006:independent,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:006:clustered,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:006:clustered,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:006:clustered,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:006:clustered,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:006:clustered,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:007:independent,1,Eager,28,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:007:independent,1,RACE,28,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:007:independent,1,ACORN-1 + selector + guard ef=128,28,10,9,9,0.5,0.5,False,False,False,False,0.5555555555555556,0.5555555555555556,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:007:independent,1,ACORN-1 + selector + guard ef=512,28,10,9,9,0.5,0.5,False,False,False,False,0.5555555555555556,0.5555555555555556,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:007:independent,1,ACORN-1 + selector + guard ef=1024,28,10,9,9,0.5,0.5,False,False,False,False,0.5555555555555556,0.5555555555555556,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:007:clustered,1,Eager,28,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:007:clustered,1,RACE,28,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:007:clustered,1,ACORN-1 + selector + guard ef=128,28,10,9,9,0.5,0.5,False,False,False,False,0.5555555555555556,0.5555555555555556,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:007:clustered,1,ACORN-1 + selector + guard ef=512,28,10,9,9,0.5,0.5,False,False,False,False,0.5555555555555556,0.5555555555555556,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:007:clustered,1,ACORN-1 + selector + guard ef=1024,28,10,9,9,0.5,0.5,False,False,False,False,0.5555555555555556,0.5555555555555556,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:008:independent,1,Eager,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:008:independent,1,RACE,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:008:independent,1,ACORN-1 + selector + guard ef=128,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:008:independent,1,ACORN-1 + selector + guard ef=512,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:008:independent,1,ACORN-1 + selector + guard ef=1024,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:008:clustered,1,Eager,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:008:clustered,1,RACE,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:008:clustered,1,ACORN-1 + selector + guard ef=128,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:008:clustered,1,ACORN-1 + selector + guard ef=512,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:008:clustered,1,ACORN-1 + selector + guard ef=1024,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:009:independent,1,Eager,1297,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:009:independent,1,RACE,1297,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:009:independent,1,ACORN-1 + selector + guard ef=128,1297,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:009:independent,1,ACORN-1 + selector + guard ef=512,1297,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:009:independent,1,ACORN-1 + selector + guard ef=1024,1297,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:009:clustered,1,Eager,1297,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:009:clustered,1,RACE,1297,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:009:clustered,1,ACORN-1 + selector + guard ef=128,1297,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:009:clustered,1,ACORN-1 + selector + guard ef=512,1297,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:009:clustered,1,ACORN-1 + selector + guard ef=1024,1297,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:010:independent,1,Eager,9,9,9,9,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:010:independent,1,RACE,9,9,9,9,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:010:independent,1,ACORN-1 + selector + guard ef=128,9,9,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:010:independent,1,ACORN-1 + selector + guard ef=512,9,9,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:010:independent,1,ACORN-1 + selector + guard ef=1024,9,9,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:010:clustered,1,Eager,9,9,9,9,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:010:clustered,1,RACE,9,9,9,9,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:010:clustered,1,ACORN-1 + selector + guard ef=128,9,9,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:010:clustered,1,ACORN-1 + selector + guard ef=512,9,9,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:010:clustered,1,ACORN-1 + selector + guard ef=1024,9,9,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:011:independent,1,Eager,365,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:011:independent,1,RACE,365,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:011:independent,1,ACORN-1 + selector + guard ef=128,365,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:011:independent,1,ACORN-1 + selector + guard ef=512,365,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:011:independent,1,ACORN-1 + selector + guard ef=1024,365,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:011:clustered,1,Eager,365,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:011:clustered,1,RACE,365,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:011:clustered,1,ACORN-1 + selector + guard ef=128,365,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:011:clustered,1,ACORN-1 + selector + guard ef=512,365,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:011:clustered,1,ACORN-1 + selector + guard ef=1024,365,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:012:independent,1,Eager,140,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:012:independent,1,RACE,140,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:012:independent,1,ACORN-1 + selector + guard ef=128,140,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:012:independent,1,ACORN-1 + selector + guard ef=512,140,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:012:independent,1,ACORN-1 + selector + guard ef=1024,140,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:012:clustered,1,Eager,140,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:012:clustered,1,RACE,140,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:012:clustered,1,ACORN-1 + selector + guard ef=128,140,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:012:clustered,1,ACORN-1 + selector + guard ef=512,140,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:012:clustered,1,ACORN-1 + selector + guard ef=1024,140,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:013:independent,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:013:independent,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:013:independent,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:013:independent,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:013:independent,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:013:clustered,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:013:clustered,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:013:clustered,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:013:clustered,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:013:clustered,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:014:independent,1,Eager,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:014:independent,1,RACE,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:014:independent,1,ACORN-1 + selector + guard ef=128,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:014:independent,1,ACORN-1 + selector + guard ef=512,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:014:independent,1,ACORN-1 + selector + guard ef=1024,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:014:clustered,1,Eager,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:014:clustered,1,RACE,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:014:clustered,1,ACORN-1 + selector + guard ef=128,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:014:clustered,1,ACORN-1 + selector + guard ef=512,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:014:clustered,1,ACORN-1 + selector + guard ef=1024,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:015:independent,1,Eager,12,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:015:independent,1,RACE,12,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:015:independent,1,ACORN-1 + selector + guard ef=128,12,10,2,2,0.2,0.2,False,False,False,False,1.0,1.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:015:independent,1,ACORN-1 + selector + guard ef=512,12,10,2,2,0.2,0.2,False,False,False,False,1.0,1.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:015:independent,1,ACORN-1 + selector + guard ef=1024,12,10,2,2,0.2,0.2,False,False,False,False,1.0,1.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:015:clustered,1,Eager,12,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:015:clustered,1,RACE,12,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:015:clustered,1,ACORN-1 + selector + guard ef=128,12,10,2,2,0.2,0.2,False,False,False,False,1.0,1.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:015:clustered,1,ACORN-1 + selector + guard ef=512,12,10,2,2,0.2,0.2,False,False,False,False,1.0,1.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:015:clustered,1,ACORN-1 + selector + guard ef=1024,12,10,2,2,0.2,0.2,False,False,False,False,1.0,1.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:016:independent,1,Eager,549,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:016:independent,1,RACE,549,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:016:independent,1,ACORN-1 + selector + guard ef=128,549,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:016:independent,1,ACORN-1 + selector + guard ef=512,549,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:016:independent,1,ACORN-1 + selector + guard ef=1024,549,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:016:clustered,1,Eager,549,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:016:clustered,1,RACE,549,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:016:clustered,1,ACORN-1 + selector + guard ef=128,549,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:016:clustered,1,ACORN-1 + selector + guard ef=512,549,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:016:clustered,1,ACORN-1 + selector + guard ef=1024,549,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:017:independent,1,Eager,18,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:017:independent,1,RACE,18,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:017:independent,1,ACORN-1 + selector + guard ef=128,18,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:017:independent,1,ACORN-1 + selector + guard ef=512,18,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:017:independent,1,ACORN-1 + selector + guard ef=1024,18,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:017:clustered,1,Eager,18,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:017:clustered,1,RACE,18,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:017:clustered,1,ACORN-1 + selector + guard ef=128,18,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:017:clustered,1,ACORN-1 + selector + guard ef=512,18,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:017:clustered,1,ACORN-1 + selector + guard ef=1024,18,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:018:independent,1,Eager,33,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:018:independent,1,RACE,33,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:018:independent,1,ACORN-1 + selector + guard ef=128,33,10,1,1,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:018:independent,1,ACORN-1 + selector + guard ef=512,33,10,1,1,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:018:independent,1,ACORN-1 + selector + guard ef=1024,33,10,1,1,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:018:clustered,1,Eager,33,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:018:clustered,1,RACE,33,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:018:clustered,1,ACORN-1 + selector + guard ef=128,33,10,1,1,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:018:clustered,1,ACORN-1 + selector + guard ef=512,33,10,1,1,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:018:clustered,1,ACORN-1 + selector + guard ef=1024,33,10,1,1,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:019:independent,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:019:independent,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:019:independent,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:019:independent,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:019:independent,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:019:clustered,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:019:clustered,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:019:clustered,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:019:clustered,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:019:clustered,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:020:independent,1,Eager,10,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:020:independent,1,RACE,10,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:020:independent,1,ACORN-1 + selector + guard ef=128,10,10,1,1,0.1,0.1,False,False,False,False,1.0,1.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:020:independent,1,ACORN-1 + selector + guard ef=512,10,10,1,1,0.1,0.1,False,False,False,False,1.0,1.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:020:independent,1,ACORN-1 + selector + guard ef=1024,10,10,1,1,0.1,0.1,False,False,False,False,1.0,1.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:020:clustered,1,Eager,10,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:020:clustered,1,RACE,10,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:020:clustered,1,ACORN-1 + selector + guard ef=128,10,10,1,1,0.1,0.1,False,False,False,False,1.0,1.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:020:clustered,1,ACORN-1 + selector + guard ef=512,10,10,1,1,0.1,0.1,False,False,False,False,1.0,1.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:020:clustered,1,ACORN-1 + selector + guard ef=1024,10,10,1,1,0.1,0.1,False,False,False,False,1.0,1.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:1:021:independent,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:021:independent,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:021:independent,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:021:independent,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:021:independent,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:021:clustered,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:021:clustered,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:021:clustered,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:021:clustered,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:021:clustered,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:022:independent,1,Eager,5,5,5,5,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:022:independent,1,RACE,5,5,5,5,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:022:independent,1,ACORN-1 + selector + guard ef=128,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:022:independent,1,ACORN-1 + selector + guard ef=512,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:022:independent,1,ACORN-1 + selector + guard ef=1024,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:022:clustered,1,Eager,5,5,5,5,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:022:clustered,1,RACE,5,5,5,5,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:022:clustered,1,ACORN-1 + selector + guard ef=128,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:022:clustered,1,ACORN-1 + selector + guard ef=512,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:022:clustered,1,ACORN-1 + selector + guard ef=1024,5,5,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:023:independent,1,Eager,9,9,9,9,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:023:independent,1,RACE,9,9,9,9,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:023:independent,1,ACORN-1 + selector + guard ef=128,9,9,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:023:independent,1,ACORN-1 + selector + guard ef=512,9,9,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:023:independent,1,ACORN-1 + selector + guard ef=1024,9,9,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:023:clustered,1,Eager,9,9,9,9,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:023:clustered,1,RACE,9,9,9,9,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:023:clustered,1,ACORN-1 + selector + guard ef=128,9,9,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:023:clustered,1,ACORN-1 + selector + guard ef=512,9,9,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:023:clustered,1,ACORN-1 + selector + guard ef=1024,9,9,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:024:independent,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:024:independent,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:024:independent,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:024:independent,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:024:independent,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:024:clustered,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:024:clustered,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:024:clustered,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:024:clustered,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:024:clustered,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:025:independent,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:025:independent,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:025:independent,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:025:independent,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:025:independent,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:025:clustered,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:025:clustered,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:025:clustered,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:025:clustered,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:025:clustered,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:026:independent,1,Eager,40382,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:026:independent,1,RACE,40382,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:026:independent,1,ACORN-1 + selector + guard ef=128,40382,10,10,10,0.7,0.7,False,False,False,False,0.7,0.7,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:026:independent,1,ACORN-1 + selector + guard ef=512,40382,10,10,10,0.7,0.7,False,False,False,False,0.7,0.7,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:026:independent,1,ACORN-1 + selector + guard ef=1024,40382,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:026:clustered,1,Eager,40382,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:026:clustered,1,RACE,40382,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:026:clustered,1,ACORN-1 + selector + guard ef=128,40382,10,10,10,0.5,0.5,False,False,False,False,0.5,0.5,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:026:clustered,1,ACORN-1 + selector + guard ef=512,40382,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:026:clustered,1,ACORN-1 + selector + guard ef=1024,40382,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:027:independent,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:027:independent,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:027:independent,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:027:independent,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:027:independent,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:027:clustered,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:027:clustered,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:027:clustered,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:027:clustered,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:027:clustered,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:028:independent,1,Eager,289,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:028:independent,1,RACE,289,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:028:independent,1,ACORN-1 + selector + guard ef=128,289,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:028:independent,1,ACORN-1 + selector + guard ef=512,289,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:028:independent,1,ACORN-1 + selector + guard ef=1024,289,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:028:clustered,1,Eager,289,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:028:clustered,1,RACE,289,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:028:clustered,1,ACORN-1 + selector + guard ef=128,289,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:028:clustered,1,ACORN-1 + selector + guard ef=512,289,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:028:clustered,1,ACORN-1 + selector + guard ef=1024,289,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:029:independent,1,Eager,8534,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:029:independent,1,RACE,8534,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:029:independent,1,ACORN-1 + selector + guard ef=128,8534,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:029:independent,1,ACORN-1 + selector + guard ef=512,8534,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:029:independent,1,ACORN-1 + selector + guard ef=1024,8534,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:029:clustered,1,Eager,8534,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:029:clustered,1,RACE,8534,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:029:clustered,1,ACORN-1 + selector + guard ef=128,8534,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:029:clustered,1,ACORN-1 + selector + guard ef=512,8534,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:029:clustered,1,ACORN-1 + selector + guard ef=1024,8534,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:030:independent,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:030:independent,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:030:independent,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:030:independent,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:030:independent,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:030:clustered,1,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:030:clustered,1,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:030:clustered,1,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:030:clustered,1,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:030:clustered,1,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:031:independent,1,Eager,65,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:031:independent,1,RACE,65,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:031:independent,1,ACORN-1 + selector + guard ef=128,65,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:031:independent,1,ACORN-1 + selector + guard ef=512,65,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:031:independent,1,ACORN-1 + selector + guard ef=1024,65,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:031:clustered,1,Eager,65,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:031:clustered,1,RACE,65,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:031:clustered,1,ACORN-1 + selector + guard ef=128,65,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:031:clustered,1,ACORN-1 + selector + guard ef=512,65,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:1:031:clustered,1,ACORN-1 + selector + guard ef=1024,65,10,10,10,0.8,0.8,False,False,False,False,0.8,0.8,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:000:independent,2,Eager,9,9,9,9,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:000:independent,2,RACE,9,9,9,9,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:000:independent,2,ACORN-1 + selector + guard ef=128,9,9,1,1,0.1111111111111111,0.1111111111111111,False,False,False,False,1.0,1.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:000:independent,2,ACORN-1 + selector + guard ef=512,9,9,1,1,0.1111111111111111,0.1111111111111111,False,False,False,False,1.0,1.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:000:independent,2,ACORN-1 + selector + guard ef=1024,9,9,1,1,0.1111111111111111,0.1111111111111111,False,False,False,False,1.0,1.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:000:clustered,2,Eager,9,9,9,9,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:000:clustered,2,RACE,9,9,9,9,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:000:clustered,2,ACORN-1 + selector + guard ef=128,9,9,1,1,0.1111111111111111,0.1111111111111111,False,False,False,False,1.0,1.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:000:clustered,2,ACORN-1 + selector + guard ef=512,9,9,1,1,0.1111111111111111,0.1111111111111111,False,False,False,False,1.0,1.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:000:clustered,2,ACORN-1 + selector + guard ef=1024,9,9,1,1,0.1111111111111111,0.1111111111111111,False,False,False,False,1.0,1.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:001:independent,2,Eager,7,7,7,7,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:001:independent,2,RACE,7,7,7,7,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:001:independent,2,ACORN-1 + selector + guard ef=128,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:001:independent,2,ACORN-1 + selector + guard ef=512,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:001:independent,2,ACORN-1 + selector + guard ef=1024,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:001:clustered,2,Eager,7,7,7,7,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:001:clustered,2,RACE,7,7,7,7,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:001:clustered,2,ACORN-1 + selector + guard ef=128,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:001:clustered,2,ACORN-1 + selector + guard ef=512,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:001:clustered,2,ACORN-1 + selector + guard ef=1024,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:002:independent,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:002:independent,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:002:independent,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:002:independent,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:002:independent,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:002:clustered,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:002:clustered,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:002:clustered,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:002:clustered,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:002:clustered,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:003:independent,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:003:independent,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:003:independent,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:003:independent,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:003:independent,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:003:clustered,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:003:clustered,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:003:clustered,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:003:clustered,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:003:clustered,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:004:independent,2,Eager,44,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:004:independent,2,RACE,44,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:004:independent,2,ACORN-1 + selector + guard ef=128,44,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:004:independent,2,ACORN-1 + selector + guard ef=512,44,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:004:independent,2,ACORN-1 + selector + guard ef=1024,44,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:004:clustered,2,Eager,44,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:004:clustered,2,RACE,44,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:004:clustered,2,ACORN-1 + selector + guard ef=128,44,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:004:clustered,2,ACORN-1 + selector + guard ef=512,44,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:004:clustered,2,ACORN-1 + selector + guard ef=1024,44,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:005:independent,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:005:independent,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:005:independent,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:005:independent,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:005:independent,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:005:clustered,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:005:clustered,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:005:clustered,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:005:clustered,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:005:clustered,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:006:independent,2,Eager,18,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:006:independent,2,RACE,18,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:006:independent,2,ACORN-1 + selector + guard ef=128,18,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:006:independent,2,ACORN-1 + selector + guard ef=512,18,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:006:independent,2,ACORN-1 + selector + guard ef=1024,18,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:006:clustered,2,Eager,18,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:006:clustered,2,RACE,18,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:006:clustered,2,ACORN-1 + selector + guard ef=128,18,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:006:clustered,2,ACORN-1 + selector + guard ef=512,18,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:006:clustered,2,ACORN-1 + selector + guard ef=1024,18,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:007:independent,2,Eager,17179,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:007:independent,2,RACE,17179,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:007:independent,2,ACORN-1 + selector + guard ef=128,17179,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:007:independent,2,ACORN-1 + selector + guard ef=512,17179,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:007:independent,2,ACORN-1 + selector + guard ef=1024,17179,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:007:clustered,2,Eager,17179,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:007:clustered,2,RACE,17179,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:007:clustered,2,ACORN-1 + selector + guard ef=128,17179,10,10,10,0.5,0.5,False,False,False,False,0.5,0.5,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:007:clustered,2,ACORN-1 + selector + guard ef=512,17179,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:007:clustered,2,ACORN-1 + selector + guard ef=1024,17179,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:008:independent,2,Eager,366,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:008:independent,2,RACE,366,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:008:independent,2,ACORN-1 + selector + guard ef=128,366,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:008:independent,2,ACORN-1 + selector + guard ef=512,366,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:008:independent,2,ACORN-1 + selector + guard ef=1024,366,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:008:clustered,2,Eager,366,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:008:clustered,2,RACE,366,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:008:clustered,2,ACORN-1 + selector + guard ef=128,366,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:008:clustered,2,ACORN-1 + selector + guard ef=512,366,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:008:clustered,2,ACORN-1 + selector + guard ef=1024,366,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:009:independent,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:009:independent,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:009:independent,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:009:independent,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:009:independent,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:009:clustered,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:009:clustered,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:009:clustered,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:009:clustered,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:009:clustered,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:010:independent,2,Eager,24,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:010:independent,2,RACE,24,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:010:independent,2,ACORN-1 + selector + guard ef=128,24,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:010:independent,2,ACORN-1 + selector + guard ef=512,24,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:010:independent,2,ACORN-1 + selector + guard ef=1024,24,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:010:clustered,2,Eager,24,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:010:clustered,2,RACE,24,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:010:clustered,2,ACORN-1 + selector + guard ef=128,24,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:010:clustered,2,ACORN-1 + selector + guard ef=512,24,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:010:clustered,2,ACORN-1 + selector + guard ef=1024,24,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:011:independent,2,Eager,7,7,7,7,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:011:independent,2,RACE,7,7,7,7,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:011:independent,2,ACORN-1 + selector + guard ef=128,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:011:independent,2,ACORN-1 + selector + guard ef=512,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:011:independent,2,ACORN-1 + selector + guard ef=1024,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:011:clustered,2,Eager,7,7,7,7,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:011:clustered,2,RACE,7,7,7,7,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:011:clustered,2,ACORN-1 + selector + guard ef=128,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:011:clustered,2,ACORN-1 + selector + guard ef=512,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:011:clustered,2,ACORN-1 + selector + guard ef=1024,7,7,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:012:independent,2,Eager,418,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:012:independent,2,RACE,418,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:012:independent,2,ACORN-1 + selector + guard ef=128,418,10,10,10,0.7,0.7,False,False,False,False,0.7,0.7,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:012:independent,2,ACORN-1 + selector + guard ef=512,418,10,10,10,0.7,0.7,False,False,False,False,0.7,0.7,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:012:independent,2,ACORN-1 + selector + guard ef=1024,418,10,10,10,0.7,0.7,False,False,False,False,0.7,0.7,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:012:clustered,2,Eager,418,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:012:clustered,2,RACE,418,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:012:clustered,2,ACORN-1 + selector + guard ef=128,418,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:012:clustered,2,ACORN-1 + selector + guard ef=512,418,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:012:clustered,2,ACORN-1 + selector + guard ef=1024,418,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:013:independent,2,Eager,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:013:independent,2,RACE,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:013:independent,2,ACORN-1 + selector + guard ef=128,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:013:independent,2,ACORN-1 + selector + guard ef=512,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:013:independent,2,ACORN-1 + selector + guard ef=1024,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:013:clustered,2,Eager,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:013:clustered,2,RACE,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:013:clustered,2,ACORN-1 + selector + guard ef=128,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:013:clustered,2,ACORN-1 + selector + guard ef=512,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:013:clustered,2,ACORN-1 + selector + guard ef=1024,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:014:independent,2,Eager,92,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:014:independent,2,RACE,92,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:014:independent,2,ACORN-1 + selector + guard ef=128,92,10,10,10,0.5,0.5,False,False,False,False,0.5,0.5,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:014:independent,2,ACORN-1 + selector + guard ef=512,92,10,10,10,0.5,0.5,False,False,False,False,0.5,0.5,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:014:independent,2,ACORN-1 + selector + guard ef=1024,92,10,10,10,0.5,0.5,False,False,False,False,0.5,0.5,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:014:clustered,2,Eager,92,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:014:clustered,2,RACE,92,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:014:clustered,2,ACORN-1 + selector + guard ef=128,92,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:014:clustered,2,ACORN-1 + selector + guard ef=512,92,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:014:clustered,2,ACORN-1 + selector + guard ef=1024,92,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:015:independent,2,Eager,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:015:independent,2,RACE,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:015:independent,2,ACORN-1 + selector + guard ef=128,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:015:independent,2,ACORN-1 + selector + guard ef=512,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:015:independent,2,ACORN-1 + selector + guard ef=1024,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:015:clustered,2,Eager,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:015:clustered,2,RACE,4,4,4,4,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:015:clustered,2,ACORN-1 + selector + guard ef=128,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:015:clustered,2,ACORN-1 + selector + guard ef=512,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:015:clustered,2,ACORN-1 + selector + guard ef=1024,4,4,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:016:independent,2,Eager,9597,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:016:independent,2,RACE,9597,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:016:independent,2,ACORN-1 + selector + guard ef=128,9597,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:016:independent,2,ACORN-1 + selector + guard ef=512,9597,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:016:independent,2,ACORN-1 + selector + guard ef=1024,9597,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:016:clustered,2,Eager,9597,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:016:clustered,2,RACE,9597,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:016:clustered,2,ACORN-1 + selector + guard ef=128,9597,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:016:clustered,2,ACORN-1 + selector + guard ef=512,9597,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:016:clustered,2,ACORN-1 + selector + guard ef=1024,9597,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:017:independent,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:017:independent,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:017:independent,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:017:independent,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:017:independent,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:017:clustered,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:017:clustered,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:017:clustered,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:017:clustered,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:017:clustered,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:018:independent,2,Eager,42,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:018:independent,2,RACE,42,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:018:independent,2,ACORN-1 + selector + guard ef=128,42,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:018:independent,2,ACORN-1 + selector + guard ef=512,42,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:018:independent,2,ACORN-1 + selector + guard ef=1024,42,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:018:clustered,2,Eager,42,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:018:clustered,2,RACE,42,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:018:clustered,2,ACORN-1 + selector + guard ef=128,42,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:018:clustered,2,ACORN-1 + selector + guard ef=512,42,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:018:clustered,2,ACORN-1 + selector + guard ef=1024,42,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:019:independent,2,Eager,18163,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:019:independent,2,RACE,18163,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:019:independent,2,ACORN-1 + selector + guard ef=128,18163,10,10,10,0.9,0.9,False,False,False,False,0.9,0.9,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:019:independent,2,ACORN-1 + selector + guard ef=512,18163,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:019:independent,2,ACORN-1 + selector + guard ef=1024,18163,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:019:clustered,2,Eager,18163,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:019:clustered,2,RACE,18163,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:019:clustered,2,ACORN-1 + selector + guard ef=128,18163,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:019:clustered,2,ACORN-1 + selector + guard ef=512,18163,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:019:clustered,2,ACORN-1 + selector + guard ef=1024,18163,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:020:independent,2,Eager,14,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:020:independent,2,RACE,14,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:020:independent,2,ACORN-1 + selector + guard ef=128,14,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:020:independent,2,ACORN-1 + selector + guard ef=512,14,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:020:independent,2,ACORN-1 + selector + guard ef=1024,14,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:020:clustered,2,Eager,14,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:020:clustered,2,RACE,14,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:020:clustered,2,ACORN-1 + selector + guard ef=128,14,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:020:clustered,2,ACORN-1 + selector + guard ef=512,14,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:020:clustered,2,ACORN-1 + selector + guard ef=1024,14,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:021:independent,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:021:independent,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:021:independent,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:021:independent,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:021:independent,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:021:clustered,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:021:clustered,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:021:clustered,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:021:clustered,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:021:clustered,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:022:independent,2,Eager,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:022:independent,2,RACE,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:022:independent,2,ACORN-1 + selector + guard ef=128,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:022:independent,2,ACORN-1 + selector + guard ef=512,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:022:independent,2,ACORN-1 + selector + guard ef=1024,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:022:clustered,2,Eager,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:022:clustered,2,RACE,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:022:clustered,2,ACORN-1 + selector + guard ef=128,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:022:clustered,2,ACORN-1 + selector + guard ef=512,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:022:clustered,2,ACORN-1 + selector + guard ef=1024,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:023:independent,2,Eager,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:023:independent,2,RACE,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:023:independent,2,ACORN-1 + selector + guard ef=128,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:023:independent,2,ACORN-1 + selector + guard ef=512,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:023:independent,2,ACORN-1 + selector + guard ef=1024,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:023:clustered,2,Eager,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:023:clustered,2,RACE,2,2,2,2,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:023:clustered,2,ACORN-1 + selector + guard ef=128,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:023:clustered,2,ACORN-1 + selector + guard ef=512,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:023:clustered,2,ACORN-1 + selector + guard ef=1024,2,2,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:024:independent,2,Eager,3,3,3,3,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:024:independent,2,RACE,3,3,3,3,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:024:independent,2,ACORN-1 + selector + guard ef=128,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:024:independent,2,ACORN-1 + selector + guard ef=512,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:024:independent,2,ACORN-1 + selector + guard ef=1024,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:024:clustered,2,Eager,3,3,3,3,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:024:clustered,2,RACE,3,3,3,3,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:024:clustered,2,ACORN-1 + selector + guard ef=128,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:024:clustered,2,ACORN-1 + selector + guard ef=512,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:024:clustered,2,ACORN-1 + selector + guard ef=1024,3,3,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:025:independent,2,Eager,17,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:025:independent,2,RACE,17,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:025:independent,2,ACORN-1 + selector + guard ef=128,17,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:025:independent,2,ACORN-1 + selector + guard ef=512,17,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:025:independent,2,ACORN-1 + selector + guard ef=1024,17,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:025:clustered,2,Eager,17,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:025:clustered,2,RACE,17,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:025:clustered,2,ACORN-1 + selector + guard ef=128,17,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:025:clustered,2,ACORN-1 + selector + guard ef=512,17,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:025:clustered,2,ACORN-1 + selector + guard ef=1024,17,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:026:independent,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:026:independent,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:026:independent,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:026:independent,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:026:independent,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:026:clustered,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:026:clustered,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:026:clustered,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:026:clustered,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:026:clustered,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:027:independent,2,Eager,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:027:independent,2,RACE,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:027:independent,2,ACORN-1 + selector + guard ef=128,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:027:independent,2,ACORN-1 + selector + guard ef=512,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:027:independent,2,ACORN-1 + selector + guard ef=1024,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:027:clustered,2,Eager,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:027:clustered,2,RACE,1,1,1,1,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:027:clustered,2,ACORN-1 + selector + guard ef=128,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:027:clustered,2,ACORN-1 + selector + guard ef=512,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:027:clustered,2,ACORN-1 + selector + guard ef=1024,1,1,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:028:independent,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:028:independent,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:028:independent,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:028:independent,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:028:independent,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:028:clustered,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:028:clustered,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:028:clustered,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:028:clustered,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:028:clustered,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:029:independent,2,Eager,20,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:029:independent,2,RACE,20,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:029:independent,2,ACORN-1 + selector + guard ef=128,20,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:029:independent,2,ACORN-1 + selector + guard ef=512,20,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:029:independent,2,ACORN-1 + selector + guard ef=1024,20,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:029:clustered,2,Eager,20,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:029:clustered,2,RACE,20,10,10,10,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:029:clustered,2,ACORN-1 + selector + guard ef=128,20,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:029:clustered,2,ACORN-1 + selector + guard ef=512,20,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:029:clustered,2,ACORN-1 + selector + guard ef=1024,20,10,0,0,0.0,0.0,False,False,False,False,0.0,0.0,0,0,0,True,True
+ogbn_arxiv_full,ogbn_arxiv_full:2:030:independent,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:030:independent,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:030:independent,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:030:independent,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:030:independent,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:030:clustered,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:030:clustered,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:030:clustered,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:030:clustered,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:030:clustered,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:031:independent,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:031:independent,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:031:independent,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:031:independent,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:031:independent,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:031:clustered,2,Eager,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:031:clustered,2,RACE,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:031:clustered,2,ACORN-1 + selector + guard ef=128,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:031:clustered,2,ACORN-1 + selector + guard ef=512,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False
+ogbn_arxiv_full,ogbn_arxiv_full:2:031:clustered,2,ACORN-1 + selector + guard ef=1024,0,0,0,0,1.0,1.0,True,True,True,True,1.0,1.0,0,0,0,False,False

@@ -1,0 +1,144 @@
+{
+  "status": "frozen_before_final_outcomes",
+  "created_utc": "2026-11-15T05:01:01.122471+00:00",
+  "scope": "Prospective independent new queries on the same five resident graphs; no unseen-graph generalization claim.",
+  "corpora": [
+    "openalex_db",
+    "amazon_product",
+    "ldbc_snb",
+    "ogbn_arxiv_full",
+    "ogbn_products"
+  ],
+  "new_seed_blocks": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109
+  ],
+  "query_master_seed": 202611151807,
+  "timing_master_seed": 202611151808,
+  "predicates_per_seed": 32,
+  "localities": [
+    "independent",
+    "clustered"
+  ],
+  "expected_queries": 3200,
+  "queries_per_corpus": 640,
+  "old_seed_blocks": [
+    0,
+    1,
+    2
+  ],
+  "old_query_master_seed": 2026110618,
+  "generator_distribution": "unchanged historical grammar, endpoint-label probabilities and Gaussian vector perturbation; no answer-aware rejection",
+  "k": 10,
+  "prefix": 512,
+  "ef": 1024,
+  "quantum": 32,
+  "arms": [
+    "Eager",
+    "RACE",
+    "python_cost_tree",
+    "python_penalty_tree",
+    "python_uncertainty_tree",
+    "native_cost_tree",
+    "native_penalty_tree",
+    "native_uncertainty_tree"
+  ],
+  "repeats": 8,
+  "expected_timed_requests": 204800,
+  "timing_design": "Even-order Williams design: each arm occupies each ordinal position once per query; random arm relabeling and row order. One untimed same-arm/same-query warmup immediately before every timed request.",
+  "state": "Every session allocates fresh mutable predicate/certificate state; graph, HNSW index, model, code and hardware caches resident/warm.",
+  "timing_scope": "In-process request wall time from invocation before feature extraction through returned native result; includes feature extraction/catalog lookup, routing/dispatch, bindings, native execution and output conversion; excludes network, input generation, immutable index loading/construction, model loading and quality audits.",
+  "baseline_cost": "Eager and RACE directly execute the submitted query; no unnecessary routing features are charged to fixed arms.",
+  "features": [
+    "f_batch",
+    "f_d",
+    "f_degree",
+    "f_epoch",
+    "f_h",
+    "f_k",
+    "f_n",
+    "f_sources",
+    "f_states",
+    "f_target_bits",
+    "f_transitions"
+  ],
+  "forbidden_inputs": [
+    "answer cardinality",
+    "eligible set",
+    "execution counters",
+    "measured latency",
+    "winner labels",
+    "generation locality/noise provenance"
+  ],
+  "training": {
+    "cases": 960,
+    "split": "all historical balanced cases; no final query labels",
+    "max_depth": 4,
+    "min_samples_leaf": 20,
+    "random_state": 1837,
+    "penalty_uncertainty_coefficient": 0.5,
+    "train_best": "Eager",
+    "frequent_winner": "Eager"
+  },
+  "frozen_headroom_decision": {
+    "selected_arm": "Eager",
+    "basis": "Historical OOF execution savings are nonpositive for all three learned selectors; measured historical Python wrapper costs also exceed mean empirical-oracle headroom. Therefore no learned candidate passes savings > inference-cost screening. Native inference alone does not repair a wrong choice.",
+    "historical_mean_headroom_ms": 0.004618060416666664,
+    "historical_oof_ratio_to_Eager": {
+      "cost_tree": 1.0000274521301735,
+      "penalty_tree": 1.000122292842943,
+      "uncertainty_tree": 1.000122292842943
+    },
+    "historical_charged_python_ms": {
+      "cost_tree": 0.030963853125,
+      "penalty_tree": 0.0313447109375,
+      "uncertainty_tree": 0.0293117875
+    }
+  },
+  "primary_estimands": [
+    "ratio of summed per-query median full-path runtime for each of seven non-Eager arms versus Eager",
+    "mean paired arm-minus-Eager milliseconds",
+    "realized excess cost of the frozen audit choice Eager relative to each of seven non-Eager arms; best-arm summary is post-selection and accompanied by simultaneous bounds"
+  ],
+  "secondary_estimands": [
+    "equal-corpus macro ratios",
+    "per-corpus ratios and absolute means/medians",
+    "mean/median/p95/p99/max query regret against the two-fixed-policy empirical oracle",
+    "new-query Eager/oracle headroom",
+    "selected policy counts",
+    "answer equality and exact-reference recall including empty-answer convention"
+  ],
+  "inference": {
+    "cluster": "corpus:new-seed, 50 blocks total; ten blocks in each of five fixed strata",
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 18071115,
+    "resampling": "within each fixed corpus resample ten whole seed blocks, same indices for all arms; conditional frozen models",
+    "paired_tests": "seven two-sided seed-block sign flips versus Eager (including RACE); 100000 fixed-seed Monte Carlo sign patterns, plus-one correction; Holm family of seven comparisons",
+    "test_seed": 18071116,
+    "confidence_level": 0.95
+  },
+  "audit_decision_validation": {
+    "engineering_margin_relative": 0.01,
+    "criterion": "Report all continuous differences regardless of significance. Label audit choice noninferior within 1% only if the upper one-sided simultaneous bootstrap bound for Eager/candidate is at most 1.01 for every one of the seven non-Eager arms. Bonferroni tail .05/7. This margin is defined prospectively here, not claimed universal. Failure is inconclusive or contrary evidence, never recoded as validation."
+  },
+  "quality": "All eight arm outputs must equal Eager per repeat; all returned nodes checked for predicate legality and exact-reference recall computed after timing. Empty exact set scores one only when returned set is also empty. No cases excluded for emptiness, latency or router loss.",
+  "failure_policy": "Abort on corruption/mismatched outputs; preserve all partial logs and report cause. A technical retry requires a named iteration and unchanged model/query plan; do not tune based on observed outcomes.",
+  "pilot": "Only seed -1 (separate stream) may be used for correctness smoke tests before the final timing window; never final seeds100-109.",
+  "execution": "CPU 6, one thread, final timing serialized with other project benchmarks under root scheduling.",
+  "environment": {
+    "python": "3.12.3",
+    "sklearn": "1.7.2",
+    "numpy": "2.2.6"
+  },
+  "training_cost_sha256": "be5959fdd093558c5f623a1c27e800013bd587dcac982b0c4e5339ed0017c538",
+  "baseline_engine_sha256": "4c0ad682d99302a83b0f198736df8bcbbb2a52fc8720a975482c2164c19a2e73",
+  "historical_summary_sha256": "189f07c21a46621defca9d87cc30fa4bdee5194e03376137e7410df71a5dc717"
+}
